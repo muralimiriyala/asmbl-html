@@ -1,14 +1,19 @@
 
-
+header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed;}
 
 /* media css starts here */
 @media screen and (min-width: 740px) {
 }
 @media screen and (min-width: 1024px) {
-    ul.main_menu{margin: 0;}
-    ul.main_menu li{margin: 0;}
-    ul.main_menu li::before{display: none;}
-  
+    .header{padding: 0 16px; margin: 17px 0; border-radius: 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--Elevated, #FFF); box-shadow: 0px 6px 12px 0px rgba(24, 42, 84, 0.10); }
+    .logo{flex: 0 0 144px;}
+    ul.main_menu{margin: 0; gap: 32px; flex: auto; width: fit-content;}
+    ul.main_menu > li{margin: 0;}
+    ul.main_menu > li::before{display: none;}
+    ul.main_menu > li > a{padding: 18px 0; display: block; color: var(--Blue); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 600; line-height: 22px; }
+    ul.main_menu > li > a:hover{color: var(--Navy);}
+    .header_btns{width: fit-content; gap: 16px;}
+
 }
 @media screen and (min-width: 1280px){
 

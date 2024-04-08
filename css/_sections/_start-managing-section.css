@@ -1,0 +1,21 @@
+
+
+
+.start-managing-main{padding: 32px; background-color: #1335AF; background-image: url("./images/mini-cta-buble.svg"); background-repeat: no-repeat; background-size: cover;}
+.start-managing-text h2{margin-bottom: 0;}
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .start-managing-main{gap: 32px;}
+    .start-managing-text{flex: 1;}
+    .start-managing-btn{width: fit-content;}
+}
+
+
+
+
+
+
+
+

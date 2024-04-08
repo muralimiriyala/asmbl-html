@@ -1,0 +1,5 @@
+
+.banner-section{background-color:  var(--Blue-Tint, #D9DFF2);}
+.banner-main{padding: 200px 0;}
+.banner-text{max-width: 560px;}
+.banner-btns{padding-top: 6px; gap: 16px;}
