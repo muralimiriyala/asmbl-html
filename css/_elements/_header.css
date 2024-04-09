@@ -1,5 +1,5 @@
 
-header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed;}
+header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 800;}
 
 /* media css starts here */
 @media screen and (min-width: 740px) {
@@ -7,11 +7,29 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed;}
 @media screen and (min-width: 1024px) {
     .header{padding: 0 16px; margin: 17px 0; border-radius: 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--Elevated, #FFF); box-shadow: 0px 6px 12px 0px rgba(24, 42, 84, 0.10); }
     .logo{flex: 0 0 144px;}
-    ul.main_menu{margin: 0; gap: 32px; flex: auto; width: fit-content;}
+    ul.main_menu{margin: 0; gap: 32px; flex: auto; width: fit-content; position: relative;}
     ul.main_menu > li{margin: 0;}
     ul.main_menu > li::before{display: none;}
-    ul.main_menu > li > a{padding: 18px 0; display: block; color: var(--Blue); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 600; line-height: 22px; }
-    ul.main_menu > li > a:hover{color: var(--Navy);}
+    ul.main_menu > li > a{padding: 18px 0; display: block; color: var(--Blue); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 600; line-height: 22px; position: relative;}
+    ul.main_menu > li > a::after{width: 100%; height: 4px; bottom: 0; left: 0; opacity: 0; position: absolute; content: ""; display: block; border-radius: 2px; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); transition: all 0.4s ease;}
+    ul.main_menu > li:hover > a::after{opacity: 1;}
+    ul.main_menu > li > a:hover{color: var(--Orange);}
+    ul.main_menu > li > ul{margin: 0; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: all 0.4s ease;}
+    ul.main_menu > li:hover > ul{opacity: 1; visibility: visible;}
+    ul.main_menu > li.nav-solutions > ul {padding: 32px 32px 0; max-width: 955px; left: -50vw; gap: 56px; display: flex; flex-wrap: wrap; margin-left: 100%; width: 100vw; min-width: 955px; z-index: 10; }
+    ul.main_menu > li.nav-solutions{position: static;}
+    ul.main_menu > li.nav-solutions > ul > li:nth-child(1){flex: 1;}
+    ul.main_menu > li.nav-solutions > ul > li:nth-child(2){flex: 0 0 270px;}
+    ul.main_menu > li.nav-solutions > ul > li:last-child{padding: 20px 32px; margin: 0; flex: 0 0 calc(100% + 64px); left: -32px; gap: 40px; display: flex; flex-wrap: wrap; background: var(--Background, #F0F2FA);}
+    ul.main_menu > li.nav-solutions > ul > li > a{ color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 25px; font-family: "arboria", sans-serif; }
+    ul.main_menu > li.nav-solutions > ul > li > ul{margin: 0; padding-top: 20px;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li{margin: 0 0 22px;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li > a{color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li > a:hover{color: var(--Orange);}
+    ul.main_menu > li.nav-solutions > ul > li:nth-child(1) > ul{display: flex; flex-wrap: wrap;}
+    ul.main_menu > li.nav-solutions > ul > li:nth-child(1) > ul > li{flex: 0 0 50%;}
+    ul.main_menu > li.nav-solutions > ul > li:last-child > ul{padding: 0; gap: 42px; display: flex; flex-wrap: wrap;}
+    ul.main_menu > li.nav-solutions > ul > li:last-child > ul > li{margin: 0;}
     .header_btns{width: fit-content; gap: 16px;}
 
 }

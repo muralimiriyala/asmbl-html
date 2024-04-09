@@ -2,35 +2,40 @@
 .footer-text span.h3{display: block; margin-bottom: 47px;}
 .footer-btns{gap: 16px; margin-bottom: 46px;}
 .mail-links{flex-direction: column; gap: 11px; margin-bottom: 40px;}
-.mail-links a{padding-left: 32px; color: var(--Blue); position: relative;}
-.mail-links a:hover{color: var(--Navy);}
+.mail-links a{padding-left: 32px; position: relative;}
 .mail-links a svg{left: 0; top: calc(50% + 2px); transform: translateY(-50%); position: absolute;}
 
+.copyrights{}
 ul.copyrights-links{margin: 0; gap: 32px;}
 ul.copyrights-links li:first-child::before{display: none;}
 ul.copyrights-links li::before{width: 1px; height: 22px; top: 0; opacity: 0.25; background-color: var(--Blue);}
 ul.copyrights-links li a{ color: var(--Foreground, #313031); font-family: "Graphik", sans-serif; font-size: 12px; font-weight: 400; line-height: 20px;}
 ul.copyrights-links li a:hover{color: var(--Blue);}
 
-ul.footer-links{margin: 0; gap: 66px;}
+ul.footer-links{margin: 0; gap: 66px; flex: 1;}
 ul.footer-links li{margin: 0;}
 ul.footer-links li:first-child::before{display: none;}
 ul.footer-links li::before{width: 16px; height: 16px; left: -39px; top: 7px; background: var(--Background, #F0F2FA);}
 ul.footer-links li a{color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 30px;}
-ul.footer-links li a:hover{color: var(--Navy);}
+ul.footer-links li a:hover{color: var(--Orange);}
 
 .footer-desc{padding: 0 0 26px; color: var(--Navy); font-family: "arboria", sans-serif;}
 ul.footer-nav-links li a{font-size: 16px; line-height: 24px;}
 
 /* media css starts here */
 @media screen and (min-width: 1440px) {
+    .footer-svg{z-index: -1; top: 0; left: 40px;}
+    .footer{padding: 140px 0 0;}
     .footer-text{flex: 0 0 352px; padding: 0 0 65px;}
     .footer-logo{margin-bottom: 48px;}
     .footer-right{flex: 1;}
+    .footer-icons{margin-bottom: 40px; padding-left: 80px;}
+    .footer-share-icons{flex: 0 0 210px;}
+    .footer-mgmt{padding: 77px 80px; background: var(--Background, #F0F2FA);}
 }
 @media screen and (min-width: 1024px) {
-    ul.footer-nav-links{margin: 0;}
-    ul.footer-nav-links li{flex: 0 0 33.33333%; margin-bottom: 17px;}
+    ul.footer-nav-links{margin: 0; gap:  17px 47px;}
+    ul.footer-nav-links > li{flex: 0 0 calc(33.33333% - 32px); margin-bottom: 0;}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px) {
 
