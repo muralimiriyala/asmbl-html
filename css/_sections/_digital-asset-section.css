@@ -1,9 +1,10 @@
 
 
 .digital-asset-main{padding: 80px 0 0;}
-.digital-asset-list{padding: 8px; box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10);}
+.digital-asset-list{padding: 8px; box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); transition: all 0.5s ease-in-out;}
 .digital-asset-title{margin-bottom: 38px;}
 .digital-asset-title h2{color: var(--Navy);}
+.digital-asset-image{ transition: all 0.5s ease-in-out;}
 .digital-asset-text{padding: 24px 18px 42px; color: var(--Foreground, #313031);}
 .digital-asset-text h2 a{color: var(--Navy);}
 .digital-asset-text h2 a:hover{color: var(--Blue);}
@@ -16,11 +17,15 @@ ul.optional-tag li svg{width: 23px;}
 
 .categories-text{color: var(--Foreground, #313031);}
 .categories-text h2{color: var(--Navy, #182A54);}
+.categories-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease-in-out;}
+.categories-list:hover .categories-btn{opacity: 1; transform: translateY(0);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .digital-asset-row{gap: 40px; padding: 0 0 40px;}
     .digital-asset-list{flex: 0 0 calc(33.3333% - 27px);}
+    .digital-asset-image{max-height: 239px;}
+    .digital-asset-list:hover .digital-asset-image{height: 209px;}
 
     .categories-list{flex: 0 0 calc(25%); padding: 23px 50px 63px 60px; border-left: 1px solid var(--Elevated, #F0F2FA);;}
     .categories-list:nth-child(4n+1){padding-left: 20px; padding-right: 100px; border-left: none;}

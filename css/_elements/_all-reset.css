@@ -82,10 +82,10 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .button.gray{border-radius: 4px; background: var(--Blue-Tint, #D9DFF2); color: var(--Blue, #1335AF);}
 .button.gray:hover{background-color: var(--Blue); color: var(--White);}
 
-.button.transparent, button.transparent{background-color: transparent;
-    border-radius: 4px;
-    border: 2px solid var(--Gradient-Gold, #F9662D);
-}
+.button.transparent, button.transparent{background-color: transparent; border-radius: 4px; border: 2px solid var(--Gradient-Gold, #F9662D); }
+
+.text-btn-link{padding-right: 24px; display: inline-block; color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 600; line-height: 24px; position: relative; display: inline-block;}
+.text-btn-link svg{right: 0; top: calc(50% + 1px); transform: translateY(-50%); position: absolute;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
