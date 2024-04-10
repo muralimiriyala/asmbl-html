@@ -1,0 +1,14 @@
+
+.post-card-main{width: 100%; height: 100%;}
+.post-card-image{ transition: all 0.5s ease-in-out;}
+.post-card-text{padding: 24px 18px 42px; color: var(--Foreground, #313031);}
+.post-card-text h2 a{color: var(--Navy);}
+.post-card-text h2 a:hover{color: var(--Blue);}
+.post-card-text p{opacity: 0.8;}
+.post-card-links{opacity: 0;}
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .post-card-image{max-height: 239px;}
+    .post-card-main:hover .post-card-image{height: 209px;}
+}
