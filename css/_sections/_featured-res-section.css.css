@@ -13,7 +13,8 @@
 @media screen and (min-width: 1024px){
     .featured-res-head{gap: 40px; padding: 0 0 40px;}
     .featured-res-title{flex: 1;}
-    .featured-res-btn{flex: 0 0 420px;}
+    .featured-res-btn{flex: 0 0 413px; padding-left: 20px;}
+    .featured-res-btn::before{width: 1px; height: 100%; min-height: 50px; left: 0; top: 50%; transform: translateY(-50%); position: absolute; background-color: var(--Blue); opacity: 0.4; content: ""; display: block;}
     .featured-res-row{gap: 40px; padding: 0 0 40px;} 
     .featured-res-list{flex: 0 0 calc(100% - 460px);}
     .featured-res-list:nth-child(2n+2):not(:nth-child(2n+4)){flex: 0 0 420px;}
