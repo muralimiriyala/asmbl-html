@@ -13,7 +13,7 @@ body .demo-form .frm_forms .frm_form_fields .frm_form_field input:-moz-placehold
 body .demo-form .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .demo-form .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder{color: var(--Blue); font-family: "Noto Sans", sans-serif; opacity: 1;}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .demo-form .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder{color: var(--Blue); font-family: "Noto Sans", sans-serif;}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0;}
-
+body .demo-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{opacity: 0.9; font-weight: 400; font-size: 14px; line-height: 20px; color: var(--Foreground);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

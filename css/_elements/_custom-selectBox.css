@@ -1,6 +1,6 @@
 
 select.selectBox{display: none;}
-body .selectBox-dropdown{padding: 16px 34px 14px 14px; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; height: auto; border: none; background-color: var(--gray-lt); border-radius: 8px; color: var(--foreground);  font-family: "Noto Sans", sans-serif; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+body .selectBox-dropdown{padding: 16px 34px 14px 14px; width: 100%; font-size: 14px; line-height: 20px; font-weight: 700; height: auto; border: none; background-color: var(--White); border-radius: 8px; color: var(--Blue); font-family: "Noto Sans", sans-serif; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 8px 8px 0 0;}
 body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: translateY(-50%); font-size: 1rem; color: var(--Foreground); font-weight: normal; font-family: "Font Awesome 6 pro"; position: absolute;}
