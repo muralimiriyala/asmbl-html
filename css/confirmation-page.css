@@ -1,0 +1,27 @@
+
+
+
+.confirmation-section{background: var(--Masthead-Fade-A, linear-gradient(180deg, rgba(240, 242, 250, 0.00) 0%, #F0F2FA 100%), #F0F2FA); background-blend-mode: normal, darken, normal;}
+.confirmation-optional{gap: 19px; margin-bottom: 27px; color: var(--Blue, #1335AF); font-size: 18px; font-weight: 700; line-height: 22px; font-family: "arboria", sans-serif;}
+.confirmation-optional svg{flex: 0 0 39px;}
+.confirmation-optional span{flex: 1;}
+.confirmation-desc a{text-decoration: underline;}
+.confirmation-btns{gap: 16px;}
+.confirmation-btns a{padding: 8px 12px; flex: auto; width: fit-content; display: inline-flex; color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 30px; }
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .confirmation-main{gap: 179px; padding: 144px 0 0;}
+    .confirmation-text{flex: 0 0 420px;}
+    .confirmation-date{flex: 1;}
+}
+
+
+
+
+
+
+
+
+
+
