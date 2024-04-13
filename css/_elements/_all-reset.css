@@ -117,6 +117,7 @@ img.aligncenter{margin: 25px auto;}
 body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -0.36px; font-weight: 400; font-family: "Noto Sans", sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+span.optional-text.large{font-size: 24px; line-height: 30px;}
 .optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 600; line-height: 20px;}
 .optional-blue svg{left: 0; position: absolute;}
 .optional-blue span{opacity: 0.6;}
@@ -128,8 +129,8 @@ span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-
 .f-700{font-weight: 700;}
 .f-800{font-weight: 800;}
 .fs-12{font-size: 12px; line-height: 20px;}
-.fs-14{font-size: 0.875rem; line-height: 1.25rem;}
-.fs-16{font-size: 16px; line-height: 24px; letter-spacing: 0;}
+.fs-14{font-size: 14px; line-height: 21px;}
+.fs-16{font-size: 16px; line-height: 24px;}
 .fs-18{font-size: 1.125rem; line-height: 2rem;}
 .fs-20{font-size: 20px; line-height: 30px;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}

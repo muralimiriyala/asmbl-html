@@ -10,7 +10,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 
 body .white-popup-block .frm_forms h3.frm_form_title{display: none;}
 body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
-body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 33px; position: relative; clear: both;}
+body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 24px; position: relative; clear: both;}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field#frm_field_21_container{margin-bottom: 24px;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
 body .become-partner-form .frm_forms .frm_error_style{display: none;}
@@ -31,7 +31,7 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-i
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
 body .free-steps-text .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.free-steps-text{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 400; font-family: Univers,sans-serif; color: var(--foreground-light); font-size: 1rem; letter-spacing: -0.32px; }
-body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; width: 100%; font-size: 14px; line-height: 20px; font-weight: 700; box-shadow: none; padding: 14px 16px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--white, #FFF); border-radius: 8px; color: var(--Blue); font-family: "arboria", sans-serif; -webkit-appearance: none;}
+body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; width: 100%; font-size: 14px; line-height: 20px; font-weight: 700; box-shadow: none; padding: 14px 16px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--Elevated, #F0F2FA); color: var(--Blue); font-family: "arboria", sans-serif; -webkit-appearance: none;}
 body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, body .bg-elevated .frm_forms .frm_form_field textarea, body .bg-elevated .frm_forms .selectBox-dropdown{background-color: var(--white);}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 160px;}
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"],[type="checkbox"]):focus{background-color: var(--white); border-color: var(--Blue-Tint, #D9DFF2);}
@@ -44,7 +44,13 @@ body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, bo
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 6px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 41px; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; letter-spacing: normal; text-indent: 0; color: #5e6783; position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 28px; height: 28px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 10px 13px 11px 35px; margin: 0; text-indent: 0; border-radius: 8px; background-color: var(--gray-lt); font-size: 1rem; line-height: 1.5rem; font-weight: normal; display: block; cursor: pointer; color: var(--foreground); font-family: "Univers", sans-serif; letter-spacing: -0.32px;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 10px 13px 11px 35px; margin: 0; text-indent: 0; border-radius: 8px; display: block; cursor: pointer;
+    color: var(--Foreground, #313031);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--accent-light);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{display: block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a{color: var(--accent); position: relative; display: inline-block;}
