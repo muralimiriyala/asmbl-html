@@ -5,7 +5,7 @@
 .mail-links a{padding-left: 32px; position: relative;}
 .mail-links a svg{left: 0; top: calc(50% + 2px); transform: translateY(-50%); position: absolute;}
 
-.copyrights{}
+.copyrights-main{}
 ul.copyrights-links{margin: 0; gap: 32px;}
 ul.copyrights-links li:first-child::before{display: none;}
 ul.copyrights-links li::before{width: 1px; height: 22px; top: 0; opacity: 0.25; background-color: var(--Blue);}
@@ -25,17 +25,22 @@ ul.footer-nav-links li a{font-size: 16px; line-height: 24px;}
 /* media css starts here */
 @media screen and (min-width: 1440px) {
     .footer-svg{z-index: -1; top: 0; left: 40px;}
-    .footer{padding: 140px 0 0;}
-    .footer-text{flex: 0 0 352px; padding: 0 0 65px;}
     .footer-logo{margin-bottom: 48px;}
-    .footer-right{flex: 1;}
-    .footer-icons{margin-bottom: 40px; padding-left: 80px;}
+    .footer-icons{margin-bottom: 40px;}
     .footer-share-icons{flex: 0 0 210px;}
-    .footer-mgmt{padding: 77px 80px; background: var(--Background, #F0F2FA);}
 }
 @media screen and (min-width: 1024px) {
-    ul.footer-nav-links{margin: 0; gap:  17px 47px;}
+    .footer{padding: 140px 0 0; gap: 40px;}
+    .footer-text{flex: 0 0 352px; padding: 80px 0 0;}
+    ul.footer-nav-links{margin: 0 0 71px; gap: 17px 47px;}
     ul.footer-nav-links > li{flex: 0 0 calc(33.33333% - 32px); margin-bottom: 0;}
+    
+    .footer-right{flex: 1;}
+    .footer-bg{padding: 77px 0 77px 80px; background: var(--Background, #F0F2FA);}
+    .footer-bg::after{width: 1000vw; height: 100%; left: 100%; top: 0; content: ""; display: block; background-color: var(--Background, #F0F2FA); position: absolute;}
+
+    .copyrights-text{flex: 1;}
+    ul.copyrights-links{flex: 1; justify-content: flex-end;}
 }
 @media screen and (max-width: 1439px) and (min-width: 1280px) {
 

@@ -1,0 +1,19 @@
+
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .as-feature-row{gap: 60px;}
+    .as-feature-list{flex: 0 0 calc(25% - 45px);}
+}
+
+
+
+
+
+
+
+
+
+
