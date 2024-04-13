@@ -5,8 +5,12 @@
 .get-avatar-img{flex: 0 0 90px;}
 .get-avatar-text{flex: 1;}
 .get-avatar-text span{color: var(--Foreground);}
+.get-answer-desc{margin-bottom: 40px;}
+.get-answer-desc h2{margin-bottom: 24px;}
+.get-answer-desc hr{margin: 0 0 24px;}
+.get-answer-desc p{opacity: 0.8;}
 ul.get-avatar-links{margin: 0;}
-ul.get-avatar-links li{margin: 0;}
+ul.get-avatar-links li{margin: 7px 0 0;}
 ul.get-avatar-links li::before{display: none;}
 ul.get-avatar-links li a{gap: 10px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 700; line-height: 24px;}
 

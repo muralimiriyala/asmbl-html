@@ -12,7 +12,7 @@ a:hover{color: var(--Orange);}
 .h1, h1{font-size: 48px; line-height: 60px; margin-bottom: 33px; color: var(--Navy, #182A54);}
 .h2, h2{font-size: 40px; line-height: 50px; margin-bottom: 30px;}
 .h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 1.125rem;}
-.h4, h4{font-size: 1.5rem; line-height: 2rem; margin-bottom: 0.938rem;}
+.h4, h4{font-size: 24px; line-height: 30px; margin-bottom: 25px;}
 .h5, h5{font-size: 1.25rem; line-height: 1.75rem; margin-bottom: 12px;}
 .h6, h6{font-size: 1.125rem; line-height: 1.375rem; margin-bottom: 14px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--accent);}
@@ -74,7 +74,7 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 ::-moz-selection {background-color: var(--black); color: var( --White);}
 
 /* Buttons */
-.button, button{padding: 6px 13px 6px; font-size: 16px; font-weight: 600; line-height: 24px; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: 2px solid transparent; border-radius: 4px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
+.button, button{padding: 6px 10px 6px; font-size: 16px; font-weight: 600; line-height: 24px; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: 2px solid transparent; border-radius: 4px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
 .button:hover, button:hover{ background: var(--Orange); color: var( --White); }
 .button.gray{border-radius: 4px; background: var(--Blue-Tint, #D9DFF2); color: var(--Blue, #1335AF);}
 .button.gray:hover{background-color: var(--Blue); color: var(--White);}
@@ -114,10 +114,10 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -0.36px; font-weight: 400; font-family: "Noto Sans", sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
+body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sans", sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-span.optional-text.large{font-size: 24px; line-height: 30px;}
+span.optional-text.large{font-size: 24px; line-height: 30px; margin-bottom: 23px;}
 .optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 600; line-height: 20px;}
 .optional-blue svg{left: 0; position: absolute;}
 .optional-blue span{opacity: 0.6;}
