@@ -217,7 +217,6 @@ body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_checkbox 
 
     body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
     body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 34px; margin-top: 0  ; border-top: none;}
-    body .frm_forms .frm_form_fields .frm_form_field textarea{height: 140px;}
     body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 24px;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 24px;}
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0 0 4px;}
@@ -229,4 +228,7 @@ body .free-steps-text .frm_forms .vertical_radio.frm_blank_field  .frm_checkbox 
     
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin: 2px 0 5px; float: none; display: block;}
     body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column;}
+
+    .get-answer-form .frm_form_field_wrapper{display: block;}
+    body .get-answer-form .frm_forms .frm_form_fields .frm_submit{margin-top: 16px;}
 }
