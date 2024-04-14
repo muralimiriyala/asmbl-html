@@ -45,13 +45,13 @@ dl:last-child{margin-bottom: 0;}
 dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--foreground); content: ""; display: inline-block; vertical-align: middle;}
 blockquote dl dt::before{background-color: var( --White);}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 0 0 26px 27px;}
+ul {list-style: none; margin: 0 0 26px 32px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before { top: 10px; left: -17px; width: 7px; height: 7px; border-radius: 0%; opacity: 1; background-color: var(--foreground); content: ""; position: absolute;} 
+ul > li:before{top: 10px; left: -21px; width: 8px; height: 8px; border-radius: 50%; opacity: 1; background-color: var(--Orange); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
-ol {counter-reset: section; list-style: none; margin: 0 0 28px 29px;}
+ol {counter-reset: section; list-style: none; margin: 0 0 28px 34px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ol > li:before{color: var(--foreground); counter-increment: section; content: counter(section, decimal) "."; top: 4px; left: -20px; position: absolute; font-weight: 600; font-size: 0.875rem; line-height: 1rem;}
+ol > li:before{color: var(--Orange); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -25px; position: absolute; font-weight: 700; font-size: 18px; line-height: 27px;}
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}

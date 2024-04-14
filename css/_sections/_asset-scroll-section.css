@@ -10,7 +10,6 @@ span.asset-filename{font-size: 12px; font-weight: 700; line-height: 18px;}
 .asset-scroll-btn{ width: 40px; height: 40px; }
 .asset-scroll-btn a{width: 100%; height: 100%; background: var(--Blue-Tint, #D9DFF2);}
 .asset-scroll-btn a:hover svg{animation: scrollDown 1s forwards ease-in-out;}
-@keyframes scrollDown{ 0%{transform: translateY(0px); opacity: 1;} 50%{transform: translateY(20px); opacity: 0;} 56%{transform: translateY(-20px); opacity: 0;} 100%{transform: translateY(0px); opacity: 1;} }
 .asset-scroll-hover{transform: translateY(100%); opacity: 0; visibility: hidden; padding: 24px; bottom: 0; left: 0; width: 100%; height: 100%; background-color: var(--White); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); z-index: 2; transition: all 0.4s ease;}
 .asset-scroll-image:hover .asset-scroll-hover{transform: translateY(0); opacity: 1; visibility: visible;}
 .asset-scroll-head{gap: 10px; margin-bottom: 20px;}

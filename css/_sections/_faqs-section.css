@@ -11,19 +11,19 @@ ul.faqs-links li{margin: 0 0 17px;}
 ul.faqs-links li::before{display: none;}
 ul.faqs-links li a{font-size: 16px; line-height: 24px; font-weight: 600; color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; display: inline-flex; align-items: center; gap: 7px; position: relative; }
 ul.faqs-links li a svg{ top: calc(50% + 5px); position: relative;}
+ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 .need-more-answers{padding: 23px 24px 24px; background-image: linear-gradient(0deg, #1335AF -0.05%, rgba(19, 53, 175, 0.00) 99.95%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-image: url("images/sidebar-cta.svg"); background-repeat: no-repeat; background-size: cover;}
 
 .accordion-list.white{background-color: var(--white);}
-.accordion-list{margin-bottom: 22px; border: solid 1px var(--gray-md);}
+.accordion-list{margin-bottom: 22px; border: solid 1px var(--White); transition: all 0.4s ease;}
 .accordion-list:last-child{margin-bottom: 0;}
+.accordion-list:hover{transform: translateY(-10px); border-color: var(--Orange);}
 .accordion-header{padding: 13px 66px 17px 22px; color: var(--Navy, #182A54); font-size: 18px; line-height: 27px; cursor: pointer; position: relative; font-weight: 600;}
 .accordion-header span{right: 25px; top: 50%; transform: translateY(-50%); width: 24px; height: 24px; position: absolute; transition: all 0.45s ease; font-size: 24px; line-height: 1.5; color: var(--Blue, #1335AF);; display: flex; align-items: center; justify-content: center;}
 .accordion-header.open span::before{content: "\f056";}
 .accordion-header span::after { top: 4px; width: 20px; height: 20px; opacity: 0.4; background-color: #F9662D; content: ""; display: block; position: absolute; border-radius: 50%; z-index: -1; }
 .accordion-content{display: none; padding: 2px 22px 25px;}
-.accordion-content ul li::before{width: 6px; height: 6px; top: 7px;}
-.accordion-content ol li::before{top: 2px;}
-.accordion-list.active{box-shadow: 0px 8px 20px 0px rgba(106, 118, 130, 0.50);}
+.accordion-list.active{box-shadow: 0px 8px 20px 0px rgba(106, 118, 130, 0.50); border-color: transparent;}
 .faq-tab-content{display: none;}
 .faq-tab-content:first-child{display: block;}
 .faqs-text.no_accordions{flex: 0 0 100%;}

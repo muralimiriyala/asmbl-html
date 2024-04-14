@@ -59,6 +59,10 @@
 }
 
 
+@keyframes scrollDown{ 0%{transform: translateY(0px); opacity: 1;} 50%{transform: translateY(20px); opacity: 0;} 56%{transform: translateY(-20px); opacity: 0;} 100%{transform: translateY(0px); opacity: 1;} }
+@keyframes scrollRight{ 0%{transform: translateX(0px); opacity: 1;} 50%{transform: translateX(20px); opacity: 0;} 56%{transform: translateX(-20px); opacity: 0;} 100%{transform: translateX(0px); opacity: 1;} }
+
+
 
 
 

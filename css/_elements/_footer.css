@@ -18,6 +18,7 @@ ul.footer-links li a{color: var(--Blue, #1335AF); font-size: 20px; font-weight: 
 ul.footer-links li a:hover{color: var(--Orange);}
 
 .footer-desc{padding: 0 0 26px; color: var(--Navy); font-family: "arboria", sans-serif;}
+ul.footer-nav-links li::before{display: none;}
 ul.footer-nav-links li a{font-size: 16px; line-height: 24px;}
 
 /* media css starts here */
