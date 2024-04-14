@@ -8,7 +8,7 @@ a{color: var(--Blue);text-decoration: none; transition: all 0.5s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Orange);}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; letter-spacing: 0; color: var(--Blue); font-weight: 700; font-family: "arboria", sans-serif; text-transform: none;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Blue); font-weight: 700; font-family: "arboria", sans-serif; text-transform: none;}
 .h1, h1{font-size: 48px; line-height: 60px; margin-bottom: 33px; color: var(--Navy, #182A54);}
 .h2, h2{font-size: 40px; line-height: 50px; margin-bottom: 30px;}
 .h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 1.125rem;}
@@ -30,17 +30,17 @@ p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q{-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
-blockquote{padding: 0; margin: 3rem 0 2.9rem; color: var(--foreground-light); font-size: 1.5rem; line-height: 1.42; font-weight: 800;  font-family: "Noto Sans", sans-serif; font-style: normal; position: relative; letter-spacing: normal;}
+blockquote{padding: 0; margin: 3rem 0 2.9rem; color: var(--foreground-light); font-size: 1.5rem; line-height: 1.42; font-weight: 800;  font-family: "Noto Sans", sans-serif; font-style: normal; position: relative;}
 blockquote::before{content: "“";}
 blockquote::after{content: "”";}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
-small{font-size: 0.75rem; line-height: 1.25rem; letter-spacing: -0.24px; display: block;}
+small{font-size: 0.75rem; line-height: 1.25rem; display: block;}
 big {font-size: 125%;}
-sup, sub {font-size: 0.625rem; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
+sup, sub {font-size: 0.625rem; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
 sup {bottom: 1ex;}
 sub {top: 0;}
-dl{margin-bottom: 24px; font-size: 1rem; line-height: 1.75rem; letter-spacing: -0.8px; font-weight: 600; font-family: "Instrument Sans", sans-serif;}
+dl{margin-bottom: 24px; font-size: 1rem; line-height: 1.75rem; font-weight: 600;}
 dl:last-child{margin-bottom: 0;}
 dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--foreground); content: ""; display: inline-block; vertical-align: middle;}
 blockquote dl dt::before{background-color: var( --White);}
@@ -74,7 +74,7 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 ::-moz-selection {background-color: var(--black); color: var( --White);}
 
 /* Buttons */
-.button, button{padding: 6px 10px 6px; font-size: 16px; font-weight: 600; line-height: 24px; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: 2px solid transparent; border-radius: 4px; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
+.button, button{padding: 6px 10px 6px; font-size: 16px; font-weight: 600; line-height: 24px; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: 2px solid transparent; border-radius: 4px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
 .button:hover, button:hover{ background: var(--Orange); color: var( --White); }
 .button.gray{border-radius: 4px; background: var(--Blue-Tint, #D9DFF2); color: var(--Blue, #1335AF);}
 .button.gray:hover{background-color: var(--Blue); color: var(--White);}
@@ -114,7 +114,7 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sans", sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
+body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sans", sans-serif; overflow-x: hidden; position: relative; color: var(--Foreground); background-color: transparent;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 span.optional-text.large{font-size: 24px; line-height: 30px; margin-bottom: 23px;}
@@ -144,7 +144,6 @@ span.optional-text.large{font-size: 24px; line-height: 30px; margin-bottom: 23px
 .absolute{position: absolute;}
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
 .background-text{width: 100%; height: 100%; top: 0; left: 0; right: 0; position: absolute; z-index: 1;}
-.parallax-bg{background-repeat: no-repeat; background-position: center center; background-size: cover;}
 
 .o-hidden{overflow: hidden;}
 .z-0{z-index: 0;}
@@ -231,10 +230,6 @@ ul.slick-dots li button{display: none;}
 .w-100{width: 100%;}
 
 /*-- media css starts here --*/
-@media screen and (min-width: 740px){
-    .d-fs-16{font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.32px;}
-    .parallax-bg{background-attachment: fixed;}
-}
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
     .container.sm{max-width: 960px;}
@@ -247,7 +242,7 @@ ul.slick-dots li button{display: none;}
     div.slick-arrow.slick-prev{right: 58px;}
 }
 @media only screen and (max-width: 1330px) and (min-width: 1024px){
-    .container:not(.sm){padding: 0 40px;}
+    .container:not(.sm){padding: 0 30px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .hide-tablet{display: none;}

@@ -2,7 +2,7 @@
 
 
 .get-avatar-main{gap: 20px;}
-.get-avatar-img{flex: 0 0 90px;}
+.get-avatar-img{flex: 0 0 96px;}
 .get-avatar-text{flex: 1;}
 .get-avatar-text span{color: var(--Foreground);}
 .get-answer-desc{margin-bottom: 40px;}
@@ -13,14 +13,22 @@ ul.get-avatar-links{margin: 0;}
 ul.get-avatar-links li{margin: 7px 0 0;}
 ul.get-avatar-links li::before{display: none;}
 ul.get-avatar-links li a{gap: 10px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 700; line-height: 24px;}
+.get-answer-text.no_get_answer{flex: 0 0 100%;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .get-answer-main{gap: 80px; padding: 80px 0 80px;}
-    .get-answer-text{flex: 0 0 350px;}
+    .get-answer-main{gap: 80px; padding: 80px 0 77px;}
+    .get-answer-text{flex: 0 0 350px; padding-top: 4px;}
     .get-answer-form{flex: 1;}
 }
-
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+    .get-answer-main{gap: 60px;}
+    .get-answer-text{flex: 0 0 322px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .get-answer-main{padding: 69px 0 80px; display: block;}
+    .get-answer-text{margin-bottom: 60px;}
+}
 
 
 

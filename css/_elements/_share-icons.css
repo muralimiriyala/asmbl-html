@@ -1,6 +1,6 @@
 
-.share-icons{margin-top: auto; gap: 21px; position: relative;}
-.share-icons #st-1.st-animated{width: 100%; flex: 1; gap: 16px; display: flex; flex-wrap: wrap; z-index: 1;}
+.share-icons{margin-top: auto; gap: 21px; position: relative; justify-content: flex-end;}
+.share-icons #st-1.st-animated{width: 100%; flex: 1; gap: 16px; justify-content: flex-end; display: flex; flex-wrap: wrap; z-index: 1;}
 .share-icons #st-1.st-animated .st-btn{padding: 0; margin: 0; width: 40px; height: 40px; min-width: 40px; font-size: 1.25rem; line-height: 1.25rem; border-radius: 4px; background: var(--Blue, #1335AF); color: var(--White); position: relative; z-index: 1; font-family: "Font Awesome 6 Brands"; font-weight: 400; display: flex !important; align-items: center; justify-content: center; transition: all 0.5s ease !important;}
 .share-icons #st-1.st-animated .st-btn:hover{background: var(--Orange) !important; color: var( --White) !important; opacity: 1; top: 0; transition: all 0.45s ease-in-out;}
 .share-icons #st-1.st-animated span.st-label{display: none;}
@@ -15,17 +15,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
-    .share-icons{margin: 24px 0 30px;}
-    .share-icons #st-1.st-animated {gap: 20px; justify-content: flex-start;}
-}
-@media only screen and (max-width: 739px) and (min-width: 200px){
-    .share-icons{margin: 24px 0 30px;}
-    .share-icons #st-1.st-animated{ gap: 12px;}
-}
-@media only screen and (max-width: 389px) and (min-width: 200px){
-    .share-icons #st-1.st-animated .st-btn{width: 42px; height: 42px; max-width: 42px;}
-}
-@media only screen and (max-width: 374px) and (min-width: 200px){
-    .share-icons{display: block;}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .footer-share-icons{justify-content: flex-start;}
+    .share-icons #st-1.st-animated{justify-content: flex-start;}
 }
