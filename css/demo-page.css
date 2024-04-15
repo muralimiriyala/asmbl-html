@@ -16,6 +16,9 @@ ul.demo-options > li span{flex: 1; gap: 4px;}
     .demo-text{flex: 0 0 420px;}
     .demo-form{flex: 1;}
 }
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .demo-main{gap: 30px;}
+}
 @media screen and (max-width: 1023px) and (min-width: 740px){
     .demo-main{padding: 118px 0 74px; display: block;} 
     .demo-text{margin-bottom: 41px;}
