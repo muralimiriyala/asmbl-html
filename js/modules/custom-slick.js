@@ -9,7 +9,8 @@ jQuery(document).ready(function($){
         // autoplaySpeed: 0,
         speed: 6000,
         infinite: true,
-        cssEase: 'linear'
+        cssEase: 'linear',
+        
     });
 
     

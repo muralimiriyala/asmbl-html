@@ -9,7 +9,12 @@
     .trust-by-text{flex: 0 0 144px;}
     .trust-by-logos{gap: 32px; flex: 1;}
 }
-
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .trust-by-main{display: block; padding: 0 0 23px;}
+    .trust-by-text{margin-bottom: 22px; display: block;}
+    .trust-by-logos{gap: 14px 24px;}
+    .trust-by-logo{flex: 0 0 calc(33.3333% - 16px);}
+}
 
 
 

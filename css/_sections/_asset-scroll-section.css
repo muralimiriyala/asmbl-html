@@ -1,7 +1,6 @@
 
 
 .asset-scroll-section{background: linear-gradient(180deg, #F0F2FA 0%, #FFF 100.12%);}
-.asset-scroll-main{padding: 40px 0 71px;}
 .asset-scroll-text{padding: 8px 8px 8px 10px; border: 1px solid var(--Blue-Tint, #D9DFF2); color: var(--Foreground, #313031); font-family: "Noto Sans"; font-size: 10px; font-weight: 400; line-height: 15px;}
 span.asset-filename{font-size: 12px; font-weight: 700; line-height: 18px;}
 .asset-scroll-text p{opacity: 0.6;}
@@ -18,14 +17,19 @@ span.asset-filename{font-size: 12px; font-weight: 700; line-height: 18px;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
+    .asset-scroll-main{padding: 40px 0 71px;}
+    body.page-template-demo .asset-scroll-main{padding-bottom: 62px;}
     .asset-scroll-slider{gap: 24px; flex-wrap: nowrap;}
     .asset-scroll-slide{flex: 0 0 calc(25%);}
 
     .asset-scroll-slider.slick-slider{padding-left: 24px;}
     .asset-scroll-slide.slick-slide{width: 256px; margin-right: 24px; margin-bottom: 48px;}
-
 }
-
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .asset-scroll-main{padding: 40px 0 114px;}
+    .asset-scroll-slider.slick-slider{padding-left: 12px;}
+    .asset-scroll-slide.slick-slide{width: 256px; margin-right: 24px; margin-bottom: 48px;}
+}
 
 
 
