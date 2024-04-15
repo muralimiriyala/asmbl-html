@@ -80,12 +80,15 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu li::before{display: none;}
     ul.main_menu > li > a{padding: 21px 0 19px; display: block; color: var(--Blue); font-family: "arboria", sans-serif; font-size: 20px; font-weight: 600; line-height: 25px; position: relative;}
     ul.main_menu > li > a:hover{color: var(--Orange);}
-    ul.main_menu > li.menu-item-has-children > a::after{top: 50%; transform: translateY(-50%); right: 0; width: 24px; height: 24px; background-image: url("./images/down-arrow.svg"); background-repeat: no-repeat; content: ""; display: block; position: absolute;}
-    ul.main_menu > li > ul{margin: 0; display: none; background-color: var(--White); transition: all 0.4s ease;}
+    ul.main_menu > li.menu-item-has-children > a::after{top: 50%; transform: translateY(-50%); right: 0; width: 24px; height: 24px; background-image: url("./images/down-arrow.svg"); background-repeat: no-repeat; background-position: center; content: ""; display: block; position: absolute;}
+    ul.main_menu > li.menu-item-has-children > a.active{font-size: 16px; color: rgb(19 53 175 / 50%); text-align: center; text-transform: uppercase;}
+    ul.main_menu > li.menu-item-has-children > a.active::after{top: calc(50% + 3px); transform: translateY(-50%) scaleX(-1); left: 0; right: auto;}
+    ul.main_menu > li > ul{margin: 0; display: none; background-color: var(--White);}
     ul.main_menu > li > ul > li{margin: 0; border-top: 1px solid var(--Blue-Tint, #D9DFF2);}
     ul.main_menu > li > ul > li > a{padding: 22px 0 19px; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 18px; font-weight: 700; line-height: 22px; display: block; position: relative;}
     ul.main_menu > li > ul > li > a::after{top: 50%; transform: translateY(-50%); right: 0; width: 15px; height: 9px; background-image: url("./images/caret-down.svg"); background-repeat: no-repeat; content: ""; display: block; position: absolute;}
-    ul.main_menu > li > ul > li > ul{margin: 0; display: none;}
+    ul.main_menu > li > ul > li > ul{margin: 0; padding: 0 0 8px; display: none;}
+    ul.main_menu > li > ul > li > ul > li{margin-bottom: 12px;}
     ul.main_menu > li > ul > li > ul > li > a{color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; gap: 12px; display: flex; flex-wrap: wrap; width: 100%;}
 
     .header_btns{gap: 16px;}
