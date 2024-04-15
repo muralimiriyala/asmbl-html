@@ -3,6 +3,8 @@ jQuery(document).ready(function($){
     $(".humburger-btn").on("click", function(e){
         e.preventDefault();
         $(this).toggleClass("open");
+        $(".h_mobile_overlay").toggleClass("open");
+        $(".header_right").slideToggle(900);
     });
 
     if($(window).width() <= 1023){
@@ -11,8 +13,8 @@ jQuery(document).ready(function($){
             e.preventDefault();
             $(this).parent("li").siblings().children("a").removeClass("active");
             $(this).toggleClass("active");
-            $(this).parent("li").siblings().children("ul").slideUp(900);
-            $(this).siblings("ul").slideToggle(900);
+            $(this).parent("li").siblings().children("ul").slideUp(800);
+            $(this).siblings("ul").slideToggle(800);
         });
     }
 
