@@ -120,7 +120,7 @@ span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-
 span.optional-text.large{font-size: 24px; line-height: 30px; margin-bottom: 23px;}
 .optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 600; line-height: 20px;}
 .optional-blue svg{left: 0; position: absolute;}
-.optional-blue span{opacity: 0.6;}
+.optional-blue span{opacity: 0.6; padding-top: 5px; display: block;}
 .optional-blue.no_svg{padding-left: 0;}
 .f-300{font-weight: 300;}
 .f-400{font-weight: 400;}
