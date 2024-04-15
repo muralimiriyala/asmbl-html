@@ -2,7 +2,6 @@
 
 
 .resources-section{background: var(--Background, #F0F2FA);}
-
 .res-srch-main{gap: 51px;}
 .res-srch-form{transition: all 0.5s ease;}
 .res-srch-form.active{transform: translateY(-30px);}

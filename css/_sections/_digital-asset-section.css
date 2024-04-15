@@ -26,7 +26,7 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
     .categories-list:nth-child(4n+4){padding-right: 32px; border-right: none;}
     .categories-icon{margin-bottom: 20px; min-height: 42px;}
 
-    body.page-template-resources .categories-list{padding-bottom: 54px;}
+    body.page-template-resources .categories-list{padding-bottom: 54px; border-left-color: transparent;}
 }
 
 
