@@ -2,16 +2,45 @@
 
 
 .resources-section{background: var(--Background, #F0F2FA);}
-.resources-wrap{padding: 0 0 120px;}
-.resources-main{gap: 40px; padding: 62px 0 62px;}
-.resources-list{flex: 0 0 calc(33.333333% - 31px);}
+
+.res-srch-main{gap: 51px;}
+.res-srch-form{transition: all 0.5s ease;}
+.res-srch-form.active{transform: translateY(-30px);}
+.res-srch-form input{width: 0; border-color: transparent; transition: all 0.5s ease;}
+.res-srch-form.open input{width: 100%; min-width: 436px; border-image: var(--Gradient-Gold, linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%)); background-color: var(--White);}
+.res-srch-form.open button.res-srch-icon{right: 20px; font-size: 20px;}
+button.res-srch-icon{right: 0; top: 50%; transform: translateY(-50%); color: var(--Blue, #1335AF); background-color: transparent; font-size: 32px; line-height: 32px; padding: 0; border: none;}
+.res-dropdown-main{flex: 1; gap: 40px; transition: all 0.5s ease;}
+.res-dropdown-main.active{transform: translateY(-30px);}
+.res-dropdown-main.active .res-rule{opacity: 0;}
+.res-rule{width: 1px; height: 56px; background-color: var(--White);}
+.res-dropdown{gap: 13px; width: fit-content; cursor: pointer;}
+.res-dropdown::after{width: 100%; height: 2px; bottom: 8px; opacity: 0; position: absolute; content: ""; display: block; background-color: var(--Orange); transition: all 0.5s ease;}
+.res-dropdown.open::after{opacity: 1;}
+.open .res-category-arrow{color: var(--Orange);}
+.open .res-category-arrow::before{content: "\f077";}
+.res-category{color: var(--Navy, #182A54); font-family: "arboria", sans-serif; font-size: 28px; font-weight: 700; line-height: 38px;}
+.res-category span{font-weight: 400;}
+.res-category-arrow{ top: 3px; color: var(--Blue, #1335AF); font-size: 20px; line-height: 20px; position: relative; }
+
+.res-tags-main{flex: 0 0 100%; width: 100%; bottom: 0; z-index: 1;}
+.res-tags-list{display: none;}
+ul.res-tags{margin: 0; gap: 10px;}
+ul.res-tags li::before{display: none;}
+ul.res-tags li a{font-size: 12px; line-height: 18px; padding: 4px 8px; border-radius: 8px; background-color: var(--Navy); color: var(--White);}
+
 .load-more-resources{gap: 16px;}
 .load-more-resources::before, .load-more-resources::after{height: 1px; content: ""; display: block; opacity: 0.2; background: var(--Foreground, #313031); }
 .load-more-resources::before{flex: 1;}
 .load-more-resources::after{flex: 1;}
 span.loader{position: absolute;}
 
-
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .resources-wrap{padding: 32px 0 120px;}
+    .resources-main{gap: 40px; padding: 62px 0 62px;}
+    .resources-list{flex: 0 0 calc(33.333333% - 31px);}
+}
 
 
 
