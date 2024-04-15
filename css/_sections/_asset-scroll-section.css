@@ -42,8 +42,7 @@ ul.keywords-tags li{width: fit-content; margin: 0; font-size: 13.125px; font-wei
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .asset-scroll-main{padding: 40px 0 71px;}
-    body.page-template-demo .asset-scroll-main{padding-bottom: 62px;}
+    .asset-scroll-main{padding: 40px 0 62px;}
     .asset-scroll-slider{gap: 24px; flex-wrap: nowrap;}
     .asset-scroll-slide{flex: 0 0 calc(25%);}
 

@@ -1,22 +1,43 @@
 
-
-
 .confirmation-section{background: var(--Masthead-Fade-A, linear-gradient(180deg, rgba(240, 242, 250, 0.00) 0%, #F0F2FA 100%), #F0F2FA); background-blend-mode: normal, darken, normal;}
 .confirmation-optional{gap: 19px; margin-bottom: 27px; color: var(--Blue, #1335AF); font-size: 18px; font-weight: 700; line-height: 22px; font-family: "arboria", sans-serif;}
 .confirmation-optional svg{flex: 0 0 39px;}
 .confirmation-optional span{flex: 1;}
 .confirmation-desc a{text-decoration: underline;}
 .confirmation-btns{gap: 16px;}
-.confirmation-btns a{padding: 8px 12px; flex: auto; width: fit-content; display: inline-flex; color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 30px; }
+.confirmation-btns a{padding: 8px 12px; gap: 11px; width: fit-content; color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 30px; }
+.confirmation-btns a:hover{color: var(--Orange);}
+.confirmation-text h2{margin-bottom: 23px;}
+.confirmation-text hr{margin-bottom: 39px;}
+.confirmation-desc{margin-bottom: 39px;}
+.confirmation-text.no_form{flex: 0 0 100%;}
 
 /* media css starts here */
+@media screen and (min-width: 1300px){
+    .confirmation-main{gap: 179px;}
+}
 @media screen and (min-width: 1024px){
-    .confirmation-main{gap: 179px; padding: 144px 0 0;}
+    .confirmation-main{padding: 144px 0 67px;}
     .confirmation-text{flex: 0 0 420px;}
     .confirmation-date{flex: 1;}
 }
-
-
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .confirmation-main{gap: 30px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .confirmation-main{padding: 144px 0 67px; display: block;}
+    .confirmation-text{margin-bottom: 60px;}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .confirmation-main{padding: 121px 0 74px; display: block;}
+    .confirmation-text{margin-bottom: 39px;}
+    .confirmation-optional{display: block; margin-bottom: 24px;}
+    .confirmation-optional svg{margin-bottom: 16px;}
+    .confirmation-optional span{display: block;}
+    .confirmation-text h2{font-size: 30px; line-height: 40px;}
+    .confirmation-date{margin-bottom: 39px;}
+    .confirmation-desc { margin-bottom: 23px; }
+}
 
 
 
