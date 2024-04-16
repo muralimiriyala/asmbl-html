@@ -89,10 +89,10 @@ legend.frm_screen_reader{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container:empty{margin: 0;}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
-input::-webkit-input-placeholder {color: var(--Foreground); font-family: "Noto Sans", sans-serif;}
-input:-moz-placeholder {color: var(--Foreground); font-family: "Noto Sans", sans-serif;  opacity: 1;}
-input::-moz-placeholder {color: var(--Foreground); font-family: "Noto Sans", sans-serif; opacity: 1;}
-input:-ms-input-placeholder {color: var(--Foreground); font-family: "Noto Sans", sans-serif;}
+input::-webkit-input-placeholder {color: var(--Foreground); font-family: "arboria", sans-serif;}
+input:-moz-placeholder {color: var(--Foreground); font-family: "arboria", sans-serif;  opacity: 1;}
+input::-moz-placeholder {color: var(--Foreground); font-family: "arboria", sans-serif; opacity: 1;}
+input:-ms-input-placeholder {color: var(--Foreground); font-family: "arboria", sans-serif;}
 
 body.page-template-application-form #frm_field_97_container{padding-bottom: 36px; border-bottom: 1px solid rgba(94,103,131,.25); margin-bottom: 39px;}
 body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.frm12{font-size: 1rem !important; line-height: 1.5 !important; padding-bottom: 39px !important; border-bottom: 1px solid rgba(94, 103, 131, 0.25); margin-bottom: 34px !important;}

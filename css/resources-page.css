@@ -5,9 +5,14 @@
 .res-srch-main{gap: 51px;}
 .res-srch-form{transition: all 0.5s ease;}
 .res-srch-form.active{transform: translateY(-30px);}
-.res-srch-form input{width: 0; border-color: transparent; transition: all 0.5s ease;}
-.res-srch-form.open input{width: 100%; min-width: 436px; border-image: var(--Gradient-Gold, linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%)); background-color: var(--White);}
-.res-srch-form.open button.res-srch-icon{right: 20px; font-size: 20px;}
+.res-srch-field{padding: 2px; background-image: linear-gradient(to top, #f9662d, #fec74d); border-radius: 8px;}
+.res-srch-field input{width: 0; padding: 15px 16px 16px; font-size: 18px; line-height: 22px; border-color: transparent; transition: all 0.5s ease;}
+.res-srch-field input::-webkit-input-placeholder {color: var(--Navy); opacity: 0.5;}
+.res-srch-field input:-moz-placeholder {color: var(--Navy); opacity: 0.5;}
+.res-srch-field input::-moz-placeholder {color: var(--Navy); opacity: 0.5;}
+.res-srch-field input:-ms-input-placeholder {color: var(--Navy); opacity: 0.5;}
+
+.res-srch-field.open input{width: 100%; min-width: 436px; border-image: var(--Gradient-Gold, linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%)); background-color: var(--White);}
 button.res-srch-icon{right: 0; top: 50%; transform: translateY(-50%); color: var(--Blue, #1335AF); background-color: transparent; font-size: 32px; line-height: 32px; padding: 0; border: none;}
 .res-dropdown-main{flex: 1; gap: 40px; transition: all 0.5s ease;}
 .res-dropdown-main.active{transform: translateY(-30px);}
@@ -37,6 +42,7 @@ span.loader{position: absolute;}
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .resources-wrap{padding: 32px 0 120px;}
+    .res-srch-form.open button.res-srch-icon{right: 20px; font-size: 20px;}
     .resources-main{gap: 40px; padding: 62px 0 62px;}
     .resources-list{flex: 0 0 calc(33.333333% - 31px);}
 }
@@ -49,10 +55,11 @@ span.loader{position: absolute;}
     .resources-wrap{padding: 38px 0 80px;}
     .res-srch-main{display: block; padding: 0 0 62px;}
     .res-srch-form{margin-bottom: 22px;}
-    .res-srch-form input{width: 100%; background-color: var(--White);}
+    .res-srch-field input{width: 100%; background-color: var(--White);}
+    button.res-srch-icon{font-size: 24px; right: 18px; top: calc(50% - 2px);}
+    button.res-srch-icon:hover{color: var(--Orange);}
     .resources-main{display: block; padding-bottom: 40px;}
     .resources-list{margin-bottom: 24px;}
-    button.res-srch-icon{font-size: 24px; right: 6px;}
 }
 
 

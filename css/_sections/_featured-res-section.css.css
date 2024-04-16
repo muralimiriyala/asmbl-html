@@ -42,7 +42,7 @@
     .featured-res-image img{min-height: 200px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    .featured-res-main{padding: 119px 0 0;}
+    .featured-res-main{padding: 119px 0 40px;}
     .featured-res-head{display: block;}
     .featured-res-title{margin-bottom: 50px;}
     .featured-res-row{display: block; padding: 0 0 18px;}
