@@ -36,7 +36,7 @@
 @media screen and (max-width: 1023px) and (min-width: 740px){
     .featured-res-head{display: block; margin-bottom: 38px;}
     .featured-res-title{margin-bottom: 16px;}
-    .featured-res-row{gap: 30px; margin-bottom: 60px;}
+    .featured-res-row{gap: 30px; padding: 0 0 60px;}
     .featured-res-list{flex: 0 0 calc(50% - 16px);}
     .featured-res-text h2{font-size: 30px; line-height: 40px;}
     .featured-res-image img{min-height: 200px;}
@@ -45,7 +45,7 @@
     .featured-res-main{padding: 119px 0 0;}
     .featured-res-head{display: block;}
     .featured-res-title{margin-bottom: 50px;}
-    .featured-res-row{display: block;}
+    .featured-res-row{display: block; padding: 0 0 18px;}
     .featured-res-list{margin-bottom: 24px;}
     .featured-res-thumb img{min-height: 210px;}
     .featured-res-text{padding: 20px 20px 44px;}

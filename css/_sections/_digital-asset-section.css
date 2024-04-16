@@ -12,7 +12,7 @@ ul.optional-tag li svg{width: 23px;}
 ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
 
 .categories-text{color: var(--Foreground, #313031);}
-.categories-text h2{color: var(--Navy, #182A54);}
+.categories-head h2{color: var(--Navy, #182A54);}
 
 
 /* media css starts here */
@@ -42,6 +42,12 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     ul.optional-tag.absolute{position: static; padding: 23px 20px 0;}
+    .categories-head{gap: 17px; margin-bottom: 19px;}
+    .categories-icon{width: 40px;}
+    .categories-head h2{font-size: 24px; line-height: 30px; margin: 0; padding-top: 4px; flex: 1;}
+    .categories-row{display: block; margin-bottom: 40px;}
+    .categories-list:not(:last-child){padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid var(--Elevated, #F0F2FA);}
+    body.page-template-resources .categories-list{border-bottom-color: var(--White);}
 }
 
 

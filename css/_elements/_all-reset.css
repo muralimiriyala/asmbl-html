@@ -81,8 +81,8 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 
 .button.transparent, button.transparent{background-color: transparent; border-radius: 4px; border: 2px solid var(--Gradient-Gold, #F9662D); }
 
-.text-btn-link{color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 600; line-height: 24px; position: relative; display: inline-block;}
-.text-btn-link svg{top: 2px; margin-left: 5px; position: relative;}
+.text-btn-link{color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 600; line-height: 24px; display: inline-flex; align-items: center;}
+.text-btn-link svg{top: 1px; margin-left: 5px; position: relative;}
 .text-btn-link:hover{color: var(--Blue, #1335AF);}
 .text-btn-link:hover svg {animation: scrollRight 1s forwards ease-in-out; }
 

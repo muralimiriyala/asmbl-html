@@ -52,6 +52,7 @@ span.loader{position: absolute;}
     .res-srch-form input{width: 100%; background-color: var(--White);}
     .resources-main{display: block; padding-bottom: 40px;}
     .resources-list{margin-bottom: 24px;}
+    button.res-srch-icon{font-size: 24px; right: 6px;}
 }
 
 
