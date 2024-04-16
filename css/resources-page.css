@@ -40,7 +40,19 @@ span.loader{position: absolute;}
     .resources-main{gap: 40px; padding: 62px 0 62px;}
     .resources-list{flex: 0 0 calc(33.333333% - 31px);}
 }
-
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .resources-wrap{padding: 32px 0 62px;}
+    .resources-main{gap: 30px; padding: 42px 0 62px;}
+    .resources-list{flex: 0 0 calc(50% - 16px);}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .resources-wrap{padding: 38px 0 80px;}
+    .res-srch-main{display: block; padding: 0 0 62px;}
+    .res-srch-form{margin-bottom: 22px;}
+    .res-srch-form input{width: 100%; background-color: var(--White);}
+    .resources-main{display: block; padding-bottom: 40px;}
+    .resources-list{margin-bottom: 24px;}
+}
 
 
 

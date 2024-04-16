@@ -81,8 +81,10 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 
 .button.transparent, button.transparent{background-color: transparent; border-radius: 4px; border: 2px solid var(--Gradient-Gold, #F9662D); }
 
-.text-btn-link{padding-right: 24px; display: inline-block; color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 600; line-height: 24px; position: relative; display: inline-block;}
-.text-btn-link svg{right: 0; top: calc(50% + 1px); transform: translateY(-50%); position: absolute;}
+.text-btn-link{color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 600; line-height: 24px; position: relative; display: inline-block;}
+.text-btn-link svg{top: 2px; margin-left: 5px; position: relative;}
+.text-btn-link:hover{color: var(--Blue, #1335AF);}
+.text-btn-link:hover svg {animation: scrollRight 1s forwards ease-in-out; }
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
@@ -211,10 +213,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .line-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
 .clamp-3{ -webkit-line-clamp: 3; }
 
-
 .white-bg{background-color: var( --White);}
-
-
 
 div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 1.25rem; line-height: 1.25rem; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease;}
 div.slick-arrow::after{display: none;}
@@ -260,8 +259,15 @@ ul.slick-dots li button{display: none;}
     .container{padding: 0 20px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
+
+    .h2, h2{font-size: 32px; line-height: 40px;}
  
     .play-btn-main .play-btn{width: 60px; height: 60px;}
     .play-btn-bg > span{border-radius: 12px;}
     .play-btn-bg > span.btn-circle::after { font-size: 1.5rem; line-height: 1.5rem; }
+
+
+    .line-m-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
+    .m-clamp-3{ -webkit-line-clamp: 3; }
+
 }
