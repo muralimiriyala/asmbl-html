@@ -1,0 +1,14 @@
+
+.pricing-section{background-color: var(--Background);}
+.pricing-main{padding: 144px 0 0;}
+.price-dollar sup:not(sub){color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 48px; font-weight: 700; line-height: 48px; letter-spacing: -2.4px; bottom: 0;}
+
+
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .pricing-row{gap: 24px;}
+    .pricing-list{flex: 0 0 calc(25% - 18px);}
+}

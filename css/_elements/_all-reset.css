@@ -85,6 +85,9 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .text-btn-link svg{top: 1px; margin-left: 5px; position: relative;}
 .text-btn-link:hover{color: var(--Blue, #1335AF);}
 .text-btn-link:hover svg {animation: scrollRight 1s forwards ease-in-out; }
+.text-btn-link.top-0 svg{top: 0;}
+
+.transition{transition: all 0.5s ease;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
@@ -120,6 +123,7 @@ body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sa
 .d-block{display: block;}
 span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 span.optional-text.large{font-size: 24px; line-height: 30px; margin-bottom: 23px;}
+span.optional-text.md{font-size: 20px; line-height: 25px; margin-bottom: 22px;}
 .optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 600; line-height: 20px;}
 .optional-blue svg{left: 0; position: absolute;}
 .optional-blue span{opacity: 0.6; padding-top: 5px; display: block;}
@@ -162,17 +166,15 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .object-fit img, .object-fit-img img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; overflow: hidden; z-index: 1;}
-.play-btn-main .play-btn{width: 85px; height: 85px; z-index: 1;}
+.play-btn-main .play-btn{width: 96px; height: 96px; z-index: 1;}
 .play-btn-bg{width: 100%; height: 100%; font-size: 0; line-height: 0; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 .play-btn-bg img{margin-left: 3px; transform: scale(1); transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 .play-btn-bg:hover img{transform: scale(1.125);}
 .play-btn-bg:hover::before{opacity: 1;}
-.play-btn-bg > span.btn-circle{ background-color: var(--accent); z-index: 1; }
-.play-btn-bg > span.btn-circle::after{top: 50%; left: 50%; margin-left: 3px; transform: translate(-50%, -50%); font-size: 1.75rem; line-height: 1.75rem; color: var( --White); content: "\f04b"; font-weight: 900; font-family: "Font Awesome 6 Pro"; display: block; position: absolute;}
-.patients-swipe .play-btn-bg > span.btn-circle::after{font-size: 1.4rem;}
-.play-btn-bg > span.btn-circle:hover{background-color: var(--Navy); transform: scale(1.15);}
+.play-btn-bg > span.btn-circle{ background-color: rgba(255, 255, 255, 0.80); z-index: 1; }
+.play-btn-bg > span.btn-circle:hover{background-color: var(--White); transform: scale(1.15);}
 .play-btn-bg > span.btn-circle:hover::after{color: var( --White);}
-.play-btn-bg > span {transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 24px; bottom: 0; content: " "; left: 0; position: absolute; right: 0; top: 0; }
+.play-btn-bg > span {transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 50%; bottom: 0; content: ""; left: 0; position: absolute; right: 0; top: 0; }
 .play-btn-bg > span:not(:first-child) { animation: 6s playBtnZooming infinite linear; transform: scale(1); filter: opacity(0.25); -webkit-filter: opacity(0.25); background-color: var( --White); }
 .play-btn-bg > span:not(:first-child):nth-child(2) { -webkit-animation-delay: 2s; animation-delay: 2s; }
 .play-btn-bg > span:not(:first-child):nth-child(3) { -webkit-animation-delay: 4s; animation-delay: 4s; }
@@ -264,7 +266,6 @@ ul.slick-dots li button{display: none;}
  
     .play-btn-main .play-btn{width: 60px; height: 60px;}
     .play-btn-bg > span{border-radius: 12px;}
-    .play-btn-bg > span.btn-circle::after { font-size: 1.5rem; line-height: 1.5rem; }
 
 
     .line-m-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}

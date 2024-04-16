@@ -1,3 +1,16 @@
 
 
 .quote-section{background: var(--Background, #F0F2FA);}
+.quote-icon{margin-bottom: 27px;}
+.quote-text h2{margin-bottom: 30px; color: var(--Foreground);}
+.quote-avatar{padding: 2px 0 3px 18px; border-left: 2px solid var(--Orange, #F9662D);}
+.quote-avatar p{opacity: 0.5;}
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .quote-main{padding: 116px 0 116px; gap: 80px; flex-direction: row-reverse;}
+    .quote-image{flex: 0 0 600px;}
+    .quote-text{flex: 1;}
+    .quote-icon-top{right: 0; top: -66px;}
+    .quote-icon-btm{left: 0; bottom: -76px;}
+}

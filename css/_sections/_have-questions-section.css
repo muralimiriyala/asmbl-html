@@ -1,0 +1,21 @@
+
+
+.have-q-head{margin-bottom: 31px;}
+.have-q-icon{margin-bottom: 16px;}
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .have-q-main{gap: 80px; padding: 83px 0 80px;}
+    .have-q-text{flex: 0 0 300px;}
+    .have-q-right{flex: 1;}
+}
+
+
+
+
+
+
+
+
+

@@ -28,6 +28,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 .faq-tab-content:first-child{display: block;}
 .faqs-text.no_accordions{flex: 0 0 100%;}
 .no_accordions .need-more-answers{background-image: linear-gradient(0deg,#1335af -.05%,rgba(19,53,175,0) 99.95%),linear-gradient(300deg,#182a54 0,#1335af 100%);}
+.have-q-right .accordion-list:not(:hover){border: solid 1px rgba(217, 223, 242, 0.50);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
