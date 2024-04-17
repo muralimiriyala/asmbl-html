@@ -10,7 +10,18 @@
     .have-q-text{flex: 0 0 300px;}
     .have-q-right{flex: 1;}
 }
-
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .have-q-wrap{padding: 0 0 76px;}
+    .have-q-main{display: block; padding: 42px 0 0;}
+    .have-q-text{margin-bottom: 43px;}
+    .have-q-right{margin-bottom: 40px;}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .have-q-wrap{padding: 0 0 76px;}
+    .have-q-main{display: block; padding: 42px 0 0;}
+    .have-q-text{margin-bottom: 43px;}
+    .have-q-right{margin-bottom: 40px;}
+}
 
 
 
