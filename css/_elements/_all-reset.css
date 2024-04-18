@@ -11,7 +11,7 @@ a:hover{color: var(--Orange);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Blue); font-weight: 700; font-family: "arboria", sans-serif; text-transform: none;}
 .h1, h1{font-size: 48px; line-height: 60px; margin-bottom: 33px;}
 .h2, h2{font-size: 40px; line-height: 50px; margin-bottom: 30px;}
-.h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 1.125rem;}
+.h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 23px;}
 .h4, h4{font-size: 24px; line-height: 30px; margin-bottom: 25px;}
 .h5, h5{font-size: 20px; line-height: 25px; margin-bottom: 12px;}
 .h6, h6{font-size: 1.125rem; line-height: 1.375rem; margin-bottom: 14px;}
@@ -86,6 +86,8 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .text-btn-link:hover{color: var(--Blue, #1335AF);}
 .text-btn-link:hover svg {animation: scrollRight 1s forwards ease-in-out; }
 .text-btn-link.top-0 svg{top: 0;}
+.text-btn-link.white{color: var(--White);}
+.text-btn-link.white:hover{color: var(--White);}
 
 .transition{transition: all 0.5s ease;}
 
@@ -199,7 +201,8 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 
 .inverted{color: var( --White);}
-.inverted h1, .inverted h2, .inverted h3, .inverted h4{color: var( --White);}
+.inverted h1, .inverted h2, .inverted h3, .inverted h4, .inverted h5, .inverted h6{color: var( --White);}
+.inverted .h1, .inverted .h2, .inverted .h3, .inverted .h4, .inverted .h5, .inverted .h6{color: var( --White);}
 .inverted h1 a, .inverted h2 a, .inverted h3 a, .inverted h4 a{color: var( --White);}
 .inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--accent);}
 .inverted dl dt::before{background-color: var( --White);}

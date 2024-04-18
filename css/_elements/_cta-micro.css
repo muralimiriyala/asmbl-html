@@ -1,4 +1,8 @@
 
 
 
-.cta-micro-main{background-image: url('./images/cta-micro.svg');}
+.cta-micro-main{padding: 48px; margin-bottom: 19px; gap: 100px; background-image: url('./images/cta-micro.svg'); background-repeat: no-repeat; background-size: cover;}
+.cta-micro-text{flex: 0 0 340px;}
+.cta-micro-text span.h3{display: block;}
+.cta-micro-btns{gap: 16px;}
+.cta-micro-image{flex: 1;}
