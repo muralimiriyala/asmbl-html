@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .as-story-row{gap: 64px;}
+    .as-story-list{flex: 0 0 calc(33.3333% - 50px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

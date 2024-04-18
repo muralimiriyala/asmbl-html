@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .intro-complex-head{gap: 60px;}
+    .intro-complex-title{flex: 0 0 394px;}
+    .intro-complex-desc{flex: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
