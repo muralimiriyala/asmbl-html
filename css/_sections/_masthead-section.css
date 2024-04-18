@@ -1,0 +1,23 @@
+
+
+.masthead-text h1{color: var(--Navy);}
+.masthead-btns{gap: 16px;}
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .masthead-main{padding: 96px 0 0;}
+    .masthead-text{flex: 1;}
+    .masthead-image{flex: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

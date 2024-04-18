@@ -124,6 +124,7 @@ img.aligncenter{margin: 25px auto;}
 body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sans", sans-serif; overflow-x: hidden; position: relative; color: var(--Foreground); background-color: transparent;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.large{font-size: 24px; line-height: 30px; margin-bottom: 23px;}
 span.optional-text.md{font-size: 20px; line-height: 25px; margin-bottom: 22px;}
 .optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 600; line-height: 20px;}
@@ -136,6 +137,8 @@ span.optional-text.md{font-size: 20px; line-height: 25px; margin-bottom: 22px;}
 .f-600{font-weight: 600;}
 .f-700{font-weight: 700;}
 .f-800{font-weight: 800;}
+
+.fs-0{font-size: 0; line-height: 0;}
 .fs-12{font-size: 12px; line-height: 20px;}
 .fs-14{font-size: 14px; line-height: 21px;}
 .fs-15{font-size: 15px; line-height: 22px;}

@@ -1,0 +1,25 @@
+
+
+.sidebar-cta-form{padding: 24px; background-image: linear-gradient(0deg, #1335AF -0.05%, rgba(19, 53, 175, 0.00) 99.95%), linear-gradient(300deg, #182A54 0%, #1335AF 100%);}
+.sidebar-form-desc{opacity: 0.75;}
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .gated-point-main{gap: 32px;}
+    .gated-point-list{flex: 0 0 calc(33.3333% - 22px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+
+
+
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .prod-overview-text{flex: 0 0 640px;}
+    .prod-overview-image{flex: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

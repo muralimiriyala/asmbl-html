@@ -1,0 +1,23 @@
+
+
+
+.mini-cta-main{
+    padding: 32px;
+background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%);
+}
+
+.mini-cta-text{flex: 1;}
+.mini-cta-btn{width: fit-content;}
+
+
+
+
+
+
+
+
+
+
+
+
+

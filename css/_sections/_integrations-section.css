@@ -1,0 +1,18 @@
+
+
+
+
+
+.integrations-card{padding: 16px; border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); background: var(--White, #FFF); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10);}
+.integrations-card span.h4{margin: 0; display: block; flex: 1;}
+.card-icon{width: 64px;}
+.card-link{width: 32px;}
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .integrations-main{gap: 80px; padding: 80px 0;}
+    .integrations-text{flex: 0 0 350px;}
+    .integrations-cards{flex: 1; gap: 32px;}
+    .integrations-card{flex: 0 0 calc(50% - 16px); gap: 20px;}
+}

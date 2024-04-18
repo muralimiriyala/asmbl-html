@@ -1,0 +1,36 @@
+
+.you-might-section{background: var(--Background, #F0F2FA);}
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .you-might-main{padding: 80px 0 0;}
+
+    .you-might-head{gap: 32px; margin-bottom: 40px;}
+    .you-might-title{flex: 1;}
+    .you-might-btn{width: fit-content;}
+
+    .you-might-row{gap: 46px;}
+    .you-might-list{flex: 0 0 calc(33.33333% - 31px);}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

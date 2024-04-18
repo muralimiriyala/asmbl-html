@@ -1,0 +1,21 @@
+
+
+
+.related-res-head{margin-bottom: 30px;}
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .related-res-title{flex: 1;}
+    .related-res-row{gap: 40px;}
+    .related-res-list{flex: 0 0 calc(33.3333% - 27px);}
+}
+
+
+
+
+
+
+
+

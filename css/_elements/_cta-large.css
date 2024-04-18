@@ -1,0 +1,13 @@
+
+
+
+
+.cta-large-main{padding: 48px; margin-bottom: 19px; gap: 100px; background-image: url('./images/cta-micro.svg'); background-repeat: no-repeat; background-size: cover;}
+.cta-large-text span.h3{display: block;}
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .cta-large-text{flex: 0 0 552px;}
+    .cta-large-btns{gap: 16px;}
+    .cta-large-image{flex: 1;}
+}
