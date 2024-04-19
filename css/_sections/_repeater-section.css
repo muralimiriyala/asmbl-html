@@ -1,0 +1,24 @@
+
+
+
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .repeater-row{flex-direction: row-reverse;}
+    .repeater-row:nth-child(even){flex-direction: row;}
+    .repeater-image{flex: 1;}
+    .repeater-text{flex: 1;}
+}
+@media screen and (min-width: 1440px){
+    .repeater-row{gap: 80px;}
+    .repeater-desc{max-width: 540px; margin-left: auto; margin-right: 60px;}
+}
+@media only screen and (max-width: 1439px) and (min-width: 1024px){
+    .repeater-row{gap: 40px;}
+    .repeater-desc{max-width: 540px; margin-left: auto; margin-right: 60px;}
+}
+
+
+

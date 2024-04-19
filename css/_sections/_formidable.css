@@ -39,7 +39,6 @@ body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: v
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--Blue); font-family: "Noto Sans", sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--Blue); font-family: "Noto Sans", sans-serif; opacity: 1;}
 body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--Blue); font-family: "Noto Sans", sans-serif; opacity: 1;}
-body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder {color: var(--Blue); font-family: "Noto Sans", sans-serif;}
 .vertical_radio .frm_opt_container{margin-top: 0;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 6px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 41px; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; text-indent: 0; color: #5e6783; position: relative;}
@@ -92,7 +91,6 @@ body .with_frm_style .frm_form_field.frm_html_container:empty{margin: 0;}
 input::-webkit-input-placeholder {color: var(--Foreground); font-family: "arboria", sans-serif;}
 input:-moz-placeholder {color: var(--Foreground); font-family: "arboria", sans-serif;  opacity: 1;}
 input::-moz-placeholder {color: var(--Foreground); font-family: "arboria", sans-serif; opacity: 1;}
-input:-ms-input-placeholder {color: var(--Foreground); font-family: "arboria", sans-serif;}
 
 body.page-template-application-form #frm_field_97_container{padding-bottom: 36px; border-bottom: 1px solid rgba(94,103,131,.25); margin-bottom: 39px;}
 body.page-template-application-form .frm_forms .frm_form_fields .frm_form_field.frm12{font-size: 1rem !important; line-height: 1.5 !important; padding-bottom: 39px !important; border-bottom: 1px solid rgba(94, 103, 131, 0.25); margin-bottom: 34px !important;}
@@ -159,7 +157,6 @@ body .demo-form .frm_forms .frm_form_fields .frm_form_field input:focus, body .d
 body .demo-form .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .demo-form .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder{color: var(--Blue); font-family: "arboria", sans-serif;}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .demo-form .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder{color: var(--Blue); font-family: "arboria", sans-serif; opacity: 1;}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .demo-form .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder{color: var(--Blue); font-family: "arboria", sans-serif; opacity: 1;}
-body .demo-form .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .demo-form .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder{color: var(--Blue); font-family: "arboria", sans-serif;}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0;}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{opacity: 0.9; font-weight: 400; font-size: 14px; line-height: 20px; color: var(--Foreground);}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0;}
