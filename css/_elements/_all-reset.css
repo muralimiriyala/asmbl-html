@@ -86,8 +86,10 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .text-btn-link:hover{color: var(--Blue, #1335AF);}
 .text-btn-link:hover svg {animation: scrollRight 1s forwards ease-in-out; }
 .text-btn-link.top-0 svg{top: 0;}
+.text-btn-link.top-2 svg{top: 2px;}
 .text-btn-link.white{color: var(--White);}
 .text-btn-link.white:hover{color: var(--White);}
+.inverted .text-btn-link{color: var(--White);}
 
 .transition{transition: all 0.5s ease;}
 
@@ -143,9 +145,9 @@ span.optional-text.md{font-size: 20px; line-height: 25px; margin-bottom: 22px;}
 .fs-14{font-size: 14px; line-height: 21px;}
 .fs-15{font-size: 15px; line-height: 22px;}
 .fs-16{font-size: 16px; line-height: 24px;}
-.fs-18{font-size: 1.125rem; line-height: 2rem;}
+.fs-18{font-size: 18px; line-height: 27px;}
 .fs-20{font-size: 20px; line-height: 30px;}
-.fs-24{font-size: 1.5rem; line-height: 1.875rem;}
+.fs-24{font-size: 24px; line-height: 36px;}
 .radius-4, .radius-img-4 img{border-radius: 4px;}
 .radius-6, .radius-img-6 img{border-radius: 8px;}
 .radius-8, .radius-img-8 img{border-radius: 8px;}

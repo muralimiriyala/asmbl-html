@@ -14,10 +14,8 @@
 
 /*-- media css starts here --*/
 @media screen and (max-width: 1299px) and (min-width: 1024px){
-    .footer-share-icons{justify-content: flex-start;}
     .share-icons #st-1.st-animated{justify-content: flex-start;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
-    .footer-share-icons{justify-content: flex-start;}
     .share-icons #st-1.st-animated{justify-content: flex-start;}
 }

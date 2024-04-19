@@ -1,0 +1,39 @@
+
+
+.article-block-cta{color: var(--Navy);}
+
+
+.article-mini-cta{padding: 32px; gap: 24px; background-color: var(--Blue);}
+.article-mini-cta-text{flex: 1;}
+.article-mini-cta-links{flex: 0 0 128px; flex-direction: column; text-align: center;}
+
+
+
+
+
+ul.aside-links{margin: 0;}
+ul.aside-links li{margin: 0 0 17px;}
+ul.aside-links li::before{display: none;}
+
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .default-main{padding: 100px 0; gap: 80px;}
+    .default-article{flex: 1;}
+    .default-aside{flex: 0 0 300px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
