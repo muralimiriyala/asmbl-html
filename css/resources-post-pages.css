@@ -56,11 +56,14 @@
 @media only screen and (min-width: 1024px){
     .resource-post-main{gap: 80px; padding: 176px 0 0;}
     .resource-post-article{flex: 1;}
-    .resource-post-aside{flex: 0 0 300px;}
+    .resource-post-aside{flex: 0 0 300px; height: auto;}
+    .sticky-sidebar{max-width: 300px; top: 0; position: absolute;}
+    .sticky-sidebar.sticky{top: 96px; position: fixed;}
 
     .avatar-main{gap: 32px;}
     .avatar-image{flex: 0 0 160px;}
     .avatar-text{flex: 1;}
+
 }
 
 
