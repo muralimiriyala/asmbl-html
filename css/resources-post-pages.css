@@ -34,7 +34,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    
+    body.page-template-post-video .post-date-wrap{margin-bottom: 39px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .post-date-wrap{margin-bottom: 32px;}
