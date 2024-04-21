@@ -1,7 +1,9 @@
 
+.masthead-text span.optional-text{margin-bottom: 25px;}
+.masthead-text h1{margin-bottom: 25px; color: var(--Navy);}
+.masthead-text hr{margin-bottom: 24px;}
+.masthead-btns{gap: 16px; padding-top: 6px;}
 
-.masthead-text h1{color: var(--Navy);}
-.masthead-btns{gap: 16px;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

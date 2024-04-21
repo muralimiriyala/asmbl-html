@@ -14,6 +14,7 @@ ul.faqs-links li a svg{ top: 1px; position: relative;}
 ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 .need-more-answers{padding: 23px 24px 24px; background-image: linear-gradient(0deg, #1335AF -0.05%, rgba(19, 53, 175, 0.00) 99.95%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-image: url("images/sidebar-cta.svg"); background-repeat: no-repeat; background-size: cover;}
 
+.accordion-list{border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25));}
 .accordion-list.white{background-color: var(--white);}
 .accordion-list{margin-bottom: 22px; border: solid 1px rgba(217, 223, 242, 0.50); transition: all 0.4s ease;}
 .accordion-list:last-child{margin-bottom: 0;}

@@ -1,17 +1,29 @@
 
 
-.article-block-cta{color: var(--Navy);}
+.article-block-cta{margin-bottom: 49px; color: var(--Navy);}
+.article-block-cta .h1{margin-bottom: 25px; color: var(--Navy);}
+.article-block-cta hr{margin-bottom: 13px;}
+.article-block-btns{gap: 16px; padding-top: 7px;}
+.default-article h2:not(.article-block-cta h2){margin-bottom: 19px;}
+.default-article h3:not(.mini-cta-text h3){padding-top: 30px; margin-bottom: 19px;}
+.default-article h4{margin-bottom: 20px;}
+.image-caption-main{margin: 57px 0 140px;}
+.image-caption-text{ width: calc(100% - 80px); left: 40px; bottom: -53px; padding: 24px; background: rgba(240, 242, 250, 0.75); backdrop-filter: blur(4px); color: var(--Navy, #182A54); }
+.image-caption-box{width: 40px; height: 40px; bottom: -40px; right: -40px; background: var(--Background, #F0F2FA);}
+.article-cta-link{margin: 46px 0 43px; gap: 20px;}
+.article-cta-link-rule{width: 4px; height: 31px; background-color: var(--Orange);}
 
+.mini-cta-article {margin: 56px 0 48px; padding: 32px; gap: 24px; background-image: linear-gradient(90deg, #1335af 0, rgba(19, 53, 175, 0) 100%), url("images/mini-cta-article@2x.png"); position: relative; background-blend-mode: multiply; background-size: cover; background-repeat: no-repeat; }
+.mini-cta-article::before{ width: 100%; height: 100%; top: 0; left: 0; content: ""; position: absolute; background-image: linear-gradient(-300deg, #182A54 0%, #1335AF 100%); border-radius: 16px; z-index: -1;}
+.mini-cta-text{flex: 1;}
+.mini-cta-text h3{margin-bottom: 0;}
+.mini-cta-links{flex: 0 0 132px; gap: 11px; flex-direction: column; text-align: center;}
 
-.article-mini-cta{padding: 32px; gap: 24px; background-color: var(--Blue);}
-.article-mini-cta-text{flex: 1;}
-.article-mini-cta-links{flex: 0 0 128px; flex-direction: column; text-align: center;}
+.default-article .accordion-main{margin: 54px 0 46px;}
 
-
-
-
-
-ul.aside-links{margin: 0;}
+.default-aside h3{margin-bottom: 20px; color: var(--Navy);}
+.default-aside hr{margin-bottom: 17px;}
+ul.aside-links{margin: 0 0 39px;}
 ul.aside-links li{margin: 0 0 17px;}
 ul.aside-links li::before{display: none;}
 
@@ -20,7 +32,7 @@ ul.aside-links li::before{display: none;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .default-main{padding: 100px 0; gap: 80px;}
+    .default-main{padding: 100px 0 79px; gap: 80px;}
     .default-article{flex: 1;}
     .default-aside{flex: 0 0 300px;}
 }
