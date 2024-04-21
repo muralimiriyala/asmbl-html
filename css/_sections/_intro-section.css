@@ -5,17 +5,19 @@
 
 
 
-
-.intro-numbers{ color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 80px; font-weight: 700; line-height: 64px; }
+.intro-section{background-color: var(--Elevated);}
+.intro-title h2{margin-bottom: 21px;}
+.intro-numbers{margin-bottom: 13px; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 80px; font-weight: 700; line-height: 70px; }
 .intro-symbol{ color: transparent; -webkit-text-stroke: 1px var(--Orange) }
-
+.intro-text h2{margin-bottom: 15px; color: var(--Navy);}
 
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .intro-head{gap: 60px;}
-    .intro-text{flex: 0 0 394px;}
-    .intro-desc{flex: 1; padding: 0 60px; border-left: 1px solid #000; border-right: 1px solid #000;}
+    .intro-main{padding: 80px 0 58px;}
+    .intro-head{gap: 60px; margin-bottom: 61px;}
+    .intro-title{flex: 0 0 394px;}
+    .intro-description{flex: 1; padding: 0 60px; border-left: 1px solid rgb(19 53 175 / 40%); border-right: 1px solid rgb(19 53 175 / 40%);}
 
     .intro-row{gap: 64px}
     .intro-list{padding: 20px; flex: 0 0 calc(25% - 48px);}
