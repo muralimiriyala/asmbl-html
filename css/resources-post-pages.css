@@ -10,7 +10,7 @@
 .post-blocks-main{margin: 49px 0 48px;}
 .post-blocks-left{max-width: 315px; height: 88px;}
 .post-blocks-right{max-width: 374px; height: 93px; margin-left: auto;}
-.post-blocks svg{width: 100%;}
+.post-blocks svg{width: 100%; height: auto;}
 .heafing-no-link{margin: 49px 0 48px; padding-left: 20px; border-left: 4px solid var(--Orange, #F9662D);}
 .heafing-no-link span{top: -2px; position: relative;}
 .heafing-no-link svg{margin-left: 9px;}
@@ -32,8 +32,18 @@
 
 
 
-
-
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .post-date-wrap{margin-bottom: 32px;}
+    .post-blocks-main {
+        margin: 31px 0 48px;
+    }
+    .post-blocks-left { max-width: 84px; height: 24px; }
+    .post-blocks-right{max-width: 100px; height: 25px;}
+}
 
 
 
