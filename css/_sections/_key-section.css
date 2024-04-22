@@ -1,16 +1,18 @@
  
 
-.key-section{background-color: var(--Background);}
-.key-integrations-list{padding: 24px; border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); }
-.key-integrations-icon{max-width: 64px;}
+.key-integration-section{background-color: var(--Background);}
+.key-integration-list{padding: 24px; border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); }
+.key-integration-icon{max-width: 64px; margin-bottom: 19px;}
+.key-tags{margin-top: 32px;}
 .key-tags ul.optional-tag{flex: 1; margin: 0;}
 .key-tags .text-btn-link{width: 38px;}
+.key-integration-text h2{margin-bottom: 21px; color: var(--Navy);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .key-integrations-main{padding: 80px 0;}
-    .key-integrations-row{gap: 40px;}
-    .key-integrations-list{flex: 0 0 calc(33.3333% - 30px);}
+    .key-integration-main{padding: 80px 0;}
+    .key-integration-row{gap: 40px;}
+    .key-integration-list{flex: 0 0 calc(33.3333% - 30px);}
 }
 
 
