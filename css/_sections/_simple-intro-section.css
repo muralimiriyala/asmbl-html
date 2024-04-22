@@ -2,24 +2,24 @@
 
 
 
-
-.simple-intro-title{color: var(--Foreground, #313031);}
-.simple-intro-head h2{color: var(--Navy, #182A54);}
+.simple-intro-icon{max-width: 42px; min-height: 46px; margin-bottom: 19px;}
+.simple-intro-icon svg{max-width: 42px; max-height: 46px; }
+.simple-intro-text{color: var(--Foreground, #313031);}
+.simple-intro-text h2{margin-bottom: 16px; color: var(--Navy, #182A54);}
 
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
-    .simple-intro-main{padding: 80px 0;}
-    .simple-intro-list{flex: 0 0 calc(25%); padding: 21px 50px 12px 60px; border-left: 1px solid var(--Elevated, #F0F2FA);}
-    .simple-intro-list:nth-child(4n+1){padding-left: 20px; padding-right: 100px; border-left: none;}
-    .simple-intro-list:nth-child(4n+4){padding-right: 32px; border-right: none;}
+    .simple-intro-row{gap: 50px;}
+    .simple-intro-list{flex: 0 0 calc(25% - 38px); padding: 20px;}
 }
 @media screen and (min-width: 1024px){
+    .simple-intro-main{padding: 80px 0 42px;}
+    .simple-intro-head{margin-bottom: 63px; gap: 31px;}
+    .simple-intro-title{flex: 1; padding-right: 31px; border-right: 1px solid  rgb(19 53 175 / 40%);}
+    .simple-intro-link{width: fit-content;}
     .simple-intro-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .simple-intro-list:hover .simple-intro-btn{opacity: 1; transform: translateY(0);}
-}
-@media only screen and (min-width: 740px){
-    .simple-intro-icon{margin-bottom: 20px; min-height: 42px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .simple-intro-list{flex: 0 0 calc(25%); padding: 21px 20px 12px;}
@@ -30,7 +30,6 @@
     .simple-intro-list:nth-child(even){border-right: none;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    .simple-intro-head{gap: 17px; margin-bottom: 19px;}
     .simple-intro-icon{width: 40px;}
     .simple-intro-head h2{font-size: 24px; line-height: 30px; margin: 0; padding-top: 4px; flex: 1;}
     .simple-intro-row{display: block; margin-bottom: 40px;}

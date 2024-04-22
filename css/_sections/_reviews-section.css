@@ -1,6 +1,6 @@
 
 
-.reviews-main{padding: 80px 0;}
+
 .reviews-text{padding: 40px;}
 .reviews-block{left: -48px; top: 0;}
 .reviews-text:before{width: 32px; height: 32px; top: -0.001px; left: 0; position: absolute; background: var(--Background, #F0F2FA); content: ""; display: block;}
@@ -13,7 +13,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .reviews-main{gap: 40px; align-items: flex-start;}
+    .reviews-main{padding: 40px 0 40px; gap: 40px; align-items: flex-start;}
     .reviews-image{flex: 0 0 160px;}
     .reviews-text{flex: 1;}
 }
