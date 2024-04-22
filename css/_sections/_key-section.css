@@ -7,6 +7,8 @@
 .key-tags ul.optional-tag{flex: 1; margin: 0;}
 .key-tags .text-btn-link{width: 38px;}
 .key-integration-text h2{margin-bottom: 21px; color: var(--Navy);}
+.key-integration-text h2 a{color: var(--Navy);}
+.key-integration-text h2 a:hover{color: var(--Blue);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
