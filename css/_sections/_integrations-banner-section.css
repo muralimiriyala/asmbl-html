@@ -1,0 +1,21 @@
+
+
+.integrations-banner-text h1{color: var(--Navy);}
+.integrations-banner-text span.optional-text{margin-bottom: 32px;}
+.integrations-banner-text hr{margin-bottom: 29px;}
+
+.integrations-srch-from{padding-top: 15px; max-width: 420px; }
+.integrations-srch-from input{ padding: 16px; font-size: 18px; line-height: 22px; font-weight: 700; color: var(--Navy, #182A54); border-radius: 8px; border: 2px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); background: var(--White, #FFF); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); }
+.integrations-srch-from input::-webkit-input-placeholder{color:rgb(24 42 84 / 50%);}
+.integrations-srch-from input:-moz-placeholder{color:rgb(24 42 84 / 50%);}
+.integrations-srch-from input::-moz-placeholder{color:rgb(24 42 84 / 50%);}
+button.integrations-srch-btn{top: 50%; right: 16px; transform: translateY(-50%); background: none; padding: 0; font-size: 24px; font-weight: 900; line-height: 24px; background: var(--Gradient-Gold-B, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; } 
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .integrations-banner-main{padding: 112px 0 110px; gap: 102px;}
+    .integrations-banner-text{flex: 0 0 560px;}
+    .integrations-banner-images{flex: 1;}
+}
