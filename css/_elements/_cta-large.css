@@ -1,9 +1,14 @@
 
-
-
 .cta-large-bg{height: 50%; width: 100%; top: 0; left: 0; z-index: -1;}
 .cta-large-main{padding: 55px 48px 54px; margin-bottom: 19px; gap: 100px; background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; background-image: url('./images/cta-micro@2x.jpg'); }
 .cta-large-text span.h2{margin-bottom: 24px; display: block;}
+
+.cta-lg-frame{border-radius: 4px; background: var(--White, #FFF); box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25);}
+.cta-lg-frame1{top: 70px; left: 77px; width: 104px;}
+.cta-lg-frame2{top: 120px; left: 140px; width: 110px;}
+.cta-lg-frame3{top: 120px; left: 0; width: 128px;}
+.cta-lg-frame4{top: 170px; left: 95px; width: 112px; z-index: -1;}
+
 
 .cta-large-details{max-width: 334px; margin-left: auto; box-shadow: 0px 15px 20px 0px rgba(24, 42, 84, 0.50);}
 .cta-large-thumb img{border-radius: 8px 8px 0 0;}
@@ -16,7 +21,7 @@
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .cta-large-wrap{padding: 40px 0 39.7px;}
-    .cta-large-text{flex: 0 0 552px;}
+    .cta-large-text{flex: 1;}
     .cta-large-btns{gap: 16px;}
-    .cta-large-image{flex: 1;}
+    .cta-large-image{flex: 0 0 528px; max-width: 528px;}
 }
