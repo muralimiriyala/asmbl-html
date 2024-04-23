@@ -1,6 +1,7 @@
 
+.cta-large-wrap{padding: 40px 0 39.7px;}
 .cta-large-bg{height: 50%; width: 100%; top: 0; left: 0; z-index: -1;}
-.cta-large-main{padding: 55px 48px 54px; margin-bottom: 19px; gap: 100px; background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; background-image: url('./images/cta-micro@2x.jpg'); }
+.cta-large-main{background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; background-image: url('./images/cta-micro@2x.jpg'); }
 .cta-large-text span.h2{margin-bottom: 24px; display: block;}
 
 .cta-lg-frame{border-radius: 4px; background: var(--White, #FFF); box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25);}
@@ -20,8 +21,26 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .cta-large-wrap{padding: 40px 0 39.7px;}
+    .cta-large-main{padding: 55px 48px 54px; gap: 100px; flex-direction: row-reverse;}
     .cta-large-text{flex: 1;}
     .cta-large-btns{gap: 16px;}
     .cta-large-image{flex: 0 0 528px; max-width: 528px;}
+}
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .cta-large-main{padding: 55px 32px 54px; gap: 32px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .cta-large-main{padding: 55px 48px 54px; display: block; background-position: bottom center;}
+    .cta-large-image{max-width: 528px; margin: auto;}
+    .cta-large-text{margin: 40px auto 0; max-width: 528px; text-align: center; }
+    .cta-large-btns{gap: 16px; justify-content: center;}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    
+    .cta-large-main{padding: 38px 24px 32px; display: block; background-image: url('./images/cta-micro-mobile@2x.jpg'); background-position: bottom center;}
+    .cta-large-image{max-width: 528px; margin: auto;}
+    .cta-large-text{margin: 23px auto 0; max-width: 528px; text-align: center; }
+    .cta-large-text span.h2{font-size: 30px; line-height: 37px;}
+    .cta-large-btns{display: block;}
+    .cta-large-btns .button{margin-bottom: 12px; width: 100%; font-size: 20px; line-height: 30px;}
 }
