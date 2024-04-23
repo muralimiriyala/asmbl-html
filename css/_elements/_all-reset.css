@@ -79,7 +79,7 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .button.gray{border-radius: 4px; background: var(--Blue-Tint, #D9DFF2); color: var(--Blue, #1335AF);}
 .button.gray:hover{background-color: var(--Blue); color: var(--White);}
 
-.button.transparent, button.transparent{padding: 6px 12px 7px 12px;background-color: transparent; border-radius: 4px; border: 2px solid transparent;}
+.button.transparent, button.transparent{padding: 6px 12px 8px 12px;background-color: transparent; border-radius: 4px; border: 2px solid transparent;}
 .button.transparent::before, .button.transparent::after{ border-radius: 4px; border: 2px solid transparent; content: ""; display: block; left: -2px; top: -2px; width: 100%; height: calc(100% - 2px); position: absolute; transition: all 0.5s ease; z-index: -1; }
 .button.transparent::before { background: linear-gradient(287deg,#f9662d,#fec74d, #ffdc54 150%) border-box; -webkit-mask: linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0); mask-composite: add,add; -webkit-mask-composite: add,add;; mask-composite: exclude; }
 .button.transparent:hover::before{ opacity: 0; }

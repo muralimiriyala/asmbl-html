@@ -11,7 +11,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .more-inte-main{padding: 80px 0 120px;}
+    .more-inte-main{padding: 80px 0 80px;}
     .more-intro-main{margin-bottom: 40px; gap: 31px;}
     .more-intro-title{flex: 1; padding-right: 31px; border-right: 1px solid  rgb(19 53 175 / 40%);}
     .more-intro-link{width: fit-content;}

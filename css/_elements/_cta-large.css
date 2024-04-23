@@ -1,12 +1,21 @@
 
 
 
+.cta-large-bg{height: 50%; width: 100%; top: 0; left: 0; z-index: -1;}
+.cta-large-main{padding: 55px 48px 54px; margin-bottom: 19px; gap: 100px; background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; background-image: url('./images/cta-micro@2x.jpg'); }
+.cta-large-text span.h2{margin-bottom: 24px; display: block;}
 
-.cta-large-main{padding: 48px; margin-bottom: 19px; gap: 100px; background-image: url('./images/cta-micro.svg'); background-repeat: no-repeat; background-size: cover;}
-.cta-large-text span.h3{display: block;}
+.cta-large-details{max-width: 334px; margin-left: auto; box-shadow: 0px 15px 20px 0px rgba(24, 42, 84, 0.50);}
+.cta-large-thumb img{border-radius: 8px 8px 0 0;}
+.cta-upload-text{gap: 8px; padding: 12px;  border-radius: 0px 0px 8px 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); color: var(--Foreground, #313031);}
+.cta-upload-desc{flex: 1;}
+.cta-upload-btn{ width: 40px; height: 40px; background: var(--Blue-Tint, #D9DFF2);}
+.cta-upload-desc p{opacity: 0.6;}
+
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
+    .cta-large-wrap{padding: 40px 0 39.7px;}
     .cta-large-text{flex: 0 0 552px;}
     .cta-large-btns{gap: 16px;}
     .cta-large-image{flex: 1;}
