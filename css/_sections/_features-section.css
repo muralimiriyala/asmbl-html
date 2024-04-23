@@ -1,0 +1,34 @@
+
+
+
+
+.features-list{padding: 23px 24px 24px; border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); }
+.features-text-head{margin-bottom: 14px;}
+.features-text-head h2{flex: 1;}
+.features-text-icon{width: 24px; margin-top: 3px;}
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .features-main{padding: 81px 0 80px;}
+    .features-intro-main{margin-bottom: 53px; gap: 31px;}
+    .features-intro-title{flex: 1; padding-right: 31px; border-right: 1px solid  rgb(19 53 175 / 40%);}
+    .features-intro-link{width: fit-content;}
+    
+    .features-row{gap: 32px;}
+    .features-list{flex: 0 0 calc(25% - 24px);}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .features-main{padding: 61px 0 60px;}
+    .features-intro-main{display: block; margin-bottom: 60px;}
+    .features-intro-title{padding-bottom: 18px; margin-bottom: 16px; border-bottom: 1px solid  rgb(19 53 175 / 40%);}
+    .features-row{gap: 32px;}
+    .features-list{flex: 0 0 calc(50% - 16px);}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .features-main{padding: 40px 0 40px;}
+    .features-intro-main{display: block; margin-bottom: 40px;}
+    .features-row{display: block; margin-bottom: 40px;}
+    .features-list:not(:last-child){margin-bottom: 24px;}
+}
