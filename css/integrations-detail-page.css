@@ -32,10 +32,28 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
     .in-detail-main{gap: 40px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
-    .in-detail-main{padding: 158px 0 71px; display: block;}
+    .in-detail-main{padding: 158px 0 39px; display: block;}
     .in-detail-text{padding-top: 50px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    
+    .in-detail-main{padding: 123px 0 39px; display: block;}
+    .in-detail-images{max-width: 350px; margin-bottom: 20px;}
+    .in-detail-logos{flex-direction: column; flex: 1; gap: 39px; max-width: 120px;}
+    figure.in-detail-logo{width: 80px; height: 80px;}
+    figure.in-detail-logo img{object-fit: contain;}
+    .in-detail-savings{flex:1; margin-top: 18px; margin-left: auto; max-width: 187px;}
+    .in-detail-savings h2{font-size: 16px; line-height: 20px;}
+    .in-detail-savings-desc{padding: 19px 20px;}
+    .in-detail-icon{width: 24px; margin-bottom: 3px;}
+    .in-detail-icon svg{max-width: 24px;}
+    .in-detail-rectangle{top: calc(50% + 3px); transform: translateY(-50%); right: 0;}
+    .in-detail-rectangle svg{width: 44px;}
+    .in-detail-arrow{top: calc(50% + 5px); transform: translateY(-50%); left: -36px;}
+    .in-detail-arrow svg{width: 39px;}
+    .in-detail-text{font-size: 16px; line-height: 24px;}
+    .in-detail-text span.optional-text{margin-bottom: 20px;}
+    .in-detail-text h1{margin-bottom: 19px; font-size: 32px; line-height: 40px;}
+    .in-detail-text hr{margin-bottom: 19px;}
+    .masthead-btns{padding-top: 1px;}
 }
 

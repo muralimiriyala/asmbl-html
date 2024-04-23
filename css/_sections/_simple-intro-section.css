@@ -22,18 +22,24 @@
     .simple-intro-list:hover .simple-intro-btn{opacity: 1; transform: translateY(0);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .simple-intro-list{flex: 0 0 calc(25%); padding: 21px 20px 12px;}
+    .simple-intro-row{gap: 32px;}
+    .simple-intro-list{flex: 0 0 calc(25% - 24px);}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
-    .simple-intro-list{flex: 0 0 calc(50%); padding: 21px 50px 12px 60px; border-left: 1px solid var(--Elevated, #F0F2FA);}
-    .simple-intro-list:nth-child(odd){ border-left: none;}
-    .simple-intro-list:nth-child(even){border-right: none;}
+    .simple-intro-main{padding: 40px 0 80px;}
+    .simple-intro-head{display: block; margin-bottom: 60px;}
+    .simple-intro-title{padding-bottom: 18px; margin-bottom: 16px; border-bottom: 1px solid  rgb(19 53 175 / 40%);}
+ 
+    .simple-intro-row{gap: 50px;}
+    .simple-intro-list{flex: 0 0 calc(50% - 25px);}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
+    .simple-intro-main{padding: 40px 0 40px;}
+    .simple-intro-head{display: block; margin-bottom: 60px;}
+    .simple-intro-title{padding-bottom: 18px; margin-bottom: 16px; border-bottom: 1px solid  rgb(19 53 175 / 40%);}
     .simple-intro-icon{width: 40px;}
-    .simple-intro-head h2{font-size: 24px; line-height: 30px; margin: 0; padding-top: 4px; flex: 1;}
-    .simple-intro-row{display: block; margin-bottom: 40px;}
-    .simple-intro-list:not(:last-child){padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid var(--Elevated, #F0F2FA);}
+    .simple-intro-row{display: block;}
+    .simple-intro-list:not(:last-child){ margin-bottom: 30px;}
 }
 
 
