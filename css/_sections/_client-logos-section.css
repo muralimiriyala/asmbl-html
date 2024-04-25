@@ -1,0 +1,39 @@
+
+
+
+.client-logos-gray{height: 50%;}
+.client-logos-main{padding: 33px; background: linear-gradient(300deg, #182A54 0%, #1335AF 100%);}
+.client-logo-thumb img{border: 1px solid rgba(217, 223, 242, 0.75);}
+.client-logos-slider{width: 64px;}
+.client-logo-slide{margin: 4px 0;}
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1300px){
+    .client-logos-main{gap: 33px;}
+    .client-logos-icons{width: 46px; height: 46px;}
+    .client-logos-text{flex: 1;}
+    .client-logos-right{flex: 0 0 280px;}
+
+}
+@media screen and (min-width: 1024px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

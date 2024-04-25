@@ -136,6 +136,7 @@ body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sa
 .d-block{display: block;}
 span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
+span.optional-text.white{color: var(--White);-webkit-text-fill-color: var(--White); opacity: 0.6; background: none; margin-bottom: 4px;}
 span.optional-text.large{font-size: 24px; line-height: 30px; margin-bottom: 23px;}
 span.optional-text.md{font-size: 20px; line-height: 25px; margin-bottom: 22px;}
 .optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 600; line-height: 20px;}
@@ -251,6 +252,7 @@ ul.slick-dots li button{display: none;}
     .container.sm{max-width: 960px;}
 
     .hide-desktop{display: none;}
+    span.hide-desktop{display: none;}
     .text-md-right{text-align: right;}
     h1 span{padding: 0 2.7rem 0 1.75rem;}
     div.slick-arrow{top: -80px;}
