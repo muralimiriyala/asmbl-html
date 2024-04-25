@@ -9,11 +9,29 @@
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .related-res-main{padding: 79px 0 80px;}
+    body.page-template-product-detail .related-res-main{padding-bottom: 40px;}
     .related-res-title{flex: 1;}
     .related-res-row{gap: 40px;}
     .related-res-list{flex: 0 0 calc(33.3333% - 27px);}
 }
-
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .related-res-row{gap: 32px;}
+    .related-res-list{flex: 0 0 calc(33.3333% - 22px);}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .related-res-main{padding: 61px 0 60px;}
+    body.page-template-product-detail .related-res-main{padding-bottom: 40px;}
+    .related-res-title{flex: 1;}
+    .related-res-row{gap: 32px;}
+    .related-res-list{flex: 0 0 calc(50% - 16px);}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .related-res-main{padding: 41px 0 40px;}
+    .related-res-head{margin-bottom: 38px;}
+    .related-res-row{display: block;}
+    .related-res-list:not(:last-child){margin-bottom: 24px;}
+    .related-res-link{margin-top: 40px;}
+}
 
 
 

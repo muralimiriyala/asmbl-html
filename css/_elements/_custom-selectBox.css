@@ -16,7 +16,6 @@ body .btn-style-select .selectBox-dropdown .selectBox-arrow{top: calc(50% + 1px)
 body .btn-style-select .selectBox-dropdown.selectBox-menuShowing{border-radius: 12px 12px 0 0;}
 body .btn-style-select .selectBox-dropdown .selectBox-arrow::after{ content: "\f054"; font-weight: 900; }
 body .btn-style-select .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{ content: "\f078"; }
-.page-template-about-testimonials ul.selectBox-dropdown-menu{border-radius: 5px;}
 ul.selectBox-dropdown-menu{margin: 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; display: block; border-radius: 0 0 5px 5px; background-color: var( --White); position: absolute; z-index: 99999; border-top: none; box-shadow: 0 4px 120px 0 rgba(113, 163, 65, 0.25); white-space: nowrap; text-overflow: ellipsis; overflow: auto;}
 ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--Blue);}
 ul.selectBox-dropdown-menu li.selectBox-disabled{display: none;}
@@ -34,7 +33,6 @@ ul.selectBox-dropdown-menu li:hover{background-color: transparent; }
 /* media css starts here */
 @media only screen and (max-width: 739px) and (min-width: 200px){
     body .free-assessment-text .selectBox-dropdown{width: 100%; display: block;}
-    .page-template-about-testimonials ul.selectBox-dropdown-menu{min-width: 136px; max-width: 136px;}
     body .free-assessment-text .selectBox-dropdown .selectBox-arrow{margin-left: 10px;}
     ul.selectBox-dropdown-menu{max-width: 100%;}
 }

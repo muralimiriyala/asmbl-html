@@ -8,13 +8,20 @@
 .post-card-text p{opacity: 0.8;}
 
 /* media css starts here */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1300px){
     .post-card-image{min-height: 239px;}
-    .post-card-image img{max-height: 239px;}
-    .post-card-main:hover .post-card-image img{max-height: 209px;}
+    .post-card-image img{max-height: 239px; min-height: 239px;}
+    .post-card-main:hover .post-card-image img{max-height: 209px; min-height: 209px;}
+}
+@media screen and (min-width: 1024px){
     .post-card-links{margin-top: 19px; opacity: 0; transition: all 0.5s ease;}
     .post-card-main:hover .post-card-links{opacity: 1;}
     .post-card-main:hover .post-card-text{transform: translateY(-30px);}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .post-card-image{min-height: 209px;}
+    .post-card-image img{max-height: 209px; min-height: 209px;}
+    .post-card-main:hover .post-card-image img{max-height: 189px; min-height: 189px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .post-card-image{min-height: 209px;}
