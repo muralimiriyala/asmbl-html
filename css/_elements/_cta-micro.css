@@ -1,7 +1,31 @@
 
-.cta-micro-main{padding: 48px; margin-bottom: 19px; gap: 100px; background-image: url('./images/cta-micro.svg'); background-repeat: no-repeat; background-size: cover;}
+.cta-micro-main{padding: 47px 48px; margin-bottom: 19px; background: linear-gradient(90deg,#1335af 0,rgba(19,53,175,0) 100%),linear-gradient(300deg,#182a54 0,#1335af 100%); background-repeat: no-repeat; background-size: cover; background-image: url('./images/cta-micro-bg@2x.jpg'); }
 .default-article .cta-micro-main{margin: 46px 0 0;}
-.cta-micro-text{flex: 0 0 340px;}
 .cta-micro-text span.h3{display: block;}
 .cta-micro-btns{gap: 16px;}
-.cta-micro-image{flex: 1;}
+
+.cta-micro-bg{box-shadow: 0px 15px 20px 0px rgba(24, 42, 84, 0.50);}
+.cta-micro-thumb img{border-radius: 8px 8px 0 0;}
+.cta-micro-frame{height: 38px; border-radius: 6px; box-shadow: 0px 11.317px 15.09px 0px rgba(24, 42, 84, 0.50);}
+.cta-micro-frame img{width: 100%; height: 100%; object-fit: cover;}
+.cta-micro-frame1{width: 104px; top: 72px; left: 24px;}
+.cta-micro-frame2{width: 110px; top: 72px; left: 140px;}
+.cta-micro-frame3{width: 128px; top: 121px; left: -27px;}
+.cta-micro-frame4{width: 88px; top: 121px; left: 113px;}
+
+.cta-micro-files{padding: 12px; gap: 10px;}
+.cta-micro-details p{opacity: 0.6;}
+.cta-micro-details{font-size: 12px; line-height: 18px; flex: 1;}
+.cta-micro-download{ width: 40px; height: 40px; }
+.cta-micro-download a{width: 100%; height: 100%; background: var(--Blue-Tint, #D9DFF2);}
+.cta-micro-download a svg{width: 12px;}
+.cta-micro-download a:hover svg{animation: scrollDown 1s forwards ease-in-out;}
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .cta-micro-main{gap: 108px;}
+    .cta-micro-text{flex: 1; max-width: 340px; margin-right: auto;}
+    .cta-micro-image{flex: 0 0 334px; max-width: 334px;}
+
+}

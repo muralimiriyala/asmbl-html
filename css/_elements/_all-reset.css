@@ -223,12 +223,6 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted p a{color: var( --White);}
 .inverted p a:hover{color: var(--accent);}
 
-.dark-text{color: var(--foreground);}
-.dark-text h3 a{color: var(--Navy);}
-.dark-text h3 a:hover{color: var(--accent);}
-.dark-text p a{color: var(--foreground);}
-.dark-text p a:hover{color: var(--blue);}
-
 .line-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
 .clamp-3{ -webkit-line-clamp: 3; }
 
