@@ -19,7 +19,6 @@ body .sidebar-cta-form .selectBox-dropdown{font-size: 14px; line-height: 20px; f
 .sidebar-form-desc{opacity: 0.75; padding-top: 22px;}
 
 
-
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .gated-post-main{gap: 80px; padding: 175px 0 79px;}
