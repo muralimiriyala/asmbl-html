@@ -2,15 +2,20 @@
 
 .sidebar-cta-details{ box-shadow: 0px 11.317px 15.09px 0px rgba(24, 42, 84, 0.50); }
 .sidebar-card-cta{padding: 24px; background-image: linear-gradient(0deg, #1335AF -0.05%, rgba(19, 53, 175, 0.00) 99.95%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-image: url("images/sidebar-cta.svg"); background-repeat: no-repeat; background-size: cover;}
-.sidebar-cta-files{padding: 10px;}
-.cta-file-details{font-size: 9px; line-height: 10px;}
+.sidebar-cta-files{padding: 10px; gap: 10px;}
+.cta-file-details{font-size: 9px; line-height: 10px; flex: 1;}
 .sidebar-cta-thumb img{border-radius: 6px 6px 0 0;}
 .sidebar-cta-text{padding-top: 23px;}
-.cta-frame{height: 21px; box-shadow: 0px 11.317px 15.09px 0px rgba(24, 42, 84, 0.50);}
-.cta-frame1{width: 88px; top: 48px; left: 39px;}
-.cta-frame2{width: 73px; top: 48px; right: 28px;}
+.cta-frame{height: 37px; border-radius: 6px; box-shadow: 0px 11.317px 15.09px 0px rgba(24, 42, 84, 0.50);}
+.cta-frame img{width: 100%; height: 100%; object-fit: cover;}
+.cta-frame1{width: 104px; top: 48px; left: 39px;}
+.cta-frame2{width: 73px; top: 48px; right: 24px;}
 .cta-frame3{width: 81px; top: 97px; left: -8px;}
 .cta-frame4{width: 86px; top: 97px; right: 78px;}
+.sidebar-cta-download{ width: 30px; height: 30px; }
+.sidebar-cta-download a{width: 100%; height: 100%; background: var(--Blue-Tint, #D9DFF2);}
+.sidebar-cta-download a svg{width: 12px;}
+.sidebar-cta-download a:hover svg{animation: scrollDown 1s forwards ease-in-out;}
 
 
 
