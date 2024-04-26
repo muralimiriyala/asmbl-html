@@ -6,9 +6,12 @@
 .intro-text h2{margin-bottom: 15px; color: var(--Navy);}
 
 
+
+
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .intro-main{padding: 80px 0 58px;}
+    body.page-template-asmbl-story .intro-main{padding-bottom: 82px;}
     body.page-template-integrations-landing .intro-main{padding-bottom: 42px;}
     .intro-head{gap: 60px; margin-bottom: 61px;}
     .intro-title{flex: 0 0 394px;}
@@ -16,4 +19,8 @@
 
     .intro-row{gap: 64px}
     .intro-list{padding: 20px; flex: 0 0 calc(25% - 48px);}
+
+        
+    .intro-links{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
+    .intro-list:hover .intro-links{opacity: 1; transform: translateY(0);}
 }
