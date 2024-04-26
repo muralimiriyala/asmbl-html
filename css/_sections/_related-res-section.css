@@ -9,6 +9,7 @@
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .related-res-main{padding: 79px 0 80px;}
+    body.page-template-industry-detail .related-res-main{padding-bottom: 40px;}
     body.page-template-use-case-detail .related-res-main{padding-bottom: 40px;}
     body.page-template-product-detail .related-res-main{padding-bottom: 40px;}
     .related-res-title{flex: 1;}

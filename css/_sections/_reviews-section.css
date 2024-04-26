@@ -14,6 +14,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
+    body.page-template-industry-detail .reviews-main{padding-bottom: 80px;}
     .reviews-main{padding: 40px 0 40px; gap: 40px; align-items: flex-start;}
     .reviews-image{flex: 0 0 160px;}
     .reviews-text{flex: 1;}
