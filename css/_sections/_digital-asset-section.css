@@ -18,9 +18,7 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
     .categories-list{flex: 0 0 calc(25%); padding: 21px 50px 12px 60px; border-left: 1px solid var(--Elevated, #F0F2FA);}
     .categories-list:nth-child(4n+1){padding-left: 20px; padding-right: 100px; border-left: none;}
     .categories-list:nth-child(4n+4){padding-right: 32px; border-right: none;}
-    body.page-template-gated-post .categories-list{border-left-color: var(--White);}
-    body.page-template-post-video .categories-list{border-left-color: var(--White);}
-
+    
 }
 @media screen and (min-width: 1024px){
     .digital-asset-row{gap: 40px; padding: 0 0 40px;}
@@ -28,6 +26,9 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
     
     .categories-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .categories-list:hover .categories-btn{opacity: 1; transform: translateY(0);}
+    
+    body.page-template-gated-post .categories-list{border-left-color: var(--White);}
+    body.page-template-post-video .categories-list{border-left-color: var(--White);}
 }
 @media only screen and (min-width: 740px){
     .categories-icon{margin-bottom: 20px; min-height: 42px;}
@@ -37,9 +38,13 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
     .categories-list{flex: 0 0 calc(25%); padding: 21px 20px 12px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
-    .categories-list{flex: 0 0 calc(50%); padding: 21px 50px 12px 60px; border-left: 1px solid var(--Elevated, #F0F2FA);}
-    .categories-list:nth-child(odd){ border-left: none;}
-    .categories-list:nth-child(even){border-right: none;}
+    .categories-row{gap: 64px 0;}
+    .categories-list{flex: 0 0 calc(50%); border-left: 1px solid var(--Elevated, #F0F2FA);}
+    .categories-list:nth-child(odd){ border-left: none; padding-right: 64px;}
+    .categories-list:nth-child(even){border-right: none; padding-left: 64px;}
+
+    body.page-template-gated-post .categories-list{border-left-color: var(--White);}
+    body.page-template-post-video .categories-list{border-left-color: var(--White);}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     ul.optional-tag.absolute{position: static; padding: 23px 20px 0;}
