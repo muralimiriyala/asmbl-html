@@ -2,6 +2,8 @@
 
 
 .repeater-desc h2{color: var(--Navy, #182A54);}
+.repeater-desc{margin-bottom: 30px;}
+.repeater-desc ul{font-size: 16px; line-height: 24px;}
 
 
 /* media css starts here */
