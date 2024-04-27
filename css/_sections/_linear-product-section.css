@@ -9,8 +9,6 @@ ul.linear-links li a{padding: 12px; color: var(--Navy, #182A54); font-size: 16px
 ul.linear-links li a.active, ul.linear-links li a:hover{color: var(--Blue); font-weight: 700; background: var(--Elevated, #F0F2FA);}
 
 
-
-
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .linear-prod-main{padding: 81px 0 0;}

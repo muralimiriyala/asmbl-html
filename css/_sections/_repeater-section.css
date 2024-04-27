@@ -5,19 +5,14 @@
 
 
 /* media css starts here */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1440px){
+    .repeater-main{padding: 0 0 40px;}
     .repeater-row{flex-direction: row-reverse;}
     .repeater-row:nth-child(even){flex-direction: row;}
-    .repeater-image{flex: 1;}
-    .repeater-text{flex: 1;}
-}
-@media screen and (min-width: 1440px){
-    .repeater-row{gap: 80px;}
-    .repeater-desc{max-width: 540px; margin-left: auto; margin-right: 60px;}
-}
-@media only screen and (max-width: 1439px) and (min-width: 1024px){
-    .repeater-row{gap: 40px;}
-    .repeater-desc{max-width: 540px; margin-left: auto; margin-right: 60px;}
+    .repeater-text{flex: 0 0 50%; padding: 0 80px;}
+    .repeater-image{flex: 0 0 50%;}
+    .repeater-image-pos{min-width: 720px; min-height: 540px;}
+    .repeater-text.no_image { flex: 0 0 100%; padding: 80px; }
 }
 
 
