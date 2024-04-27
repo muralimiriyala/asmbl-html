@@ -17,10 +17,6 @@ a:hover{color: var(--Orange);}
 .h6, h6{font-size: 1.125rem; line-height: 1.375rem; margin-bottom: 14px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Blue);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Navy);}
-h1 span{position: relative; z-index: 0; display: inline-block;}
-.h2 span, h2 span{position: relative; z-index: 0;}
-h1 span svg{left: 0; top: -11px; position: absolute;}
-.h2 span svg, h2 span svg{left: -9px; bottom: -16px; position: absolute;}
 address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
 abbr[title] {border-bottom: 1px dotted var(--heading-color); cursor: help;}
 b, strong {font-weight: 700;}
@@ -256,7 +252,6 @@ ul.slick-dots li button{display: none;}
     .hide-desktop{display: none;}
     span.hide-desktop{display: none;}
     .text-md-right{text-align: right;}
-    h1 span{padding: 0 2.7rem 0 1.75rem;}
     div.slick-arrow{top: -80px;}
     div.slick-arrow.slick-next{right: 0;}
     div.slick-arrow.slick-prev{right: 58px;}
@@ -278,11 +273,9 @@ ul.slick-dots li button{display: none;}
 
     .h1, h1{font-size: 40px; line-height: 50px;}
     .h2, h2{font-size: 32px; line-height: 40px;}
- 
 
     span.optional-text.md{margin-bottom: 6px;}
 
     .line-m-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
     .m-clamp-3{ -webkit-line-clamp: 3; }
-
 }
