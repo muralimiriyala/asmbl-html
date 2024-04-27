@@ -40,19 +40,6 @@ jQuery(document).ready(function($){
         $(this).toggleClass("active");
         $("ul.faqs-links").slideToggle(900)
     });
-    $("button.res-srch-icon").on('click', function(e){
-        e.preventDefault();
-        $(".res-srch-form").toggleClass("open");
-    });
-    $(".res-dropdown").on('click', function(e){
-        e.preventDefault();
-        $(this).parent(".res-dropdown-main").siblings(".res-srch-form").toggleClass('active');
-        $(this).parent(".res-dropdown-main").toggleClass('active');
-        $(this).toggleClass("open");
-        let name = $(this).data("name");
-        $(".res-tags-list[data-value=" + name + "]").fadeToggle(800);
-
-    });
 
     $(".prod-art-title").on("click", function(e){
         e.preventDefault();
