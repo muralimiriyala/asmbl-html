@@ -11,7 +11,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .prod-overview-main{gap: 80px; padding: 0 0 120px;}
+    .prod-overview-main{gap: 80px; padding: 35px 0 120px;}
     .prod-overview-text{flex: 0 0 480px;}
     .prod-overview-image{flex: 1;}
 }
