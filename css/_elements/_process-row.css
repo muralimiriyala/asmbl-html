@@ -1,0 +1,19 @@
+
+
+.process-num{margin-bottom: 19px; width: 64px; height: 64px; color: var(--Orange, #F9662D); font-family: "arboria", sans-serif; font-size: 48px; font-weight: 700; line-height: 60px;}
+.process-num span{top: -4px; left: 0px; position: relative;}
+.process-text h2{margin-bottom: 13px;}
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .process-row{gap: 32px; margin-bottom: 38px;}
+    .process-list{flex: 1; flex-direction: column;}
+}
+
+
+
+
+
+
+

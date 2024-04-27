@@ -9,7 +9,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .masthead-main{padding: 96px 0 0; gap: 80px;}
+    .masthead-main{padding: 96px 0 20px; gap: 80px;}
     .masthead-text{flex: 0 0 560px;}
     .masthead-text h1{max-width: 470px;}
     .masthead-image{flex: 0 0 calc(100% - 640px); max-width: calc(100% - 640px);}
