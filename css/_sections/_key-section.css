@@ -14,6 +14,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .key-integration-main{padding: 80px 0;}
+    body.page-template-integrations-landing .key-integration-main{padding: 40px 0 40px;}
     body.page-template-use-case-detail .key-integration-main{padding: 40px 0 80px;}
     .key-intro-head{gap: 60px; margin-bottom: 64px;}
     .key-intro-title{flex: 0 0 394px;}

@@ -51,6 +51,8 @@ span.loader{position: absolute;}
     .resources-wrap{padding: 32px 0 120px;}
     .resources-main{gap: 40px; padding: 62px 0 62px;}
     .resources-list{flex: 0 0 calc(33.333333% - 31px);}
+
+    body.page-template-integrations-landing .res-srch-main{margin-bottom: 86px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
     .resources-wrap{padding: 32px 0 62px;}
