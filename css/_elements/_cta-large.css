@@ -23,6 +23,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
+    body.page-template-integrations-landing .cta-large-wrap{padding-bottom: 72px;}
     .cta-large-main{padding: 55px 48px 54px; gap: 100px; flex-direction: row-reverse;}
     .cta-large-text{flex: 1;}
     .cta-large-btns{gap: 16px;}
