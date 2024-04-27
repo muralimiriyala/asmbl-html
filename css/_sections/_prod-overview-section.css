@@ -1,12 +1,18 @@
 
 
-
-
-
+.prod-overview-bg:not(:last-child){margin-bottom: 16px;}
+.prod-overview-desc{margin-bottom: 31px;}
+.prod-art-title{gap: 10px; padding: 16px 14px 16px 15px;  cursor: pointer; color: var(--Navy, #182A54); font-size: 20px; font-weight: 400; line-height: 25px;}
+.prod-art-title.open{color: var(--Blue);}
+.prod-art-title span{flex: 1; gap: 4px; display: flex; align-items: center;}
+.prod-art-title span strong{white-space: nowrap;}
+.prod-art-icon{width: 31px;}
+.prod-art-content{padding: 2px 14px 14px 15px; display: none;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .prod-overview-text{flex: 0 0 640px;}
+    .prod-overview-main{gap: 80px; padding: 0 0 120px;}
+    .prod-overview-text{flex: 0 0 480px;}
     .prod-overview-image{flex: 1;}
 }
 
