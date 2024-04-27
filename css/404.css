@@ -1,0 +1,10 @@
+
+
+.page-not-main{max-width: 475px; padding: 144px 0 17px;}
+.page-not-text{padding: 77px 0 80px;}
+.page-not-text span.optional-text{margin-bottom: 20px; letter-spacing: 2px; text-transform: uppercase;}
+
+/* media css starts here */
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .page-not-main{max-width: 100%; padding: 80px 0 17px;}
+}
