@@ -12,6 +12,7 @@ ul.demo-options > li span{flex: 1; gap: 4px;}
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .demo-main{padding: 144px 0 68px; gap: 64px;} 
+    body.page-template-marketing-lp .demo-main{padding: 80px 0;}
     .demo-main.no_form{display: block;}
     .demo-text{flex: 0 0 420px;}
     .demo-form{flex: 1;}

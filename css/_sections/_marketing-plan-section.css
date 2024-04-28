@@ -1,0 +1,51 @@
+
+.marketing-plan-section{background: linear-gradient(90deg,#1335af 0,rgba(19,53,175,0) 100%),linear-gradient(300deg,#182a54 0,#1335af 100%); background-image: url("images/plans-bg@2x.jpg"); background-repeat: no-repeat; background-size: cover; }
+.marketing-plan-main{padding: 80px 0 80px;}
+.marketing-plan-top{margin-bottom: 41px; gap: 16px;}
+
+.marketing-plan-title{flex: 1;}
+.marketing-plan-toggle-form{ gap: 10px; font-family: "arboria", sans-serif; }
+
+.marketing-plan-data[data-value="monthly"]{display: none;}
+.marketing-plan-switch { width: 64px; height: 34px; padding: 0; display: inline-block; }
+.marketing-plan-switch input { opacity: 0; width: 100%; height: 100%; padding: 0; background: none; border: none; position: absolute; cursor: pointer; z-index: 2; }
+.marketing-plan-switch-round { border-radius: 34px; position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: var(--Orange); -webkit-transition: .4s; transition: .4s; }
+.marketing-plan-switch-round:before { position: absolute; content: ""; border-radius: 50%; height: 28px; width: 28px; left: 4px; bottom: 3px; background-color: var(--White); -webkit-transition: .4s; transition: .4s; }
+.marketing-plan-switch input:checked + .marketing-plan-switch-round:before { transform: translateX(26px); }
+  
+.plan-dollar{margin-bottom: 22px;}
+.plan-dollar sup:not(sub){font-family: "arboria", sans-serif; font-size: 48px; font-weight: 700; line-height: 48px; letter-spacing: -2.4px; bottom: 0;}
+.plan-dollar sub{padding-left: 11px; font-size: 14px; font-weight: 400; line-height: 21px; opacity: 0.6; }
+.marketing-plan-head{margin-bottom: 17px; gap: 12px;}
+.marketing-plan-head svg{width: 26px; min-height: 30px;}
+.marketing-plan-head span{flex: 1; transition: all 0.5s ease;}
+.marketing-plan-list{padding: 24px; border: 2px solid transparent; background: rgba(0, 0, 0, 0.15); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); backdrop-filter: blur(4px); }
+.marketing-plan-list:hover .marketing-plan-head span{color:transparent; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+.marketing-plan-list:hover{background-color: transparent; border-color: var(--Gradient-Gold-B, #F9662D);}
+.marketing-plan-list .h3{margin-bottom: 6px; color:transparent; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; transition: all 0.5s ease;}
+.marketing-plan-list:hover .h3{color: var(--White); -webkit-text-fill-color: var(--White)}
+.marketing-plan-list p{margin-bottom: 7px;}
+.marketing-plan-list hr{margin: 0; opacity: 0.2; width: 100%; height: 1px; background: var(--White);}
+ul.marketing-plan-order{margin: 24px 0 24px;}
+ul.marketing-plan-order li{gap: 13px;}
+ul.marketing-plan-order li::before{display: none;}
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .marketing-plan-row{gap: 24px;}
+    .marketing-plan-list{flex: 0 0 calc(25% - 18px);}
+}
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+    .marketing-plan-row{gap: 30px;}
+    .marketing-plan-list{flex: 0 0 calc(50% - 15px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .marketing-plan-row{gap: 30px;}
+    .marketing-plan-list{flex: 0 0 calc(50% - 15px);}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .marketing-plan-top h1{font-size: 32px; line-height: 40px;}
+    .marketing-plan-main{padding: 120px 0 61px;}
+    .marketing-plan-row{display: block;}
+    .marketing-plan-list{margin-bottom: 24px;}
+}

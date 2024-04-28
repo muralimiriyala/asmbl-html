@@ -74,6 +74,8 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .button:hover, button:hover{ background: var(--Orange); color: var( --White); }
 .button.gray{border-radius: 4px; background: var(--Blue-Tint, #D9DFF2); color: var(--Blue, #1335AF);}
 .button.gray:hover{background-color: var(--Blue); color: var(--White);}
+.button.white{background-color: var(--White); color: var(--Blue);}
+.button.white:hover{ background: var(--Orange); color: var( --White);}
 
 .button.transparent, button.transparent{padding: 6px 12px 8px 12px;background-color: transparent; border-radius: 4px; border: 2px solid transparent;}
 .button.transparent::before, .button.transparent::after{ border-radius: 4px; border: 2px solid transparent; content: ""; display: block; left: -2px; top: -2px; width: 100%; height: calc(100% - 2px); position: absolute; transition: all 0.5s ease; z-index: -1; }
