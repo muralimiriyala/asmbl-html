@@ -16,12 +16,17 @@
 @media screen and (min-width: 1024px){
     body.page-template-industry-detail .reviews-main{padding-bottom: 80px;}
     .reviews-main{padding: 40px 0 40px; gap: 40px; align-items: flex-start;}
+    .repeater-section .reviews-main{padding: 56px 0 55px;}
     .reviews-image{flex: 0 0 160px;}
     .reviews-text{flex: 1;}
     .testimonials-row .reviews-main{padding: 0 0 40px;}
     .reviews-main:nth-child(even){flex-direction: row-reverse;}
     .reviews-main:nth-child(even) .reviews-text:before{right: 0; left: auto;}
     .reviews-main:nth-child(even) .reviews-block { right: -40px; left: auto; }
+
+    .reviews-main.reverse{flex-direction: row-reverse;}
+    .reviews-main.reverse .reviews-text:before{right: 0; left: auto;}
+    .reviews-main.reverse .reviews-block { right: -40px; left: auto; }
 }
 
 

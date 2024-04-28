@@ -1,6 +1,7 @@
 
 .cta-large-wrap{padding: 40px 0 39.7px;}
 .cta-large-bg{height: 50%; width: 100%; top: 0; left: 0; z-index: -1;}
+.cta-large-bg.bottom{bottom: 0; top: auto;}
 .cta-large-main{background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; background-image: url('./images/cta-micro@2x.jpg'); }
 .cta-large-text span.h2{margin-bottom: 24px; display: block;}
 

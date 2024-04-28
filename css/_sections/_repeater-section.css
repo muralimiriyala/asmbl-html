@@ -11,6 +11,7 @@
     .repeater-main{padding: 0 0 40px;}
     .repeater-row{flex-direction: row-reverse;}
     .repeater-row:nth-child(even){flex-direction: row;}
+    .repeater-row.reverse{flex-direction: row;}
     .repeater-text{flex: 0 0 50%; padding: 0 80px;}
     .repeater-image{flex: 0 0 50%;}
     .repeater-image-pos{min-width: 720px; min-height: 540px;}
