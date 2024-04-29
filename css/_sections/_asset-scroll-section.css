@@ -1,7 +1,7 @@
 
 
 .asset-scroll-section{background: linear-gradient(180deg, #F0F2FA 0%, #FFF 100.12%);}
-.asset-scroll-text{padding: 8px 8px 8px 10px; border: 1px solid var(--Blue-Tint, #D9DFF2); color: var(--Foreground, #313031); font-family: "Noto Sans"; font-size: 10px; font-weight: 400; line-height: 15px;}
+.asset-scroll-text{padding: 8px 8px 8px 10px; border-radius: 0 0 8px 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); color: var(--Foreground, #313031); font-family: "Noto Sans"; font-size: 10px; font-weight: 400; line-height: 15px;}
 span.asset-filename{font-size: 12px; font-weight: 700; line-height: 18px;}
 .asset-scroll-text p{opacity: 0.6;}
 .asset-scroll-thumb{max-height: 145px; overflow: hidden;}

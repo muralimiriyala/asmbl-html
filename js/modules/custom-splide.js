@@ -4,7 +4,7 @@ new Splide(".splide", {
     type: "loop",
     drag: "free",
     focus: "left",
-    perPage: "auto",
+    perPage: 6,
     autoScroll: {
         speed: 1.5
     },

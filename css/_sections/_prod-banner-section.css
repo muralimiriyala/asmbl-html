@@ -1,11 +1,17 @@
 
 
 .prod-banner-section{background-color: var(--Blue);}
-.prod-banner-main{padding: 180px 0 80px;}
-.prod-banner-text{max-width: 880px;}
+.prod-banner-text h1{margin-bottom: 24px;}
+.prod-banner-text hr{margin-bottom: 24px;}
+.prod-banner-btns{gap: 16px; padding-top: 8px;}
 
 
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .prod-banner-main{padding: 156px 0 74px;}
+    .prod-banner-text{max-width: 880px; margin-bottom: 53px;}
 
+}
 
 
 
