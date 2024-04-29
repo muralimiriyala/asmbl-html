@@ -45,9 +45,8 @@
 
 
 
-
-
-
+.aside-sticky{will-change: min-height;}
+.sticky-sidebar{ transform: translate(0, 0); transform: translate3d(0, 0, 0); will-change: position, transform;}
 
 
 /*-- media css starts here --*/
@@ -55,8 +54,6 @@
     .resource-post-main{gap: 80px; padding: 176px 0 80px;}
     .resource-post-article{flex: 1;}
     .resource-post-aside{flex: 0 0 300px; height: auto;}
-    .sticky-sidebar{max-width: 300px; top: 0; position: absolute;}
-    .sticky-sidebar.sticky{top: 96px; position: fixed;}
 
     .avatar-main{gap: 32px;}
     .avatar-image{flex: 0 0 160px;}
