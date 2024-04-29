@@ -3,31 +3,11 @@
 
 .simple-intro-icon{max-width: 42px; min-height: 46px; margin-bottom: 19px;}
 .simple-intro-icon svg{max-width: 42px; max-height: 46px; }
-.simple-icon-block {
-    width: 14px;
-	height: 14px;
-	top: -8px;
-	right: -9px;
-	background-color: var(--White);
-    z-index: -1;
-    transition: all 0.5s ease;
-    opacity: 0;
-}
-.simple-icon-block.sm {
-	width: 6px;
-	height: 6px;
-	top: -13px;
-	right: -15px;
-}
-.simple-intro-list:hover .simple-icon-block{
-    opacity: 1;
-}
-.simple-intro-list:hover .simple-icon-block:not(.sm) {
-	width: 60px;
-	height: 61px;
-	right: -9px;
-	top: -7px;
-}
+.simple-icon-block { width: 14px; height: 14px; top: -8px; right: -9px; opacity: 0; background-color: var(--White); transition: all 0.5s ease; z-index: -1; }
+.simple-icon-block.sm { width: 6px; height: 6px; top: -13px; right: -15px; }
+.simple-intro-list:hover .simple-icon-block{ opacity: 1; }
+.simple-intro-list:hover .simple-icon-block:not(.sm) { width: 60px; height: 61px; right: -9px; top: -7px; }
+.white-bg .simple-icon-block{background: var(--Background, #F0F2FA);}
 
 .simple-intro-text{color: var(--Foreground, #313031);}
 .simple-intro-text h2{margin-bottom: 16px; color: var(--Navy, #182A54);}
@@ -67,15 +47,3 @@
     .simple-intro-row{display: block;}
     .simple-intro-list:not(:last-child){ margin-bottom: 30px;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
