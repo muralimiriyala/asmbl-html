@@ -2,7 +2,8 @@
     --black: #000;
     --black-5: rgb(0 0 0 / 5%);
     --black-10: rgb(0 0 0 / 10%);
-     --White: #ffffff;
+    --White-60: rgb(255 255 255 / 60%);
+    --White: #ffffff;
     --Blue: #1335AF;
     --Blue-Tint: #d9dff2;
     --Orange: #F9662D;

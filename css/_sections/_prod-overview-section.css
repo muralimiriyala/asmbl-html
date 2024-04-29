@@ -1,5 +1,8 @@
 
 
+.prod-overview-bg{background-color: var(--White-60); border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); transition: all 0.5s ease;}
+.prod-overview-bg:hover{border-color: var(--Blue); background-color: var(--White);}
+
 .prod-overview-bg:not(:last-child){margin-bottom: 16px;}
 .prod-overview-desc{margin-bottom: 31px;}
 .prod-art-title{gap: 10px; padding: 16px 14px 16px 15px;  cursor: pointer; color: var(--Navy, #182A54); font-size: 20px; font-weight: 400; line-height: 25px;}
@@ -11,7 +14,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .prod-overview-main{gap: 80px; padding: 35px 0 120px;}
+    .prod-overview-main{gap: 80px; padding: 48px 0 120px;}
     .prod-overview-text{flex: 0 0 480px;}
     .prod-overview-image{flex: 1;}
 }
