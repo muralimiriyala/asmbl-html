@@ -4,7 +4,7 @@
 .post-card-text{padding: 24px 18px 0px; color: var(--Foreground, #313031); transition: all 0.5s ease;}
 .post-card-text h2{margin-bottom: 20px;}
 .post-card-text h2 a{color: var(--Navy);}
-.post-card-text h2 a:hover{color: var(--Blue);}
+.post-card-text h2 a:hover{color: var(--Orange);}
 .post-card-text p{opacity: 0.8;}
 
 /* media css starts here */
