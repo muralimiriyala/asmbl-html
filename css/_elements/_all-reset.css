@@ -55,15 +55,19 @@ fieldset {border: none; margin: 0; padding: 0;}
 legend {white-space: normal;}
 
 table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
-table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 0 0 30px; max-width: 100%; width: 100%;}
+table {margin: 54px 0 49px; border-collapse: separate; border-spacing: 0; border-width: 1px; max-width: 100%; width: 100%; border-radius: 8px;}
 table tr td:first-child {text-align: left;}
-th { font-family: "Noto Sans", sans-serif; font-weight: 800; border-width: 0; padding: 14px 15px 13px; background-color: var(--accent); color: var( --White); border-radius: 0;}
+th {border-width: 0; padding: 11px 16px 12px; background-color: var(--Blue); color: var(--White); border-radius: 0; font-family: "arboria", sans-serif; font-weight: 700;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
-td {border-width: 0; padding: 13px 15px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1.05rem; line-height: 1.5rem;}
-table tr:nth-child(even) td{background-color: rgba(0,0,0, 0.02);}
+td {border-width: 0; padding: 13px 15px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 16px; line-height: 24px;}
+table tr:nth-child(odd) td{background-color: rgba(0,0,0, 0.02);}
 table tr:last-child td{border-bottom: none;}
+th:first-child{border-radius: 8px 0 0 0}
+th:last-child{border-radius: 0 8px 0 0;}
+td:first-child{border-radius: 0 0 0 8px}
+td:last-child{border-radius: 0 0 8px 0;}
 
-caption, th, td {text-align: left;}
+caption, td, th{text-align: left;}
 del {color: var(--Foreground);}
 hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; border-radius: 2px; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); }
 ::selection {background-color: var(--Foreground); color: var( --White);}
