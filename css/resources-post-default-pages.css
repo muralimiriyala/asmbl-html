@@ -51,7 +51,8 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .resource-post-main{gap: 80px; padding: 176px 0 80px;}
+    .resource-post-section{ padding: 176px 0 80px;}
+    .resource-post-main{gap: 80px;}
     .resource-post-article{flex: 1;}
     .resource-post-aside{flex: 0 0 300px; height: auto;}
 

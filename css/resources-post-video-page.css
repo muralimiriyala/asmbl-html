@@ -15,7 +15,8 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .post-video-main{gap: 80px; padding: 175px 0 79px;}
+    .post-video-section{padding: 175px 0 79px;}
+    .post-video-main{gap: 80px;}
     .post-video-article{flex: 1;}
-    .post-video-aside{flex: 0 0 300px; padding-top: 21px;}
+    .post-video-aside{flex: 0 0 300px;}
 }

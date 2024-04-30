@@ -1,8 +1,8 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-	typeof define === 'function' && define.amd ? define(['exports'], factory) :
-	(factory((global.StickySidebar = {})));
-}(this, (function (exports) { 'use strict';
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.StickySidebar = factory());
+}(this, (function () { 'use strict';
 
 var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -680,13 +680,71 @@ var stickySidebar = createCommonjsModule(function (module, exports) {
 });
 });
 
-var stickySidebar$1 = unwrapExports(stickySidebar);
+unwrapExports(stickySidebar);
 
-exports['default'] = stickySidebar$1;
-exports.__moduleExports = stickySidebar;
+var jquery_stickySidebar = createCommonjsModule(function (module, exports) {
+(function (global, factory) {
+  if (typeof undefined === "function" && undefined.amd) {
+    undefined(['./sticky-sidebar'], factory);
+  } else {
+    factory(stickySidebar);
+  }
+})(commonjsGlobal, function (_stickySidebar) {
+  var _stickySidebar2 = _interopRequireDefault(_stickySidebar);
 
-Object.defineProperty(exports, '__esModule', { value: true });
+  function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+      default: obj
+    };
+  }
+
+  (function () {
+    if ('undefined' === typeof window) return;
+
+    var plugin = window.$ || window.jQuery || window.Zepto;
+    var DATA_NAMESPACE = 'stickySidebar';
+
+    // Make sure the site has jquery or zepto plugin.
+    if (plugin) {
+      var _jQueryPlugin = function (config) {
+        return this.each(function () {
+          var $this = plugin(this),
+              data = plugin(this).data(DATA_NAMESPACE);
+
+          if (!data) {
+            data = new _stickySidebar2.default(this, typeof config == 'object' && config);
+            $this.data(DATA_NAMESPACE, data);
+          }
+
+          if ('string' === typeof config) {
+            if (data[config] === undefined && ['destroy', 'updateSticky'].indexOf(config) === -1) throw new Error('No method named "' + config + '"');
+
+            data[config]();
+          }
+        });
+      };
+
+      plugin.fn.stickySidebar = _jQueryPlugin;
+      plugin.fn.stickySidebar.Constructor = _stickySidebar2.default;
+
+      var old = plugin.fn.stickySidebar;
+
+      /**
+       * Sticky Sidebar No Conflict.
+       */
+      plugin.fn.stickySidebar.noConflict = function () {
+        plugin.fn.stickySidebar = old;
+        return this;
+      };
+    }
+  })();
+});
+});
+
+var jquery_stickySidebar$1 = unwrapExports(jquery_stickySidebar);
+
+return jquery_stickySidebar$1;
 
 })));
 
-//# sourceMappingURL=sticky-sidebar.js.map
+//# sourceMappingURL=jquery.sticky-sidebar.js.map
