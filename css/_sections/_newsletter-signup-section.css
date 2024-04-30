@@ -20,7 +20,7 @@
     .newsletter-field.frm_last{margin-right: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
-    .newsletter-main{display: block; padding: 80px 0;} 
+    .newsletter-main{display: block; padding: 40px 48px 26px; background-image: url("./images/newsletter-bg.svg"); background-position: center;} 
     .newsletter-text{margin-bottom: 3rem;}
     .newsletter-field{width: calc(50% - 10px); margin: 0 10px 20px; float: left;}
     .newsletter-field.frm_first{margin-left: 0;}
