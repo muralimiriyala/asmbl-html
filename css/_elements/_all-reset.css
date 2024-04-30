@@ -227,7 +227,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--accent);}
 .inverted dl dt::before{background-color: var( --White);}
 .inverted p a{color: var( --White);}
-.inverted p a:hover{color: var(--accent);}
+.inverted p a:hover{color: var(--Orange);}
 
 .line-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
 .clamp-3{ -webkit-line-clamp: 3; }
@@ -237,11 +237,11 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 1.25rem; line-height: 1.25rem; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease;}
 div.slick-arrow::after{display: none;}
 div.slick-arrow:hover{background-color: var(--Navy);}
-div.slick-arrow.slick-disabled{opacity: 0.5;color: var( --White); background-color: var(--accent);}
+div.slick-arrow.slick-disabled{opacity: 0.5;color: var( --White); background-color: var(--Blue-Tint);}
 
 ul.slick-dots{margin: 0; gap: 8px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
 ul.slick-dots li{margin: 0; width: 16px; height: 16px; border-radius: 50%; background-color: var( --White); cursor: pointer;}
-ul.slick-dots li::before{opacity: 0; width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: var(--accent); border-radius: 50%;}
+ul.slick-dots li::before{opacity: 0; width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: var(--Blue); border-radius: 50%;}
 ul.slick-dots li.slick-active::before{opacity: 1;}
 ul.slick-dots li button{display: none;}
 
