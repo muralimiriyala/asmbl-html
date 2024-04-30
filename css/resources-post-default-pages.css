@@ -22,28 +22,9 @@
 .blockquote-svg svg{max-width: 44px; max-height: 44px;}
 .resource-post-article .accordion-main{padding: 37px 0 46px;}
 
-
-
 .avatar-main{padding-top: 47px; margin-top: 47px; border-top: 1px solid var(--Orange);}
 .avatar-text span{margin-bottom: 10px; display: block;}
 .avatar-text p{margin-bottom: 6px;}
-
-
-
-/* media css starts here */
-@media screen and (min-width: 1024px){
-    body.page-template-post-video .post-date-wrap{margin-bottom: 39px;}
-}
-@media only screen and (max-width: 739px) and (min-width: 200px){
-    .post-date-wrap{margin-bottom: 32px;}
-    .post-blocks-main {
-        margin: 31px 0 48px;
-    }
-    .post-blocks-left { max-width: 84px; height: 24px; }
-    .post-blocks-right{max-width: 100px; height: 25px;}
-}
-
-
 
 .aside-sticky{will-change: min-height;}
 .sticky-sidebar{ transform: translate(0, 0); transform: translate3d(0, 0, 0); will-change: position, transform;}
@@ -59,20 +40,12 @@
     .avatar-main{gap: 32px;}
     .avatar-image{flex: 0 0 160px;}
     .avatar-text{flex: 1;}
+    body.page-template-post-video .post-date-wrap{margin-bottom: 39px;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .post-date-wrap{margin-bottom: 32px;}
+    .post-blocks-main { margin: 31px 0 48px; }
+    .gated-post-section .post-blocks-main{margin-bottom: 32px;}
+    .post-blocks-left { max-width: 84px; height: 24px; }
+    .post-blocks-right{max-width: 100px; height: 25px;}
+}
