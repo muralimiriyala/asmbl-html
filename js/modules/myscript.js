@@ -1,30 +1,8 @@
 jQuery(document).ready(function($){
 
-    $(".humburger-btn").on("click", function(e){
-        e.preventDefault();
-        $(this).toggleClass("open");
-        $(".h_mobile_overlay").toggleClass("open");
-        $(".header_right").slideToggle(900);
-    });
 
-    if($(window).width() <= 1023){
-        let level1 = $("ul.main_menu > li.menu-item-has-children > a");
-        level1.on("click", function(e){
-            e.preventDefault();
-            $(this).parent("li").siblings().toggleClass("sib").fadeToggle(100);
-            $(this).parent("li").siblings().children("a").removeClass("active");
-            $(this).toggleClass("active");
-            $(this).parent("li").siblings().children("ul").slideUp(800);
-            $(this).siblings("ul").slideToggle(800);
-        });
-        let level2 = $("ul.main_menu > li.menu-item-has-children > ul > li > a");
-        level2.on("click", function(e){
-            e.preventDefault();
-            $(this).parent("li").siblings().children("ul").slideUp(800);
-            $(this).siblings("ul").slideToggle(800);
-        });
-    }
 
+  
     $('.accordion-header').on('click', function(e){
         e.preventDefault();
         $(this).parent().toggleClass('active');

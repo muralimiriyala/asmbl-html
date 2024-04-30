@@ -41,6 +41,7 @@ body .sidebar-cta-form .selectBox-dropdown{font-size: 14px; line-height: 20px; f
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .gated-post-section{padding: 119px 0 37px; }
     .gated-post-main{display: block;}
+    .gated-post-article{margin-bottom: 37px;}
     .gated-post-article h1{font-size: 32px; line-height: 40px;}
     .gated-post-article p span{font-size: 20px; line-height: 30px; }
 
