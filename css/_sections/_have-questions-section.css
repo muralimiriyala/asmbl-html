@@ -1,7 +1,8 @@
 
 
 .have-q-head{margin-bottom: 31px;}
-.have-q-icon{margin-bottom: 16px;}
+.have-q-icon{margin-bottom: 23px; max-width: 46px; max-height: 43px;}
+.have-q-icon figure, .have-q-icon svg{width: 100%; height: 100%; object-fit: contain;}
 
 
 /* media css starts here */

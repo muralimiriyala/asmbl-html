@@ -1,6 +1,12 @@
 
-.as-feature-icon{margin-bottom: 8px; max-width: 46px;}
-.as-feature-icon svg{max-width: 46px;}
+.as-feature-icon{margin-bottom: 17px; max-width: 46px; max-height: 46px;}
+.as-feature-icon figure, .as-feature-icon svg{width: 46px; height: 46px;}
+.as-feature-icon figure img{object-fit: contain;}
+.as-icon-block { width: 14px; height: 14px; top: -8px; right: -9px; opacity: 0; background-color: var(--Background); transition: all 0.5s ease; z-index: -1; }
+.as-icon-block.sm { width: 6px; height: 6px; top: -13px; right: -15px; }
+.as-feature-list:hover .as-icon-block{ opacity: 1; }
+.as-feature-list:hover .as-icon-block:not(.sm) { width: 62px; height: 62px; right: -8px; top: -8px; }
+
 .as-feature-text h2{margin-bottom: 14px; color: var(--Navy);}
 span.rule{width: 1px; height: 50px;opacity: 0.4; background: var(--Blue, #1335AF); display: block;}
 
