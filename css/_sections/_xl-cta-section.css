@@ -1,0 +1,14 @@
+
+.xl-cta-main{ background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; background-image: url('./images/cta-micro@2x.jpg'); }
+
+
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+}
+
+
+
+
+
+

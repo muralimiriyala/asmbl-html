@@ -27,8 +27,7 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
     .categories-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .categories-list:hover .categories-btn{opacity: 1; transform: translateY(0);}
     
-    body.page-template-gated-post .categories-list{border-left-color: var(--White);}
-    body.page-template-post-video .categories-list{border-left-color: var(--White);}
+    .gray-bg .categories-list{border-left-color: var(--White);}
 }
 @media only screen and (min-width: 740px){
     .categories-icon{margin-bottom: 20px; min-height: 42px;}
@@ -43,8 +42,7 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
     .categories-list:nth-child(odd){ border-left: none; padding-right: 64px;}
     .categories-list:nth-child(even){border-right: none; padding-left: 64px;}
 
-    body.page-template-gated-post .categories-list{border-left-color: var(--White);}
-    body.page-template-post-video .categories-list{border-left-color: var(--White);}
+    .gray-bg .categories-list{border-left-color: var(--White);}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     ul.optional-tag.absolute{position: static; padding: 23px 20px 0;}
@@ -54,8 +52,7 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
     .categories-row{display: block; margin-bottom: 40px;}
     .categories-list:not(:last-child){padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid var(--Elevated, #F0F2FA);}
     body.page-template-resources .categories-list{border-bottom-color: var(--White);}
-    body.page-template-gated-post .categories-list{border-bottom-color: var(--White);}
-    body.page-template-post-video .categories-list{border-bottom-color: var(--White);}
+    .gray-bg .categories-list{border-bottom-color: var(--White);}
 }
 
 
