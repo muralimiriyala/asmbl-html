@@ -7,11 +7,15 @@ jQuery(document).ready(function($){
     });
     $(".res-dropdown").on('click', function(e){
         e.preventDefault();
-
         $(this).parent().siblings(".res-dropdown-pos").find(".res-dropdown").removeClass("open");
         $(this).toggleClass("open");
         $(this).parent().siblings(".res-dropdown-pos").find(".res-tags-list").fadeOut(500);
         $(this).siblings(".res-tags-main").find(".res-tags-list").fadeToggle(500);
-      
     });
+    // $("body").on("click", function(e){
+    //     if(!$(e.target).closest("button.res-srch-icon, .res-srch-form, res-dropdown-main").length){
+    //         $(".res-dropdown-main").removeClass('fade');
+    //         $(".res-srch-form").removeClass("open");
+    //     }
+    // });
 });
