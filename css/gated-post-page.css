@@ -51,7 +51,17 @@ body .sidebar-cta-form .selectBox-dropdown{font-size: 14px; line-height: 20px; f
     .gated-point-icon{max-width: 32px; min-height: 32px; margin-bottom: 16px;}
     .gated-point-icon svg{max-width: 32px; max-height: 32px;}
     .gated-point-list h4{font-size: 20px; line-height: 25px;}
-}
+
+    .cta-resource-bg{padding: 24px; top: 0%; left: 0; width: 100%; height: 100%;transform: translateY(100%); transition: all 0.5s ease; position: fixed; z-index: 800;}
+    .cta-resource-bg.open{transform: translateY(0);}
+    .cta-resource-overlay{ top: 0; left: 0; width: 100%; height: 100%; opacity: 0.75; background-color: var(--Navy); position: fixed; z-index: 800;}
+    .cta-resource-mobile{width: 100%; height: 100%; position: relative; z-index: 805; overflow-y: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: none; scrollbar-width: none; }
+    .cta-resource-mobile::-webkit-scrollbar { display: none; }
+    .cta-resource-close{top: 22px; right: 24px; font-size: 30px; line-height: 40px; cursor: pointer;}
+    .cta-resource-close:hover{background-image: linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+    .sidebar-cta-resource span.optional-text{padding-right: 30px;}
+    html.cta-scroll-hide, html.cta-scroll-hide body{overflow: hidden;}
+}   
 
 
 
