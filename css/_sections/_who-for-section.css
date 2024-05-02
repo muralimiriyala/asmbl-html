@@ -5,7 +5,7 @@
 .industry-slide-text h2{margin-bottom: 16px; color: var(--Navy);}
 .industry-slide-icon{margin-bottom: 17px; min-height: 46px; max-width: 46px;}
 
-.industry-slide{padding: 21px 44px 23px; border-left: 2px solid var(--White);}
+.industry-slide{border-left: 2px solid var(--White);}
 
 
 /* media css starts here */
@@ -22,13 +22,13 @@
     
     
     .industry-slider{border-right: 2px solid var(--White);}
-    .industry-slide{flex: 0 0 calc(25%)}
+    .industry-slide{flex: 0 0 calc(25%); padding: 21px 44px 23px; }
     .industry-slide.slick-slide{width: 321px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .industry-slider.slick-slider{padding: 0 0 32px 2px;}
     .industry-slider.slick-slider .slick-list{overflow: inherit;}
-    .industry-slide.slick-slide{width: 298px; padding: 2px 21px 0px;}
+    .industry-slide.slick-slide{width: 298px; padding: 12px 32px 13px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
 
