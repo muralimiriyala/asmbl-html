@@ -1,14 +1,15 @@
-document.addEventListener("DOMContentLoaded", function (){
-   const _ctabtn = document.querySelector(".get-resource-main");
-   const _ctacolse = document.querySelector(".cta-resource-close");
-   _ctabtn.addEventListener("click", function(e){
+jQuery(document).ready(function($){
+    const _ctabtn = $(".get-resource-main");
+    const _ctacolse = $(".cta-resource-close");
+    _ctabtn.on("click", function(e){
         e.preventDefault();
-        document.querySelector("html").classList.toggle("cta-scroll-hide");
-        document.querySelector(".cta-resource-bg").classList.toggle("open");
+        $("html").toggleClass("cta-scroll-hide");
+        $(".cta-resource-bg").toggleClass("open");
     });
-    _ctacolse.addEventListener("click", function(e){
+    _ctacolse.on("click", function(e){
         e.preventDefault();
-        document.querySelector("html").classList.remove("cta-scroll-hide");
-        document.querySelector(".cta-resource-bg").classList.remove("open");
+        $("html").removeClass("cta-scroll-hide");
+        $(".cta-resource-bg").removeClass("open");
     });
 });
+ 

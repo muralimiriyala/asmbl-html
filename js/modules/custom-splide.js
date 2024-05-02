@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const test = document.querySelector(".splide");
-    if(test !== null){ // Checking if test is not null
+    console.log("1234", test)
+    if(test !== null){ 
         new Splide(test, {
             type: "loop",
             drag: "free",
