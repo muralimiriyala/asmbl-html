@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     const test = document.querySelector(".splide");
-    console.log("1234", test)
     if(test !== null){ 
         new Splide(test, {
             type: "loop",

@@ -238,10 +238,13 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .white-bg{background-color: var( --White);}
 
-div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 1.25rem; line-height: 1.25rem; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease;}
+div.slick-arrow{width: 48px; height: 48px; padding: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease; border-radius: 8px; background: linear-gradient(300deg, #182A54 0%, #1335AF 100%); }
 div.slick-arrow::after{display: none;}
 div.slick-arrow:hover{background-color: var(--Navy);}
-div.slick-arrow.slick-disabled{opacity: 0.5;color: var( --White); background-color: var(--Blue-Tint);}
+div.slick-arrow.slick-disabled{opacity: 0; visibility: hidden;}
+span.slick-arrows{width: 30px; height: 20px; background-image: url('images/slick-arrow.svg'); background-repeat: no-repeat; background-size: contain;}
+span.slick-prev-arrow{ transform: scaleX(-1); }
+
 
 ul.slick-dots{margin: 0; gap: 8px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
 ul.slick-dots li{margin: 0; width: 16px; height: 16px; border-radius: 50%; background-color: var( --White); cursor: pointer;}
@@ -263,9 +266,9 @@ ul.slick-dots li button{display: none;}
     .hide-desktop{display: none;}
     span.hide-desktop{display: none;}
     .text-md-right{text-align: right;}
-    div.slick-arrow{top: -80px;}
-    div.slick-arrow.slick-next{right: 0;}
-    div.slick-arrow.slick-prev{right: 58px;}
+
+    div.slick-arrow.slick-next{left: auto; right: -24px;}
+    div.slick-arrow.slick-prev{right: auto; left: -24px;}
 }
 @media only screen and (max-width: 1330px) and (min-width: 740px){
     .container:not(.sm){padding: 0 32px;}
@@ -273,9 +276,11 @@ ul.slick-dots li button{display: none;}
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .hide-tablet{display: none;}
 
-    div.slick-arrow{top: -104px;}
-    div.slick-arrow.slick-next{right: 0;}
-    div.slick-arrow.slick-prev{right: 58px;}
+    
+
+    div.slick-arrow{top: auto; transform: none; bottom: -48px;}
+    div.slick-arrow.slick-next{left: auto; right: 0;}
+    div.slick-arrow.slick-prev{right: auto; left: 0;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .container{padding: 0 24px;}
@@ -289,4 +294,10 @@ ul.slick-dots li button{display: none;}
 
     .line-m-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
     .m-clamp-3{ -webkit-line-clamp: 3; }
+
+
+    div.slick-arrow{top: auto; transform: none; bottom: -48px;}
+    div.slick-arrow.slick-next{left: auto; right: 0;}
+    div.slick-arrow.slick-prev{right: auto; left: 0;}
+
 }
