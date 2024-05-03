@@ -2,23 +2,26 @@
 
 
 .client-logos-gray{height: 50%;}
-.client-logos-main{padding: 33px; background: linear-gradient(300deg, #182A54 0%, #1335AF 100%);}
-.client-logo-thumb img{border: 1px solid rgba(217, 223, 242, 0.75);}
+.client-logos-main{background: var(--Background, #F0F2FA);}
+.client-logos-main.inverted{background: linear-gradient(300deg, #182A54 0%, #1335AF 100%);}
+/* .client-logo-thumb img{border: 1px solid rgba(217, 223, 242, 0.75); border-radius: 8px;} */
+.client-logo-thumb img{border-radius: 8px;}
+
 .client-logos-slider{width: 64px;}
 .client-logo-slide{margin: 4px 0;}
-
+.client-logos-text span.optional-text{margin-bottom: 4px; font-size: 16px; line-height: 20px;}
 
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
-    .client-logos-main{gap: 33px;}
+    .client-logos-main{gap: 33px; padding-right: 63px;}
+    .client-logos-left{flex: 1; padding: 45px 33px 42px; gap: 33px;}
     .client-logos-icons{width: 46px; height: 46px;}
     .client-logos-text{flex: 1;}
-    .client-logos-right{flex: 0 0 280px;}
+    .client-logos-right{flex: 0 0 280px; gap: 8px;}
 
 }
 @media screen and (min-width: 1024px){
-
 }
 
 
