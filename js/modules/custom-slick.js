@@ -11,7 +11,6 @@ jQuery(document).ready(function($){
         focusOnSelect: true,
         // dots: false,
     });
-
 });
 
 const pageSlider = $(".industry-slider");
