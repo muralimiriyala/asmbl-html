@@ -1,10 +1,13 @@
 .who-for-text h2{color: var(--Navy);}
 .who-for-text span.optional-text{margin-bottom: 26px; opacity: 1;}
+ul.who-for-tabs{margin: 0;}
+ul.who-for-tabs li::before{display: none;}
+ul.who-for-tabs li{display: block; margin: 0;}
+ul.who-for-tabs li a{padding: 12px; color: var(--Navy, #182A54); font-size: 16px; line-height: 24px;}
 
 .industry-slide-text{color: var(--Foreground, #313031);}
 .industry-slide-text h2{margin-bottom: 16px; color: var(--Navy);}
 .industry-slide-icon{margin-bottom: 17px; min-height: 46px; max-width: 46px;}
-
 .industry-slide{border-left: 2px solid var(--White);}
 
 

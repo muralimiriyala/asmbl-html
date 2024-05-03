@@ -13,9 +13,6 @@
 .share-icons #st-1.st-animated img{display: none;}
 .share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 2rem;}
 
-.footer-social-icons .share-icons{margin: 0;}
-.footer-social-icons .share-icons #st-1.st-animated{gap: 16px;}
-.footer-social-icons .share-icons #st-1.st-animated .st-btn{min-width: 40px; width: 40px; height: 40px;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
