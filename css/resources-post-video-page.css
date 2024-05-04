@@ -9,9 +9,9 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .post-video-section{padding: 175px 0 79px;}
+    .post-video-section{padding: 175px 0 74px;}
     .post-video-main{gap: 80px;}
-    .post-video-article{flex: 1;}
+    .post-video-article{flex: 1; margin-top: -6px;}
     .post-video-aside{flex: 0 0 300px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
