@@ -2,7 +2,7 @@
 .newsletter-overlay{height: 108px; background: var(--Background, #F0F2FA);}
 .newsletter-main{ background-image: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-size: cover; background-repeat: no-repeat;}
 .newsletter-field-wrap{clear: both;}
-.newsletter-form input{padding: 22px 20px; font-weight: 700; background-color: var(--White); color: var(--Foreground, #313031);}
+.newsletter-form input{padding: 22px 60px 22px 20px; font-weight: 700; background-color: var(--White); color: var(--Foreground, #313031);}
 .newsletter-submit { right: 12px; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; position: absolute; }
 .newsletter-submit button{width: 100%; height: 100%; padding: 0; border-radius: 6px; background: var(--Blue-Tint, #D9DFF2); font-size: 0; line-height: 0; }
 .newsletter-submit button:hover{background-color: var(--Orange);}
@@ -15,10 +15,13 @@
     .newsletter-wrap{padding: 0 0 80px;}
     .newsletter-main{gap: 168px; padding: 32px 48px 14px; background-image: url("./images/newsletter-bg.svg");} 
     .newsletter-text{flex: 0 0 540px;}
-    .newsletter-signup{flex: 1;}
+    .newsletter-signup{flex: 1; max-width: 476px; margin-left: auto;}
     .newsletter-field{width: calc(50% - 10px); margin: 0 10px 20px; float: left;}
     .newsletter-field.frm_first{margin-left: 0;}
     .newsletter-field.frm_last{margin-right: 0;}
+}
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .newsletter-main{gap: 32px; padding: 32px 32px 14px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .newsletter-main{display: block; padding: 40px 48px 26px; background-image: url("./images/newsletter-bg.svg"); background-position: center;} 
