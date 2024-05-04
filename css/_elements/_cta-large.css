@@ -40,7 +40,6 @@
     .cta-large-btns{gap: 16px; justify-content: center;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    
     .cta-large-main{padding: 38px 24px 32px; display: block; background-image: url('./images/cta-micro-mobile@2x.jpg'); background-position: bottom center;}
     .cta-large-image{max-width: 528px; margin: auto;}
     .cta-large-text{margin: 23px auto 0; max-width: 528px; text-align: center; }

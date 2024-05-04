@@ -30,6 +30,7 @@
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
     .key-integration-main{padding: 40px 0;}
+    body.page-template-integrations-landing .key-integration-main{padding: 38px 0 40px;}
     .key-intro-head{margin-bottom: 64px; display: block;}
     .key-intro-title{margin-bottom: 39px;}
     .key-intro-desc{padding: 24px 0 22px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}

@@ -1,10 +1,12 @@
 
 jQuery(document).ready(function($){
-    $("button.res-srch-icon").on('click', function(e){
-        e.preventDefault();
-        $(".res-dropdown-main").toggleClass('fade');
-        $(".res-srch-form").toggleClass("open");
-    });
+
+    // $("button.res-srch-icon").on('click', function(e){
+    //     e.preventDefault();
+    //     $(".res-dropdown-main").toggleClass('fade');
+    //     $(".res-srch-form").toggleClass("open");
+    // });
+
     $(".res-dropdown").on('click', function(e){
         e.preventDefault();
         $(this).parent().siblings(".res-dropdown-pos").find(".res-dropdown").removeClass("open");
@@ -19,3 +21,16 @@ jQuery(document).ready(function($){
     //     }
     // });
 });
+
+function srchResize(){
+    if (window.matchMedia('(min-width: 740px)').matches) {
+        $("button.res-srch-icon").on('click', function(e){
+            e.preventDefault();
+            $(".res-dropdown-main").toggleClass('fade');
+            $(".res-srch-form").toggleClass("open");
+        });
+    } 
+}
+jQuery(document).on("ready", function(){srchResize($)});
+jQuery(document).on("load", function(){srchResize($)});
+jQuery(document).on("resize", function(){srchResize($)});
