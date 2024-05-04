@@ -7,6 +7,7 @@
 @media screen and (min-width: 1024px){
     body.home .trust-by-main{padding: 14px 0 92px;}
     body.home .trust-by-text{padding-top: 5px;}
+    body.page-template-demo .trust-by-main{padding-top: 72px;}
     body.page-template-pricing .trust-by-main{padding: 55px 0 56px;}
     .trust-by-main{gap: 32px; padding: 24px 0 72px;}
     .trust-by-text{flex: 0 0 144px; padding-top: 17px;}

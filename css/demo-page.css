@@ -6,7 +6,7 @@ ul.demo-options{margin: 0;}
 ul.demo-options > li::before{display: none;}
 ul.demo-options > li{gap: 8px; margin-bottom: 17px;}
 ul.demo-options > li figure, ul.demo-options > li svg{width: 23px; height: auto;}
-ul.demo-options > li span{flex: 1; gap: 4px;}
+ul.demo-options > li span{flex: 1; gap: 8px;}
 
 
 /* media css starts here */
