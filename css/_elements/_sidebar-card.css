@@ -17,7 +17,9 @@
 .sidebar-cta-download a svg{width: 12px;}
 .sidebar-cta-download a:hover svg{animation: scrollDown 1s forwards ease-in-out;}
 
-
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .sidebar-card-cta{padding: 32px;}
+}
 
 
 

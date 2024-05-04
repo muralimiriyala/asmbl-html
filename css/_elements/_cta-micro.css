@@ -23,9 +23,22 @@
 
 
 /* media css starts here */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1200px){
     .cta-micro-main{gap: 108px;}
     .cta-micro-text{flex: 1; max-width: 340px; margin-right: auto;}
     .cta-micro-image{flex: 0 0 334px; max-width: 334px;}
-
+}
+@media only screen and (max-width: 1299px) and (min-width: 1200px){
+    .cta-micro-main{gap: 32px; padding: 47px 32px;}
+}
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+    .cta-micro-main{gap: 32px; padding: 38px 32px 50px; flex-direction: column;}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .cta-micro-main{padding: 25px 24px 23px; margin-bottom: 4px; display: block;}
+    .cta-micro-image{margin-bottom: 23px;}
+    .cta-micro-files{padding: 8px;}
+    .cta-micro-details{font-size: 9px; line-height: 13px;}
+    .cta-micro-details span{font-size: 12px; line-height: 18px;}
+    .cta-micro-download{width: 30px; height: 30px;}
 }

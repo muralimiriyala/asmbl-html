@@ -8,7 +8,7 @@
 .default-article h3:not(.mini-cta-text h3){padding-top: 30px; margin-bottom: 19px;}
 .default-article h4{margin-bottom: 20px;}
 .image-caption-main{margin: 57px 0 140px;}
-.image-caption-text{ width: calc(100% - 80px); left: 40px; bottom: -53px; padding: 24px; background: rgba(240, 242, 250, 0.75); backdrop-filter: blur(4px); color: var(--Navy, #182A54); }
+.image-caption-text{ width: calc(100% - 80px); left: 40px; bottom: -53px; padding: 24px 24px 6px; background: rgba(240, 242, 250, 0.75); backdrop-filter: blur(4px); color: var(--Navy, #182A54); }
 .image-caption-box{width: 40px; height: 40px; bottom: -40px; right: -40px; background: var(--Background, #F0F2FA);}
 .article-cta-link{margin: 46px 0 43px; gap: 20px;}
 .article-cta-link-rule{width: 4px; height: 31px; background-color: var(--Orange);}
@@ -20,15 +20,11 @@
 .mini-cta-links{flex: 0 0 132px; gap: 11px; flex-direction: column; text-align: center;}
 
 .default-article .accordion-main{margin: 54px 0 46px;}
-
 .default-aside h3{margin-bottom: 20px; color: var(--Navy);}
 .default-aside hr{margin-bottom: 17px;}
 ul.aside-links{margin: 0 0 39px;}
 ul.aside-links li{margin: 0 0 17px;}
 ul.aside-links li::before{display: none;}
-
-
-
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
@@ -37,7 +33,11 @@ ul.aside-links li::before{display: none;}
     .default-article{flex: 1;}
     .default-aside{flex: 0 0 300px;}
 }
-
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .image-caption-main{margin: 41px 0 32px;}
+    .image-caption-text{ padding: 16px 16px 2px; width: calc(100% - 32px); left: 16px; top: -16px; position: relative; }
+    .image-caption-box{width: 16px; height: 16px; bottom: -16px; right: -16px;}
+}
 
 
 

@@ -5,13 +5,15 @@
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
-    .categories-list{flex: 0 0 calc(25%); padding: 21px 50px 12px 60px; border-left: 1px solid var(--Elevated, #F0F2FA);}
-    .categories-list:nth-child(4n+1){padding-left: 20px; padding-right: 100px; border-left: none;}
+    .categories-list{flex: 0 0 calc(25%); padding: 21px 50px 12px 60px;}
+    .categories-list:nth-child(4n+1){padding-left: 20px; padding-right: 100px;}
     .categories-list:nth-child(4n+4){padding-right: 32px; border-right: none;}
 }
 @media screen and (min-width: 1024px){
     .categories-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .categories-list:hover .categories-btn{opacity: 1; transform: translateY(0);}
+    .categories-list{ border-left: 1px solid var(--Elevated, #F0F2FA);}
+    .categories-list:nth-child(4n+1){border-left: none;}
     .gray-bg .categories-list{border-left-color: var(--White);}
 }
 @media only screen and (min-width: 740px){

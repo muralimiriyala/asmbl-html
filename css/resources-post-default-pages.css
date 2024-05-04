@@ -14,7 +14,7 @@
 /* .post-blocks-overlay{background-image: linear-gradient(248deg, rgba(19, 53, 175, 0.75) 2.57%, rgba(0, 148, 255, 0.00) 99.97%); background-blend-mode: overlay, normal;} */
 .subtle-link{margin: 49px 0 48px; padding-left: 20px; border-left: 4px solid var(--Orange, #F9662D);}
 .subtle-link span{top: -2px; position: relative;}
-.subtle-link svg{margin-left: 9px;}
+.subtle-link svg{margin-left: 9px; min-width: 25px;}
 .blockquote-small{gap: 20px;}
 .quote-small-img{width: 48px;}
 .quote-small-text{padding-left: 16px; flex: 1; border-left: 1px solid var(--Orange); color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
@@ -32,9 +32,9 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .resource-post-section{ padding: 176px 0 80px;}
+    .resource-post-section{ padding: 196px 0 80px;}
     .resource-post-main{gap: 80px;}
-    .resource-post-article{flex: 1;}
+    .resource-post-article{flex: 1; margin-top: -20px;}
     .resource-post-aside{flex: 0 0 300px; height: auto;}
 
     .avatar-main{gap: 32px;}
@@ -42,10 +42,30 @@
     .avatar-text{flex: 1;}
     body.page-template-post-video .post-date-wrap{margin-bottom: 39px;}
 }
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .resource-post-main{padding: 132px 0 80px; display: block;}
+    .resource-post-article:not(:last-child){padding-bottom: 50px;}
+}
 @media only screen and (max-width: 739px) and (min-width: 200px){
+    .resource-post-main{padding: 119px 0 38px; display: block;}
+    .resource-post-article:not(:last-child){padding-bottom: 40px;}
+    .resource-post-article h1{font-size: 32px; line-height: 40px;}
+    .resource-post-article p span{font-size: 20px; line-height: 30px;}
+    .resource-post-article h3{padding-top: 14px; font-size: 24px; line-height: 30px;}
+    .resource-post-article h4{margin-bottom: 19px;}
+
     .post-date-wrap{margin-bottom: 32px;}
-    .post-blocks-main { margin: 31px 0 48px; }
-    .gated-post-section .post-blocks-main{margin-bottom: 32px;}
+    .post-blocks-main { margin: 31px 0 32px; }
     .post-blocks-left { max-width: 84px; height: 24px; }
     .post-blocks-right{max-width: 100px; height: 25px;}
+
+    .subtle-link { margin: 32px 0 29px; }
+    .resource-post-article .accordion-main{padding: 22px 0 32px;}
+
+    .avatar-main{margin-top: 30px; padding-top: 30px; display: block;}
+    .avatar-image{max-width: 160px; margin-bottom: 23px;}
+    .avatar-text p{margin-bottom: 11px;}
+
+
+
 }
