@@ -200,5 +200,7 @@ body .demo-form .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_ra
     .frm_form_field_wrapper{display: block;}
     .frm_forms .frm_form_fields .frm_submit{margin-top: 16px;}
 
+    body .get-answer-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin-top: 17px;}
     body .demo-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 10px;}
+
 }
