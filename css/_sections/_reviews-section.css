@@ -1,10 +1,9 @@
 
 
-
+.reviews-title h2{color: var(--Navy);}
 .reviews-text{padding: 40px;}
 .reviews-block{left: -40px; top: 0;}
 .reviews-text.gray-bg:before{background-color: var(--White);}
-.reviews-text:before{width: 32px; height: 32px; top: -0.001px; left: 0; position: absolute; background: var(--Background, #F0F2FA); content: ""; display: block;}
 .reviews-text span{margin-bottom: 20px; font-size: 20px; line-height: 36px; font-weight: 500; font-family: "arboria", sans-serif; color: var(--Blue); display: block;}
 .reviews-text span::before { content: "“"; }
 .reviews-text span::after{content: "”";}
@@ -13,25 +12,56 @@
 
 
 /* media css starts here */
+@media screen and (min-width: 740px){
+    .reviews-text:before{width: 32px; height: 32px; top: -0.001px; left: 0; position: absolute; background: var(--Background, #F0F2FA); content: ""; display: block;}
+
+}
 @media screen and (min-width: 1024px){
-    body.page-template-industry-detail .reviews-main{padding-bottom: 80px;}
-    body.page-template-marketing-lp .reviews-main{padding-bottom: 80px;}
-    body.home .reviews-main{padding-bottom: 80px;}
-    .reviews-main{padding: 40px 0 40px; gap: 40px; align-items: flex-start;}
-    .repeater-section .reviews-main{padding: 56px 0 55px;}
+    body.page-template-industry-detail .reviews-row{padding-bottom: 80px;}
+    body.page-template-marketing-lp .reviews-row{padding-bottom: 80px;}
+    body.home .reviews-row{padding-bottom: 80px;}
+    .reviews-row{padding: 40px 0 40px; gap: 40px; align-items: flex-start;}
+    .repeater-section .reviews-row{padding: 56px 0 55px;}
     .reviews-image{flex: 0 0 160px;}
     .reviews-text{flex: 1;}
-    .testimonials-row .reviews-main{padding: 0 0 40px;}
-    body.page-template-product-landing .testimonials-row .reviews-main:last-child{padding: 0;}
-    .reviews-main:nth-child(even){flex-direction: row-reverse;}
-    .reviews-main:nth-child(even) .reviews-text:before{right: 0; left: auto;}
-    .reviews-main:nth-child(even) .reviews-block { right: -40px; left: auto; }
+    .testimonials-row .reviews-row{padding: 0 0 40px;}
+    body.page-template-product-landing .testimonials-row .reviews-row:last-child{padding: 0;}
+    .reviews-row:nth-child(even){flex-direction: row-reverse;}
+    .reviews-row:nth-child(even) .reviews-text:before{right: 0; left: auto;}
+    .reviews-row:nth-child(even) .reviews-block { right: -40px; left: auto; }
 
-    .reviews-main.reverse{flex-direction: row-reverse;}
-    .reviews-main.reverse .reviews-text:before{right: 0; left: auto;}
-    .reviews-main.reverse .reviews-block { right: -40px; left: auto; }
+    .reviews-row.reverse{flex-direction: row-reverse;}
+    .reviews-row.reverse .reviews-text:before{right: 0; left: auto;}
+    .reviews-row.reverse .reviews-block { right: -40px; left: auto; }
 }
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    body.page-template-industry-detail .reviews-row{padding-bottom: 80px;}
+    body.page-template-marketing-lp .reviews-row{padding-bottom: 80px;}
+    body.home .reviews-row{padding-bottom: 80px;}
+    .reviews-row{padding: 40px 0 40px; gap: 40px; align-items: flex-start;}
+    .repeater-section .reviews-row{padding: 56px 0 55px;}
+    .reviews-image{flex: 0 0 160px;}
+    .reviews-text{flex: 1;}
+    .reviews-text span{font-size: 20px; line-height: 32px;}
+    .testimonials-row .reviews-row{padding: 0 0 40px;}
+    body.page-template-product-landing .testimonials-row .reviews-row:last-child{padding: 0;}
+    .reviews-row:nth-child(even){flex-direction: row-reverse;}
+    .reviews-row:nth-child(even) .reviews-text:before{right: 0; left: auto;}
+    .reviews-row:nth-child(even) .reviews-block { right: -40px; left: auto; }
 
+    .reviews-row.reverse{flex-direction: row-reverse;}
+    .reviews-row.reverse .reviews-text:before{right: 0; left: auto;}
+    .reviews-row.reverse .reviews-block { right: -40px; left: auto; }
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .reviews-main{padding: 40px 0 40px;}
+    .reviews-row{padding: 0 0 24px; display: block;}
+    .reviews-text{padding: 20px;}
+    .reviews-text span{font-size: 20px; line-height: 32px;}
+    .reviews-small-main{gap: 8px;}
+    .reviews-image{width: 56px; flex: 0 0 56px;}
+    .reviews-small-text{flex: 1;}
+}
 
 
 
