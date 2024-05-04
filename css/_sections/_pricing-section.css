@@ -46,6 +46,7 @@ ul.pricing-order li::before{display: none;}
     .pricing-additional{flex: 0 0 calc(50% - 20px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
+    .pricing-title h1{font-size: 40px; line-height: 50px;}
     .pricing-row{gap: 30px; margin-bottom: 64px;}
     .pricing-list{flex: 0 0 calc(50% - 15px);}
     .pricing-additional-main{gap: 40px;}
