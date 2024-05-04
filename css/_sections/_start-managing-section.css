@@ -15,7 +15,7 @@
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     body.page-template-use-case-detail .start-managing-section{margin-bottom: 21px;}
-    .start-managing-main{padding: 22px 24px 24px; display: block;}
+    .start-managing-main{padding: 22px 24px 24px; display: block; background-image: url("./images/mini-cta-buble-mobile.svg");}
     .start-managing-text{text-align: center;}
     .start-managing-text h2{margin-bottom: 26px; font-size: 24px; line-height: 30px;}
     .start-managing-btn .button{width: 100%; font-size: 20px; line-height: 30px;}

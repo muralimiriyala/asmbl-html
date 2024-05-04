@@ -22,6 +22,7 @@
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
     body.page-template-integrations-landing .trust-by-main{padding-top: 38px;}
+    body.page-template-integrations-detail .trust-by-main{padding-top: 38px;}
     .trust-by-main{display: block; padding: 0 0 23px;}
     .trust-by-text{margin-bottom: 22px; display: block;}
     .trust-by-logos{gap: 14px 24px;}

@@ -27,7 +27,7 @@
     .more-inte-card{flex: 0 0 calc(50% - 16px); gap: 16px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    .more-inte-main{padding: 60px 0 79px;}
+    .more-inte-main{padding: 41px 0 40px;}
     .more-intro-main{margin-bottom: 38px; display: block;}
     .more-inte-cards{display: block; padding-bottom: 16px;}
     .more-inte-card{gap: 16px; margin-bottom: 24px;}
