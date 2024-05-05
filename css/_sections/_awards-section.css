@@ -2,6 +2,7 @@
 
 
 
+.awards-main{padding: 41px 0 41px;}
 .awards-list{ box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); }
 .awards-icon{width: 56px; height: 56px; margin: -49px 0 16px; padding: 8px; background: rgba(19, 53, 175, 0.05);}
 .awards-icon svg{width: 100%; height: 100%;}
@@ -9,13 +10,11 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .awards-main{padding: 41px 0 41px;}
     .awards-row{gap: 32px; padding: 28px 0 0;}
     .awards-list{flex: 0 0 calc(25% - 24px); padding: 24px;}
 }
-
-
-
+@media only screen and (max-width: 739px) and (min-width: 200px){
+}
 
 
 

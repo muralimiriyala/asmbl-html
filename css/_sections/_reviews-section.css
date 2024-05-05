@@ -23,6 +23,7 @@
     body.page-template-marketing-lp .reviews-main{padding-bottom: 80px;}
     body.home .reviews-main{padding-bottom: 80px;}
     body.page-template-product-landing .reviews-main{padding: 80px 0 0;}
+    body.page-template-asmbl-story .reviews-main{padding-top: 0;}
     .reviews-main{padding: 40px 0 40px; }
     .repeater-section .reviews-main{padding: 56px 0 55px;}
     .reviews-row{gap: 40px; align-items: flex-start;}
@@ -44,6 +45,8 @@
     body.page-template-marketing-lp .reviews-main{padding-bottom: 80px;}
     body.home .reviews-main{padding-bottom: 80px;}
     body.page-template-product-landing .reviews-main{padding: 60px 0 0;}
+    body.page-template-asmbl-story .reviews-main{padding-top: 0;}
+
 
     .reviews-main{padding: 40px 0 40px; }
     .reviews-row{gap: 40px; align-items: flex-start;}
