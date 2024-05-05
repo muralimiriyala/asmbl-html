@@ -20,13 +20,12 @@
     body.page-template-asmbl-story .reviews-main{padding-top: 0;}
     body.page-template-industry-detail .reviews-main{padding: 0 0 80px;}
     body.page-template-company-size-detail .reviews-main{padding-top: 0;}
-
+    body.page-template-product-detail .reviews-main{padding: 80px 0 80px;}
 }
 @media screen and (min-width: 1024px){
     body.page-template-marketing-lp .reviews-main{padding-bottom: 80px;}
     body.home .reviews-main{padding-bottom: 80px;}
     body.page-template-product-landing .reviews-main{padding: 80px 0 0;}
-
 
     .reviews-main{padding: 40px 0 40px; }
     .repeater-section .reviews-main{padding: 56px 0 55px;}
