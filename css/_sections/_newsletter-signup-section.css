@@ -19,6 +19,9 @@
     .newsletter-field{width: calc(50% - 10px); margin: 0 10px 20px; float: left;}
     .newsletter-field.frm_first{margin-left: 0;}
     .newsletter-field.frm_last{margin-right: 0;}
+    div.no_signup, div.no_newsletter_text{display: block;}
+    div.no_signup .newsletter-text{flex: 0 0 100%;}
+    div.no_newsletter_text .newsletter-signup{margin: 0 auto;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .newsletter-main{gap: 32px; padding: 32px 32px 14px;}
