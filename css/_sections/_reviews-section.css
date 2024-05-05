@@ -13,17 +13,22 @@
 
 /* media css starts here */
 @media screen and (min-width: 740px){
+    .reviews-head{gap: 32px; margin-bottom: 40px;}
+    .reviews-title{flex: 1;}
+    .reviews-intro-link{width: fit-content;}
     .reviews-text:before{width: 32px; height: 32px; top: -0.001px; left: 0; position: absolute; background: var(--Background, #F0F2FA); content: ""; display: block;}
-
 }
 @media screen and (min-width: 1024px){
-    body.page-template-industry-detail .reviews-row{padding-bottom: 80px;}
-    body.page-template-marketing-lp .reviews-row{padding-bottom: 80px;}
-    body.home .reviews-row{padding-bottom: 80px;}
-    .reviews-row{padding: 40px 0 40px; gap: 40px; align-items: flex-start;}
-    .repeater-section .reviews-row{padding: 56px 0 55px;}
+    body.page-template-industry-detail .reviews-main{padding-bottom: 80px;}
+    body.page-template-marketing-lp .reviews-main{padding-bottom: 80px;}
+    body.home .reviews-main{padding-bottom: 80px;}
+    body.page-template-product-landing .reviews-main{padding: 80px 0 0;}
+    .reviews-main{padding: 40px 0 40px; }
+    .repeater-section .reviews-main{padding: 56px 0 55px;}
+    .reviews-row{gap: 40px; align-items: flex-start;}
     .reviews-image{flex: 0 0 160px;}
     .reviews-text{flex: 1;}
+    .reviews-row:not(:last-child){margin-bottom: 40px;}
     .testimonials-row .reviews-row{padding: 0 0 40px;}
     body.page-template-product-landing .testimonials-row .reviews-row:last-child{padding: 0;}
     .reviews-row:nth-child(even){flex-direction: row-reverse;}
@@ -35,10 +40,14 @@
     .reviews-row.reverse .reviews-block { right: -40px; left: auto; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
-    body.page-template-industry-detail .reviews-row{padding-bottom: 80px;}
-    body.page-template-marketing-lp .reviews-row{padding-bottom: 80px;}
-    body.home .reviews-row{padding-bottom: 80px;}
-    .reviews-row{padding: 40px 0 40px; gap: 40px; align-items: flex-start;}
+    body.page-template-industry-detail .reviews-main{padding-bottom: 80px;}
+    body.page-template-marketing-lp .reviews-main{padding-bottom: 80px;}
+    body.home .reviews-main{padding-bottom: 80px;}
+    body.page-template-product-landing .reviews-main{padding: 60px 0 0;}
+
+    .reviews-main{padding: 40px 0 40px; }
+    .reviews-row{gap: 40px; align-items: flex-start;}
+    .reviews-row:not(:last-child){margin-bottom: 40px;}
     .repeater-section .reviews-row{padding: 56px 0 55px;}
     .reviews-image{flex: 0 0 160px;}
     .reviews-text{flex: 1;}
@@ -55,6 +64,8 @@
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .reviews-main{padding: 40px 0 40px;}
+    .reviews-head{display: block; margin-bottom: 23px;}
+    .reviews-title h2{font-size: 24px; line-height: 30px;}
     .reviews-row{padding: 0 0 24px; display: block;}
     .reviews-text{padding: 20px;}
     .reviews-text span{font-size: 20px; line-height: 32px;}
