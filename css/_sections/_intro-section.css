@@ -7,6 +7,7 @@
 .intro-symbol{ color: transparent; -webkit-text-stroke: 1px var(--Orange); transition: all 0.5s; position: relative; }
 .intro-list:hover .intro-symbol{transform: translate(3px, 3px);}
 .intro-text h2{margin-bottom: 15px; color: var(--Navy);}
+.no_intro_description{display: block;}
 
 
 /* media css starts here */
