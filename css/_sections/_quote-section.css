@@ -15,6 +15,7 @@
     .quote-text{flex: 1;}
     .quote-icon-top{right: 0; top: -66px;}
     .quote-icon-btm{left: 0; bottom: -76px;}
+    .no_quote_text{display: block;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .quote-main{gap: 40px;}
