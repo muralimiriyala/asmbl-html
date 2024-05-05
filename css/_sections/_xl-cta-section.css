@@ -8,7 +8,8 @@
 .xl-cta-frame4{top: 170px; left: 95px; width: 112px; z-index: -1;}
 
 
-.xl-cta-text.no_image{max-width: 100%; flex: 0 0 100%;}
+.xl-cta-row.no_image{display: block;}
+.no_image .xl-cta-text{max-width: 100%; flex: 0 0 100%;}
 .xl-cta-details{max-width: 334px; margin-left: auto; box-shadow: 0px 15px 20px 0px rgba(24, 42, 84, 0.50);}
 .xl-cta-thumb img{border-radius: 8px 8px 0 0;}
 .xl-upload-text{gap: 8px; padding: 12px;  border-radius: 0px 0px 8px 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); color: var(--Foreground, #313031);}
