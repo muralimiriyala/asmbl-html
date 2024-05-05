@@ -14,7 +14,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
-    .confirmation-main{gap: 179px;}
+    .confirmation-row{gap: 179px;}
 }
 @media screen and (min-width: 1024px){
     .confirmation-main{padding: 144px 0 67px;}
@@ -22,14 +22,16 @@
     .confirmation-date{flex: 1;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
-    .confirmation-main{gap: 30px;}
+    .confirmation-row{gap: 32px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
-    .confirmation-main{padding: 144px 0 67px; display: block;}
+    .confirmation-main{padding: 144px 0 67px;}
+    .confirmation-row{display: block;}
     .confirmation-text{margin-bottom: 60px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    .confirmation-main{padding: 121px 0 74px; display: block;}
+    .confirmation-main{padding: 121px 0 74px;}
+    .confirmation-row{display: block;}
     .confirmation-text{margin-bottom: 39px;}
     .confirmation-optional{display: block; margin-bottom: 24px;}
     .confirmation-optional svg{margin-bottom: 16px;}
