@@ -36,6 +36,8 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li{margin: 0 0 24px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a{gap: 12px; display: flex; flex-wrap: wrap; align-items: center; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; }
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a:hover{color: var(--Orange);}
+    ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a svg{width: 24px;}
+
     
     ul.main_menu > li.nav-solutions > ul {padding: 32px 32px 0; max-width: 955px; left: -50vw; gap: 56px; display: flex; flex-wrap: wrap; margin-left: 100%; width: 100vw; min-width: 955px; z-index: 10; }
     ul.main_menu > li.nav-solutions{position: static;}
@@ -51,8 +53,12 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1) > ul > li{flex: 0 0 50%;}
     ul.main_menu > li.nav-solutions > ul > li:last-child > ul{padding: 0; gap: 42px; display: flex; flex-wrap: wrap;}
     ul.main_menu > li.nav-solutions > ul > li:last-child > ul > li{margin: 0;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-solutions > ul > li > ul > li > ul > li > a svg{width: 24px;}
+
 
     .header_btns{width: fit-content; gap: 16px;}
+
+    .menu-icon{width: 40px; height: 40px;}
 }
 @media screen and (max-width: 1159px) and (min-width: 1024px){
     ul.main_menu{padding-right: 6px;}
@@ -107,7 +113,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li > ul{margin: 0; padding: 0 0 7px; display: none;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li{margin: 0 0 12px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a {gap: 11px; font-size: 16px; font-weight: 400; line-height: 24px; color: var(--Foreground, #313031); display: flex; flex-wrap: wrap; position: relative; align-items: center; }
-    ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a svg{width: 24px;}
+    ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a svg{width: 24px;}
 
 
     .menu-desc{flex: 1;}
