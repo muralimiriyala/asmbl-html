@@ -10,7 +10,7 @@
 .confirmation-text h2{margin-bottom: 23px;}
 .confirmation-text hr{margin-bottom: 39px;}
 .confirmation-desc{margin-bottom: 39px;}
-.confirmation-text.no_form{flex: 0 0 100%;}
+.confirmation-row.no_date{display: block;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
