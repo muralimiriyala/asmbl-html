@@ -13,6 +13,8 @@
     .awards-intro-head{gap: 32px;}
     .awards-intro-title{flex: 1; border-right: 1px solid  rgb(19 53 175 / 40%);}
     .awards-intro-link{width: fit-content;}
+    .awards-intro-head.no_link{display: block;}
+    .no_link .awards-intro-title{border-right: none;}
 }
 @media screen and (min-width: 1024px){
     .awards-intro-head{margin-bottom: 64px;}
