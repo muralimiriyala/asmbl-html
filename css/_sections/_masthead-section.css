@@ -1,17 +1,16 @@
 
 
-.masthead-wrap-bg{background-color: var(--Elevated);}
 .masthead-text span.optional-text{margin-bottom: 25px;}
 .masthead-text h1{margin-bottom: 23px; color: var(--Navy);}
 .masthead-text hr{margin-bottom: 24px;}
 .masthead-btns{gap: 16px; padding-top: 6px;}
-
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .masthead-main{padding: 96px 0 20px; gap: 80px;}
     .masthead-text{flex: 0 0 560px;}
     .masthead-text h1{max-width: 470px;}
+    body.page-template-asmbl-story .masthead-text h1{max-width: 100%;}
     body.page-template-use-case-detail .masthead-text h1{max-width: 100%;}
     .masthead-image{flex: 0 0 calc(100% - 640px); max-width: calc(100% - 640px);}
     .masthead-pos{min-width: 720px; min-height: 540px;}

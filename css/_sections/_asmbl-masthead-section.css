@@ -1,0 +1,36 @@
+
+
+.asmbl-masthead-text span.optional-text{margin-bottom: 25px;}
+.asmbl-masthead-text h1{margin-bottom: 23px; color: var(--Navy);}
+.asmbl-masthead-text hr{margin-bottom: 24px;}
+.asmbl-masthead-btns{gap: 16px; padding-top: 6px;}
+
+/* media css starts here */
+@media screen and (min-width: 1360px){
+    .asmbl-masthead-main{gap: 80px; }
+    .asmbl-masthead-text{flex: 0 0 560px; padding-top: 148px;}
+    .asmbl-masthead-image{flex: 0 0 calc(100% - 640px); max-width: calc(100% - 640px);}
+    .asmbl-masthead-pos{min-width: 720px; min-height: 540px;}
+}
+@media screen and (min-width: 1024px){
+    .asmbl-masthead-main{padding: 80px 0 0px; flex-direction: row-reverse;}
+}   
+@media only screen and (max-width: 1359px) and (min-width: 1024px){
+    .asmbl-masthead-section .container{padding-right: 0;}
+    .asmbl-masthead-main{align-items: center; gap: 40px;}
+    .asmbl-masthead-text{padding: 74px 0; flex: 0 0 460px;}
+    .asmbl-masthead-image{flex: 0 0 calc(100% - 500px); max-width: calc(100% - 500px);}
+    .asmbl-masthead-pos{max-width: 720px; margin-left: auto;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .asmbl-masthead-main{padding: 80px 0 0px; display: block;}
+    .asmbl-masthead-image{margin-bottom: 30px; width: calc(100% + 32px);} 
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .asmbl-masthead-main{padding: 119px 0 38px; display: block;}
+    .asmbl-masthead-image{margin-bottom: 15px; width: calc(100% + 24px);}
+    .asmbl-masthead-text{font-size: 16px; line-height: 24px;}
+    .asmbl-masthead-text span.optional-text{margin-bottom: 21px;}
+    .asmbl-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
+    .asmbl-masthead-text hr{margin-bottom: 20px;}
+}

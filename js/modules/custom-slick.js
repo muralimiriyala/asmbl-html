@@ -29,17 +29,6 @@ jQuery(document).ready(function($){
         pauseOnHover: false,
         pauseOnFocus: false,    
     });
-
-    // Function to reverse slide order
-function reverseSlideOrder() {
-    var slides = slider.find('.slick-slide');
-    slides.detach().sort(function(a, b) {
-        return $(b).data('slick-index') - $(a).data('slick-index');
-    }).appendTo(slider);
-}
-
-// Call reverseSlideOrder() to change loop direction
-reverseSlideOrder(); // Call this f
 });
 
 const pageSlider = $(".industry-slider");

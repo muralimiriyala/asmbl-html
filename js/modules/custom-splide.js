@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
-    const test = document.querySelector(".splide");
-    if(test !== null){ 
-        new Splide(test, {
+    const mysplide = document.querySelector(".splide");
+    if(mysplide !== null){ 
+        new Splide(mysplide, {
             type: "loop",
             drag: "free",
             focus: "left",
