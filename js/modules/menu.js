@@ -38,7 +38,6 @@ function menu(){
         });
     }
 }
-
 jQuery(document).ready(function() { menu(); });
-jQuery(window).on('resize', function() { menu(); });
+
   

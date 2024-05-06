@@ -23,8 +23,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li > ul{margin: 0; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: all 0.4s ease;}
     ul.main_menu > li:hover > ul{opacity: 1; visibility: visible;}
     
-    ul.main_menu > li.nav-product > ul {padding: 0; max-width: 955px; left: -50vw; gap: 56px; display: flex; flex-wrap: wrap; margin-left: 100%; width: 100vw; min-width: 955px; z-index: 10; border-radius: 16px;}
-    ul.main_menu > li.nav-product{position: static;}
+    ul.main_menu > li.nav-product > ul {width: 100vw; padding: 0; max-width: 955px; left: -178px; gap: 56px; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 16px;}
     ul.main_menu > li.nav-product > ul > li{margin: 0; width: 100%; display: block;}
     ul.main_menu > li.nav-product > ul > li > a{padding: 24px 32px; gap: 20px; display: flex; flex-wrap: wrap; align-items: center; background: var(--Background, #F0F2FA); color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 25px; font-family: "arboria", sans-serif; }
     ul.main_menu > li.nav-product > ul > li > a svg{width: 35px;}
@@ -39,8 +38,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a svg{width: 24px;}
 
     
-    ul.main_menu > li.nav-solutions > ul {padding: 32px 32px 0; max-width: 955px; left: -50vw; gap: 56px; display: flex; flex-wrap: wrap; margin-left: 100%; width: 100vw; min-width: 955px; z-index: 10; }
-    ul.main_menu > li.nav-solutions{position: static;}
+    ul.main_menu > li.nav-solutions > ul {padding: 32px 32px 0; max-width: 955px; left: -455px; gap: 56px; display: flex; flex-wrap: wrap; width: 100vw; min-width: 955px; z-index: 10; border: 1px solid var(--Blue-Tint,#d9dff2);}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1){flex: 1;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(2){flex: 0 0 271px;}
     ul.main_menu > li.nav-solutions > ul > li:last-child{padding: 20px 32px; margin: 0; flex: 0 0 calc(100% + 64px); left: -32px; gap: 40px; display: flex; flex-wrap: wrap; background: var(--Background, #F0F2FA);}
@@ -61,7 +59,10 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .menu-icon{width: 40px; height: 40px;}
 }
 @media screen and (max-width: 1159px) and (min-width: 1024px){
-    ul.main_menu{padding-right: 6px;}
+    ul.main_menu{padding-right: 16px;}
+    ul.main_menu > li.nav-product{position: static;}
+    ul.main_menu > li.nav-product > ul{left: -176px;}
+    ul.main_menu > li.nav-solutions > ul{left: -404px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
     .header{margin: 16px 0; gap: 16px; position: relative; z-index: 2;}
