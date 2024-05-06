@@ -1,0 +1,36 @@
+
+
+.default-masthead-text span.optional-text{margin-bottom: 25px;}
+.default-masthead-text h1{margin-bottom: 23px; color: var(--Navy);}
+.default-masthead-text hr{margin-bottom: 24px;}
+.default-masthead-btns{gap: 16px; padding-top: 6px;}
+
+/* media css starts here */
+@media screen and (min-width: 1360px){
+    .default-masthead-main{gap: 80px; }
+    .default-masthead-text{flex: 0 0 560px;}
+    .default-masthead-image{flex: 0 0 calc(100% - 640px); max-width: calc(100% - 640px);}
+    .default-masthead-pos{min-width: 720px; min-height: 540px;}
+}
+@media screen and (min-width: 1024px){
+    .default-masthead-main{padding: 80px 0 0px; flex-direction: row-reverse;}
+}   
+@media only screen and (max-width: 1359px) and (min-width: 1024px){
+    .default-masthead-section .container{padding-right: 0;}
+    .default-masthead-main{align-items: center; gap: 40px;}
+    .default-masthead-text{flex: 0 0 395px; padding: 40px 0;}
+    .default-masthead-image{flex: 0 0 calc(100% - 435px); max-width: calc(100% - 435px);}
+    .default-masthead-pos{max-width: 720px; margin-left: auto;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .default-masthead-main{padding: 80px 0 40px; display: block;}
+    .default-masthead-image{margin-bottom: 30px; width: calc(100% + 32px);} 
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .default-masthead-main{padding: 64px 0 38px; display: block;}
+    .default-masthead-image{margin-bottom: 15px; width: calc(100% + 24px);}
+    .default-masthead-text{font-size: 16px; line-height: 24px;}
+    .default-masthead-text span.optional-text{margin-bottom: 21px;}
+    .default-masthead-text h1{margin-bottom: 18px; font-size: 32px; line-height: 40px;}
+    .default-masthead-text hr{margin-bottom: 19px;}
+}

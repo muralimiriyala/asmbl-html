@@ -30,7 +30,7 @@ ul.aside-links li::before{display: none;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .default-section{padding: 100px 0 79px; }
+    .default-section{padding: 80px 0 79px; }
     .default-main{gap: 80px;}
     .default-article{flex: 1;}
     .default-aside{flex: 0 0 300px;}
