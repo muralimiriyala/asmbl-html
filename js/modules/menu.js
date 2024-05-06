@@ -7,7 +7,6 @@ function menu(){
             $(".h_mobile_overlay").toggleClass("open");
             $(".header_right").slideToggle(900);
         });
-
         let level1 = $("ul.main_menu > li.menu-item-has-children > a");
         level1.on("click", function(e){
             e.preventDefault();
@@ -38,6 +37,6 @@ function menu(){
         });
     }
 }
-jQuery(document).ready(function() { menu(); });
+jQuery(document).on("ready", function() { menu(); });
 
   
