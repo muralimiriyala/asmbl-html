@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-    $(".client-slider-1").slick({
+    $(".client-slider-up").slick({
         arrows: false,
         dots: false,
         vertical: true,
@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
         pauseOnHover: false,
         pauseOnFocus: false,    
     });
-    $(".client-slider-2").slick({
+    $(".client-slider-down").slick({
         arrows: false,
         dots: false,
         vertical: true,

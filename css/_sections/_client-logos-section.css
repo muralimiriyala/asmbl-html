@@ -4,14 +4,11 @@
 .client-logos-gray{height: 50%;}
 .client-logos-main{background: var(--Background, #F0F2FA);}
 .client-logos-main.inverted{background: linear-gradient(300deg, #182A54 0%, #1335AF 100%);}
-/* .client-logo-thumb img{border: 1px solid rgba(217, 223, 242, 0.75); border-radius: 8px;} */
 .client-logo-thumb img{border-radius: 8px;}
 
 .client-logos-slider{width: 64px;}
 .client-logo-slide{margin: 4px 0;}
 .client-logos-icons span.optional-text, .client-logos-text span.optional-text{font-size: 16px; line-height: 20px;}
-
-
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
@@ -22,11 +19,12 @@
     .client-logos-right{flex: 0 0 280px; gap: 8px;}
     .client-logos-text span.optional-text{margin-bottom: 4px;}
     .client-logos-text h2{display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 2;}
+    .client-slider-down{transform: rotate(180deg);}
+    .client-slider-down .client-logo-thumb{transform: rotate(180deg);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .client-logos-main{padding-right: 32px;}
     .client-logos-left{flex: 1; padding: 20px 32px; gap: 24px;}
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .client-logos-main{gap: 32px; padding-right: 32px;}
