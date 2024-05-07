@@ -36,7 +36,12 @@ ul.who-for-tabs li a.active, ul.who-for-tabs li a:hover{font-weight: 700; backgr
     .industry-slide.slick-slide{width: 298px; padding: 12px 32px 13px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    .who-for-main{padding: 0 0 40px;}
+    .who-for-main{padding: 39px 0 40px;}
+    .who-for-row{display: block;}
+    .who-for-image{margin-bottom: 24px;}
+    ul.who-for-tabs{display: block;}
+
+
     .industry-slider.slick-slider{padding: 0 0 32px 2px;}
     .industry-slider.slick-slider .slick-list{overflow: inherit;}
     .industry-slide.slick-slide{width: 298px; padding: 2px 21px 0px;}
