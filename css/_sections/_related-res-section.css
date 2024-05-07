@@ -22,6 +22,7 @@
     body.page-template-product-detail .related-res-main{padding-bottom: 40px;}
     .related-res-title{flex: 1;}
     .related-res-row{gap: 32px;}
+    .related-res-list:first-child{flex: 0 0 calc(100%); width: 100%;}
     .related-res-list{flex: 0 0 calc(50% - 16px);}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
