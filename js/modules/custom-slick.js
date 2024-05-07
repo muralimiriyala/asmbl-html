@@ -12,7 +12,17 @@ jQuery(document).ready(function($){
         autoplaySpeed: 0, 
         speed: 2000, 
         pauseOnHover: false,
-        pauseOnFocus: false,    
+        pauseOnFocus: false, 
+        responsive: [
+            {
+              breakpoint: 739,
+              settings: {
+                variableWidth: true,
+                vertical: false,
+                verticalSwiping: false,
+              }
+            },
+        ], 
     });
     $(".client-slider-down").slick({
         arrows: false,
@@ -28,6 +38,16 @@ jQuery(document).ready(function($){
         speed: 2000, 
         pauseOnHover: false,
         pauseOnFocus: false,    
+        responsive: [
+            {
+              breakpoint: 739,
+              settings: {
+                variableWidth: true,
+                vertical: false,
+                verticalSwiping: false,
+              }
+            },
+        ], 
     });
 });
 

@@ -3,7 +3,7 @@
 .faqs-questions h3{margin-bottom: 22px;}
 .faqs-questions hr{margin: 0 0 17px;}
 .faqs-title{gap: 18px; margin-bottom: 23px;}
-.faqs-title svg{flex: 0 0 39px;}
+.faqs-title svg, .faqs-title-icon{flex: 0 0 39px;}
 .faqs-title span{flex: 1;}
 .faqs-title h2{margin: 0; padding-top: 3px; flex: 1;}
 ul.faqs-links{margin: 0;}
