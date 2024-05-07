@@ -5,7 +5,7 @@ label{padding-bottom: 9px; display: block; font-size: 1.125rem; line-height: 1.3
 textarea {width: 100%; resize: none; height: 160px;}
 input:focus, textarea:focus{outline: 0;}
 input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--blue); font-weight: bold;  position: relative; text-transform: uppercase; text-align: center; color: #FFFFFF; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
-input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {background-color: var(--black); color: var(--white);}
+input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {background-color: var(--black); color: var(--White);}
 input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {outline: none;}
 
 body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
@@ -21,9 +21,9 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-i
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 400; font-family: Univers,sans-serif; color: var(--Foreground-light); font-size: 1rem; }
-body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; margin: 0; width: 100%; font-size: 14px; line-height: 20px; font-weight: 700; box-shadow: none; padding: 13px 16px 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--Elevated, #F0F2FA); color: var(--Blue); font-family: "arboria", sans-serif; -webkit-appearance: none;}
+body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; margin: 0; width: 100%; font-size: 14px; line-height: 20px; font-weight: 700; box-shadow: none; padding: 13px 16px 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--Elevated, #F0F2FA); color: var(--Blue); font-family: "arboria", sans-serif; -webkit-appearance: none; transition: border 0.5s ease;}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 160px;}
-body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"],[type="checkbox"]):focus{background-color: var(--white); border-color: var(--Blue-Tint, #D9DFF2);}
+body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"][type="checkbox"]):focus{background-color: var(--White); border-color: rgb(19 53 175 / 60%); box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--Foreground); border: 1px solid var(--Aecon-Red, #DA1A32); background: rgba(218, 26, 50, 0.10);}
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--Blue); font-family: "Noto Sans", sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--Blue); font-family: "Noto Sans", sans-serif; opacity: 1;}
@@ -38,24 +38,24 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox la
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a{color: var(--navy); position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a::after{width: 100%; height: 1px; left: 0; bottom: 1px; background-color: var(--Blue); content: ""; display: block; position: absolute; transition: all .45s ease-in-out;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a:hover::after{background-color: transparent;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 12px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; border: 1px solid var(--Blue); background-color: transparent; background-image: none; border: solid 1px var(--Foreground-light); background-color: var(--white); background-image: none;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 12px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; border: 1px solid var(--Blue); background-color: transparent; background-image: none; border: solid 1px var(--Foreground-light); background-color: var(--White); background-image: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{border: solid 1px rgba(94, 103, 131, 0.25); border-radius: 50%;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 3px 0 0 3px; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: auto; left: auto; transform: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: 50%; position: relative; transform: translate(-50% , -50%); left: 50%;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 3px 0 0 3px; box-shadow: inset 8px 8px var(--White); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: auto; left: auto; transform: none;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--White); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: 50%; position: relative; transform: translate(-50% , -50%); left: 50%;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{background-color: var(--Blue);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 4px 0 0 3px; box-shadow: inset 8px 8px var(--Blue); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--navy); border-color: var(--navy); box-shadow: none;}
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked{background-color: var(--navy); border-color: var(--navy);}
-body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked::before {box-shadow: inset 8px 8px var(--white);}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--white);}
+body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked::before {box-shadow: inset 8px 8px var(--White);}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--White);}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--Blue); border-color: var(--Blue);}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{box-shadow: inset 8px 8px var(--white);}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{box-shadow: inset 8px 8px var(--White);}
 body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
-body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--aecon-red); position: absolute;}
+body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 12px; line-height: 18px; color: var(--Orange); position: absolute;}
 body .frm_success_style, body .with_frm_style .frm_message {font-size: 1.125rem; line-height: 1.625rem; font-weight: 400; font-family: Univers,sans-serif; color: var(--Foreground); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
 body .with_frm_style .frm_message p{color: var(--Foreground); }
 body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{gap: 8px; display: flex; flex-wrap: wrap; width: 100%;}
@@ -64,7 +64,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_ch
 
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0; position: relative; background-color: transparent;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 3px; left: 0;}
-body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--white) !important;}
+body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--White) !important;}
 body .with_frm_style .frm_loading_prev .frm_prev_page{opacity: 1 !important; color: var(--navy) !important;}
 body .frm_forms .frm_verify{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; line-height: 1.5rem;}
@@ -106,7 +106,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
 
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{padding: 10px 0 0 40px; background-color: transparent;}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--Blue); border-color: var(--Blue);}
-body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before { box-shadow: inset 8px 8px var(--white); }
+body .become-partner-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before { box-shadow: inset 8px 8px var(--White); }
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox label{padding: 9px 0 0 33px;}
 
 .frm_form_field_wrapper{display: flex; flex-wrap: wrap; width: 100%;}
@@ -121,7 +121,7 @@ body .demo-form .frm_forms .frm_form_fields .frm_form_field input::-moz-placehol
 body .demo-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0;}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{opacity: 0.9; font-weight: 400; font-size: 14px; line-height: 20px; color: var(--Foreground);}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0;}
-
+body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 
 
 /*-- media css starts here --*/

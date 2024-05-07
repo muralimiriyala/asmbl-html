@@ -1,0 +1,21 @@
+
+body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: #008000;}
+body .cky-box-bottom-left{right: 40px; left: auto;}
+body .cky-notice .cky-title{font-family: "arboria", sans-serif;}
+body .cky-revisit-bottom-left{right: 15px; left: auto;}
+body .cky-revisit-bottom-left:hover::before{background: var(--Navy); right: calc(100% + 7px); left: auto;}
+body .cky-revisit-bottom-left:hover::after{right: calc(100% + 2px); border-right-color: var(--Navy); left: auto;}
+body .cky-btn.cky-btn-customize, body .cky-btn.cky-btn-preferences, body .cky-btn.cky-btn-reject, body .cky-notice-btn-wrapper button.cky-btn.cky-btn-accept, body .cky-prefrence-btn-wrapper button.cky-btn.cky-btn-accept{font-size: 16px; line-height: 24px; font-weight: 600; font-family: 'Noto Sans',sans-serif; background-color: var(--Blue-Tint,#d9dff2) !important; border: none !important; color: var(--Navy) !important; border-radius: 4px; transition: all .5s ease;}
+body .cky-btn.cky-btn-customize:hover, body .cky-btn.cky-btn-preferences:hover, body .cky-btn.cky-btn-reject:hover{background-color: var(--Blue) !important; color: var(--White) !important; opacity: 1;}
+body .cky-modal.cky-modal-open button.cky-btn.cky-btn-reject:hover, body .cky-modal.cky-modal-open button.cky-btn.cky-btn-preferences:hover{background-color: var(--Blue) !important; color: var(--White) !important; opacity: 1;}
+body .cky-notice-btn-wrapper button.cky-btn.cky-btn-accept, body .cky-prefrence-btn-wrapper button.cky-btn.cky-btn-accept{color: var(--White) !important; background-color: var(--Blue) !important;}
+body .cky-notice-btn-wrapper button.cky-btn.cky-btn-accept:hover, body .cky-prefrence-btn-wrapper button.cky-btn.cky-btn-accept:hover{color: var(--White) !important; background-color: var(--Orange) !important; opacity: 1;}
+body .cky-accordion-header .cky-always-active{color: var(--Orange);}
+body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: var(--Blue);}
+body .cky-preference-header .cky-btn-close{ padding: 4px; border: 2px solid transparent; border-radius: 4px; }
+body .cky-preference-header .cky-btn-close:hover{border-color: var(--Orange);}
+
+/*-- media css starts here --*/
+@media screen and (max-width: 739px) and (min-width: 200px){
+    body .cky-box-bottom-left{right: 24px; left: auto; width: calc(100% - 48px);}
+}
