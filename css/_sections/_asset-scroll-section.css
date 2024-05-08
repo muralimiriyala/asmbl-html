@@ -14,6 +14,8 @@ span.asset-filename{font-size: 12px; font-weight: 700; line-height: 18px;}
 .asset-scroll-image:hover .asset-scroll-hover{transform: translateY(0); opacity: 1; visibility: visible;}
 .asset-scroll-head{gap: 10px; margin-bottom: 20px;}
 .asset-scroll-head span{flex: 1; margin: 0;}
+.asset-scroll-icon{width: 24px;}
+.asset-scroll-icon svg{width: 100%;}
 .asset-scroll-hover p{opacity: 0.8;}
 
 
