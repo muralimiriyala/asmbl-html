@@ -51,7 +51,7 @@ jQuery(document).ready(function($){
     });
 });
 
-const pageSlider = $(".industry-slider");
+const pageSlider = jQuery(".industry-slider");
 const pageSlide = pageSlider.children(".industry-slide").length;
 let mobileMedia = function(){
     if(jQuery(window).width() <= 1023){   

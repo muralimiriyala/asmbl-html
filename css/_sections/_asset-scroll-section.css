@@ -44,12 +44,10 @@ ul.keywords-tags li{width: fit-content; margin: 0; font-size: 13.125px; font-wei
 ul.splide__list li::before{display: none;}
 .asset-scroll-slider ul.splide__list li.splide__slide{width: 256px; margin-right: 24px;}
 
+.asset-scroll-slider:not(.is-active) .splide__track{width: 100%;}
+.asset-scroll-slider.is-initialized:not(.is-active) ul.splide__list{width: 100%; justify-content: center; display: flex; flex-wrap: nowrap;}
 
 /* media css starts here */
-@media screen and (min-width: 1300px){
-    .asset-scroll-slider:not(.is-active) .splide__track{width: 100%;}
-    .asset-scroll-slider.is-initialized:not(.is-active) ul.splide__list{width: 100%; justify-content: center; display: flex; flex-wrap: wrap;}
-}
 @media screen and (min-width: 1024px){
     .asset-scroll-main{padding: 40px 0 62px;}
 }
@@ -62,6 +60,8 @@ ul.splide__list li::before{display: none;}
     .asset-scroll-main{padding: 40px 0 114px;}
     .search-above{left: 24px;}
     .keywords-above{right: 26px; bottom: 74px;}
+    .asset-scroll-slider:not(.is-active) .splide__track{padding-left: 12px;}
+    .asset-scroll-slider.is-initialized:not(.is-active) ul.splide__list{justify-content: flex-start;}
 }
 
 
