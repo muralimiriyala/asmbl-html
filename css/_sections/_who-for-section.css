@@ -10,7 +10,7 @@ ul.who-for-tabs li::before{display: none;}
 .industry-slide-text h2{margin-bottom: 16px; color: var(--Navy);}
 .industry-slide-icon{margin-bottom: 17px; min-height: 46px; max-width: 46px;}
 .industry-slide{border-left: 2px solid var(--White);}
-
+.industry-count{display: none;}
 
 /* media css starts here */
 @media screen and (min-width: 740px){
@@ -54,7 +54,8 @@ ul.who-for-tabs li::before{display: none;}
 
     .industry-slider.slick-slider{padding: 0 0 32px 2px;}
     .industry-slider.slick-slider .slick-list{overflow: inherit;}
-    .industry-slide.slick-slide{width: 298px; padding: 2px 21px 0px;}
+    .industry-slide.slick-slide{width: 298px; min-height: 245px; padding: 2px 21px 0px;}
+    .industry-count{top: 11px; width: calc(100% - 96px); margin: 0 auto; font-size: 20px; line-height: 25px; opacity: 0.5; display: block; text-align: center; color: var(--Navy, #182A54); font-family: "arboria", sans-serif; font-weight: 700; position: relative;}
 }
 
 

@@ -52,9 +52,14 @@ jQuery(document).ready(function($){
 });
 
 const pageSlider = jQuery(".industry-slider");
+var $status = $(".industry-count");
 const pageSlide = pageSlider.children(".industry-slide").length;
 let mobileMedia = function(){
     if(jQuery(window).width() <= 1023){   
+        pageSlider.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+            let i = (currentSlide ? currentSlide : 0) + 1;
+            $status.text(i + '/' + slick.slideCount);
+        });
         pageSlider.slick({
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -69,7 +74,6 @@ let mobileMedia = function(){
         });
     }
 }
-jQuery(window).resize(function () { mobileMedia(); });
 jQuery(document).on('ready load', function () { mobileMedia(); });
 let desktop = function(){
     if(jQuery(window).width() >= 1024){ 

@@ -15,6 +15,9 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
     .digital-asset-list{flex: 0 0 calc(33.3333% - 27px);}   
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
+    .digital-asset-main{padding: 41px 0 80px;}
+    .digital-asset-row{display: block; margin-bottom: 44px;}
+    .digital-asset-list:not(:last-child){margin-bottom: 24px;}
     ul.optional-tag.absolute{position: static; padding: 23px 20px 0;}
 }
 
