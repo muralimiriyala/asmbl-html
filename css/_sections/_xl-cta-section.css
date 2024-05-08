@@ -62,8 +62,8 @@
     .xl-step-row{gap: 24px;}
     .xl-step-list{flex: 0 0 calc(25% - 18px); flex-direction: column;}
     .xl-step-list::before{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; content: ""; display: block; background-image: linear-gradient(to left, #f9662d 18%, #fec74d 100%, #ffdc54 0%); position: absolute; z-index: -1; }
-    .xl-step-list:last-child::before{max-width: 256px;}
-    .xl-step-list:last-child::after{ width: 12px; height: 20px; top: 26px; right: -32px; content: ""; display: block; background-image: url("images/triangle.svg"); background-repeat: no-repeat; background-size: contain; position: absolute; }
+    .xl-step-list:last-child::before{width: calc(100% - 72px);}
+    .xl-step-list:last-child::after{ width: 12px; height: 20px; top: 26px; right: 0; content: ""; display: block; background-image: url("images/triangle.svg"); background-repeat: no-repeat; background-size: contain; position: absolute; }
     .xl-step-num{margin-bottom: 19px;}
     .xl-step-text{font-size: 14px; line-height: 21px;}
     .xl-step-text h2{font-size: 20px; line-height: 25px;}
