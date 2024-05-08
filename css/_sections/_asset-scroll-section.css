@@ -40,11 +40,16 @@ ul.keywords-tags li{width: fit-content; margin: 0; font-size: 13.125px; font-wei
 .keywords-switch input:checked + .keywords-round { background-color: #899BD8; }
 .keywords-switch input:checked + .keywords-round:before { transform: translateX(11px); }
 
+.asset-scroll-slider{justify-content: center;}
 ul.splide__list li::before{display: none;}
 .asset-scroll-slider ul.splide__list li.splide__slide{width: 256px; margin-right: 24px;}
 
 
 /* media css starts here */
+@media screen and (min-width: 1300px){
+    .asset-scroll-slider:not(.is-active) .splide__track{width: 100%;}
+    .asset-scroll-slider.is-initialized:not(.is-active) ul.splide__list{width: 100%; justify-content: center; display: flex; flex-wrap: wrap;}
+}
 @media screen and (min-width: 1024px){
     .asset-scroll-main{padding: 40px 0 62px;}
 }
