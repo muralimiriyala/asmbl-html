@@ -17,10 +17,10 @@ jQuery(document).ready(function($){
             {
               breakpoint: 739,
               settings: {
-                variableWidth: true,
-                vertical: false,
-                verticalSwiping: false,
-              }
+                  vertical: false,
+                  verticalSwiping: false,
+                  variableWidth: true,
+                }
             },
         ], 
     });
@@ -42,9 +42,9 @@ jQuery(document).ready(function($){
             {
               breakpoint: 739,
               settings: {
-                variableWidth: true,
-                vertical: false,
-                verticalSwiping: false,
+                  vertical: false,
+                  verticalSwiping: false,
+                  variableWidth: true,
               }
             },
         ], 

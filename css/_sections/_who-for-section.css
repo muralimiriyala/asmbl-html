@@ -2,11 +2,7 @@
 .who-for-row.no_image{display: block;}
 .who-for-text h2{color: var(--Navy);}
 .who-for-text span.optional-text{margin-bottom: 26px; opacity: 1;}
-ul.who-for-tabs{margin: auto 0 0; gap: 16px;}
 ul.who-for-tabs li::before{display: none;}
-ul.who-for-tabs li{display: block; margin: 0;}
-ul.who-for-tabs li a{padding: 11px 10px; border: 2px solid var(--White, #FFF);; color: var(--Navy, #182A54); font-size: 16px; line-height: 24px; display: block;}
-ul.who-for-tabs li a.active, ul.who-for-tabs li a:hover{font-weight: 700; background-color: var(--White); color: var(--Blue);}
 .who-for-page{display: none;}
 .who-for-page:first-child{display: block;}
 
@@ -17,6 +13,12 @@ ul.who-for-tabs li a.active, ul.who-for-tabs li a:hover{font-weight: 700; backgr
 
 
 /* media css starts here */
+@media screen and (min-width: 740px){
+    ul.who-for-tabs{margin: auto 0 0; gap: 16px;}
+    ul.who-for-tabs li{display: block; margin: 0;}
+    ul.who-for-tabs li a{padding: 11px 10px; border: 2px solid var(--White, #FFF);; color: var(--Navy, #182A54); font-size: 16px; line-height: 24px; display: block;}
+    ul.who-for-tabs li a.active, ul.who-for-tabs li a:hover{font-weight: 700; background-color: var(--White); color: var(--Blue);}
+}
 @media screen and (min-width: 1024px){
     .who-for-main{padding: 80px 0 0;}
     .who-for-row{gap: 80px; margin-bottom: 40px;}
@@ -39,8 +41,16 @@ ul.who-for-tabs li a.active, ul.who-for-tabs li a:hover{font-weight: 700; backgr
     .who-for-main{padding: 39px 0 40px;}
     .who-for-row{display: block;}
     .who-for-image{margin-bottom: 24px;}
-    ul.who-for-tabs{display: block;}
 
+    .for-tabs-text{margin-bottom: 32px;}
+    .for-tabs-btn{ padding: 14px; font-size: 14px; line-height: 20px; color: var(--Blue, #1335AF); border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--White, #FFF); font-family: "arboria", sans-serif; font-weight: 700; display: block; cursor: pointer;}
+    .for-tabs-btn.open{border-radius: 8px 8px 0 0; border-bottom-color: transparent;}
+    .for-tabs-btn svg{top: 50%; transform: translateY(-50%); right: 15px; position: absolute; transition: all 0.3s ease-in-out;}
+    .for-tabs-btn.open svg{transform: translateY(-50%) scaleY(-1);}
+    ul.who-for-tabs{margin: 0; top: 100%; left: 0; border-radius: 0 0 8px 8px; display: none; background-color: var(--White); border: 1px solid var(--Blue-Tint); border-top: none; position: absolute;}
+    ul.who-for-tabs li{display: block; margin: 0; border-top: 1px solid var(--Blue-Tint); }
+    ul.who-for-tabs li a{padding: 14px 14px; color: var(--Navy, #182A54); font-size: 13px; line-height: 20px; font-weight: 700; display: block; border-radius: 0;}
+    ul.who-for-tabs li a.active, ul.who-for-tabs li a:hover{color: var(--Blue);}
 
     .industry-slider.slick-slider{padding: 0 0 32px 2px;}
     .industry-slider.slick-slider .slick-list{overflow: inherit;}

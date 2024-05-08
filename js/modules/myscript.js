@@ -29,6 +29,6 @@ jQuery(document).ready(function($){
         $(this).parent().siblings().find('.prod-art-content').slideUp(500);
     });
 
-    
+
 
 });

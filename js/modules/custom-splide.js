@@ -1,6 +1,6 @@
 const Splider = jQuery(".asset-scroll-slider");
 let mobileSplide = function () {
-    if (jQuery(window).width() <= 1299) {
+    if(jQuery(window).width() <= 1299) {
         new Splide(Splider[0], {
             type: "loop",
             drag: "free",

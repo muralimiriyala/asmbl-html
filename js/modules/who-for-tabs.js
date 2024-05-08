@@ -12,4 +12,20 @@ jQuery(document).ready(function($){
         $(".who-for-page[data-value = "+ attr +" ]").fadeIn();
     })
 
+    if(jQuery(window).width() <= 740){
+        const tabstext = $(".for-tabs-btn > span");
+        $(".for-tabs-btn").on("click", function(e){
+            e.preventDefault();
+            $(this).toggleClass("open");
+            $("ul.who-for-tabs").slideToggle();
+        });
+        _selflink.on("click", function(e){
+            e.preventDefault();
+            var linktext = $(this).text();
+            tabstext.html(linktext)
+            $(".for-tabs-btn").removeClass("open");
+            $(this).parent("li").closest("ul.who-for-tabs").slideUp();
+        });
+    }
+
 });
