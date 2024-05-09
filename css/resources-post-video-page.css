@@ -14,7 +14,7 @@
     .post-video-article{flex: 1; margin-top: -6px;}
     .post-video-aside{flex: 0 0 300px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .post-video-section{padding: 110px 0 79px;}
     .post-video-main{display: block;}
     .inline-post-video { margin-bottom: 32px; }
@@ -23,7 +23,7 @@
     .post-video-article ul{padding-top: 2px;}
     .post-video-link{margin-top: 41px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .post-video-section{padding: 120px 0 40px;}
     .post-video-main{display: block;}
     .inline-post-video { margin-bottom: 32px; }

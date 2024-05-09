@@ -29,7 +29,7 @@
     .client-logos-main{padding-right: 32px;}
     .client-logos-left{flex: 1; padding: 20px 32px; gap: 24px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .client-logos-main{gap: 32px; padding-right: 32px;}
     .client-logos-left{flex: 1; padding: 25px 32px 25px; display: block;}
     .client-logos-icons{gap: 16px; margin-bottom: 11px;}
@@ -42,7 +42,7 @@
     .client-logos-slider{width: 64px;}
 
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .client-logos-main{display: block;}
     .client-logos-icons{gap: 16px; margin-bottom: 11px;}
     .client-logos-icon{max-height: 22px;}

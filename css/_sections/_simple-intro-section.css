@@ -39,7 +39,7 @@
     .simple-intro-row{gap: 50px;}
     .simple-intro-list{flex: 0 0 calc(50% - 25px);}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .simple-intro-main{padding: 40px 0 40px;}
     .simple-intro-head{display: block; margin-bottom: 60px;}
     .simple-intro-title{padding-bottom: 18px; margin-bottom: 16px; border-bottom: 1px solid  rgb(19 53 175 / 40%);}

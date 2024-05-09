@@ -44,7 +44,7 @@
     .xl-cta-row{gap: 32px;}
     .xl-cta-text h2{font-size: 38px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .xl-cta-wrap{padding: 0 0 78px;}
     .xl-cta-main{padding: 50px 32px 32px; background-image: url('./images/xl-cta-micro-ipad@2x.jpg'); }
     .xl-cta-row{gap: 24px; margin-bottom: 39px; flex-direction: row-reverse;}
@@ -68,7 +68,7 @@
     .xl-step-text{font-size: 14px; line-height: 21px;}
     .xl-step-text h2{font-size: 20px; line-height: 25px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .xl-cta-wrap{padding: 0 0 22px;}
     .xl-cta-main{padding: 42px 24px 24px; background-image: url("images/xl-cta-micro-mobile@2x.jpg");}
     .xl-cta-row{display: block;}

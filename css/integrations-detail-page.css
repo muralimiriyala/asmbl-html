@@ -35,7 +35,7 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
     .in-detail-main{padding: 158px 0 39px; display: block;}
     .in-detail-text{padding-top: 50px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .in-detail-main{padding: 123px 0 39px; display: block;}
     .in-detail-images{max-width: 350px; margin-bottom: 20px;}
     .in-detail-logos{flex-direction: column; flex: 1; gap: 39px; max-width: 120px;}

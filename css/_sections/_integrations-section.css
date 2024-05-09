@@ -32,7 +32,7 @@ div.no_cards{display: block;}
     .integrations-cards{gap: 32px;}
     .integrations-card{flex: 0 0 calc(50% - 16px); gap: 20px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .integrations-main{padding: 40px 0; display: block;}
     .integrations-text{margin-bottom: 40px;}
     .integrations-cards{gap: 24px; flex-direction: column;}

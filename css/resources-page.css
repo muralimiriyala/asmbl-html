@@ -68,7 +68,7 @@ span.loader{position: absolute;}
     .resources-row{gap: 32px; padding: 42px 0 62px; justify-content: center;}
     .resources-list{flex: 0 0 calc(50% - 16px);}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .resources-wrap{padding: 38px 0 80px;}
     .res-srch-main{display: block; padding: 0 0 55px;}
     .res-srch-form{margin-bottom: 7px;}

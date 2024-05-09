@@ -14,12 +14,12 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0;}
     .digital-asset-row{gap: 40px; padding: 0 0 40px;}
     .digital-asset-list{flex: 0 0 calc(33.3333% - 27px);}   
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .digital-asset-row{gap: 32px; padding: 0 0 40px;}
     .digital-asset-list:first-child{flex: 0 0 100%;}
     .digital-asset-list{flex: 0 0 calc(50% - 16px);}   
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .digital-asset-main{padding: 41px 0 80px;}
     .digital-asset-row{display: block; margin-bottom: 44px;}
     .digital-asset-list:not(:last-child){margin-bottom: 24px;}

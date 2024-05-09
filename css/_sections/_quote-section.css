@@ -21,14 +21,14 @@
     .quote-main{gap: 40px;}
     .quote-image{flex: 0 0 500px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .quote-main{padding: 89px 0 41px; display: block;}
     .quote-image{margin-bottom: 51px;}
     .quote-icon{margin-bottom: 24px;}
     .quote-icon-top{right: 0; top: -66px;}
     .quote-icon-btm{left: 0; bottom: -76px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .quote-main{padding: 89px 0 41px; display: block;}
     .quote-image{margin-bottom: 52px;}
     .quote-icon{margin-bottom: 27px;}

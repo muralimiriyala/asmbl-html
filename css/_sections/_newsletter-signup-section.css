@@ -26,14 +26,14 @@
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .newsletter-main{gap: 32px; padding: 32px 32px 14px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .newsletter-main{display: block; padding: 40px 48px 26px; background-image: url("./images/newsletter-bg.svg"); background-position: center;} 
     .newsletter-text{margin-bottom: 3rem;}
     .newsletter-field{width: calc(50% - 10px); margin: 0 10px 20px; float: left;}
     .newsletter-field.frm_first{margin-left: 0;}
     .newsletter-field.frm_last{margin-right: 0;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .newsletter-wrap{padding: 0 0 22px;}
     .newsletter-overlay{height: 50%;}
     .newsletter-main{display: block; padding: 32px 32px 23px; background-image: url("./images/newsletter-mobile-bg.svg");}

@@ -32,12 +32,18 @@ ul.who-for-tabs li::before{display: none;}
     .industry-slide{flex: 0 0 calc(25%); padding: 21px 44px 23px; }
     .industry-slide.slick-slide{width: 321px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .who-for-main{padding: 80px 0 40px;}
+    .who-for-row{display: block;}
+    .who-for-image{margin-bottom: 24px;}
+    .who-for-text{padding: 27px 0 40px;}
+
     .industry-slider.slick-slider{padding: 0 0 32px 2px;}
     .industry-slider.slick-slider .slick-list{overflow: inherit;}
-    .industry-slide.slick-slide{width: 298px; padding: 12px 32px 13px;}
+    .industry-slide.slick-slide{width: 298px; min-height: 245px; padding: 2px 21px 0px;}
+    .industry-count{display: none;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .who-for-main{padding: 39px 0 40px;}
     .who-for-row{display: block;}
     .who-for-image{margin-bottom: 24px;}

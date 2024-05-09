@@ -36,7 +36,7 @@ img.mfp-img { width: auto; max-width: 100%; height: auto; display: block; line-h
   .mfp-inline-holder .mfp-content{max-width: 100%;}
   .mfp-iframe-holder .mfp-close, .mfp-image-holder .mfp-close{ right: 3px; } 
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
   .white-popup-block{padding: 30px 20px;}
   .mfp-container { padding-left: 20px; padding-right: 20px; }
 }

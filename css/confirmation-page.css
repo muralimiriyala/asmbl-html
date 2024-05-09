@@ -24,12 +24,12 @@
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .confirmation-row{gap: 32px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .confirmation-main{padding: 144px 0 67px;}
     .confirmation-row{display: block;}
     .confirmation-text{margin-bottom: 60px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .confirmation-main{padding: 121px 0 74px;}
     .confirmation-row{display: block;}
     .confirmation-text{margin-bottom: 39px;}

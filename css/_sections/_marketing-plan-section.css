@@ -39,13 +39,13 @@ ul.marketing-plan-order li::before{display: none;}
     .marketing-plan-row{gap: 30px;}
     .marketing-plan-list{flex: 0 0 calc(50% - 15px);}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .marketing-plan-main{padding: 60px 0;}
     .marketing-plan-row{gap: 30px;}
     .marketing-plan-list{flex: 0 0 calc(50% - 15px);}
     .marketing-plan-title h1{font-size: 40px; line-height: 50px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .marketing-plan-main{padding: 41px 0 40px;}
     .marketing-plan-top{margin-bottom: 33px; display: block;}
     .marketing-plan-title h1{margin-bottom: 24px; font-size: 32px; line-height: 40px;}

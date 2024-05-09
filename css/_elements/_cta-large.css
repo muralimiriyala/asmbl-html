@@ -33,13 +33,13 @@
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .cta-large-main{padding: 55px 32px 54px; gap: 32px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .cta-large-main{padding: 55px 48px 54px; display: block; background-position: bottom center;}
     .cta-large-image{max-width: 528px; margin: auto;}
     .cta-large-text{margin: 40px auto 0; max-width: 528px; text-align: center; }
     .cta-large-btns{gap: 16px; justify-content: center;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .cta-large-main{padding: 38px 24px 32px; display: block; background-image: url('./images/cta-micro-mobile@2x.jpg'); background-position: bottom center;}
     .cta-large-image{max-width: 528px; margin: auto;}
     .cta-large-text{margin: 23px auto 0; max-width: 528px; text-align: center; }

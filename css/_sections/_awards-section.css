@@ -24,13 +24,13 @@
     .awards1-of-3 .awards-list{flex: 0 0 calc(33.3333% - 22px);}
     .awards1-of-2 .awards-list{flex: 0 0 calc(50% - 16px);}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .awards-intro-head{margin-bottom: 34px;}
     .awards-intro-title h2{font-size: 30px; line-height: 40px;}
     .awards-row{gap: 62px 32px; padding: 28px 0 0;}
     .awards-list{flex: 0 0 calc(50% - 16px); padding: 24px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .awards-intro-head{margin-bottom: 68px; display: block;}
     .awards-row{display: block; padding-bottom: 32px;}
     .awards-list{padding: 24px;}

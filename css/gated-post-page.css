@@ -32,7 +32,7 @@ body .sidebar-cta-form .selectBox-dropdown{font-size: 14px; line-height: 20px; f
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .gated-post-main{gap: 40px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .gated-post-section{padding: 133px 0 80px;}
     .gated-post-main{display: block;}
     .gated-post-article{margin-bottom: 71px;}
@@ -40,7 +40,7 @@ body .sidebar-cta-form .selectBox-dropdown{font-size: 14px; line-height: 20px; f
     .gated-point-list{flex: 0 0 calc(33.3333% - 20px);}
     .cta-resource-close{display: none;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .gated-post-section{padding: 119px 0 37px; }
     .gated-post-main{display: block;}
     .gated-post-article{margin-bottom: 37px;}

@@ -17,7 +17,7 @@
     .repeater-image-pos{min-width: 720px; min-height: 540px;}
     .repeater-text.no_image { flex: 0 0 100%; padding: 80px; }
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     body.page-template-integrations-detail .repeater-row:first-child{flex-direction: column-reverse;}
     body.page-template-integrations-detail .repeater-main{padding: 60px 0 38px;}
     body.page-template-integrations-detail .repeater-desc hr{margin-bottom: 22px}
@@ -29,7 +29,7 @@
     body.page-template-integrations-detail .repeater-row:nth-child(3){padding-top: 10px;}
     body.page-template-integrations-detail .repeater-row:nth-child(3) .repeater-image{padding-top: 0; padding-bottom: 30px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     body.page-template-integrations-detail .repeater-row:first-child{flex-direction: column-reverse;}
     body.page-template-integrations-detail .repeater-main{padding: 40px 0 8px;}
     body.page-template-integrations-detail .repeater-desc hr{margin-bottom: 22px}

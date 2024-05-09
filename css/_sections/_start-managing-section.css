@@ -13,7 +13,7 @@
     .start-managing-text{flex: 1;}
     .start-managing-btn{width: fit-content;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     body.page-template-use-case-detail .start-managing-section{margin-bottom: 21px;}
     .start-managing-main{padding: 22px 24px 24px; display: block; background-image: url("./images/mini-cta-buble-mobile.svg");}
     .start-managing-text{text-align: center;}

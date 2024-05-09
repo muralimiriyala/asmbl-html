@@ -42,7 +42,7 @@
     .featured-res-text h2{font-size: 30px; line-height: 40px;}
     .featured-res-image img{min-height: 200px;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .featured-res-main{padding: 119px 0 40px;}
     .featured-res-head{display: block;}
     .featured-res-title{margin-bottom: 50px;}

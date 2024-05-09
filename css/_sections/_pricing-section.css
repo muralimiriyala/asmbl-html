@@ -47,7 +47,7 @@ ul.pricing-order li::before{display: none;}
     .pricing-additional-main{gap: 40px;}
     .pricing-additional{flex: 0 0 calc(50% - 20px);}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .pricing-title h1{font-size: 40px; line-height: 50px;}
     .pricing-row{gap: 24px; margin-bottom: 64px;}
     .pricing-list{flex: 0 0 100%; width: 100%; gap: 24px; align-items: center; display: flex; flex-wrap: wrap;}
@@ -57,7 +57,7 @@ ul.pricing-order li::before{display: none;}
     .pricing-additional-main{gap: 40px;}
     .pricing-additional{flex: 0 0 calc(50% - 20px);}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 767px) and (min-width: 200px){
     .pricing-top h1{font-size: 32px; line-height: 40px;}
     .pricing-main{padding: 120px 0 61px;}
     .pricing-row{display: block;}
