@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
         pauseOnFocus: false, 
         responsive: [
             {
-              breakpoint: 739,
+              breakpoint: 767,
               settings: {
                   vertical: false,
                   verticalSwiping: false,
@@ -40,7 +40,7 @@ jQuery(document).ready(function($){
         pauseOnFocus: false,    
         responsive: [
             {
-              breakpoint: 739,
+              breakpoint: 767,
               settings: {
                   vertical: false,
                   verticalSwiping: false,

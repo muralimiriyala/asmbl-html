@@ -430,8 +430,15 @@
 <section class="browser-art-section">
 <div class="container sm">
     <div class="browser-art-main relative">
-        <div class="browser-art-head relative"></div>
-        <div class="browser-art-content flex">
+        <div class="browser-art-head relative">
+            <picture class="browser-art-thumb object-fit">
+                <source srcset="images/browse-head.svg" media="(min-width: 1280px)">
+                <source srcset="images/browse-head-1120.svg" media="(min-width: 1120px)">
+                <source srcset="images/browse-head-688.svg" media="(min-width: 768px)">
+                <img src="images/browse-head-mobile.svg" alt="browse-head-mobile">
+            </picture>
+        </div>
+        <div class="browser-art-content flex relative o-hidden">
             <div class="browser-art-left">
                 <figure class="browser-left-thumb object-fit">
                     <img src="images/dummy.jpg" alt="column-2-3-4">
