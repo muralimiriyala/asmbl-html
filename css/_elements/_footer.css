@@ -16,18 +16,19 @@ ul.copyrights-links{margin: 0; gap: 32px;}
 ul.copyrights-links li:first-child::before{display: none;}
 ul.copyrights-links li::before{width: 1px; height: 18px; top: 0; opacity: 0.25; background-color: var(--Blue);}
 ul.copyrights-links li a{ color: var(--Foreground, #313031); font-size: 12px; font-weight: 400; line-height: 20px;}
-ul.copyrights-links li a:hover{color: var(--Blue);}
+ul.copyrights-links li.current_page_item a, ul.copyrights-links li a:hover{color: var(--Orange);}
 
 ul.footer-links{margin: 0;}
 ul.footer-links li{margin: 0;}
 ul.footer-links li:first-child::before{display: none;}
 ul.footer-links li::before{width: 16px; height: 16px; left: -39px; top: 7px; background: var(--Background, #F0F2FA); border-radius: 0;}
 ul.footer-links li a{color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 30px;}
-ul.footer-links li a:hover{color: var(--Orange);}
+ul.footer-links li.current-menu-item a, ul.footer-links li a:hover{color: var(--Orange);}
 
 .footer-desc{padding: 0 0 26px; color: var(--Navy); font-family: "arboria", sans-serif;}
 ul.footer-nav-links li::before{display: none;}
 ul.footer-nav-links li a{font-size: 16px; line-height: 24px;}
+ul.footer-nav-links li.current_page_item a, ul.footer-nav-links li a:hover{color: var(--Orange);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
