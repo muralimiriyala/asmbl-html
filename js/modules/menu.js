@@ -1,6 +1,6 @@
 
 function menu(){
-    if(window.matchMedia('(max-width: 1023px)').matches) {
+    if(window.matchMedia('(max-width: 935px)').matches) {
         $(".humburger-btn").on("click", function(e){
             e.preventDefault();
             $(this).toggleClass("open");
