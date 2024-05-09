@@ -6,7 +6,7 @@
 
 .prod-overview-bg:not(:last-child){margin-bottom: 16px;}
 .prod-overview-desc{margin-bottom: 31px;}
-.prod-art-title{gap: 10px; padding: 16px 14px 16px 15px;  cursor: pointer; color: var(--Navy, #182A54); font-size: 20px; font-weight: 400; line-height: 25px;}
+.prod-art-title{gap: 7px; padding: 16px 14px 16px 15px;  cursor: pointer; color: var(--Navy, #182A54); font-size: 20px; font-weight: 400; line-height: 25px;}
 .prod-art-title.open{color: var(--Blue);}
 .prod-art-icon{width: 31px;}
 .prod-art-content{padding: 4px 14px 14px 15px; display: none;}

@@ -14,20 +14,18 @@ body .become-partner-form .frm_forms .frm_form_fields .frm_form_field#frm_field_
 body .become-partner-form .frm_forms .frm_error_style{display: none;}
 body .frm_forms .frm_form_fields .frm_description{display: none;}
 body .frm_forms .frm_required{display: none;}
-body .frm_forms .frm_required{font-size: 1rem; line-height: 1; font-weight: 800; color: var(--Foreground); font-family: 'VisbyCF', sans-serif;}
+body .frm_forms .frm_required{font-size: 1rem; line-height: 1; font-weight: 800; color: var(--Foreground);}
 body .frm_forms .frm_form_fields .frm_fields_container{display: block; position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 1rem; line-height: 1.25; font-weight: 800; font-family: "VisbyCF", sans-serif; color: var(--Foreground); text-transform: none; padding: 0 0 6px;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 1rem; line-height: 1.25; font-weight: 800; color: var(--Foreground); text-transform: none; padding: 0 0 6px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 400; font-family: Univers,sans-serif; color: var(--Foreground-light); font-size: 1rem; }
-body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; margin: 0; width: 100%; font-size: 14px; line-height: 20px; font-weight: 700; box-shadow: none; padding: 13px 16px 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--Elevated, #F0F2FA); color: var(--Blue); font-family: "arboria", sans-serif; -webkit-appearance: none; transition: border 0.5s ease;}
+body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; margin: 0; width: 100%; font-size: 14px; line-height: 20px; font-weight: 700; box-shadow: none; padding: 13px 16px 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--Elevated, #F0F2FA); color: var(--Blue); font-family: "Noto Sans", sans-serif; -webkit-appearance: none; transition: border 0.5s ease;}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 160px;}
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"][type="checkbox"]):focus{background-color: var(--White); border-color: rgb(19 53 175 / 60%); box-shadow: none;}
-body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--Foreground); border: 1px solid var(--Aecon-Red, #DA1A32); background: rgba(218, 26, 50, 0.10);}
-body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--Blue); font-family: "Noto Sans", sans-serif;}
-body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--Blue); font-family: "Noto Sans", sans-serif; opacity: 1;}
-body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--Blue); font-family: "Noto Sans", sans-serif; opacity: 1;}
+body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--Foreground); border: 1px solid var(--Orange); background: transparent;}
+body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--Blue); font-family: "arboria", sans-serif;}
+body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--Blue); font-family: "arboria", sans-serif; opacity: 1;}
+body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--Blue); font-family: "arboria", sans-serif; opacity: 1;}
 .vertical_radio .frm_opt_container{margin-top: 0;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 6px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 41px; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; text-indent: 0; color: #5e6783; position: relative;}
@@ -62,7 +60,7 @@ body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{gap: 8px; di
 body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block; padding: 0; background: none; border-radius: 0; border: none;}
 
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0; position: relative; background-color: transparent;}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 30px; position: relative; background-color: transparent;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 1px; left: 0;}
 body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--White) !important;}
 body .with_frm_style .frm_loading_prev .frm_prev_page{opacity: 1 !important; color: var(--Navy) !important;}
