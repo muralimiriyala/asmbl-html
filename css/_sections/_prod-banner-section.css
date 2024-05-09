@@ -10,16 +10,14 @@
 @media screen and (min-width: 1024px){
     .prod-banner-main{padding: 156px 0 74px;}
     .prod-banner-text{max-width: 880px; margin-bottom: 53px;}
-
 }
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .prod-banner-main{padding: 133px 0 80px;}
+    .prod-banner-text{max-width: 880px; margin-bottom: 53px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .prod-banner-main{padding: 133px 0 40px;}
+    .prod-banner-text{margin-bottom: 20px; font-size: 18px; line-height: 27px;}
+    .prod-banner-text h1{font-size: 32px; line-height: 40px;}
+    .prod-banner-text hr{margin-bottom: 23px;}
+}

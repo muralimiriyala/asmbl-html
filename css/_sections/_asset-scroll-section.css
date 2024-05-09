@@ -59,11 +59,19 @@ ul.splide__list li::before{display: none;}
     .keywords-above{right: 30px; bottom: 74px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
+    .prod-banner-main .asset-scroll-main{padding-bottom: 89px;}
     .asset-scroll-main{padding: 40px 0 114px;}
     .search-above{left: 24px;}
     .keywords-above{right: 26px; bottom: 74px;}
     .asset-scroll-slider:not(.is-active) .splide__track{padding-left: 12px;}
     .asset-scroll-slider.is-initialized:not(.is-active) ul.splide__list{justify-content: flex-start;}
+
+
+    .prod-banner-main .search-above{top: 14px; max-width: 195px;}
+    .prod-banner-main .colorful-bg-form input{padding: 7px 11px 7px 34px; font-size: 15px; line-height: 22px;}
+    .prod-banner-main .colorful-bg-form button[type="submit"]{top: 7px; left: 12px; font-size: 15px; line-height: 22px;}
+
+    .prod-banner-main .keywords-above{bottom: 0;}
 }
 
 

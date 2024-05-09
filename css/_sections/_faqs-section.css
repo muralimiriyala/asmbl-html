@@ -4,6 +4,7 @@
 .faqs-questions hr{margin: 0 0 17px;}
 .faqs-title{gap: 18px; margin-bottom: 23px;}
 .faqs-title svg, .faqs-title-icon{flex: 0 0 39px;}
+.faqs-title-icon img{object-fit: contain;}
 .faqs-title span{flex: 1;}
 .faqs-title h2{margin: 0; padding-top: 3px; flex: 1;}
 ul.faqs-links{margin: 0;}
@@ -12,7 +13,7 @@ ul.faqs-links li::before{display: none;}
 ul.faqs-links li a{font-size: 16px; line-height: 24px; font-weight: 600; color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; display: inline-flex; align-items: center; gap: 7px; position: relative; }
 ul.faqs-links li a svg{ top: 1px; position: relative;}
 ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
-.need-more-answers{padding: 23px 24px 24px; background-image: linear-gradient(0deg, #1335AF -0.05%, rgba(19, 53, 175, 0.00) 99.95%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-image: url("images/sidebar-cta.svg"); background-repeat: no-repeat; background-size: cover;}
+.need-more-answers{padding: 23px 24px 24px; background-attachment: var(--Blue); background: linear-gradient(0deg, #1335AF -0.05%, rgba(19, 53, 175, 0.00) 99.95%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-image: url("images/sidebar-cta.svg"); background-repeat: no-repeat; background-size: cover;}
 
 .accordion-list.white{background-color: var(--White);}
 .accordion-list{margin-bottom: 22px; border: solid 1px rgba(217, 223, 242, 0.50); transition: all 0.4s ease;}
@@ -57,7 +58,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
     .faqs-category-btn svg{right: 15px; top: 50%; transform: translateY(-50%); position: absolute;}
     .faqs-category-btn.active svg{transform: translateY(-50%) scaleY(-1);}
     ul.faqs-links{display: none; padding: 12px 16px 10px; border: 1px solid var(--Blue-Tint,#d9dff2); border-top-color: transparent; background-color: var(--White);}
-    ul.faqs-links li a{font-size: 14px;}
+    ul.faqs-links li a{font-size: 12px; line-height: 18px;}
     .faqs-right{padding: 0 0 40px;}
     .faqs-list:not(:last-child){margin-bottom: 50px;}
 }

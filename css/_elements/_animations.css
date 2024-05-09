@@ -34,7 +34,7 @@
 @-webkit-keyframes scaleInXRight { 0% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
 @keyframes scaleInXRight { 0% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
   
-.floating { -webkit-animation: floating 3s infinite; animation: floating 3s infinite; } @-webkit-keyframes floating { 0% { transform: translateY(-6%); } 50% { transform: translateY(6%); } 100% { transform: translateY(-6%); } } 
+.floating{ -webkit-animation: floating 3s infinite; animation: floating 3s infinite; } @-webkit-keyframes floating { 0% { transform: translateY(-6%); } 50% { transform: translateY(6%); } 100% { transform: translateY(-6%); } } 
 @keyframes floating { 0% { transform: translateY(-6%); } 50% { transform: translateY(6%); } 100% { transform: translateY(-6%); } } 
 .floating-lg { -webkit-animation: floatingLg 3s infinite; animation: floatingLg 3s infinite; } @-webkit-keyframes floatingLg { 0% { transform: translateY(-12%); } 50% { transform: translateY(6%); } 100% { transform: translateY(-12%); } } 
 @keyframes floatingLg { 0% { transform: translateY(-12%); } 50% { transform: translateY(6%); } 100% { transform: translateY(-12%); } }
@@ -51,13 +51,11 @@
 .top-0-to-100{animation-name: top-0-to-100;}
 @keyframes top-0-to-100{ 0%{height: 0;} 50%{height: 50%;} 100%{height: 100%;} }
 
-.fade-circle{animation-name: fade-circle;}
-@keyframes fade-circle{ 
-    0%{border-radius: 0%; border-color: var(--Blue);}
-    25%{border-radius: 25%;} 
-    100%{border-radius: 50%;} 
-}
+.width-0-64{animation-name: width-0-64;}
+@keyframes width-0-64{ 0%{width: 0;} 50%{width: 32px;} 100%{width: 64px;} }
 
+.fade-circle{animation-name: fade-circle;}
+@keyframes fade-circle{ 0%{border-radius: 0%; border-color: var(--Blue);} 25%{border-radius: 25%;} 100%{border-radius: 50%;} }
 
 @keyframes scrollDown{ 0%{transform: translateY(0px); opacity: 1;} 50%{transform: translateY(20px); opacity: 0;} 56%{transform: translateY(-20px); opacity: 0;} 100%{transform: translateY(0px); opacity: 1;} }
 @keyframes scrollRight{ 0%{transform: translateX(0px); opacity: 1;} 50%{transform: translateX(20px); opacity: 0;} 56%{transform: translateX(-20px); opacity: 0;} 100%{transform: translateX(0px); opacity: 1;} }

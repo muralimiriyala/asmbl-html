@@ -55,6 +55,9 @@
 
 
     body.home .repeater-main{padding: 0 0 8px;}
+    /*-- 02 - Product Landing page --*/
+    body.page-template-product-landing .repeater-main{padding: 0 0 40px;}
+    /*-- 02 - Product Landing page --*/
 
     body.page-template-integrations-detail .repeater-row:first-child{flex-direction: column-reverse;}
     body.page-template-integrations-detail .repeater-main{padding: 40px 0 8px;}

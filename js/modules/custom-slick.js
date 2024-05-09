@@ -1,5 +1,5 @@
-jQuery(document).ready(function($){
-    $(".client-slider-up").slick({
+jQuery(document).ready(function(){
+    jQuery(".client-slider-up").slick({
         arrows: false,
         dots: false,
         vertical: true,
@@ -24,7 +24,7 @@ jQuery(document).ready(function($){
             },
         ], 
     });
-    $(".client-slider-down").slick({
+    jQuery(".client-slider-down").slick({
         arrows: false,
         dots: false,
         vertical: true,
@@ -52,7 +52,7 @@ jQuery(document).ready(function($){
 });
 
 const pageSlider = jQuery(".industry-slider");
-var $status = $(".industry-count");
+var $status = jQuery(".industry-count");
 const pageSlide = pageSlider.children(".industry-slide").length;
 let mobileMedia = function(){
     if(jQuery(window).width() <= 1023){   
