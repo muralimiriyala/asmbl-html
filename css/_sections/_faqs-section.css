@@ -41,7 +41,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .faqs-main{gap: 60px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .faqs-main{padding: 118px 0 28px; display: block;}
     .faqs-text{gap: 60px; margin-bottom: 60px; display: flex; flex-wrap: wrap; align-items: flex-start;}
     .faqs-questions{flex: 1;}
@@ -49,7 +49,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
     .faqs-list{margin-bottom: 52px;}
     .faqs-category-btn{display: none;}
 }
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 200px){
     .faqs-main{display: block; padding: 120px 0 40px;}
     .faqs-text{padding: 0 0 41px;}
     .faqs-category-btn{padding: 13px 16px 13px; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 14px; font-weight: 700; line-height: 20px; display: block; border: 1px solid var(--Blue-Tint, #D9DFF2); cursor: pointer;}

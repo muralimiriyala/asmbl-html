@@ -31,7 +31,7 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .in-detail-main{gap: 40px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .in-detail-main{padding: 158px 0 39px; display: block;}
     .in-detail-text{padding-top: 50px;}
 }

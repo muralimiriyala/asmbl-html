@@ -26,7 +26,7 @@ div.no_cards{display: block;}
     .integrations-cards{gap: 24px;}
     .integrations-card{flex: 0 0 calc(50% - 16px);}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .integrations-main{padding: 60px 0; display: block;}
     .integrations-text{margin-bottom: 54px;}
     .integrations-cards{gap: 32px;}

@@ -16,7 +16,7 @@
     .alt-faqs-right{flex: 1;}
     .alt-faqs-list{margin-bottom: 52px;}
 }
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 200px){
     .alt-faqs-main{padding: 43px 0 40px; display: block;}
     .alt-faqs-text{padding-bottom: 12px;}
     .alt-faqs-right{margin-bottom: 40px;}

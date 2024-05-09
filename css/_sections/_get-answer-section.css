@@ -25,11 +25,11 @@ ul.get-author-links li a{gap: 10px; color: var(--Blue, #1335AF); font-size: 16px
     .get-answer-main{gap: 60px;}
     .get-answer-text{flex: 0 0 322px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .get-answer-main{padding: 69px 0 80px; display: block;}
     .get-answer-text{margin-bottom: 60px;}
 }
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 200px){
     .get-answer-main{padding: 44px 0 40px; display: block;}
     .get-answer-text{margin-bottom: 40px;}   
 }

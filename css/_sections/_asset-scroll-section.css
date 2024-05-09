@@ -53,12 +53,12 @@ ul.splide__list li::before{display: none;}
 @media screen and (min-width: 1024px){
     .asset-scroll-main{padding: 40px 0 62px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .asset-scroll-main{padding: 40px 0 114px;}
     .search-above{left: 30px;}
     .keywords-above{right: 30px; bottom: 74px;}
 }
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 200px){
     .asset-scroll-main{padding: 40px 0 114px;}
     .search-above{left: 24px;}
     .keywords-above{right: 26px; bottom: 74px;}

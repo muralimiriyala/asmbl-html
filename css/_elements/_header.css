@@ -128,6 +128,6 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .header_btns.off{display: none;}
     .header_btns .button{flex: 1;}
 }
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 200px){
    
 }

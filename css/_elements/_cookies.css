@@ -16,6 +16,6 @@ body .cky-preference-header .cky-btn-close{ padding: 4px; border: 2px solid tran
 body .cky-preference-header .cky-btn-close:hover{border-color: var(--Orange);}
 
 /*-- media css starts here --*/
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 200px){
     body .cky-box-bottom-left{right: 24px; left: auto; width: calc(100% - 48px);}
 }

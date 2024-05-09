@@ -31,7 +31,7 @@
     .intro-row{gap: 32px}
     .intro-list{flex: 0 0 calc(25% - 24px);}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .intro-main{padding: 80px 0 58px;}
     .intro-head{margin-bottom: 61px; display: block;}
     .intro-title{margin-bottom: 45px;}

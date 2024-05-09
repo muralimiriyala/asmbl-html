@@ -20,7 +20,7 @@
     .key-integration-row{gap: 40px;}
     .key-integration-list{flex: 0 0 calc(33.3333% - 30px);}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .key-integration-main{padding: 60px 0;}
     .key-intro-head{margin-bottom: 64px; display: block;}
     .key-intro-title{margin-bottom: 39px;}
@@ -28,7 +28,7 @@
     .key-integration-row{gap: 32px;}
     .key-integration-list{flex: 0 0 calc(50% - 16px);}
 }
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 200px){
     .key-integration-main{padding: 40px 0;}
     body.page-template-integrations-landing .key-integration-main{padding: 38px 0 40px;}
     .key-intro-head{margin-bottom: 64px; display: block;}

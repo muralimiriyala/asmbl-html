@@ -73,7 +73,7 @@ button.integrations-srch-btn{top: 50%; right: 16px; transform: translateY(-50%);
     .i-icon-10{top: 55px; right: 108px;}
     .i-icon-11 { bottom: 71px; right: 67px; }
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .integrations-banner-main{padding: 123px 0 24px; gap: 50px; flex-direction: row-reverse;}
     .integrations-banner-text{flex:1; font-size: 16px; line-height: 24px;}
     .integrations-banner-text span{margin-bottom: 21px;}
@@ -82,7 +82,7 @@ button.integrations-srch-btn{top: 50%; right: 16px; transform: translateY(-50%);
     .integrations-srch-from{margin-top: 31px; max-width: 420px; }
     .integrations-banner-images{flex: 0 0 298px;}
 }
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 200px){
     .integrations-banner-main{padding: 123px 0 37px; display: block;}
     .integrations-banner-text{padding-top: 33px; font-size: 16px; line-height: 24px;}
     .integrations-banner-text span{margin-bottom: 21px;}

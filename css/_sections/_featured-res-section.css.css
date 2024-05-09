@@ -34,7 +34,7 @@
     .featured-res-list:nth-child(2n+2):not(:nth-child(2n+4)){flex: 0 0 386px;}
     .featured-res-list:nth-child(2n+3){flex: 0 0 386px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .featured-res-head{display: block; margin-bottom: 38px;}
     .featured-res-title{margin-bottom: 16px;}
     .featured-res-row{gap: 32px; padding: 0 0 60px;}

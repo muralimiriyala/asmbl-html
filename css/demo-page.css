@@ -20,11 +20,11 @@ ul.demo-options > li span{flex: 1; gap: 8px;}
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .demo-main{gap: 30px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .demo-main{padding: 118px 0 74px; display: block;} 
     .demo-text{margin-bottom: 41px;}
 }
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 767px) and (min-width: 200px){
     body.page-template-marketing-lp .demo-main{padding: 40px 0 40px;}
     .demo-main{padding: 118px 0 74px; display: block;} 
     .demo-text{margin-bottom: 41px;}

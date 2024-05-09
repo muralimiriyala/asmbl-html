@@ -42,7 +42,7 @@
     .avatar-text{flex: 1;}
     body.page-template-post-video .post-date-wrap{margin-bottom: 39px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 740px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
     .resource-post-main{padding: 132px 0 80px; display: block;}
     .resource-post-article:not(:last-child){padding-bottom: 50px;}
     .avatar-main{gap: 32px;}
