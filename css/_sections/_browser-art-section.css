@@ -22,15 +22,7 @@
     .browser-art-right{flex: 0 0 calc(50% - 10px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-
-.browser-art-left {
-	transform: rotate(0deg);
-	height: 200px;
-	width: 100%;
-}
-.browser-art-right {
-	transform: rotate(0deg);
-	height: 200px;
-	width: 100%;
-}
+    .browser-art-content{display: block;}
+    .browser-art-left { transform: rotate(0deg); height: 200px; width: 100%; }
+    .browser-art-right { transform: rotate(0deg); height: 200px; width: 100%; }
 }

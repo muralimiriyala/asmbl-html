@@ -18,6 +18,18 @@
     .repeater-text.no_image { flex: 0 0 100%; padding: 80px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .repeater-main{padding: 40px 0 8px;}
+    .repeater-row{display: block; padding-bottom: 38px;}
+    .repeater-image{margin-bottom: 30px;}
+    .repeater-desc hr{margin-bottom: 22px}
+    .repeater-desc ul{padding: 5px 0 3px;}
+    .repeater-row:nth-child(even):not(:first-child) .repeater-image{width: calc(100% + 24px); left: -24px; position: relative;}
+    .repeater-desc{margin-bottom: 0;}
+    .repeater-desc h2{font-size: 24px; line-height: 30px;}
+    .repeater-desc h2.h1{margin-bottom: 22px; font-size: 30px; line-height: 40px;}
+    .repeater-row:nth-child(odd) .repeater-image{width: calc(100% + 24px); right: -24px; position: relative;}
+
+
     body.page-template-integrations-detail .repeater-row:first-child{flex-direction: column-reverse;}
     body.page-template-integrations-detail .repeater-main{padding: 60px 0 38px;}
     body.page-template-integrations-detail .repeater-desc hr{margin-bottom: 22px}
@@ -30,6 +42,20 @@
     body.page-template-integrations-detail .repeater-row:nth-child(3) .repeater-image{padding-top: 0; padding-bottom: 30px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .repeater-main{padding: 40px 0 8px;}
+    .repeater-row{display: block; padding-bottom: 38px;}
+    .repeater-image{margin-bottom: 30px;}
+    .repeater-desc hr{margin-bottom: 22px}
+    .repeater-desc ul{padding: 5px 0 3px;}
+    .repeater-row:nth-child(even):not(:first-child) .repeater-image{width: calc(100% + 24px); left: -24px; position: relative;}
+    .repeater-desc{margin-bottom: 0;}
+    .repeater-desc h2{font-size: 24px; line-height: 30px;}
+    .repeater-desc h2.h1{margin-bottom: 22px; font-size: 30px; line-height: 40px;}
+    .repeater-row:nth-child(odd) .repeater-image{width: calc(100% + 24px); right: -24px; position: relative;}
+
+
+    body.home .repeater-main{padding: 0 0 8px;}
+
     body.page-template-integrations-detail .repeater-row:first-child{flex-direction: column-reverse;}
     body.page-template-integrations-detail .repeater-main{padding: 40px 0 8px;}
     body.page-template-integrations-detail .repeater-desc hr{margin-bottom: 22px}
