@@ -1,4 +1,5 @@
 
+.gray-bg .prod-overview-bg.active{background-color: var(--White); border-color: var(--White); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10);}
 
 .prod-overview-bg{background-color: var(--White-60); border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); transition: all 0.5s ease;}
 .prod-overview-bg:hover{border-color: var(--Blue); background-color: var(--White);}
@@ -10,16 +11,26 @@
 .prod-art-title span{flex: 1; gap: 4px; display: flex; align-items: center;}
 .prod-art-title span strong{white-space: nowrap;}
 .prod-art-icon{width: 31px;}
-.prod-art-content{padding: 2px 14px 14px 15px; display: none;}
+.prod-art-content{padding: 4px 14px 14px 15px; display: none;}
+.prod-art-content p:not(:last-child){margin-bottom: 20px;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .prod-overview-main{gap: 80px; padding: 48px 0 120px;}
-    .prod-overview-text{flex: 0 0 480px;}
-    .prod-overview-image{flex: 1;}
+    .prod-overview-section:not(.gray-bg) .prod-overview-wrap{padding-bottom: 40px;}
+    .prod-overview-main{padding: 48px 0 48px; flex-direction: row-reverse;} 
+    .white-bg .prod-overview-main{flex-direction: row;}
 }
-
-
+@media screen and (min-width: 1360px){
+    .prod-overview-main{gap: 80px; }
+    .prod-overview-text{flex: 0 0 480px;}
+    .prod-overview-image{flex: 0 0 calc(100% - 560px); max-width: calc(100% - 560px);}
+    .prod-overview-pos{min-width: 800px; min-height: 540px;}
+    .white-bg .prod-overview-pos{margin-left: -80px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .prod-overview-desc{text-align: center;}
+    .prod-overview-main{display: block;}
+}
 
 
 
