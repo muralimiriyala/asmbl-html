@@ -18,7 +18,7 @@
 .price-dollar sup:not(sub){color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 48px; font-weight: 700; line-height: 48px; letter-spacing: -2.4px; bottom: 0;}
 .price-dollar sub{padding-left: 11px; color: var(--Foreground, #313031); font-size: 14px; font-weight: 400; line-height: 21px; opacity: 0.6; }
 .pricing-head{margin-bottom: 17px; gap: 12px;}
-figure.pricing-h-icon, .pricing-head svg{width: 26px; min-height: 30px;}
+.pricing-head svg, figure.pricing-h-icon{width: 26px; height: 30px;}
 .pricing-head span{flex: 1;}
 .pricing-list{padding: 24px; border: 2px solid transparent;}
 .pricing-list:hover{background-color: transparent; border-color: var(--Gradient-Gold-B, #F9662D);}
@@ -28,7 +28,7 @@ ul.pricing-order{margin: 24px 0 24px;}
 ul.pricing-order li{gap: 13px;}
 ul.pricing-order li::before{display: none;}
 .pricing-additional{gap: 20px;}
-.pricing-additional svg{width: 42px;}
+.pricing-additional svg, .pricing-additional figure{width: 42px;}
 .pricing-additional span{margin-bottom: 0; flex: 1; border-left: 1px solid #fff; padding-left: 20px;}
 
 /* media css starts here */
