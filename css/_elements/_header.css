@@ -36,46 +36,49 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li{margin: 0; width: 100%; display: block;}
     ul.main_menu > li.nav-product > ul > li > a{padding: 24px 32px; gap: 20px; display: flex; flex-wrap: wrap; align-items: center; background: var(--Background, #F0F2FA); color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 25px; font-family: "arboria", sans-serif; }
     ul.main_menu > li.nav-product > ul > li > a svg{width: 35px;}
-    ul.main_menu > li.nav-product > ul > li > ul{margin: 0; padding: 32px; gap: 32px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px; box-shadow: none;}
+    ul.main_menu > li.nav-product > ul > li > ul{margin: 0; padding: 32px; gap: 56px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px; box-shadow: none;}
     ul.main_menu > li.nav-product > ul > li > ul > li{margin: 0 0 22px; flex: 0 0 calc(33.3333% - 22px);}
+    ul.main_menu > li.nav-product > ul > li > ul > li:first-child{flex: 0 0 191px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > a{gap: 14px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 20px; font-weight: 700; line-height: 24px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > a:hover{color: var(--Orange);}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul{margin: 0; padding-top: 24px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li{margin: 0 0 24px;}
-    ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a{gap: 12px; display: flex; flex-wrap: wrap; align-items: center; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; }
+    ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a{gap: 12px; display: flex; flex-wrap: nowrap; align-items: flex-start; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; }
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a:hover{color: var(--Orange);}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a svg{width: 24px;}
 
     
-    ul.main_menu > li.nav-solutions > ul {max-height: 0; overflow: hidden; padding: 32px 32px 0; max-width: 955px; left: -455px; gap: 56px; display: flex; flex-wrap: wrap; width: 100vw; min-width: 955px; z-index: 10; border-radius: 0 0 8px 8px;}
+    ul.main_menu > li.nav-solutions > ul {max-height: 0; overflow: hidden; padding: 32px 32px 0; max-width: 956px; left: -455px; gap: 31px; display: flex; flex-wrap: wrap; width: 100vw; z-index: 10; border-radius: 0 0 8px 8px;}
     ul.main_menu > li.nav-solutions:hover > ul{max-height: inherit;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1){flex: 1;}
-    ul.main_menu > li.nav-solutions > ul > li:nth-child(2){flex: 0 0 271px;}
+    ul.main_menu > li.nav-solutions > ul > li:nth-child(2){flex: 0 0 274px; max-width: 274px;}
     ul.main_menu > li.nav-solutions > ul > li:last-child{padding: 20px 32px; margin: 0; flex: 0 0 calc(100% + 64px); left: -32px; gap: 40px; display: flex; flex-wrap: wrap; background: var(--Background, #F0F2FA); border-radius: 0 0 8px 8px;}
     ul.main_menu > li.nav-solutions > ul > li > a{ color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 25px; font-family: "arboria", sans-serif; }
     ul.main_menu > li.nav-solutions > ul > li > ul{margin: 0; padding: 20px 0 0; left: 0; top: auto; position: static; box-shadow: none; opacity: 1; visibility: visible;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li{margin: 0 0 22px;}
-    ul.main_menu > li.nav-solutions > ul > li > ul > li > a{gap: 14px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li > a{gap: 12px; align-items: flex-start; flex-wrap: nowrap; display: flex; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li > a:hover{color: var(--Orange);}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li > a figure{width: 25px;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li > a span{top: 1px; position: relative;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1) > ul{display: flex; flex-wrap: wrap;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1) > ul > li{flex: 0 0 50%;}
     ul.main_menu > li.nav-solutions > ul > li:last-child > ul{padding: 0; gap: 42px; display: flex; flex-wrap: wrap; background-color: transparent;}
     ul.main_menu > li.nav-solutions > ul > li:last-child > ul > li{margin: 0;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-solutions > ul > li > ul > li > ul > li > a svg{width: 24px;}
 
-
     .header_btns{width: fit-content; gap: 16px;}
-
     .menu-icon{width: 40px; height: 40px;}
 }
-@media screen and (max-width: 1279px) and (min-width: 1024px){
-    ul.main_menu{padding-right: 20px; gap: 20px;}
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+    ul.main_menu{padding-right: 22px; gap: 22px;}
     ul.main_menu > li.nav-product{position: static;}
-    ul.main_menu > li.nav-product > ul{left: -176px;}
-    ul.main_menu > li.nav-solutions > ul{left: -404px;}
+    ul.main_menu > li.nav-product > ul{left: -174px; max-width: 944px;}
+    ul.main_menu > li.nav-solutions > ul{left: -399px; max-width: 940px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 936px){
     ul.main_menu{padding-right: 20px;}
+    ul.main_menu > li.nav-product > ul{left: -220px; max-width: 934px;}
+    ul.main_menu > li.nav-solutions > ul{left: -447px; max-width: 940px;}
     .header_btns .button span{display: none;}
 }
 @media screen and (max-width: 935px) and (min-width: 200px){
