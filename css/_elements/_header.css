@@ -20,14 +20,23 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li > a::after{width: 100%; height: 4px; bottom: 0; left: 0; opacity: 0; position: absolute; content: ""; display: block; border-radius: 2px; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); transition: all 0.4s ease;}
     ul.main_menu > li:hover > a::after{opacity: 1;}
     ul.main_menu > li > a:hover{color: var(--Orange);}
-    ul.main_menu > li > ul{margin: 0; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: all 0.4s ease;}
+    ul.main_menu > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; border-radius: 0 0 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: all 0.4s ease; box-shadow: 0 6px 12px 0 rgba(24,42,84,.1);}
     ul.main_menu > li:hover > ul{opacity: 1; visibility: visible;}
+    ul.main_menu > li > ul > li{margin: 0 0 11px;}
+    ul.main_menu > li > ul > li > a{font-size: 16px; line-height: 22px; font-weight: 500; display: block;}
+
+    ul.main_menu > li > ul > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; left: calc(100% + 32px); top: 0; border-radius: 0 8px 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: all 0.4s ease; box-shadow: 0 6px 12px 0 rgba(24,42,84,.1);}
+    ul.main_menu > li > ul > li:hover > ul{opacity: 1; visibility: visible;}
+    ul.main_menu > li > ul > li > ul > li{margin: 0 0 11px;}
+    ul.main_menu > li > ul > li > ul > li > a{font-size: 16px; line-height: 22px; font-weight: 400; display: block;}
     
-    ul.main_menu > li.nav-product > ul {width: 100vw; padding: 0; max-width: 955px; left: -178px; gap: 56px; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 16px;}
+    
+    ul.main_menu > li.nav-product > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 0; max-width: 955px; left: -178px; gap: 56px; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 0 0 8px 8px; box-shadow: none;}
+    ul.main_menu > li.nav-product:hover > ul{max-height: inherit;}
     ul.main_menu > li.nav-product > ul > li{margin: 0; width: 100%; display: block;}
     ul.main_menu > li.nav-product > ul > li > a{padding: 24px 32px; gap: 20px; display: flex; flex-wrap: wrap; align-items: center; background: var(--Background, #F0F2FA); color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 25px; font-family: "arboria", sans-serif; }
     ul.main_menu > li.nav-product > ul > li > a svg{width: 35px;}
-    ul.main_menu > li.nav-product > ul > li > ul{margin: 0; padding: 32px; gap: 32px; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px;}
+    ul.main_menu > li.nav-product > ul > li > ul{margin: 0; padding: 32px; gap: 32px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px; box-shadow: none;}
     ul.main_menu > li.nav-product > ul > li > ul > li{margin: 0 0 22px; flex: 0 0 calc(33.3333% - 22px);}
     ul.main_menu > li.nav-product > ul > li > ul > li > a{gap: 14px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 20px; font-weight: 700; line-height: 24px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > a:hover{color: var(--Orange);}
@@ -38,18 +47,19 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a svg{width: 24px;}
 
     
-    ul.main_menu > li.nav-solutions > ul {padding: 32px 32px 0; max-width: 955px; left: -455px; gap: 56px; display: flex; flex-wrap: wrap; width: 100vw; min-width: 955px; z-index: 10; border: 1px solid var(--Blue-Tint,#d9dff2);}
+    ul.main_menu > li.nav-solutions > ul {max-height: 0; overflow: hidden; padding: 32px 32px 0; max-width: 955px; left: -455px; gap: 56px; display: flex; flex-wrap: wrap; width: 100vw; min-width: 955px; z-index: 10; border-radius: 0 0 8px 8px;}
+    ul.main_menu > li.nav-solutions:hover > ul{max-height: inherit;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1){flex: 1;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(2){flex: 0 0 271px;}
-    ul.main_menu > li.nav-solutions > ul > li:last-child{padding: 20px 32px; margin: 0; flex: 0 0 calc(100% + 64px); left: -32px; gap: 40px; display: flex; flex-wrap: wrap; background: var(--Background, #F0F2FA);}
+    ul.main_menu > li.nav-solutions > ul > li:last-child{padding: 20px 32px; margin: 0; flex: 0 0 calc(100% + 64px); left: -32px; gap: 40px; display: flex; flex-wrap: wrap; background: var(--Background, #F0F2FA); border-radius: 0 0 8px 8px;}
     ul.main_menu > li.nav-solutions > ul > li > a{ color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 25px; font-family: "arboria", sans-serif; }
-    ul.main_menu > li.nav-solutions > ul > li > ul{margin: 0; padding-top: 20px;}
+    ul.main_menu > li.nav-solutions > ul > li > ul{margin: 0; padding: 20px 0 0; left: 0; top: auto; position: static; box-shadow: none; opacity: 1; visibility: visible;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li{margin: 0 0 22px;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li > a{gap: 14px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li > a:hover{color: var(--Orange);}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1) > ul{display: flex; flex-wrap: wrap;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1) > ul > li{flex: 0 0 50%;}
-    ul.main_menu > li.nav-solutions > ul > li:last-child > ul{padding: 0; gap: 42px; display: flex; flex-wrap: wrap;}
+    ul.main_menu > li.nav-solutions > ul > li:last-child > ul{padding: 0; gap: 42px; display: flex; flex-wrap: wrap; background-color: transparent;}
     ul.main_menu > li.nav-solutions > ul > li:last-child > ul > li{margin: 0;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-solutions > ul > li > ul > li > ul > li > a svg{width: 24px;}
 
