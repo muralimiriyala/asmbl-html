@@ -1,0 +1,30 @@
+
+
+.pdetaial-masthead-text{font-size: 20px; line-height: 28px;}
+.pdetaial-masthead-text h1{color: var(--Navy);}
+.pdetaial-banner-btns{padding-top: 6px; gap: 16px;}
+
+/* media css starts here */
+@media screen and (min-width: 740px){
+    .pdetaial-masthead-text span.optional-text{margin-bottom: 24px;}
+    .pdetaial-masthead-text h1{margin-bottom: 23px;}
+    .pdetaial-masthead-text hr{margin-bottom: 22px;}
+
+}
+@media screen and (min-width: 1024px){
+    .pdetaial-masthead-main{padding: 96px 0 0; flex-direction: row-reverse;}
+    
+}
+@media screen and (min-width: 1360px){
+    .pdetaial-masthead-main{gap: 80px;}
+    .pdetaial-masthead-text{flex: 0 0 560px;}
+    .pdetaial-masthead-image{flex: 0 0 calc(100% - 640px); max-width: calc(100% - 640px);}
+    .pdetaial-masthead-pos{min-width: 720px; min-height: 540px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .pdetaial-masthead-main{padding: 121px 0 39px; display: block;}
+    .pdetaial-masthead-text{padding-top: 16px; font-size: 16px; line-height: 24px;}
+    .pdetaial-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
+    .pdetaial-masthead-text hr{margin-bottom: 20px;}
+    .pdetaial-banner-btns{padding-top: 1px;}
+}
