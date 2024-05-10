@@ -23,7 +23,6 @@
     .client-logos-text h2{display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 2;}
     
     .client-logos-slider{width: 64px;}
-
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .client-logos-main{padding-right: 32px;}
@@ -40,7 +39,6 @@
     .client-logos-text h2{font-size: 24px; line-height: 30px; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 2;}
     .client-logos-right{flex: 0 0 280px; gap: 8px;}
     .client-logos-slider{width: 64px;}
-
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .client-logos-main{display: block;}
@@ -53,7 +51,6 @@
     .client-logos-text h2{font-size: 24px; line-height: 30px;}
     .client-logos-slider:nth-child(n+3){display: none;}
     .client-logo-slide{margin: 4px; width: 40px;}
-
 }
 
 

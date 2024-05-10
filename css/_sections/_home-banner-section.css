@@ -1,0 +1,21 @@
+
+.home-banner-section{background-color:  var(--Blue-Tint, #D9DFF2);}
+.home-banner-text h1{color: var(--Navy);}
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .home-banner-main{padding: 200px 0;}
+    .home-banner-text{max-width: 560px;}
+    .home-banner-btns{padding-top: 6px; gap: 16px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .home-banner-main{padding: 80px 0 40px; display: block;}
+    .home-banner-text{font-size: 16px; line-height: 24px;}
+    .home-banner-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
+    .home-banner-text hr{margin-bottom: 20px;}
+    .home-banner-text p{margin-bottom: 20px;}
+    .home-banner-btns{gap: 15px;}
+}
