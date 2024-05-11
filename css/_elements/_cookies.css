@@ -12,7 +12,7 @@ body .cky-notice-btn-wrapper button.cky-btn.cky-btn-accept, body .cky-prefrence-
 body .cky-notice-btn-wrapper button.cky-btn.cky-btn-accept:hover, body .cky-prefrence-btn-wrapper button.cky-btn.cky-btn-accept:hover{color: var(--White) !important; background-color: var(--Orange) !important; opacity: 1;}
 body .cky-accordion-header .cky-always-active{color: var(--Orange);}
 body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: var(--Blue);}
-body .cky-preference-header .cky-btn-close{ padding: 4px; border: 2px solid transparent; border-radius: 4px; }
+body .cky-preference-header .cky-btn-close{ padding: 6px; border: 2px solid transparent; border-radius: 4px; }
 body .cky-preference-header .cky-btn-close:hover{border-color: var(--Orange);}
 body .cky-btn-revisit-wrapper{background: linear-gradient(to top,#f9662d -50%,#fec74d 100%);}
 
