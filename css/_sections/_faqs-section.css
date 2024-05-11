@@ -58,7 +58,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
     .faqs-category-btn svg{right: 15px; top: 50%; transform: translateY(-50%); position: absolute;}
     .faqs-category-btn.active svg{transform: translateY(-50%) scaleY(-1);}
     ul.faqs-links{display: none; padding: 12px 16px 10px; border: 1px solid var(--Blue-Tint,#d9dff2); border-top-color: transparent; background-color: var(--White);}
-    ul.faqs-links li a{font-size: 12px; line-height: 18px;}
+    ul.faqs-links li a{font-size: 14px; line-height: 18px;}
     .faqs-right{padding: 0 0 40px;}
     .faqs-list:not(:last-child){margin-bottom: 50px;}
 }

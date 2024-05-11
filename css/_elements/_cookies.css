@@ -14,6 +14,7 @@ body .cky-accordion-header .cky-always-active{color: var(--Orange);}
 body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: var(--Blue);}
 body .cky-preference-header .cky-btn-close{ padding: 4px; border: 2px solid transparent; border-radius: 4px; }
 body .cky-preference-header .cky-btn-close:hover{border-color: var(--Orange);}
+body .cky-btn-revisit-wrapper{background: linear-gradient(to top,#f9662d -50%,#fec74d 100%);}
 
 /*-- media css starts here --*/
 @media screen and (max-width: 767px) and (min-width: 200px){

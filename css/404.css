@@ -2,7 +2,9 @@
 
 .page-not-main{max-width: 475px; padding: 144px 0 17px;}
 .page-not-text{padding: 77px 0 80px;}
-.page-not-text span.optional-text{margin-bottom: 20px; letter-spacing: 2px; text-transform: uppercase;}
+.page-not-text span.optional-text{margin-bottom: 21px; letter-spacing: 2px; text-transform: uppercase;}
+.page-not-text h1{margin-bottom: 31px;}
+.page-not-text p{margin-bottom: 24px;}
 
 /* media css starts here */
 @media screen and (max-width: 767px) and (min-width: 200px){
