@@ -1,11 +1,14 @@
 
-.demo-section{background: var(--Masthead-Fade-A, linear-gradient(180deg, rgba(240, 242, 250, 0.00) 0%, #F0F2FA 100%), #F0F2FA); background-blend-mode: normal, darken, normal;}
+.demo-section{background: linear-gradient(180deg, rgba(240, 242, 250, 0.00) 0%, #F0F2FA 100%), #F0F2FA; background-blend-mode: normal, darken, normal;}
+
 .demo-text h2{margin-bottom: 21px;}
 .demo-text hr{margin: 0 0 39px;}
 ul.demo-options{margin: 0;}
 ul.demo-options > li::before{display: none;}
 ul.demo-options > li{gap: 8px; margin-bottom: 17px;}
-ul.demo-options > li figure, ul.demo-options > li svg{width: 23px; height: auto;}
+ul.demo-options > li figure, ul.demo-options > li svg{width: 23px; height: 23px;}
+ul.demo-options > li figure{top: -3px; position: relative;}
+ul.demo-options > li figure img{object-fit: contain;}
 ul.demo-options > li span{flex: 1; gap: 8px;}
 
 
@@ -26,12 +29,13 @@ ul.demo-options > li span{flex: 1; gap: 8px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
     body.page-template-marketing-lp .demo-main{padding: 40px 0 40px;}
-    .demo-main{padding: 118px 0 74px; display: block;} 
+    .demo-main{padding: 118px 0 73px; display: block;} 
     .demo-text{margin-bottom: 41px;}
-    .demo-text h2{font-size: 32px; line-height: 40px;}
+    .demo-text h2{margin-bottom: 24px; font-size: 32px; line-height: 40px;}
     ul.demo-options > li{gap: 16px; margin-bottom: 16px;}
     ul.demo-options > li figure, ul.demo-options > li svg{width: 40px; height: 40px;}
     ul.demo-options > li span, ul.demo-options > li span strong{display: block;}
+    ul.demo-options > li figure{top: 1px;}
 }
 
 
