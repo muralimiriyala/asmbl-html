@@ -18,6 +18,8 @@
     .white-bg .prod-overview-main{flex-direction: row;}
     .prod-art-title span{flex: 1; gap: 4px; display: flex; align-items: center;}
     .prod-art-title span strong{white-space: nowrap;}
+    .prod-image-list:first-child{display: block;}
+    .prod-image-list{display: none;}
 }
 @media screen and (min-width: 1360px){
     .prod-overview-main{gap: 80px; }

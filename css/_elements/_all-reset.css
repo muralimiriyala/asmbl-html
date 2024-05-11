@@ -103,6 +103,10 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .text-btn-link.back svg{margin-right: 5px; margin-left: auto;}
 .text-btn-link.back:hover svg {animation: scrollLeft 1s forwards ease-in-out; }
 
+
+button.text-btn-link{padding: 0; border-radius: 0; background: none;}
+
+
 .transition{transition: all 0.5s ease;}
 
 

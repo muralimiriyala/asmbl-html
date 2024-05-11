@@ -4,6 +4,7 @@
 .asmbl-masthead-text h1{margin-bottom: 23px; color: var(--Navy);}
 .asmbl-masthead-text hr{margin-bottom: 24px;}
 .asmbl-masthead-btns{gap: 16px; padding-top: 6px;}
+.asmbl-masthead-btns > span:not(:first-child){top: -2px; position: relative;}
 
 /* media css starts here */
 @media screen and (min-width: 1360px){

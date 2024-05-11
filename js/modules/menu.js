@@ -5,7 +5,7 @@ function menu(){
             e.preventDefault();
             jQuery(this).toggleClass("open");
             jQuery(".h_mobile_overlay").toggleClass("open");
-            jQuery(".header_right").slideToggle(900);
+            jQuery(".header_right").fadeToggle(500);
         });
         let level1 = jQuery("ul.main_menu > li.menu-item-has-children > a");
         level1.on("click", function(e){
@@ -22,7 +22,6 @@ function menu(){
             e.preventDefault();
             jQuery(this).parent("li").siblings().children("a").removeClass("active");
             jQuery(this).toggleClass("active");
-            // jQuery(this).parent().siblings("li").closest("ul").find("ul").slideUp(800);
             jQuery("ul.main_menu > li > ul > li.menu-item-has-children > ul").not($(this).siblings("ul")).slideUp(800);
             jQuery(this).siblings("ul").slideToggle(800);
         });
