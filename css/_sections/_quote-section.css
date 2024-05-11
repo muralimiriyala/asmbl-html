@@ -3,6 +3,7 @@
 .quote-section{background: var(--Background, #F0F2FA);}
 .quote-icon{margin-bottom: 27px;}
 .quote-text h2{margin-bottom: 30px; color: var(--Foreground);}
+.quote-text p::after{content: '"'; display: inline;}
 .quote-avatar{padding: 2px 0 3px 18px; border-left: 2px solid var(--Orange, #F9662D);}
 .quote-avatar span{display: block; margin-bottom: 2px;}
 .quote-avatar p{opacity: 0.5;}
@@ -32,6 +33,7 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .quote-main{padding: 89px 0 41px; display: block;}
     .quote-image{margin-bottom: 52px;}
+    picture.quote-thumb{min-height: 194px;}
     .quote-icon{margin-bottom: 27px;}
     .quote-icon-top{right: 0; top: -50px;}
     .quote-icon-btm{left: 0; bottom: -53px;}
