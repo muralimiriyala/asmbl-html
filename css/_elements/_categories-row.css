@@ -43,4 +43,5 @@
     .gray-bg .categories-list{border-bottom-color: var(--White);}
 
     .prod-categories-main{padding: 5px 0 40px;}
+    .prod-overview-wrap .categories-row{margin-bottom: 0;}
 }
