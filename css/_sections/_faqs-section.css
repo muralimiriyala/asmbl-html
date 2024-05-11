@@ -27,8 +27,10 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 .accordion-list.active{box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); border-color: transparent;}
 .faq-tab-content{display: none;}
 .faq-tab-content:first-child{display: block;}
-.faqs-text.no_accordions{flex: 0 0 100%;}
-.no_accordions .need-more-answers{background-image: linear-gradient(0deg,#1335af -.05%,rgba(19,53,175,0) 99.95%),linear-gradient(300deg,#182a54 0,#1335af 100%);}
+.no_accordions.faqs-main{padding: 143px 0 82px;}
+.no_accordions.faqs-main .faqs-text{flex: 0 0 100%;}
+
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
