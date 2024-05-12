@@ -1,0 +1,27 @@
+
+.marketing-masthead-section{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.70) 100%), linear-gradient(0deg, #465EB3 0%, #465EB3 100%);
+    background-blend-mode: normal, color;
+}
+.marketing-masthead-text h1{color: var(--Navy);}
+
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .marketing-masthead-main{padding: 166px 0 167px;}
+    .marketing-masthead-text{max-width: 560px;}
+    .marketing-masthead-text .optional-blue{margin-bottom: 38px;}
+    .marketing-masthead-btns{padding-top: 14px; gap: 16px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .marketing-masthead-main{padding: 80px 0 40px; display: block;}
+    .marketing-masthead-text{font-size: 16px; line-height: 24px;}
+    .marketing-masthead-text .optional-blue{margin-bottom: 26px;}
+
+    .marketing-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
+    .marketing-masthead-text hr{margin-bottom: 20px;}
+    .marketing-masthead-text p{margin-bottom: 20px;}
+    .marketing-masthead-btns{gap: 15px;}
+}
