@@ -29,6 +29,7 @@
     body.page-template-integrations-landing .trust-by-main{padding-top: 38px;}
     body.page-template-integrations-detail .trust-by-main{padding-top: 38px;}
     body.page-template-product-landing .trust-by-main{padding: 35px 0 22px;}
+    body.page-template-demo .trust-by-main{padding-top: 42px;}
 
     .trust-by-main{display: block; padding: 0 0 23px;}
     .trust-by-text{margin-bottom: 22px; display: block;}

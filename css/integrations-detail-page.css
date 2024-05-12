@@ -20,7 +20,7 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
     .in-detail-text{flex: 1;}
     .in-detail-images{flex: 0 0 552px; max-width: 552px; margin-left: auto;}
 }
-@media screen and (min-width: 740px){
+@media screen and (min-width: 768px){
     .in-detail-logos{flex-direction: column; flex: 1; gap: 64px; max-width: 193px;}
     figure.in-detail-logo{width: 128px; height: 128px;}
     figure.in-detail-logo img{object-fit: contain;}

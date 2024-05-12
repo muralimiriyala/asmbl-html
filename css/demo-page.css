@@ -1,7 +1,7 @@
 
 .demo-section{background: linear-gradient(180deg, rgba(240, 242, 250, 0.00) 0%, #F0F2FA 100%), #F0F2FA; background-blend-mode: normal, darken, normal;}
 
-.demo-text h2{margin-bottom: 21px;}
+.demo-text h2{margin-bottom: 23px;}
 .demo-text hr{margin: 0 0 39px;}
 ul.demo-options{margin: 0;}
 ul.demo-options > li::before{display: none;}
@@ -14,7 +14,7 @@ ul.demo-options > li span{flex: 1; gap: 8px;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .demo-main{padding: 144px 0 68px; gap: 64px;} 
+    .demo-main{padding: 144px 0 77px; gap: 64px;} 
     body.page-template-marketing-lp .demo-main{padding: 80px 0;}
     .demo-main.no_form{display: block;}
     .demo-text{flex: 0 0 420px;}

@@ -8,7 +8,7 @@ span.asset-filename{font-size: 12px; font-weight: 700; line-height: 18px;}
 .asset-scroll-thumb img{border-radius: 8px 8px 0 0; min-height: 145px; max-height: 145px;}
 .asset-scroll-desc{flex: 1;}
 .asset-scroll-btn{ width: 40px; height: 40px; }
-.asset-scroll-btn a{width: 100%; height: 100%; background: var(--Blue-Tint, #D9DFF2);}
+.asset-scroll-btn a{width: 100%; height: 100%; border-radius: 6px; background: var(--Blue-Tint, #D9DFF2);}
 .asset-scroll-btn a:hover svg{animation: scrollDown 1s forwards ease-in-out;}
 .asset-scroll-hover{transform: translateY(100%); opacity: 0; visibility: hidden; padding: 24px; bottom: 0; left: 0; width: 100%; height: 100%; background-color: var(--White); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); z-index: 2; transition: all 0.4s ease;}
 .asset-scroll-image:hover .asset-scroll-hover{transform: translateY(0); opacity: 1; visibility: visible;}
@@ -24,7 +24,7 @@ span.asset-filename{font-size: 12px; font-weight: 700; line-height: 18px;}
 .colorful-bg-form input{padding: 10px 16px 10px 46px; background-color: var(--White); border: none; color: var(--Foreground, #313031); font-family: "Noto Sans"; font-size: 19px; font-weight: 400; line-height: 30px; border-radius: 5.625px; border: 1.406px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25); }
 .colorful-bg-form button[type="submit"]{left: 15px; top: 10px; padding: 0; font-size: 19px; line-height: 30px; background: var(--Gradient-Gold-B, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; border: none; position: absolute;}
 
-.keywords-above{padding: 15px; height: auto; max-width: 274px; left: auto; right: 80px; bottom: 42px; border-radius: 7.5px; border: 0.938px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: -10px 10px 15px 0px rgba(24, 42, 84, 0.25); }
+.keywords-above{padding: 15px; height: auto; max-width: 274px; left: auto; right: 80px; bottom: -4px; border-radius: 7.5px; border: 0.938px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: -10px 10px 15px 0px rgba(24, 42, 84, 0.25); }
 .smart-keywords{margin-bottom: 12px;}
 .keywords-head{gap: 8px; flex: 1;}
 .keywords-head svg{width: 16px;}
@@ -62,7 +62,7 @@ ul.splide__list li::before{display: none;}
     .prod-banner-main .asset-scroll-main{padding-bottom: 89px;}
     .asset-scroll-main{padding: 40px 0 114px;}
     .search-above{left: 24px;}
-    .keywords-above{right: 26px; bottom: 74px;}
+    .keywords-above{right: 26px; bottom: 26px;}
     .asset-scroll-slider:not(.is-active) .splide__track{padding-left: 12px;}
     .asset-scroll-slider.is-initialized:not(.is-active) ul.splide__list{justify-content: flex-start;}
 
@@ -85,7 +85,7 @@ ul.splide__list li::before{display: none;}
     .search-above{top: 14px; max-width: 195px;}
     .colorful-bg-form input{padding: 7px 11px 7px 34px; font-size: 15px; line-height: 22px;}
     .colorful-bg-form button[type="submit"]{top: 7px; left: 12px; font-size: 15px; line-height: 22px;}
-    .keywords-above{bottom: 50px; right: 24px; padding: 10px; max-width: 207px;}
+    .keywords-above{bottom: 26px; right: 24px; padding: 10px; max-width: 207px;}
     .keywords-head span{font-size: 11px; line-height: 16px;}
     .keywords-head svg{width: 11px;}
     .keywords-show{font-size: 8.438px; line-height: 12.656px;}

@@ -146,9 +146,6 @@ body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_last{margin-right: 0;}
 }
-@media only screen and (max-width: 1360px) and (min-width: 1024px){
-    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{flex: 0 0 100%;}
-}
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(50% - 12px); margin-left: 9px; margin-right: 9px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_left{margin-left: 0;}

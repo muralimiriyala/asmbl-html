@@ -5,7 +5,7 @@
 .pdetaial-banner-btns{padding-top: 6px; gap: 16px;}
 
 /* media css starts here */
-@media screen and (min-width: 740px){
+@media screen and (min-width: 768px){
     .pdetaial-masthead-text span.optional-text{margin-bottom: 24px;}
     .pdetaial-masthead-text h1{margin-bottom: 23px;}
     .pdetaial-masthead-text hr{margin-bottom: 22px;}
