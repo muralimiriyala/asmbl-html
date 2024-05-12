@@ -2,14 +2,15 @@
 
 
 .integrations-banner-text h1{color: var(--Navy);}
-.integrations-banner-text span{margin-bottom: 32px;}
+.integrations-banner-text span.optional-text{margin-bottom: 32px;}
 .integrations-banner-text hr{margin-bottom: 29px;}
 
 .integrations-srch-from input{ padding: 15px 47px 17px 17px;  font-size: 18px; line-height: 22px; font-weight: 700; color: var(--Navy, #182A54); border-radius: 8px; border: 2px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); background: var(--White, #FFF); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); }
 .integrations-srch-from input::-webkit-input-placeholder{color:rgb(24 42 84 / 50%);}
 .integrations-srch-from input:-moz-placeholder{color:rgb(24 42 84 / 50%);}
 .integrations-srch-from input::-moz-placeholder{color:rgb(24 42 84 / 50%);}
-button.integrations-srch-btn{top: 50%; right: 16px; transform: translateY(-50%); background: none; padding: 0; font-size: 24px; font-weight: 900; line-height: 24px; background: var(--Gradient-Gold-B, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; } 
+button.integrations-srch-btn{top: 50%; right: 16px; transform: translateY(-50%); padding: 0; font-size: 24px; font-weight: 900; line-height: 24px; background-image: linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; } 
+button.integrations-srch-btn:hover{background-image: none; -webkit-text-fill-color: var(--Blue); color: var(--Blue);}
 
 /*-- animation css --*/
 .i-circle .i-circle-bg{width: 0; height: 0; top: 50%; left: 50%; transform: translate(-50%, -50%); animation-name: i_circle; animation-duration: 2s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);}
@@ -100,7 +101,7 @@ button.integrations-srch-btn{top: 50%; right: 16px; transform: translateY(-50%);
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .integrations-banner-main{padding: 123px 0 24px; gap: 50px; flex-direction: row-reverse;}
     .integrations-banner-text{flex:1; font-size: 16px; line-height: 24px;}
-    .integrations-banner-text span{margin-bottom: 21px;}
+    .integrations-banner-text span.optional-text{margin-bottom: 21px;}
     .integrations-banner-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
     .integrations-banner-text hr{margin-bottom: 20px;}
     .integrations-srch-from{margin-top: 31px; max-width: 420px; }
@@ -109,7 +110,7 @@ button.integrations-srch-btn{top: 50%; right: 16px; transform: translateY(-50%);
 @media screen and (max-width: 767px) and (min-width: 200px){
     .integrations-banner-main{padding: 123px 0 37px; display: block;}
     .integrations-banner-text{padding-top: 33px; font-size: 16px; line-height: 24px;}
-    .integrations-banner-text span{margin-bottom: 21px;}
+    .integrations-banner-text span.optional-text{margin-bottom: 21px;}
     .integrations-banner-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
     .integrations-banner-text hr{margin-bottom: 20px;}
 }
