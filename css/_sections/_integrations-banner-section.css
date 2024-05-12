@@ -11,6 +11,30 @@
 .integrations-srch-from input::-moz-placeholder{color:rgb(24 42 84 / 50%);}
 button.integrations-srch-btn{top: 50%; right: 16px; transform: translateY(-50%); background: none; padding: 0; font-size: 24px; font-weight: 900; line-height: 24px; background: var(--Gradient-Gold-B, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; } 
 
+/*-- animation css --*/
+.i-circle .i-circle-bg{width: 0; height: 0; top: 50%; left: 50%; transform: translate(-50%, -50%); animation-name: i_circle; animation-duration: 2s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);}
+@keyframes i_circle{ 0%{width: 0%; height: 0;} 100%{width: 100%; height: 100%;} }
+.i-circle-1 .i-circle-bg{animation-delay: 0ms;}
+.i-circle-2 .i-circle-bg{animation-delay: 1000ms;}
+.i-circle-3 .i-circle-bg{animation-delay: 2000ms;}
+.i-circle-4 .i-circle-bg{animation-delay: 3000ms;}
+.i-circle-1 figure{opacity: 0; animation-delay: 4000ms; animation-name: i_figure; animation-duration: 2s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); position: relative; z-index: 1;}
+@keyframes i_figure{ 0%{opacity: 0;} 100%{opacity: 1;} }
+.i-circle-icon{opacity: 0; animation-name: i_icon; animation-duration: 2s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+@keyframes i_icon{ 0%{opacity: 0;} 100%{opacity: 1;} }
+.i-icon-9{animation-delay: 5000ms;}
+.i-icon-10{animation-delay: 5500ms;}
+.i-icon-11{animation-delay: 6000ms;}
+.i-icon-8{animation-delay: 6500ms;}
+.i-icon-2{animation-delay: 7000ms;}
+.i-icon-3{animation-delay: 7500ms;}
+.i-icon-4{animation-delay: 8000ms;}
+.i-icon-5{animation-delay: 8500ms;}
+.i-icon-6{animation-delay: 9000ms;}
+.i-icon-7{animation-delay: 9500ms;}
+.i-icon-1{animation-delay: 10000ms;}
+/*-- animation css --*/
+
 /* media css starts here */
 @media screen and (min-width: 1200px){
     .integrations-banner-main{padding: 110px 0 24px; gap: 102px; flex-direction: row-reverse;}
