@@ -18,8 +18,11 @@
 /* media css starts here */
 @media screen and (min-width: 1024px){
     body.page-template-industry-detail .prod-overview-wrap{padding-bottom: 122px;}
+    body.page-template-company-size-detail .prod-overview-wrap{padding-bottom: 122px;}
     .prod-overview-section:not(.gray-bg) .prod-overview-wrap{padding-bottom: 40px;}
-    .prod-overview-wrap{padding: 48px 0 48px; flex-direction: row-reverse;} 
+
+    .prod-overview-wrap{padding: 48px 0 48px;} 
+    .prod-overview-main{flex-direction: row-reverse;}
     .white-bg .prod-overview-main{flex-direction: row;}
     .prod-art-title{flex: 1; gap: 4px; display: flex; align-items: center;}
     .prod-art-title strong{white-space: nowrap;}
@@ -48,6 +51,8 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     body.page-template-industry-detail .prod-overview-wrap{padding: 20px 0 0;}
     body.page-template-industry-detail .prod-tabs-main{padding: 0 0 60px;}
+    body.page-template-company-size-detail .prod-overview-wrap{padding: 20px 0 0;}
+    body.page-template-company-size-detail .prod-tabs-main{padding: 0 0 60px;}
 
     .prod-overview-wrap{padding: 60px 0 60px;}
     .prod-overview-main{display: none;}
@@ -81,6 +86,9 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     body.page-template-industry-detail .prod-overview-wrap{padding: 57px 0 0;}
     body.page-template-industry-detail .prod-tabs-main{padding: 0 0 40px;}
+
+    body.page-template-company-size-detail .prod-overview-wrap{padding: 57px 0 0;}
+    body.page-template-company-size-detail .prod-tabs-main{padding: 0 0 40px;}
 
     .prod-overview-wrap{padding: 40px 0 40px;}
     .prod-overview-main{display: none;}
