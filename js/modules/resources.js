@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
 });
 
 function srchResize(){
-    if (window.matchMedia('(min-width: 740px)').matches) {
+    if (window.matchMedia('(min-width: 768px)').matches) {
         $("button.res-srch-icon").on('click', function(e){
             e.preventDefault();
             $(".res-dropdown-main").toggleClass('fade');

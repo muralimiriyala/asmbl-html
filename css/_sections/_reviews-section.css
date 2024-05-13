@@ -4,9 +4,9 @@
 .reviews-text{padding: 40px;}
 .reviews-block{left: -40px; top: 0;}
 .reviews-text.gray-bg:before{background-color: var(--White);}
-.reviews-text span{margin-bottom: 20px; font-size: 20px; line-height: 36px; font-weight: 500; font-family: "arboria", sans-serif; color: var(--Blue); display: block;}
-.reviews-text span::before { content: "“"; }
-.reviews-text span::after{content: "”";}
+.reviews-quote{margin-bottom: 20px; font-size: 20px; line-height: 36px; font-weight: 500; font-family: "arboria", sans-serif; color: var(--Blue); display: block;}
+.reviews-quote p::before { content: "“"; }
+.reviews-quote p::after{content: "”";}
 .reviews-small-text{padding-left: 16px; border-left: 1px solid var(--Orange); color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
 
 
@@ -55,7 +55,7 @@
     .repeater-section .reviews-row{padding: 56px 0 55px;}
     .reviews-image{flex: 0 0 160px;}
     .reviews-text{flex: 1;}
-    .reviews-text span{font-size: 20px; line-height: 32px;}
+    .reviews-quote{font-size: 20px; line-height: 32px;}
     .testimonials-row .reviews-row{padding: 0 0 40px;}
     body.page-template-product-landing .testimonials-row .reviews-row:last-child{padding: 0;}
     .reviews-row:nth-child(even){flex-direction: row-reverse;}
@@ -73,7 +73,7 @@
     .reviews-row{display: block;}
     .reviews-row:not(:last-child){margin-bottom: 24px;}
     .reviews-text{padding: 20px;}
-    .reviews-text span{font-size: 20px; line-height: 32px;}
+    .reviews-quote{font-size: 20px; line-height: 32px;}
     .reviews-small-main{gap: 8px;}
     .reviews-image{width: 56px; flex: 0 0 56px;}
     .reviews-small-text{flex: 1;}
