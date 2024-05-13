@@ -8,6 +8,7 @@
     body.page-template-demo .trust-by-main{padding-top: 72px;}
     body.page-template-pricing .trust-by-main{padding: 55px 0 56px;}
     body.page-template-product-landing .trust-by-main{padding: 55px 0 56px;}
+    body.page-template-marketing-lp .trust-by-section:not(.gray-bg){padding-bottom: 23px;}
     .trust-by-main{gap: 32px; padding: 24px 0 72px;}
     .trust-by-text{flex: 0 0 144px; padding-top: 17px;}
     .trust-by-logos{gap: 32px; flex: 1;}
