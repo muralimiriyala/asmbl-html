@@ -2,23 +2,36 @@
 
 
 .repeater-desc h2{color: var(--Navy, #182A54);}
-.repeater-desc{margin-bottom: 30px;}
 .repeater-desc ul{font-size: 16px; line-height: 24px;}
 .repeater-link{padding-top: 3px;}
 
 /* media css starts here */
-@media screen and (min-width: 1440px){
-    .repeater-main{padding: 0 0 40px;}
+@media screen and (min-width: 1024px){
     .repeater-row{flex-direction: row-reverse;}
     .repeater-row:nth-child(even){flex-direction: row;}
     .repeater-row.reverse{flex-direction: row;}
-    .repeater-text{flex: 0 0 50%; padding: 0 80px;}
-    .repeater-image{flex: 0 0 50%;}
-    .repeater-image-pos{min-width: 720px; min-height: 540px;}
     .repeater-text.no_image { flex: 0 0 100%; padding: 80px; }
+
+    .repeater-main{padding: 0 0 40px;}
+    .repeater-text{flex: 0 0 50%;}
+    .repeater-image{flex: 0 0 50%;}
+}
+@media screen and (min-width: 1440px){
+    .repeater-text{padding: 0 80px;}
+    .repeater-image-pos{min-width: 720px; min-height: 540px;}
+    .repeater-desc{margin-bottom: 30px;}
+}
+@media only screen and (max-width: 1439px) and (min-width: 768px){
+    .repeater-section .container{padding: 0;}
+}
+@media only screen and (max-width: 1439px) and (min-width: 1280px){
+    .repeater-text{padding: 64px;}
+    .repeater-image-pos{min-width: 640px; min-height: 480px;}
+}
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+    .repeater-text{padding: 32px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .repeater-section .container{padding: 0;}
     .repeater-main{padding: 40px 0 8px;}
     .repeater-row{display: block; padding-bottom: 38px;}
     .repeater-image{margin-bottom: 30px;}
