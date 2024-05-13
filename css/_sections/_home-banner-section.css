@@ -2,14 +2,23 @@
 .home-banner-section{background-color:  var(--Blue-Tint, #D9DFF2);}
 .home-banner-text h1{color: var(--Navy);}
 
+.home-banner-thumb{position: absolute;}
+.home-banner-thumb:nth-child(1){top: 100px; left: 0; width: 214px; height: 147px;}
+.home-banner-thumb:nth-child(3){top: 261px; left: 0; width: 212px; height: 282px;}
+.home-banner-thumb:nth-child(4){top: 52px; left: 227px; width: 493px; height: 131px;}
+.home-banner-thumb:nth-child(5){top: 198px; left: 227px; width: 212px; height: 162px;}
+.home-banner-thumb:nth-child(6){top: 376px; left: 227px; width: 212px; height: 162px;}
+.home-banner-thumb:nth-child(2){top: 555px; left: 75px; width: 364px; height: 119px;}
+.home-banner-thumb:nth-child(7){top: 198px; left: 454px; width: 212px; height: 266px;}
+.home-banner-thumb:nth-child(8){top: 480px; left: 454px; width: 212px; height: 266px;}
+
+
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .home-banner-main{padding: 200px 0;}
-    .home-banner-text{max-width: 560px;}
+    .home-banner-main{padding: 80px 0 21px; flex-direction: row-reverse;} 
+    .home-banner-images{flex: 0 0 720px; height: 725px; right: -80px;}
+    .home-banner-text{max-width: 560px; padding-top: 148px; flex-shrink: 1;}
     .home-banner-btns{padding-top: 6px; gap: 16px;}
-}
-@media only screen and (max-width: 1023px) and (min-width: 768px){
-
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .home-banner-main{padding: 80px 0 40px; display: block;}
