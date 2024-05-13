@@ -1,5 +1,7 @@
 
 .trust-by-text{color: var(--Foreground, #313031); opacity: 0.6;}
+.trust-by-text span.fs-16{display: block;}
+
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
