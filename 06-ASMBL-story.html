@@ -951,9 +951,10 @@
     <div class="cta-large-wrap">
         <div class="cta-large-main flex flex-vcenter radius-16">
             <div class="cta-large-image">
-                <figure class="cta-large-thumb object-fit">
-                    <img src="images/cta-large-image@2x.png" alt="cta-large-thumb">
-                </figure>
+                <picture class="cta-large-thumb object-fit">
+                    <source srcset="images/cta-large-image@2x.png" media="(min-width: 768px)">
+                    <img src="images/cta-large-mobile-image@2x.png" alt="cta-large-thumb">
+                </picture>
             </div>
             <div class="cta-large-text inverted">
                 <span class="h2">Start managing your digital brand assets with the power of AI for everyone.</span>
