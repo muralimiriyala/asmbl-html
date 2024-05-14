@@ -99,8 +99,8 @@
     /*-- animation css ends --*/
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .asmbl-masthead-main{padding: 80px 0 40px; display: block;}
-    .asmbl-masthead-images{height: 342px;}
+    .asmbl-masthead-main{padding: 132px 0 40px; display: block;}
+    .asmbl-masthead-images{height: 355px;}
     .asmbl-masthead-text{font-size: 16px; line-height: 24px;}
     .asmbl-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
     .asmbl-masthead-text hr{margin-bottom: 20px;}
@@ -109,13 +109,13 @@
 
     .asmbl-masthead-thumb img{object-fit: cover; border-radius: 3px;}
     .asmbl-masthead-thumb:nth-child(1){top: 38px; left: 12px; width: 101px; height: 66.97px;}
-    .asmbl-masthead-thumb:nth-child(2){top: 16px; left: 121px; width: 478.8px; height: 61.94px;}
+    .asmbl-masthead-thumb:nth-child(2){top: 3px; left: 103px; width: 262.8px; height: 75.94px;}
     .asmbl-masthead-thumb:nth-child(2) img{object-position: left top;}
     .asmbl-masthead-thumb:nth-child(3){top: 112px; left: 12px; width: 100.7px; height: 134.43px;}
     .asmbl-masthead-thumb:nth-child(4){top: 86px; left: 121px; width: 100.7px; height: 76.95px;}
     .asmbl-masthead-thumb:nth-child(5){top: 171px; left: 121px; width: 100.7px; height: 76.95px;}
-    .asmbl-masthead-thumb:nth-child(6){top: 86px; left: 230px; width: 100.7px; height: 126.35px;}
-    .asmbl-masthead-thumb:nth-child(7){top: 256px; left: 49px; width: 172.9px; height: 56.52px;}
-    .asmbl-masthead-thumb:nth-child(8){top: 220px; left: 230px; width: 100.7px; height: 111.64px;}
+    .asmbl-masthead-thumb:nth-child(6){top: 86px; left: 230px; width: 108px; height: 134px;}
+    .asmbl-masthead-thumb:nth-child(7){top: 234px; left: 22px; width: 218px; height: 104px;}
+    .asmbl-masthead-thumb:nth-child(8){top: 216px; left: 208px; width: 146px; height: 136px;}
     .asmbl-masthead-thumb:nth-child(8) img{border-radius: 3px 3px 0 0;}
 }
