@@ -26,8 +26,6 @@
     .process-list:last-child::before{max-width: 256px;}
     .process-step-4::after{ width: 12px; height: 20px; top: 50%; transform: translateY(-50%); right: 0;}
     .process-num{margin-bottom: 19px;}
-
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .process-row{display: block;}
