@@ -40,6 +40,7 @@
     /*-- animation css ends --*/
 }
 @media screen and (min-width: 1440px){
+    .home-banner-wrapper{max-width: 1600px; margin: 0 auto;}
     .home-banner-images{flex: 0 0 720px; height: 725px; right: -80px;}
     .home-banner-text{max-width: 560px; padding-top: 148px; flex: 0 0 calc(100% - 720px);}
 }
