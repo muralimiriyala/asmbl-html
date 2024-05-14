@@ -53,6 +53,8 @@
 
 .width-0-64{animation-name: width-0-64;}
 @keyframes width-0-64{ 0%{width: 0;} 50%{width: 32px;} 100%{width: 64px;} }
+.width-0-100{animation-name: width-0-100;}
+@keyframes width-0-100{ 0%{width: 0;} 50%{width: 50%;} 100%{width: 100%;} }
 
 .fade-circle{animation-name: fade-circle;}
 @keyframes fade-circle{ 0%{border-radius: 0%; border-color: var(--Blue);} 25%{border-radius: 25%;} 100%{border-radius: 50%;} }
@@ -63,6 +65,9 @@
 
 [data-animation="step-line-anim"]{visibility: visible;}
 
+
+*[data-delighter]{ visibility: hidden; opacity: 0; animation-delay: 0.15s; -webkit-animation-duration: 0.75s; animation-duration: 0.75s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out;}
+*[data-delighter].started{ visibility: visible; opacity: 1;}
 
 
 

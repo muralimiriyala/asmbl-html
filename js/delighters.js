@@ -11,7 +11,7 @@ var Delighters = new (function() {
 			// default options
 			options = {
 				attribute: 	'data-delighter',
-				classNames: ['delighter', 'started', 'ended'],
+				classNames: ['delighter', 'started', ''],
 				start: 			0.75, // default start threshold
 				end: 				0.75, // default end threshold
 				autoInit: 	true 	// initialize when DOMContentLoaded

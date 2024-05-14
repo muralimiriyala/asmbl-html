@@ -4,7 +4,7 @@
 .get-author-main{gap: 20px;}
 .get-author-img{flex: 0 0 96px;}
 .get-author-text{flex: 1;}
-.get-author-text span{color: var(--Foreground);}
+.get-author-text span.h5{color: var(--Foreground);}
 .get-answer-desc{margin-bottom: 40px;}
 .get-answer-desc h2{margin-bottom: 24px;}
 .get-answer-desc hr{margin: 0 0 24px;}
@@ -14,6 +14,9 @@ ul.get-author-links li{margin: 7px 0 0;}
 ul.get-author-links li::before{display: none;}
 ul.get-author-links li a{gap: 10px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 700; line-height: 24px;}
 ul.get-author-links li a:hover{color: var(--Orange);}
+ul.get-author-links li a svg{width: 23px; height: 23px;}
+ul.get-author-links li:not(:first-child) a{gap: 8px;}
+ul.get-author-links li:not(:first-child) a svg{width: 24px;}
 .no_get_answer{display: block;}
 
 /*-- media css starts here --*/

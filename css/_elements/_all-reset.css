@@ -180,7 +180,7 @@ span.optional-text.md{font-size: 20px; line-height: 25px; margin-bottom: 22px;}
 .relative{position: relative; z-index: 1;}
 .absolute{position: absolute;}
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
-.background-text{width: 100%; height: 100%; top: 0; left: 0; right: 0; position: absolute; z-index: 1;}
+.background-text{width: 100%; height: 100%; top: 0; left: 0; right: 0; position: absolute;}
 
 .o-hidden{overflow: hidden;}
 .z-0{z-index: 0;}
@@ -243,12 +243,11 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .white-bg{background-color: var( --White);}
 
 div.slick-arrow{width: 48px; height: 48px; padding: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease; border-radius: 8px; background: linear-gradient(300deg, #182A54 0%, #1335AF 100%); }
-div.slick-arrow::after{display: none;}
-div.slick-arrow:hover{background-color: var(--Navy);}
+div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%); content: ""; display: block; border-radius: 8px; position: absolute; transition: all 0.5s ease; z-index: -1;}
+div.slick-arrow:hover::after{opacity: 1; width: 100%; height: 100%;}
 div.slick-arrow.slick-disabled{opacity: 0; visibility: hidden;}
-span.slick-arrows{width: 30px; height: 20px; background-image: url('images/slick-arrow.svg'); background-repeat: no-repeat; background-size: contain;}
+span.slick-arrows{width: 30px; height: 20px; background-image: url('images/slick-arrow.svg'); background-repeat: no-repeat; background-size: contain; position: relative; z-index: 2;}
 span.slick-prev-arrow{ transform: scaleX(-1); }
-
 
 ul.slick-dots{margin: 0; gap: 8px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
 ul.slick-dots li{margin: 0; width: 16px; height: 16px; border-radius: 50%; background-color: var( --White); cursor: pointer;}
