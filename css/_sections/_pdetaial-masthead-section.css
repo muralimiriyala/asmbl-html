@@ -21,6 +21,10 @@
 /*-- animation css ends --*/
 
 /* media css starts here */
+@media screen and (min-width: 768px){
+    body.page-template-product-detail header.site-header{background-color: var(--White);}
+    .pdetaial-masthead-bg{top: 96px; height: calc(100% - 96px); background-image: url('images/pdetaial-masthead-bg@2x.jpg');}
+}
 @media screen and (min-width: 1024px){
     .pdetaial-masthead-main{padding: 80px 0 21px; flex-direction: row-reverse;} 
     .pdetaial-banner-btns{padding-top: 7px; gap: 16px;}
@@ -41,7 +45,7 @@
 @media screen and (min-width: 1440px){
     .pdetaial-banner-wrapper{max-width: 1600px; margin: 0 auto;}
     .pdetaial-masthead-images{flex: 0 0 720px; height: 620px; right: -80px;}
-    .pdetaial-masthead-text{max-width: 560px; padding-top: 153px; flex: 0 0 calc(100% - 720px);}
+    .pdetaial-masthead-text{max-width: 560px; padding-top: 163px; flex: 0 0 calc(100% - 720px);}
 }
 @media only screen and (max-width: 1439px) and (min-width: 1280px){
     .pdetaial-masthead-images{flex: 0 0 720px; height: 420px; right: -80px;}
@@ -83,6 +87,8 @@
     /*-- animation css ends --*/
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .pdetaial-masthead-bg{background-image: url('images/pdetaial-masthead-bg@2x.jpg');}
+
     .pdetaial-masthead-main{padding: 80px 0 40px; display: block;}
     .pdetaial-masthead-images{height: 342px;}
     .pdetaial-masthead-text{font-size: 16px; line-height: 24px;}
