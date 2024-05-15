@@ -29,7 +29,7 @@
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
     body.home .trust-by-main{padding: 27px 0 80px;}
-    body.page-template-integrations-landing .trust-by-main{padding-top: 38px;}
+    body.page-template-integrations .trust-by-main{padding-top: 38px;}
     body.page-template-integrations-detail .trust-by-main{padding-top: 38px;}
     body.page-template-product-landing .trust-by-main{padding: 35px 0 22px;}
     body.page-template-demo .trust-by-main{padding-top: 42px;}
