@@ -87,7 +87,7 @@
     /*-- animation css ends --*/
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .pdetaial-masthead-bg{background-image: url('images/pdetaial-masthead-bg@2x.jpg');}
+    .pdetaial-masthead-bg{background-image: url('images/pdetaial-masthead-mobile@2x.jpg');}
 
     .pdetaial-masthead-main{padding: 80px 0 40px; display: block;}
     .pdetaial-masthead-images{height: 342px;}
