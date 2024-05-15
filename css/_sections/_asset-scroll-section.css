@@ -17,13 +17,12 @@ span.asset-filename{font-size: 12px; font-weight: 700; line-height: 18px;}
 .asset-scroll-icon svg{width: 100%;}
 .asset-scroll-hover p{opacity: 0.8;}
 
-
 .search-above{left: 80px; max-width: 261px; height: auto;}
 .colorful-bg-form{width: 100%; height: auto;}
 .colorful-bg-form input{padding: 10px 16px 10px 46px; background-color: var(--White); border: none; color: var(--Foreground, #313031); font-family: "Noto Sans"; font-size: 19px; font-weight: 400; line-height: 30px; border-radius: 5.625px; border: 1.406px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25); }
 .colorful-bg-form button[type="submit"]{left: 15px; top: 10px; padding: 0; font-size: 19px; line-height: 30px; background: var(--Gradient-Gold-B, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; border: none; position: absolute;}
 
-.keywords-above{padding: 15px; height: auto; max-width: 274px; left: auto; right: 80px; bottom: -4px; border-radius: 7.5px; border: 0.938px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: -10px 10px 15px 0px rgba(24, 42, 84, 0.25); }
+.keywords-above{padding: 0; height: auto; max-width: 274px; left: auto; right: 80px; bottom: -4px; border-radius: 7.5px; border: 0.938px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: -10px 10px 15px 0px rgba(24, 42, 84, 0.25); }
 .smart-keywords{margin-bottom: 12px;}
 .keywords-head{gap: 8px; flex: 1;}
 .keywords-head svg{width: 16px;}
@@ -47,6 +46,9 @@ ul.splide__list li::before{display: none;}
 
 .asset-scroll-slider:not(.is-active) .splide__track{width: 100%;}
 .asset-scroll-slider.is-initialized:not(.is-active) ul.splide__list{width: 100%; justify-content: center; display: flex; flex-wrap: nowrap;}
+
+figure.colorfulsearch img{border: 1.406px solid rgba(217, 223, 242, 0.25); border-radius: 5.63px; box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25);}
+
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
