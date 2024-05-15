@@ -1,0 +1,95 @@
+
+
+.solution-masthead-section{ background-image: linear-gradient(to top, rgba(240, 242, 250, 0) 0%, #f0f2fa 100%), linear-gradient(to bottom, #f0f2fa, #f0f2fa); }
+.solution-masthead-bg{background-repeat: no-repeat; background-size: cover;}
+
+.solution-masthead-text span.optional-text{margin-bottom: 25px;}
+.solution-masthead-text h1{margin-bottom: 25px; color: var(--Navy);}
+.solution-masthead-text hr{margin-bottom: 23px;}
+
+.solution-masthead-thumb img{object-fit: cover; border-radius: 6px; position: relative;}
+.solution-masthead-thumb:nth-child(1){top: 108px; left: 0; width: 212px; height: 235.5px;}
+.solution-masthead-thumb:nth-child(2){top: 41px; left: 156px; width: 620px; height: 302px;}
+.solution-masthead-thumb:nth-child(2) img{object-position: left top;}
+.solution-masthead-thumb:nth-child(3){top: 355px; left: 74px; width: 368px; height: 234px;}
+.solution-masthead-thumb:nth-child(4){top: 184px; left: 460px; width: 212px; height: 215.5px;}
+.solution-masthead-thumb:nth-child(5){top: 415px; left: 460px; width: 250px; height: 151.5px;}
+
+
+/*-- animation css starts --*/
+.solution-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
+/*-- animation css ends --*/
+
+/* media css starts here */
+@media screen and (min-width: 768px){
+    .solution-masthead-bg{background-image: url('images/solution-masthead-bg@2x.jpg');}
+}
+@media screen and (min-width: 1024px){
+    .solution-masthead-main{padding: 80px 0 21px; flex-direction: row-reverse;} 
+    .solution-masthead-btns{padding-top: 7px; gap: 16px;}
+
+    .solution-masthead-images{height: 600px;}
+    
+    /*-- animation css starts --*/
+    .solution-masthead-thumb:nth-child(1) img{animation-name: anim-down-1; }
+    .solution-masthead-thumb:nth-child(2) img{animation-name: animRight; }
+    .solution-masthead-thumb:nth-child(3) img{animation-name: animdUp; }
+    .solution-masthead-thumb:nth-child(4) img{animation-name: anim-down-2;}
+    .solution-masthead-thumb:nth-child(5) img{animation-name: animdUp; }
+    @keyframes anim-down-1{ from{top: -162px;} to{top: 0;} }
+    @keyframes anim-down-2{ from{top: -256px;} to{top: 0;} }
+    @keyframes animdUp{ from{transform: translateY(100vh);} to{transform: translateY(0%);} }
+    @keyframes animDown{ from{transform: translateY(-100vh);} to{transform: translateY(0%);} }
+    @keyframes animRight{ from{transform: translateX(100vw);} to{transform: translateX(0%);} }
+    /*-- animation css ends --*/
+}
+@media screen and (min-width: 1440px){
+    .solution-masthead-wrapper{max-width: 1600px; margin: 0 auto;}
+    .solution-masthead-images{flex: 0 0 720px; right: -80px;}
+    .solution-masthead-text{max-width: 560px; padding-top: 80px; flex: 0 0 calc(100% - 720px);}
+}
+@media only screen and (max-width: 1439px) and (min-width: 1280px){
+    .solution-masthead-images{flex: 0 0 720px; height: 420px; right: -80px;}
+    .solution-masthead-text{flex: 0 0 calc(100% - 720px); padding-top: 148px; }
+}
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+    .solution-masthead-main{padding: 123px 0 56px; align-items: center;}
+    .solution-masthead-images{flex: 0 0 510px; right: -40px;}
+    .solution-masthead-text{flex: 0 0 calc(100% - 510px);}
+    .solution-masthead-text h1{font-size: 40px; line-height: 50px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .solution-masthead-main{padding: 80px 0 54px; display: block;} 
+    .solution-masthead-images{height: 600px;}
+    .solution-masthead-btns{padding-top: 6px; gap: 16px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    /*-- animation css starts --*/
+    .solution-masthead-thumb:nth-child(1) img{animation-name: animLeft; }
+    .solution-masthead-thumb:nth-child(2) img{animation-name: animRight; }
+    .solution-masthead-thumb:nth-child(3) img{animation-name: animLeft; }
+    .solution-masthead-thumb:nth-child(4) img{animation-name: animRight;}
+    .solution-masthead-thumb:nth-child(5) img{animation-name: animLeft; }
+    @keyframes animLeft{ from{transform: translateX(-100vw);} to{transform: translateY(0%);} }
+    @keyframes animRight{ from{transform: translateX(100vw);} to{transform: translateX(0%);} }
+    /*-- animation css ends --*/
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .solution-masthead-bg{background-image: url('images/solution-masthead-mobile@2x.jpg');}
+
+    .solution-masthead-main{padding: 80px 0 40px; display: block;}
+    .solution-masthead-images{height: 342px;}
+    .solution-masthead-text{font-size: 16px; line-height: 24px;}
+    .solution-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
+    .solution-masthead-text hr{margin-bottom: 20px;}
+    .solution-masthead-text p{margin-bottom: 20px;}
+    .solution-masthead-btns{gap: 15px;}
+
+    .solution-masthead-thumb img{object-fit: cover; border-radius: 3px;}
+    .solution-masthead-thumb:nth-child(1){top: 38px; left: 12px; width: 101px; height: 66.97px;}
+    .solution-masthead-thumb:nth-child(2){top: 16px; left: 121px; width: 478.8px; height: 61.94px;}
+    .solution-masthead-thumb:nth-child(2) img{object-position: left top;}
+    .solution-masthead-thumb:nth-child(3){top: 112px; left: 12px; width: 100.7px; height: 134.43px;}
+    .solution-masthead-thumb:nth-child(4){top: 86px; left: 121px; width: 100.7px; height: 76.95px;}
+    .solution-masthead-thumb:nth-child(5){top: 171px; left: 121px; width: 100.7px; height: 76.95px;}
+}
