@@ -19,9 +19,10 @@
 @media screen and (min-width: 1024px){
     body.page-template-industry-detail .prod-overview-wrap{padding-bottom: 122px;}
     body.page-template-company-size-detail .prod-overview-wrap{padding-bottom: 122px;}
-    .prod-overview-section:not(.gray-bg) .prod-overview-wrap{padding-bottom: 40px;}
-
+    body.page-template-marketing-lp .prod-overview-wrap{padding: 63px 0 122px;}
+    
     .prod-overview-wrap{padding: 48px 0 48px;} 
+    .prod-overview-section:not(.gray-bg) .prod-overview-wrap{padding-bottom: 40px;}
     .prod-overview-main{flex-direction: row-reverse;}
     .white-bg .prod-overview-main{flex-direction: row;}
     .prod-art-title{flex: 1; gap: 4px; display: flex; align-items: center;}
