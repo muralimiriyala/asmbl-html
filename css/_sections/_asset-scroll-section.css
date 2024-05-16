@@ -17,7 +17,7 @@ span.asset-filename{font-size: 12px; font-weight: 700; line-height: 18px;}
 .asset-scroll-icon svg{width: 100%;}
 .asset-scroll-hover p{opacity: 0.8;}
 
-.search-above{left: 80px; max-width: 261px; height: auto;}
+.search-above{top: 11px; left: 80px; max-width: 261px; height: auto;}
 .colorful-bg-form{width: 100%; height: auto;}
 .colorful-bg-form input{padding: 10px 16px 10px 46px; background-color: var(--White); border: none; color: var(--Foreground, #313031); font-family: "Noto Sans"; font-size: 19px; font-weight: 400; line-height: 30px; border-radius: 5.625px; border: 1.406px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25); }
 .colorful-bg-form button[type="submit"]{left: 15px; top: 10px; padding: 0; font-size: 19px; line-height: 30px; background: var(--Gradient-Gold-B, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; border: none; position: absolute;}
@@ -54,10 +54,13 @@ figure.colorfulsearch img{border: 1.406px solid rgba(217, 223, 242, 0.25); borde
 @media screen and (min-width: 1024px){
     .asset-scroll-main{padding: 40px 0 62px;}
 }
+@media screen and (max-width: 1359px) and (min-width: 1024px){
+    .search-above{left: 40px;}
+}
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .asset-scroll-main{padding: 40px 0 114px;}
-    .search-above{left: 30px;}
-    .keywords-above{right: 30px; bottom: 74px;}
+    .search-above{left: 40px;}
+    .keywords-above{right: 40px; bottom: 74px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
     .prod-banner-main .asset-scroll-main{padding-bottom: 89px;}
@@ -86,7 +89,7 @@ figure.colorfulsearch img{border: 1.406px solid rgba(217, 223, 242, 0.25); borde
     .search-above{top: 14px; max-width: 195px;}
     .colorful-bg-form input{padding: 7px 11px 7px 34px; font-size: 15px; line-height: 22px;}
     .colorful-bg-form button[type="submit"]{top: 7px; left: 12px; font-size: 15px; line-height: 22px;}
-    .keywords-above{bottom: 26px; right: 24px; padding: 10px; max-width: 207px;}
+    .keywords-above{bottom: 24px; right: 24px; padding: 10px; max-width: 207px;}
     .keywords-head span{font-size: 11px; line-height: 16px;}
     .keywords-head svg{width: 11px;}
     .keywords-show{font-size: 8.438px; line-height: 12.656px;}
