@@ -34,7 +34,7 @@ ul.get-author-links li:not(:first-child) a svg{width: 24px;}
     .get-answer-text{margin-bottom: 60px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
-    .get-answer-main{padding: 44px 0 40px; display: block;}
+    .get-answer-main{padding: 39px 0 40px; display: block;}
     .get-answer-text{margin-bottom: 40px;}   
 }
 
