@@ -19,4 +19,3 @@ function srchResize(){
 }
 jQuery(document).on("ready", function(){srchResize()});
 jQuery(document).on("load", function(){srchResize()});
-jQuery(document).on("resize", function(){srchResize()});
