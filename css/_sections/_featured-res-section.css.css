@@ -1,10 +1,10 @@
 
 .featured-res-section{
-    background-color: rgba(255, 255, 255, 0.00);
-    background-image: url("./images/featured-post-bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: normal, darken, normal;
+background-color: rgba(255, 255, 255, 0.00);
+background-image: url("./images/featured-post-bg.svg");
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: normal, darken, normal;
 }
 .featured-res-main{padding: 144px 0 0;}
 .featured-res-title h1{margin-bottom: 0;}
@@ -26,6 +26,7 @@
     .featured-res-list{flex: 0 0 calc(100% - 460px);}
     .featured-res-list:nth-child(2n+2):not(:nth-child(2n+4)){flex: 0 0 420px;}
     .featured-res-list:nth-child(2n+3){flex: 0 0 420px;}
+    .featured-res-thumb img{min-height: 254px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .featured-res-btn{flex: 0 0 405px;}

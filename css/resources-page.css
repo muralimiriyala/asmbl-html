@@ -10,9 +10,11 @@
 .res-srch-field input::-moz-placeholder {color: var(--Navy); opacity: 0.5;}
 
 .res-srch-field.open input{width: 100%; min-width: 436px; border-image: var(--Gradient-Gold, linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%)); background-color: var(--White);}
-button.res-srch-icon{right: -40px; top: calc(50% + 1px); transform: translateY(-50%); color: var(--Blue, #1335AF); background-color: transparent; font-size: 32px; line-height: 32px; padding: 0; border: none;}
-.res-srch-form.open button.res-srch-icon{right: 20px; top: 50%; font-size: 20px;}
-
+button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px); transform: translateY(-50%); color: var(--Blue, #1335AF); background-color: transparent; font-size: 32px; line-height: 32px; padding: 0; border: none;}
+.res-srch-form.open button.res-srch-icon, .res-srch-form.open button.res-expand-icon{right: 20px; top: 50%; font-size: 20px;}
+button.res-expand-icon{opacity: 0; visibility: hidden;}
+.res-srch-form.open button.res-srch-icon{opacity: 0; visibility: hidden;}
+.res-srch-form.open button.res-expand-icon{opacity: 1; visibility: visible;}
 
 .res-dropdown-main{flex: 1; gap: 40px; transition: all 0.5s ease;}
 .res-dropdown-main.fade{opacity: 0; visibility: hidden;}
@@ -36,7 +38,8 @@ button.res-srch-icon{right: -40px; top: calc(50% + 1px); transform: translateY(-
 .res-tags-list{display: none;}
 ul.res-tags{margin: 0; gap: 10px;}
 ul.res-tags li::before{display: none;}
-ul.res-tags li a{font-size: 12px; line-height: 18px; padding: 4px 8px; border-radius: 8px; background-color: var(--Navy); color: var(--White);}
+ul.res-tags li a{font-size: 12px; line-height: 18px; padding: 4px 8px 3px; border-radius: 8px; background-color: var(--Navy); color: var(--White);}
+ul.res-tags li a:hover{background-color: var(--Orange);}
 
 .load-more-resources{gap: 16px;}
 .load-more-resources::before, .load-more-resources::after{height: 1px; content: ""; display: block; opacity: 0.2; background: var(--Foreground, #313031); }
@@ -46,6 +49,7 @@ span.loader{position: absolute;}
 
 .res-srch-results{flex-grow: 1; flex: 0 0 100%;}
 .res-srch-results h2{margin: 0; color: var(--Navy);}
+ul.blog_list{margin: 0;}
 
 /* media css starts here */
 @media screen and (min-width: 768px){
