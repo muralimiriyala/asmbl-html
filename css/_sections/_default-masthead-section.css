@@ -53,7 +53,7 @@
     .default-masthead-text{flex: 0 0 calc(100% - 720px); padding-top: 148px; }
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
-    .default-masthead-main{padding: 123px 0 56px; align-items: center;}
+    .default-masthead-main{align-items: center;}
     .default-masthead-images{flex: 0 0 510px; right: -40px;}
     .default-masthead-text{flex: 0 0 calc(100% - 510px);}
     .default-masthead-text h1{font-size: 40px; line-height: 50px;}
@@ -78,7 +78,7 @@
     .default-masthead-bg{background-image: url('images/default-masthead-mobile@2x.jpg');}
 
     .default-masthead-main{padding: 80px 0 40px; display: block;}
-    .default-masthead-images{height: 342px;}
+    .default-masthead-images{height: 272px;}
     .default-masthead-text{font-size: 16px; line-height: 24px;}
     .default-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
     .default-masthead-text hr{margin-bottom: 20px;}
@@ -86,10 +86,10 @@
     .default-masthead-btns{gap: 15px;}
 
     .default-masthead-thumb img{object-fit: cover; border-radius: 3px;}
-    .default-masthead-thumb:nth-child(1){top: 38px; left: 12px; width: 101px; height: 66.97px;}
-    .default-masthead-thumb:nth-child(2){top: 16px; left: 121px; width: 478.8px; height: 61.94px;}
+    .default-masthead-thumb:nth-child(1){top: 38px; left: 11px; width: 97px; height: 108px;}
+    .default-masthead-thumb:nth-child(2){top: 7px; left: 83px; width: 281px; height: 136px;}
     .default-masthead-thumb:nth-child(2) img{object-position: left top;}
-    .default-masthead-thumb:nth-child(3){top: 112px; left: 12px; width: 100.7px; height: 134.43px;}
-    .default-masthead-thumb:nth-child(4){top: 86px; left: 121px; width: 100.7px; height: 76.95px;}
-    .default-masthead-thumb:nth-child(5){top: 171px; left: 121px; width: 100.7px; height: 76.95px;}
+    .default-masthead-thumb:nth-child(3){top: 148px; left: 44px; width: 170px; height: 100px;}
+    .default-masthead-thumb:nth-child(4){top: 76px; left: 222px; width: 98px; height: 98px;}
+    .default-masthead-thumb:nth-child(5){top: 181px; left: 222px; width: 115px; height: 70px;}
 }
