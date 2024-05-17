@@ -49,7 +49,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .faqs-main{padding: 118px 0 28px; display: block;}
     .faqs-text{gap: 60px; margin-bottom: 60px; display: flex; flex-wrap: wrap; align-items: flex-start;}
-    .faqs-questions{flex: 1;}
+    .faqs-questions{flex: 1; max-width: 300px; margin-right: auto;}
     .need-more-answers{flex: 0 0 300px;}
     .faqs-list{margin-bottom: 52px;}
     .faqs-category-btn{display: none;}
@@ -61,7 +61,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
     .faqs-category-btn.active{border-bottom-color: transparent; border-radius: 8px 8px 0 0;}
     .faqs-category-btn svg{right: 15px; top: 50%; transform: translateY(-50%); position: absolute;}
     .faqs-category-btn.active svg{transform: translateY(-50%) scaleY(-1);}
-    ul.faqs-links{display: none; padding: 12px 16px 10px; border: 1px solid var(--Blue-Tint,#d9dff2); border-top-color: transparent; background-color: var(--White);}
+    ul.faqs-links{display: none; padding: 12px 16px 10px; border: 1px solid var(--Blue-Tint,#d9dff2); border-top-color: transparent; background-color: var(--White); border-radius: 0 0 8px 8px;}
     ul.faqs-links li a{font-size: 14px; line-height: 18px;}
     .faqs-right{padding: 0 0 40px;}
     .faqs-list:not(:last-child){margin-bottom: 50px;}

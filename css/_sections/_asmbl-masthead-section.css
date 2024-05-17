@@ -8,10 +8,9 @@
 .asmbl-masthead-btns{gap: 16px; padding-top: 7px;}
 .asmbl-masthead-btns > span:not(:first-child){top: -2px; position: relative;}
 
-.asmbl-masthead-thumb img{object-fit: cover; border-radius: 6px; position: relative;}
 .asmbl-masthead-thumb:nth-child(1){top: 64px; left: 0; width: 213px; height: 176px;}
 .asmbl-masthead-thumb:nth-child(2){top: 31px; left: 192px; min-width: 529px; width: 100%; height: 204.5px;}
-.asmbl-masthead-thumb:nth-child(2) img{object-position: left top; object-fit: contain;}
+.asmbl-masthead-thumb:nth-child(2) img{object-position: left top;}
 .asmbl-masthead-thumb:nth-child(3){top: 254px; left: 0; width: 213px; height: 282px;}
 .asmbl-masthead-thumb:nth-child(4){top: 198px; left: 228px; width: 212px; height: 162px;}
 .asmbl-masthead-thumb:nth-child(5){top: 376px; left: 228px; width: 212px; height: 162px;}
@@ -20,7 +19,7 @@
 .asmbl-masthead-thumb:nth-child(8){top: 455px; left: 410px; width: 294px; height: 269px;}
 
 /*-- animation css starts --*/
-.asmbl-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
+.asmbl-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; border-radius: 6px;}
 /*-- animation css ends --*/
 
 
@@ -32,6 +31,7 @@
     .asmbl-masthead-text{font-size: 20px; line-height: 28px;}
 
     /*-- animation css starts --*/
+    .asmbl-masthead-images{height: 725px;}
     .asmbl-masthead-thumb:nth-child(1) img{animation-name: anim-down-1; }
     .asmbl-masthead-thumb:nth-child(2) img{animation-name: animRight; }
     .asmbl-masthead-thumb:nth-child(3) img{animation-name: animdUp; }
@@ -49,21 +49,21 @@
 }
 @media screen and (min-width: 1440px){
     .asmbl-masthead-wrapper{max-width: 1600px; margin: 0 auto;}
-    .asmbl-masthead-images{flex: 0 0 720px; height: 725px; right: -80px;}
+    .asmbl-masthead-images{flex: 0 0 720px; right: -80px;}
     .asmbl-masthead-text{max-width: 560px; padding-top: 148px; flex: 0 0 calc(100% - 720px);}
 }
 @media only screen and (max-width: 1439px) and (min-width: 1280px){
-    .asmbl-masthead-images{flex: 0 0 720px; height: 725px; right: -80px;}
+    .asmbl-masthead-images{flex: 0 0 720px; right: -80px;}
     .asmbl-masthead-text{flex: 0 0 calc(100% - 720px); padding-top: 148px; }
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
-    .asmbl-masthead-main{padding: 123px 0 56px; align-items: center;}
-    .asmbl-masthead-images{flex: 0 0 510px; height: 458px; right: -40px;}
+    .asmbl-masthead-main{align-items: center;}
+    .asmbl-masthead-images{flex: 0 0 510px; right: -40px;}
     .asmbl-masthead-text{flex: 0 0 calc(100% - 510px);}
     .asmbl-masthead-text h1{font-size: 40px; line-height: 50px;}
     .asmbl-masthead-text h1 br{display: none;}
     
-    .asmbl-masthead-thumb img{object-fit: cover; border-radius: 3px;}
+    /* .asmbl-masthead-thumb img{object-fit: cover; border-radius: 3px;}
     .asmbl-masthead-thumb:nth-child(1){top: 38px; left: 12px; width: 121px; height: 86.97px;}
     .asmbl-masthead-thumb:nth-child(2){top: 16px; left: 149px; width: 498.8px; height: 81.94px;}
     .asmbl-masthead-thumb:nth-child(2) img{object-position: left top;}
@@ -73,7 +73,7 @@
     .asmbl-masthead-thumb:nth-child(6){top: 115px; left: 287px; width: 120.7px; height: 146.35px;}
     .asmbl-masthead-thumb:nth-child(7){top: 341px; left: 78px; width: 192.9px; height: 96.52px;}
     .asmbl-masthead-thumb:nth-child(8){top: 278px; left: 286px; width: 120.7px; height: 121.64px;}
-    .asmbl-masthead-thumb:nth-child(8) img{border-radius: 3px 3px 0 0;}
+    .asmbl-masthead-thumb:nth-child(8) img{border-radius: 3px 3px 0 0;} */
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
@@ -102,22 +102,22 @@
     .asmbl-masthead-bg{background-image: url('images/asmbl-masthead-mobile@2x.jpg');}
 
     .asmbl-masthead-main{padding: 132px 0 40px; display: block;}
-    .asmbl-masthead-images{height: 355px;}
+    .asmbl-masthead-images{height: 363px;}
     .asmbl-masthead-text{font-size: 16px; line-height: 24px;}
     .asmbl-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
     .asmbl-masthead-text hr{margin-bottom: 20px;}
     .asmbl-masthead-text p{margin-bottom: 20px;}
     .asmbl-masthead-btns{gap: 15px;}
 
-    .asmbl-masthead-thumb img{object-fit: cover; border-radius: 3px;}
-    .asmbl-masthead-thumb:nth-child(1){top: 38px; left: 0; width: 108px; height: 88px;}
-    .asmbl-masthead-thumb:nth-child(2){top: 3px; left: 103px; width: 262.8px; height: 75.94px;}
-    .asmbl-masthead-thumb:nth-child(2) img{object-position: left top;}
-    .asmbl-masthead-thumb:nth-child(3){top: 112px; left: 0; width: 108px; height: 143px;}
-    .asmbl-masthead-thumb:nth-child(4){top: 86px; left: 121px; width: 100.7px; height: 76.95px;}
-    .asmbl-masthead-thumb:nth-child(5){top: 171px; left: 121px; width: 100.7px; height: 76.95px;}
-    .asmbl-masthead-thumb:nth-child(6){top: 86px; left: 230px; width: 108px; height: 134px;}
-    .asmbl-masthead-thumb:nth-child(7){top: 234px; left: 22px; width: 218px; height: 104px;}
-    .asmbl-masthead-thumb:nth-child(8){top: 216px; left: 208px; width: 146px; height: 136px;}
+    .asmbl-masthead-thumb img{border-radius: 3px;}
+    .asmbl-masthead-thumb:nth-child(1){top: 19px; left: 0; width: 108px; height: 90px;}
+    .asmbl-masthead-thumb:nth-child(2){top: 3px; left: 98px; width: 268px; height: 76px; min-width: inherit;}
+    .asmbl-masthead-thumb:nth-child(2) img{object-position: left top; border-radius: 0;}
+    .asmbl-masthead-thumb:nth-child(3){top: 115px; left: 0; width: 108px; height: 143px;}
+    .asmbl-masthead-thumb:nth-child(4){top: 85px; left: 115px; width: 108px; height: 82px;}
+    .asmbl-masthead-thumb:nth-child(5){top: 174px; left: 115px; width: 108px; height: 82px;}
+    .asmbl-masthead-thumb:nth-child(6){top: 85px; left: 230px; width: 108px; height: 134px;}
+    .asmbl-masthead-thumb:nth-child(7){top: 242px; left: 22px; width: 218px; height: 104px;}
+    .asmbl-masthead-thumb:nth-child(8){top: 215px; left: 208px; width: 146px; height: 136px;}
     .asmbl-masthead-thumb:nth-child(8) img{border-radius: 3px 3px 0 0;}
 }
