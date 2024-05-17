@@ -3,7 +3,7 @@
 .default-masthead-section{ background-image: linear-gradient(to top, rgba(240, 242, 250, 0) 0%, #f0f2fa 100%), linear-gradient(to bottom, #f0f2fa, #f0f2fa); }
 .default-masthead-bg{background-repeat: no-repeat; background-size: cover;}
 
-.default-masthead-text span.optional-text{margin-bottom: 25px;}
+.default-masthead-text span.optional-text{margin-bottom: 20px;}
 .default-masthead-text h1{margin-bottom: 24px; color: var(--Navy);}
 .default-masthead-text hr{margin-bottom: 23px;}
 

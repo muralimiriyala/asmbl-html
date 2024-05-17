@@ -1,8 +1,8 @@
 
 
 .article-block-cta{margin-bottom: 49px; color: var(--Navy);}
-.article-block-cta .h1{margin-bottom: 25px; color: var(--Navy);}
-.article-block-cta hr{margin-bottom: 13px;}
+.article-block-cta .h1{margin-bottom: 25px; color: var(--Foreground);}
+.article-block-cta hr{margin-bottom: 23px;}
 .article-block-btns{gap: 16px; padding-top: 7px;}
 .default-article h2:not(.article-block-cta h2){margin-bottom: 19px;}
 .default-article h3:not(.mini-cta-text h3){padding-top: 30px; margin-bottom: 19px;}
@@ -19,7 +19,7 @@
 .mini-cta-links{flex: 0 0 132px; gap: 11px; flex-direction: column; text-align: center;}
 
 .default-article .accordion-main{margin: 54px 0 46px;}
-.default-aside h3{margin-bottom: 20px; color: var(--Navy);}
+.default-aside h3{margin-bottom: 20px; color: var(--Foreground);}
 .default-aside hr{margin-bottom: 17px;}
 ul.aside-links{margin: 0 0 39px;}
 ul.aside-links li{margin: 0 0 17px;}
@@ -27,6 +27,7 @@ ul.aside-links li::before{display: none;}
 
 .article-cta-link .text-btn-link{ font-family: "arboria", sans-serif;}
 .default-article .text-btn-link svg{min-width: 25px;}
+.default-article blockquote{margin: 52px 0 49px;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

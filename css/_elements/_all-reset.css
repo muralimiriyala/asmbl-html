@@ -55,7 +55,7 @@ fieldset {border: none; margin: 0; padding: 0;}
 legend {white-space: normal;}
 
 table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
-table {margin: 54px 0 49px; border-collapse: separate; border-spacing: 0; border-width: 1px; max-width: 100%; width: 100%; border-radius: 8px;}
+table {margin: 52px 0 49px; border-collapse: separate; border-spacing: 0; border-width: 1px; max-width: 100%; width: 100%; border-radius: 8px;}
 table tr td:first-child {text-align: left;}
 th {border-width: 0; padding: 11px 16px 12px; background-color: var(--Blue); color: var(--White); border-radius: 0; font-family: "arboria", sans-serif; font-weight: 700;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
@@ -304,4 +304,6 @@ ul.slick-dots li button{display: none;}
     div.slick-arrow.slick-prev{right: auto; left: 0;}
 
     blockquote{margin: 32px 0 16px; padding: 24px; font-size: 20px; line-height: 32px;}
+
+    img.alignnone, img.alignleft, img.alignright, img.aligncenter{margin: 25px auto; clear: both; float: none; display: block;}
 }

@@ -3,6 +3,7 @@
 .default-article .cta-micro-main{margin: 46px 0 0;}
 .cta-micro-text span.h3{display: block;}
 .cta-micro-btns{gap: 16px;}
+.cta-micro-bg{background-repeat: no-repeat; background-size: cover;}
 
 /* media css starts here */
 @media screen and (min-width: 740px){
