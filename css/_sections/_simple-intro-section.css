@@ -11,7 +11,7 @@
 
 .simple-intro-text{color: var(--Foreground, #313031);}
 .simple-intro-text h2{margin-bottom: 16px; color: var(--Navy, #182A54);}
-
+.no_simple_fig_icon:hover .simple-icon-block{opacity: 0;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
