@@ -10,6 +10,7 @@
 @media screen and (min-width: 1024px){
     .have-q-main{gap: 80px; padding: 83px 0 80px;}
     .have-q-text{flex: 0 0 300px;}
+    .have-q-text h2{margin-bottom: 19px;}
     .have-q-right{flex: 1;}
     .no_have_q_right .have-q-text{gap: 32px; align-items: center; display: flex; flex-wrap: wrap; width: 100%; flex: 0 0 100%;}
     .no_have_q_right .have-q-head{flex: 1;}

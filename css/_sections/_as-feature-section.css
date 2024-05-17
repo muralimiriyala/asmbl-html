@@ -7,12 +7,16 @@
 .as-feature-list:hover .as-icon-block{ opacity: 1; }
 .as-feature-list:hover .as-icon-block:not(.sm) { width: 62px; height: 62px; right: -8px; top: -8px; }
 
+.as-feature-text{color: var(--Foreground);}
 .as-feature-text h2{margin-bottom: 14px; color: var(--Navy);}
 span.rule{width: 1px; height: 50px;opacity: 0.4; background: var(--Blue, #1335AF); display: block;}
 
 /* media css starts here */
+@media screen and (min-width: 1280px){
+    .as-feature-row{padding: 0 20px;}
+}
 @media screen and (min-width: 1024px){
-    .as-feature-main{padding: 102px 0 84px;}
+    .as-feature-main{padding: 81px 0 96px;}
     .as-feature-head{gap: 30px; margin-bottom: 84px;}
     .as-feature-title{flex: 1;}
     .as-feature-link{gap: 30px; flex: 0 0 156px;}
