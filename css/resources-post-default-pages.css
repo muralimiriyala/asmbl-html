@@ -22,7 +22,9 @@
 .blockquote-svg svg{max-width: 44px; max-height: 44px;}
 .resource-post-article .accordion-main{padding: 37px 0 46px;}
 
-.avatar-main{padding-top: 47px; margin-top: 47px; border-top: 1px solid var(--Orange);}
+.avatar-wrap{padding-top: 47px;}
+.avatar-wrap hr{height: 1px; margin: 0; background: var(--Orange); animation-delay: 1s;}
+.avatar-main{padding-top: 47px;}
 .avatar-text span{margin-bottom: 10px; display: block;}
 .avatar-text p{margin-bottom: 6px;}
 
@@ -65,7 +67,8 @@
     .subtle-link { margin: 32px 0 29px; }
     .resource-post-article .accordion-main{padding: 22px 0 32px;}
 
-    .avatar-main{margin-top: 30px; padding-top: 30px; display: block;}
+    .avatar-wrap{padding-top: 30px;}
+    .avatar-main{padding-top: 30px; display: block;}
     .avatar-image{max-width: 160px; margin-bottom: 23px;}
     .avatar-text p{margin-bottom: 11px;}
 
