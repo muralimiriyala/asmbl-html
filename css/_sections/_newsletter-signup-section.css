@@ -7,7 +7,7 @@ body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{paddin
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder{color: var(--Foreground); font-family: "Noto Sans", sans-serif;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder{color: var(--Foreground); font-family: "Noto Sans", sans-serif; opacity: 1;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{color: var(--Foreground); font-family: "Noto Sans", sans-serif; opacity: 1;}
-body .newsletter-signup .frm_forms .frm_form_fields .frm_submit{ right: 12px; top: 12px; width: 40px; height: 40px; position: absolute; }
+body .newsletter-signup .frm_forms .frm_form_fields .frm_submit{ right: 12px; top: 12px; width: 40px; height: 40px; margin: 0; display: block; position: absolute; }
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; height: 100%; margin: 0; padding: 0; border-radius: 6px; background: var(--Blue-Tint, #D9DFF2); font-size: 0; line-height: 0; border: none;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--Orange);}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit svg path{transition: all 0.5s ease;}
@@ -44,7 +44,8 @@ body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color:
     .newsletter-main{display: block; padding: 32px 32px 23px; background-image: url("./images/newsletter-mobile-bg.svg");}
     .newsletter-text{padding: 0 20px 7px 0;}
     .newsletter-text h2{font-size: 24px; line-height: 30px;}
-    body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 21px 20px;}
+    body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 19px 19px;}
+    body .newsletter-signup .frm_forms .frm_form_fields .frm_submit{top: 13px;}
 }
 
 
