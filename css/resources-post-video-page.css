@@ -1,5 +1,6 @@
 
 .inline-post-video{margin-bottom: 39px;}
+.inline-top-block{margin-bottom: -7px;}
 .inline-post-video iframe{width: 100%; height: 100%; min-height: 507px; border-radius: 16px; object-fit: cover; object-position: center;}
 .post-video-article h1{margin-bottom: 24px;}
 .post-video-article p span{margin-bottom: 40px; font-size: 24px; font-weight: 400; line-height: 36px; color: var(--Navy,#182a54); display: block;}
@@ -11,7 +12,7 @@
 @media screen and (min-width: 1024px){
     .post-video-section{padding: 175px 0 74px;}
     .post-video-main{gap: 80px;}
-    .post-video-article{flex: 1; margin-top: -6px;}
+    .post-video-article{flex: 1;}
     .post-video-aside{flex: 0 0 300px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
