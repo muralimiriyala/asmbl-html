@@ -2,7 +2,6 @@
 .home-banner-section{background-color:  var(--Blue-Tint, #D9DFF2);}
 .home-banner-text h1{color: var(--Navy);}
 
-/* .home-banner-thumb{opacity: 0;} */
 .home-banner-thumb img{object-fit: cover; border-radius: 6px; position: relative;}
 .home-banner-thumb:nth-child(1){top: 100px; left: 0; width: 213px; height: 141px;}
 .home-banner-thumb:nth-child(2){top: 52px; left: 227px; min-width: 493px; width: 100%; height: 131px;}
@@ -17,19 +16,17 @@
 
 /*-- animation css starts --*/
 .home-banner-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
-
-.home-banner-anim{background: var(--Background, #F0F2FA); backdrop-filter: blur(2px); animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; z-index: -1;}
-.home-anim-1{width: 87px; height: 87px; bottom: 78px; right: 367px; opacity: 0.3; animation-name: home-anim-1;}
-.home-anim-2{width: 56px; height: 56px; top: 261px; left: 130px;  opacity: 0.3;}
-.home-anim-3{width: 199px; height: 199px; bottom: 96px; right: 40px; opacity: 0.6; animation-name: home-anim-3;}
-.home-anim-4{width: 30px; height: 30px; animation-name: home-anim-4; }
-.home-anim-5{width: 426px; height: 426px; top: 72px; right: 80px; opacity: 0.3; animation-name: home-anim-5;}
-@keyframes home-anim-1{ from{ bottom: 78px; right: 367px; } to{ bottom: 6px; right: 327px; } }
-@keyframes home-anim-3{ from{ bottom: 96px; right: 40px; } to{ width: 117px; height: 117px; right: 0; } }
-@keyframes home-anim-4{ from{ bottom: 82px; left: 108px; } to{ bottom: 36px; left: 61px; } }
-@keyframes home-anim-5{ from{ top: 72px; right: 80px; } to { width: 130px; height: 130px; top: 0; right: 0; } }
-
-
+.home-banner-thumb::before, .home-banner-thumb:nth-child(7)::after{background: var(--Background, #F0F2FA); backdrop-filter: blur(2px); animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; z-index: -1; content: ""; display: block; position: absolute;}
+.home-banner-thumb:nth-child(1)::before{width: 56px; height: 56px; top: 162px; left: 130px;  opacity: 0.3; animation-name: home-anim-1;}
+@keyframes home-anim-1{ from{ top: 162px; left: 130px; } to { top: 122px; left: 130px; opacity: 0; } }
+.home-banner-thumb:nth-child(2)::before{width: 426px; height: 426px; top: 20px; left: -13px; opacity: 0.3; animation-name: home-anim-2;}
+@keyframes home-anim-2{ from{ top: 72px; left: 80px; } to { width: 130px; height: 130px; top: -52px; left: 362px; } }
+.home-banner-thumb:nth-child(7)::before{width: 30px; height: 30px; animation-name: home-anim-7; }
+@keyframes home-anim-7{ from{ bottom: 32px; left: 32px; } to{ bottom: -15px; left: -15px; } }
+.home-banner-thumb:nth-child(7)::after{width: 87px; height: 87px; bottom: 30px; right: 86px; opacity: 0.3; animation-name: home-anim-7-after;}
+@keyframes home-anim-7-after{ from{ bottom: 30px; right: 86px; } to{ bottom: -43px; right: 46px; } }
+.home-banner-thumb:nth-child(8)::before{width: 199px; height: 199px; bottom: 120px; right: -14px; opacity: 0.6; animation-name: home-anim-8;}
+@keyframes home-anim-8{ from{ bottom: 120px; right: -14px; } to{ width: 117px; height: 117px; right: -52px; } }
 /*-- animation css ends --*/
 
 /* media css starts here */
@@ -115,7 +112,7 @@
 
     .home-banner-thumb img{object-fit: cover; border-radius: 3px;}
     .home-banner-thumb:nth-child(1){top: 38px; left: 12px; width: 101px; height: 66.97px;}
-    .home-banner-thumb:nth-child(2){top: 16px; left: 121px; width: 478.8px; height: 61.94px;}
+    .home-banner-thumb:nth-child(2){top: 16px; left: 121px; width: 478.8px; min-width: 478px; height: 61.94px;}
     .home-banner-thumb:nth-child(2) img{object-position: left top;}
     .home-banner-thumb:nth-child(3){top: 112px; left: 12px; width: 100.7px; height: 134.43px;}
     .home-banner-thumb:nth-child(4){top: 86px; left: 121px; width: 100.7px; height: 76.95px;}
@@ -124,4 +121,16 @@
     .home-banner-thumb:nth-child(7){top: 256px; left: 49px; width: 172.9px; height: 56.52px;}
     .home-banner-thumb:nth-child(8){top: 220px; left: 230px; width: 100.7px; height: 111.64px;}
     .home-banner-thumb:nth-child(8) img{border-radius: 3px 3px 0 0;}
+
+    .home-banner-thumb:first-child::before { width: 26px; height: 26px; top: 28px; left: 42px; }
+    @keyframes home-anim-1{ from{top: 28px; left: 42px; } to { top: 0; left: 0; opacity: 0; } }
+
+    .home-banner-thumb:nth-child(2)::before { width: 62px; height: 62px; top: 17px; right: 369px; left: auto; }
+    @keyframes home-anim-2{ from{ top: 17px; right: 369px; left: auto; } to { width: 62px; height: 62px; top: -17px; right: 269px; left: auto; } }
+    .home-banner-thumb:nth-child(7)::before { width: 14px; height: 14px; }
+    @keyframes home-anim-7{ from{ bottom: 24px; left: 24px;} to{bottom: -7px; left: -7px;} }
+    .home-banner-thumb:nth-child(7)::after { width: 41px; height: 41px; bottom: 32px; right: 60px; }
+    @keyframes home-anim-7-after{ from{ bottom: 30px; right: 60px; } to{ bottom: -20px; right: 30px; } }
+    .home-banner-thumb:nth-child(8)::before{width: 55px; height: 55px; bottom: 58px; right: 45px; }
+    @keyframes home-anim-8{ from{ bottom: 58px; right: 45px; } to{ width: 55px; height: 55px; bottom: 30px; right: -14px; } }
 }
