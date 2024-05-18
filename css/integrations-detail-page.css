@@ -1,14 +1,14 @@
 
 figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #182A54 0%, #1335AF 100%));}
-.in-detail-savings-desc{padding: 33px 34px; border: 1px solid var(--Blue-Tint, #D9DFF2); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); }
+.in-detail-savings-desc{padding: 33px; border: 1px solid var(--Blue-Tint, #D9DFF2); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); }
 .in-detail-icon{width: 38px; margin-bottom: 11px;}
 .in-detail-icon svg{max-width: 38px; height: auto;}
 
-
+.in-detail-text{font-size: 20px; line-height: 28px;}
 .in-detail-text span.optional-text{margin-bottom: 24px;}
-.in-detail-text h1{margin-bottom: 24px;}
-.in-detail-text hr{margin-bottom: 21px;}
-
+.in-detail-text h1{margin-bottom: 24px; color: var(--Navy);}
+.in-detail-text hr{margin-bottom: 23px;}
+.in-detail-btns {padding-top: 5px; gap: 16px;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
@@ -16,8 +16,8 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
     .in-detail-images{margin-right: 24px;}
 }
 @media screen and (min-width: 1024px){
-    .in-detail-main{padding: 190px 0 71px;}
-    .in-detail-text{flex: 1;}
+    .in-detail-main{padding: 190px 0 68px;}
+    .in-detail-text{flex: 1; padding: 7px 20px 0 0;}
     .in-detail-images{flex: 0 0 552px; max-width: 552px; margin-left: auto;}
 }
 @media screen and (min-width: 768px){
