@@ -17,7 +17,7 @@
     .gray-bg .categories-list{border-left-color: var(--White);}
     .prod-overview-section.gray-bg .categories-list{padding-bottom: 47px;}
     .prod-overview-section:not(.gray-bg) .categories-list{padding-bottom: 22px;}
-    body.category-resources .categories-head h2{margin-bottom: 16px;}
+    .categories-head h2{margin-bottom: 16px;}
 }
 @media only screen and (min-width: 768px){
     .categories-head{flex-direction: column;}

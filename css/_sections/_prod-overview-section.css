@@ -19,6 +19,10 @@
     body.page-template-industry-detail .prod-overview-wrap{padding-bottom: 122px;}
     body.page-template-company-size-detail .prod-overview-wrap{padding-bottom: 122px;}
     body.page-template-marketing-lp .prod-overview-wrap{padding: 63px 0 122px;}
+    body.page-template-product-landing section.gray-bg .prod-overview-wrap{padding: 41px 0 0;}
+    body.page-template-product-landing section.gray-bg .prod-overview-main{padding-bottom: 80px;}
+    body.page-template-product-landing section.white-bg .prod-overview-main{padding-bottom: 40px;}
+
     
     .prod-overview-wrap{padding: 48px 0 48px;} 
     .prod-overview-section:not(.gray-bg) .prod-overview-wrap{padding-bottom: 40px;}
@@ -26,9 +30,11 @@
     .white-bg .prod-overview-main{flex-direction: row;}
     .prod-art-title{flex: 1; gap: 4px; display: flex; align-items: center;}
     .prod-art-title strong{white-space: nowrap;}
-    .prod-overview-pos{position: relative;}
+    .prod-overview-text{padding-top: 40px;}
+    .prod-overview-pos{position: relative; min-height: 600px;}
     .prod-image-list.active-slide{transform: translateX(0);}
     .prod-image-list{ top: 0; left: 0; width: 100%; height: 100%; transition: all .5s ease; position: absolute; transform: translateX(100vw); }
+    .prod-overview-image{min-height: 600px;}
     .white-bg .prod-image-list{transform: translateX(-100vw);}
     .white-bg .prod-image-list.active-slide{transform: translateX(0);}
     .prod-tabs-main{display: none;}
@@ -37,7 +43,7 @@
     .prod-overview-main{gap: 80px; }
     .prod-overview-text{flex: 0 0 480px;}
     .prod-overview-image{flex: 0 0 calc(100% - 560px); max-width: calc(100% - 560px);}
-    .prod-overview-pos{min-width: 800px; min-height: 540px;}
+    .prod-overview-pos{min-width: 800px;}
     .white-bg .prod-overview-pos{margin-left: -160px;}
 }
 @media only screen and (max-width: 1359px) and (min-width: 1024px){
@@ -45,7 +51,6 @@
     .prod-overview-text{flex: 0 0 480px; padding: 0 40px;}
     .prod-art-title{flex-direction: column; align-items: flex-start;}
     .prod-overview-image{flex: 1;}
-    .prod-image-list img{min-height: 540px;}
     .white-bg .prod-overview-pos{margin-left: -160px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
