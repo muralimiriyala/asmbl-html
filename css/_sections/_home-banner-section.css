@@ -2,6 +2,7 @@
 .home-banner-section{background-color:  var(--Blue-Tint, #D9DFF2);}
 .home-banner-text h1{color: var(--Navy);}
 
+/* .home-banner-thumb{opacity: 0;} */
 .home-banner-thumb img{object-fit: cover; border-radius: 6px; position: relative;}
 .home-banner-thumb:nth-child(1){top: 100px; left: 0; width: 213px; height: 141px;}
 .home-banner-thumb:nth-child(2){top: 52px; left: 227px; min-width: 493px; width: 100%; height: 131px;}
@@ -16,12 +17,25 @@
 
 /*-- animation css starts --*/
 .home-banner-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
+
+.home-banner-anim{background: var(--Background, #F0F2FA); backdrop-filter: blur(2px); animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; z-index: -1;}
+.home-anim-1{width: 87px; height: 87px; bottom: 78px; right: 367px; opacity: 0.3; animation-name: home-anim-1;}
+.home-anim-2{width: 56px; height: 56px; top: 261px; left: 130px;  opacity: 0.3;}
+.home-anim-3{width: 199px; height: 199px; bottom: 96px; right: 40px; opacity: 0.6; animation-name: home-anim-3;}
+.home-anim-4{width: 30px; height: 30px; animation-name: home-anim-4; }
+.home-anim-5{width: 426px; height: 426px; top: 72px; right: 80px; opacity: 0.3; animation-name: home-anim-5;}
+@keyframes home-anim-1{ from{ bottom: 78px; right: 367px; } to{ bottom: 6px; right: 327px; } }
+@keyframes home-anim-3{ from{ bottom: 96px; right: 40px; } to{ width: 117px; height: 117px; right: 0; } }
+@keyframes home-anim-4{ from{ bottom: 82px; left: 108px; } to{ bottom: 36px; left: 61px; } }
+@keyframes home-anim-5{ from{ top: 72px; right: 80px; } to { width: 130px; height: 130px; top: 0; right: 0; } }
+
+
 /*-- animation css ends --*/
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .home-banner-main{padding: 80px 0 21px; flex-direction: row-reverse;} 
-    .home-banner-btns{padding-top: 6px; gap: 16px;}
+    .home-banner-main{padding: 80px 0 2px; flex-direction: row-reverse;} 
+    .home-banner-btns{padding-top: 14px; gap: 16px;}
 
     /*-- animation css starts --*/
     .home-banner-thumb:nth-child(1) img{animation-name: anim-down-1; }

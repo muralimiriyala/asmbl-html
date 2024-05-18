@@ -4,7 +4,6 @@
 .gray-bg .prod-overview-bg{border-color: var(--White-60);}
 .gray-bg .prod-overview-bg.active{background-color: var(--White); border-color: var(--White); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10);}
 
-
 .prod-overview-bg:not(:last-child){margin-bottom: 16px;}
 .prod-overview-desc{margin-bottom: 31px;}
 .prod-art-head{gap: 7px; padding: 16px 14px 16px 15px;  cursor: pointer; color: var(--Navy, #182A54); font-size: 20px; font-weight: 400; line-height: 25px;}
