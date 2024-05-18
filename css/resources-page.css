@@ -49,7 +49,7 @@ span.loader{position: absolute;}
 .res-srch-results h2{margin: 0; color: var(--Navy);}
 ul.blog_list{margin: 0;}
 #more-blog:not(:first-child){display: block;}
-
+#more-blog h3.no-posts{margin-bottom: 0; padding-top: 40px; text-align: center;}
 
 /* media css starts here */
 @media screen and (min-width: 768px){

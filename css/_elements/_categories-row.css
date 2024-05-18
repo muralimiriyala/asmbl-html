@@ -22,7 +22,7 @@
     .categories-head{flex-direction: column;}
     .categories-icon{margin-bottom: 20px; height: 42px; width: 46px;}
     .categories-icon img{object-fit: contain;}
-    body.page-template-resources .categories-list{padding-bottom: 54px; border-left-color: transparent;}
+    body.category-resources .categories-list{padding-bottom: 54px; border-left-color: transparent;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .prod-overview-wrap .categories-row{padding: 0 20px;}
@@ -41,7 +41,7 @@
     .categories-head h2{font-size: 24px; line-height: 30px; margin: 0; padding-top: 4px; flex: 1;}
     .categories-row{display: block; margin-bottom: 40px;}
     .categories-list:not(:last-child){padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid var(--Elevated, #F0F2FA);}
-    body.page-template-resources .categories-list{border-bottom-color: var(--White);}
+    body.category-resources .categories-list{border-bottom-color: var(--White);}
     .gray-bg .categories-list{border-bottom-color: var(--White);}
 
     .prod-categories-main{padding: 5px 0 40px;}
