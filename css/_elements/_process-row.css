@@ -9,13 +9,13 @@
 .process-step-line::before{width: 0%; height: 100%; top: 0; left: 0; animation-name: stepAnim; animation-play-state: paused; animation-fill-mode: forwards; animation-duration: 2s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); background-image: linear-gradient(to left, #f9662d 18%, #fec74d 100%, #ffdc54 0%); content: ""; display: block; position: absolute;}
 @keyframes stepAnim{ 0%{width: 0%;} 100%{width: 100%;} }
 .step-line-anim .process-step-line::before{animation-play-state: running;}
-.step-line-anim .process-step-1::before{animation-delay: 2000ms;}
-.step-line-anim .process-step-2::before{animation-delay: 4000ms;}
-.step-line-anim .process-step-3::before{animation-delay: 6000ms;}
-.step-line-anim .process-step-4::before{animation-delay: 8000ms;}
-.process-step-4::after{opacity: 0; animation-name: stepArrow; animation-play-state: paused; animation-fill-mode: forwards; animation-duration: 2s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+.step-line-anim .process-step-1::before{animation-delay: 1000ms;}
+.step-line-anim .process-step-2::before{animation-delay: 3000ms;}
+.step-line-anim .process-step-3::before{animation-delay: 5000ms;}
+.step-line-anim .process-step-4::before{animation-delay: 7000ms;}
+.process-step-4::after{opacity: 0; width: 12px; height: 20px; top: 50%; transform: translateY(-50%); right: 0; animation-name: stepArrow; animation-play-state: paused; animation-fill-mode: forwards; animation-duration: 2s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); }
 @keyframes stepArrow{ 0%{opacity: 0;} 100%{opacity: 1;} }
-.step-line-anim .process-step-4::after{animation-delay: 9000ms; animation-play-state: running;}
+.step-line-anim .process-step-4::after{animation-delay: 8000ms; animation-play-state: running;}
 /*-- anim --*/
 
 /* media css starts here */
@@ -23,19 +23,17 @@
     .process-row{gap: 32px; margin-bottom: 38px;}
     .process-list{flex: 0 0 calc(25% - 32px); flex-direction: column;}
     .process-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px;}
-    .process-list:last-child::before{max-width: 256px;}
-    .process-step-4::after{ width: 12px; height: 20px; top: 50%; transform: translateY(-50%); right: 0;}
     .process-num{margin-bottom: 19px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .process-row{display: block;}
-    .process-list{gap: 20px; margin-bottom: 64px;}
-    .process-text{flex: 1;}
-    .process-text h2{margin-bottom: 9px;}
-    .process-step-line{width: 2px; height: calc(100% - 0px); top: 64px; left: 32px; }
-    .process-step-line::before{width: 100%; height: 0;}
-    @keyframes stepAnim{ 0%{height: 0%;} 100%{height: 100%;} }
-    .process-step-4::after { width: 12px; height: 20px; left: -5px; bottom: -6px; transform: rotate(90deg); }
+    .process-row{gap: 24px;}
+    .process-list{ flex: 0 0 calc(25% - 18px); flex-direction: column; }
+    .process-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px;}
+    .process-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; }
+    .process-step-line.process-step-4{width: calc(100% - 64px);}
+    .process-num{margin-bottom: 19px;}
+    .process-text{font-size: 14px; line-height: 21px;}
+    .process-text h2{font-size: 20px; line-height: 25px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .process-row{display: block;}
@@ -43,12 +41,9 @@
     .process-text{flex: 1; font-size: 14px; line-height: 21px;}
     .process-text h2{margin-bottom: 9px;}
     .process-step-line{width: 2px; height: calc(100% - 32px); top: 64px; left: 32px; }
-    .process-step-4::after { width: 12px; height: 20px; left: -5px; bottom: -6px; transform: rotate(90deg); }
-    
-    .process-step-line::before{width: 100%; height: 0;}
-    @keyframes stepAnim{ 0%{height: 0%;} 100%{height: 100%;} }
-
-
+    .process-step-4::after { width: 12px; height: 20px; left: -5px; bottom: -6px; top: auto; transform: rotate(90deg); }
+    .process-step-line::before{width: 100%; height: 0%; animation-name: stepAnimVertical;}
+    @keyframes stepAnimVertical{ 0%{height: 0%;} 100%{height: 100%;} }
 }
 
 
