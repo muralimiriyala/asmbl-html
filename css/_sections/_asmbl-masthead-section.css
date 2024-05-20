@@ -102,12 +102,12 @@
     .asmbl-masthead-bg{background-image: url('images/asmbl-masthead-mobile@2x.jpg');}
 
     .asmbl-masthead-main{padding: 132px 0 40px; display: block;}
-    .asmbl-masthead-images{height: 363px;}
+    .asmbl-masthead-images{height: 364px;}
     .asmbl-masthead-text{font-size: 16px; line-height: 24px;}
     .asmbl-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
     .asmbl-masthead-text hr{margin-bottom: 20px;}
     .asmbl-masthead-text p{margin-bottom: 20px;}
-    .asmbl-masthead-btns{gap: 15px;}
+    .asmbl-masthead-btns{gap: 15px; padding-top: 0;}
 
     .asmbl-masthead-thumb img{border-radius: 3px;}
     .asmbl-masthead-1{top: 19px; left: 0; width: 108px; height: 90px;}

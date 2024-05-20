@@ -47,5 +47,5 @@
     .cta-large-text{padding: 0 24px 0 11px; text-align: center; }
     .cta-large-text span.h2{font-size: 30px; line-height: 37px;}
     .cta-large-btns{display: block;}
-    .cta-large-btns .button{margin-bottom: 12px; width: 100%; font-size: 20px; line-height: 30px;}
+    .cta-large-btns .button{margin-bottom: 12px; padding: 10px 12px 10px 12px; width: 100%; font-size: 20px; line-height: 30px;}
 }
