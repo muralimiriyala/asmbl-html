@@ -65,11 +65,12 @@ figure.colorfulsearch img{border: 1.406px solid rgba(217, 223, 242, 0.25); borde
 @media screen and (max-width: 767px) and (min-width: 200px){
     .prod-banner-main .asset-scroll-main{padding-bottom: 89px;}
     .asset-scroll-main{padding: 40px 0 114px;}
-    .search-above{left: 24px;}
-    .keywords-above{right: 26px; bottom: 26px;}
+    .search-above{left: 23px;}
+    .keywords-above{right: 24px; bottom: 21px;}
     .asset-scroll-slider:not(.is-active) .splide__track{padding-left: 12px;}
     .asset-scroll-slider.is-initialized:not(.is-active) ul.splide__list{justify-content: flex-start;}
-
+    body.page-template-confirmation .asset-scroll-main{padding-bottom: 107px;}
+    body.page-template-confirmation .keywords-above{bottom: 15px;}
 
     .prod-banner-main .search-above{top: 14px; max-width: 195px;}
     .prod-banner-main .colorful-bg-form input{padding: 7px 11px 7px 34px; font-size: 15px; line-height: 22px;}
