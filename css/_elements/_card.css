@@ -33,7 +33,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .post-card-image{min-height: 186px;}
-    .post-card-image img{max-height: 186px;}
+    .post-card-image img{max-height: 186px; min-height: 186px;}
     .post-card-text { padding: 24px 18px 24px; }
     .post-card-links{margin-top: 20px;}
 }
