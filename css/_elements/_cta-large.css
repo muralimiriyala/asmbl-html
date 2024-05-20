@@ -30,8 +30,10 @@
     .cta-large-btns{gap: 16px;}
     .cta-large-image{flex: 0 0 552px; max-width: 552px;}
 }
-@media screen and (max-width: 1299px) and (min-width: 1024px){
+@media screen and (max-width: 1279px) and (min-width: 1024px){
     .cta-large-main{padding: 55px 32px 54px; gap: 32px;}
+    .cta-large-text span.h2{font-size: 30px; line-height: 40px;}
+    .cta-large-image{flex: 0 0 520px; max-width: 520px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .cta-large-main{padding: 55px 48px 54px; display: block; background-position: bottom center;}

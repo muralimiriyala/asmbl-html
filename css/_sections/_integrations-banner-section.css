@@ -72,8 +72,8 @@ button.integrations-srch-btn:hover{background-image: none; -webkit-text-fill-col
     .integrations-banner-main{gap: 50px;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
-    .integrations-banner-main{padding: 110px 0 24px; gap: 60px; flex-direction: row-reverse;}
-    .integrations-banner-text{flex: 0 0 560px;}
+    .integrations-banner-main{padding: 110px 0 24px; gap: 64px; flex-direction: row-reverse;}
+    .integrations-banner-text{flex: 0 0 550px;}
     .integrations-srch-from{margin-top: 31px; max-width: 420px; }
     .integrations-banner-images{flex: 0 0 298px; margin-left: auto; margin-right: 32px;}
 }
