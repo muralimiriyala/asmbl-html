@@ -26,7 +26,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .post-card-image{min-height: 209px;}
-    .post-card-image img{max-height: 209px;}
+    .post-card-image img{max-height: 209px; min-height: 209px;}
     .post-card-text .line-m-clamp{margin-bottom: 20px;}
     .post-card-text { padding: 24px 18px 24px; }
     .post-card-links{margin-top: 20px;}

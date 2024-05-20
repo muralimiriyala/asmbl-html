@@ -32,6 +32,7 @@ button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px);
 .res-category span{font-weight: 400;}
 .res-category-arrow{ top: 3px; color: var(--Blue, #1335AF); font-size: 20px; line-height: 20px; position: relative; }
 
+.res-tags-main.open{z-index: 1;}
 .res-tags-main{flex: 0 0 100%; width: 100%; bottom: -40px; padding-top: 40px; left: 0; z-index: 0;}
 .res-tags-list{display: none;}
 ul.res-tags{margin: 0; gap: 10px;}
@@ -47,8 +48,8 @@ span.loader{position: absolute;}
 
 .res-srch-results{flex-grow: 1; flex: 0 0 100%;}
 .res-srch-results h2{margin: 0; color: var(--Navy);}
-ul.blog_list{margin: 0;}
-#more-blog:not(:first-child){display: block;}
+ul.blog_list{margin: 0; width: 100%;}
+#more-blog{width: 100%; display: block;}
 #more-blog h3.no-posts{margin-bottom: 0; padding-top: 40px; text-align: center;}
 
 /* media css starts here */
@@ -58,6 +59,7 @@ ul.blog_list{margin: 0;}
     button.res-expand-icon{opacity: 0; visibility: hidden;}
     .res-srch-form.open button.res-srch-icon{opacity: 0; visibility: hidden;}
     .res-srch-form.open button.res-expand-icon{opacity: 1; visibility: visible;}
+    .resources-row{justify-content: center;}
 }
 @media screen and (min-width: 1024px){
     .res-srch-main{gap: 46px 92px;}
@@ -65,7 +67,7 @@ ul.blog_list{margin: 0;}
     .resources-wrap{padding: 26px 0 120px;}
     .resources-blogs{padding-top: 56px;}
     .resources-row{gap: 40px;}
-    .resources-list{flex: 0 0 calc(33.333333% - 31px);}
+    .resources-list{flex: 0 0 calc(33.333333% - 27px);}
 
     body.page-template-integrations .res-srch-main{margin-bottom: 83px;}
     .load-more-resources{margin-top: 62px;}
@@ -80,7 +82,7 @@ ul.blog_list{margin: 0;}
     .res-srch-form.open .res-srch-field{width: 309px;}
     .resources-wrap{padding: 32px 0 62px;}
     .resources-blogs{padding: 42px 0 0;}
-    .resources-row{gap: 32px; justify-content: center;}
+    .resources-row{gap: 32px;}
     .resources-list{flex: 0 0 calc(50% - 16px);}
     .load-more-resources{margin-top: 62px;}
     #more-blog:not(:first-child){margin-top: 32px;}
