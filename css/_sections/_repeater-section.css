@@ -77,7 +77,7 @@
 
     body.home .repeater-main{padding: 0 0 8px;}
     /*-- 02 - Product Landing page --*/
-    body.page-template-product-landing .repeater-main{padding: 0 0 40px;}
+    body.page-template-product .repeater-main{padding: 0 0 40px;}
     /*-- 02 - Product Landing page --*/
     body.page-template-story .repeater-main{padding-top: 0;}
     body.page-template-story .repeater-desc h2.h1{font-size: 40px; line-height: 50px;}

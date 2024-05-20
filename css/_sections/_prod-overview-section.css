@@ -19,9 +19,9 @@
     body.page-template-industry-detail .prod-overview-wrap{padding-bottom: 122px;}
     body.page-template-company-size-detail .prod-overview-wrap{padding-bottom: 122px;}
     body.page-template-marketing-lp .prod-overview-wrap{padding: 63px 0 122px;}
-    body.page-template-product-landing section.gray-bg .prod-overview-wrap{padding: 41px 0 0;}
-    body.page-template-product-landing section.gray-bg .prod-overview-main{padding-bottom: 80px;}
-    body.page-template-product-landing section.white-bg .prod-overview-main{padding-bottom: 40px;}
+    body.page-template-product section.gray-bg .prod-overview-wrap{padding: 41px 0 0;}
+    body.page-template-product section.gray-bg .prod-overview-main{padding-bottom: 80px;}
+    body.page-template-product section.white-bg .prod-overview-main{padding-bottom: 40px;}
 
     
     .prod-overview-wrap{padding: 48px 0 48px;} 

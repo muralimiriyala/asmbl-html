@@ -9,7 +9,7 @@
     body.home .trust-by-text{padding-top: 5px;}
     body.page-template-demo .trust-by-main{padding-top: 72px;}
     body.page-template-pricing .trust-by-main{padding: 55px 0 56px;}
-    body.page-template-product-landing .trust-by-main{padding: 55px 0 56px;}
+    body.page-template-product .trust-by-main{padding: 55px 0 56px;}
     body.page-template-marketing-lp .trust-by-section:not(.gray-bg){padding-bottom: 23px;}
     .trust-by-main{gap: 32px; padding: 24px 0 72px;}
     .trust-by-text{flex: 0 0 144px; padding-top: 17px;}
@@ -17,7 +17,7 @@
     .trust-by-logo{flex: 0 0 calc(16.666666% - 27px);}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
-    body.page-template-product-landing .trust-by-main{padding: 14px 0 60px;}
+    body.page-template-product .trust-by-main{padding: 14px 0 60px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
     body.home .trust-by-main{padding: 27px 0 80px;}
@@ -31,7 +31,7 @@
     body.home .trust-by-main{padding: 27px 0 80px;}
     body.page-template-integrations .trust-by-main{padding-top: 38px;}
     body.page-template-integrations-detail .trust-by-main{padding-top: 38px;}
-    body.page-template-product-landing .trust-by-main{padding: 35px 0 22px;}
+    body.page-template-product .trust-by-main{padding: 35px 0 22px;}
     body.page-template-demo .trust-by-main{padding-top: 46px;}
 
     .trust-by-main{display: block; padding: 0 0 23px;}

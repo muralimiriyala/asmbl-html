@@ -25,7 +25,7 @@
 @media screen and (min-width: 1024px){
     body.page-template-marketing-lp .reviews-main{padding-bottom: 80px;}
     body.home .reviews-main{padding-bottom: 80px;}
-    body.page-template-product-landing .reviews-main{padding: 80px 0 0;}
+    body.page-template-product .reviews-main{padding: 80px 0 0;}
 
     .reviews-main{padding: 40px 0 40px; }
     .repeater-section .reviews-main{padding: 56px 0 55px;}
@@ -34,7 +34,7 @@
     .reviews-text{flex: 1;}
     .reviews-row:not(:last-child){margin-bottom: 40px;}
     .testimonials-row .reviews-row{padding: 0 0 40px;}
-    body.page-template-product-landing .testimonials-row .reviews-row:last-child{padding: 0;}
+    body.page-template-product .testimonials-row .reviews-row:last-child{padding: 0;}
     .reviews-row:nth-child(even){flex-direction: row-reverse;}
     .reviews-row:nth-child(even) .reviews-text:before{right: 0; left: auto;}
     .reviews-row:nth-child(even) .reviews-block { right: -40px; left: auto; }
@@ -46,7 +46,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     body.page-template-marketing-lp .reviews-main{padding-bottom: 80px;}
     body.home .reviews-main{padding-bottom: 80px;}
-    body.page-template-product-landing .reviews-main{padding: 60px 0 0;}
+    body.page-template-product .reviews-main{padding: 60px 0 0;}
 
 
     .reviews-main{padding: 40px 0 40px; }
@@ -57,7 +57,7 @@
     .reviews-text{flex: 1;}
     .reviews-quote{font-size: 20px; line-height: 32px;}
     .testimonials-row .reviews-row{padding: 0 0 40px;}
-    body.page-template-product-landing .testimonials-row .reviews-row:last-child{padding: 0;}
+    body.page-template-product .testimonials-row .reviews-row:last-child{padding: 0;}
     .reviews-row:nth-child(even){flex-direction: row-reverse;}
     .reviews-row:nth-child(even) .reviews-text:before{right: 0; left: auto;}
     .reviews-row:nth-child(even) .reviews-block { right: -40px; left: auto; }
