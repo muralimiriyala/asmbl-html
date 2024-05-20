@@ -76,7 +76,12 @@
 @keyframes phone-anim1{ 0%,30%{opacity:0; transform:translate3d(-5px, 5px, 0)} 80%{opacity:1; transform:translate3d(0, 0, 0)} 100%{opacity:0}}
 @keyframes phone-anim2{ 0%{opacity:0; transform:translate3d(-10px, 10px, 0)} 70%,90%{opacity:1; transform:translate3d(0, 0, 0)} 100%{opacity:0}}
 
-
+.hand-anim{left: -10px; transform-origin: 50% 50%; animation: shakeHand 1s ease-in-out forwards alternate; position: relative; }
+@keyframes shakeHand{
+    0% { transform: rotate(0deg); transform: translateX(0); }
+    50% { transform: rotate(2deg); }
+    100% { left: 1%; transform: translateX(-100%); transform: rotate(0deg); }
+}
 
 
 
