@@ -20,12 +20,12 @@
     .prod-overview-section.gray-bg .categories-list{padding-bottom: 47px;}
     .prod-overview-section:not(.gray-bg) .categories-list{padding-bottom: 22px;}
     .categories-head h2{margin-bottom: 16px;}
+    body.category-resources .categories-list{padding-bottom: 54px; border-left-color: transparent;}
 }
 @media only screen and (min-width: 768px){
     .categories-head{flex-direction: column;}
     .categories-icon{margin-bottom: 20px; height: 42px; width: 46px;}
     .categories-icon img{object-fit: contain;}
-    body.category-resources .categories-list{padding-bottom: 54px; border-left-color: transparent;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .prod-overview-wrap .categories-row{padding: 0 20px;}

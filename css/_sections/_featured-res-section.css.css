@@ -42,6 +42,7 @@
     .featured-res-list{flex: 0 0 calc(50% - 16px);}
     .featured-res-text h2{font-size: 30px; line-height: 40px;}
     .featured-res-image img{min-height: 200px;}
+    body.category-resources .featured-res-main{padding-bottom: 64px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .featured-res-bg{background-image: url("./images/featured-post-bg-mobile@2x.jpg");}
