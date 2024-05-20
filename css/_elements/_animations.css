@@ -70,6 +70,11 @@
 *[data-delighter].started{ visibility: visible; opacity: 1;}
 
 
+.phone-anim path:nth-last-child(2){animation: phone-anim1 2s infinite cubic-bezier(.1, .57, .5, 1);}
+.phone-anim path:nth-last-child(1){animation: phone-anim2 2s infinite cubic-bezier(.1, .57, .5, 1);}
+
+@keyframes phone-anim1{ 0%,30%{opacity:0; transform:translate3d(-5px, 5px, 0)} 80%{opacity:1; transform:translate3d(0, 0, 0)} 100%{opacity:0}}
+@keyframes phone-anim2{ 0%{opacity:0; transform:translate3d(-10px, 10px, 0)} 70%,90%{opacity:1; transform:translate3d(0, 0, 0)} 100%{opacity:0}}
 
 
 
