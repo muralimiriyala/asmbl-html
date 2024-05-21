@@ -1,12 +1,23 @@
 
 
-.linear-spy{overflow-x: hidden; height: 52px;}
-ul.linear-links{margin: 0; gap: 10px; height: 52px; min-width: max-content;}
+.sticky-spyscroll { top: 60px; left: 0; width: 100%; height: auto; transition: top 0.3s, position 0.3s; position: sticky; background-color: var(--White); z-index: 600; }
+nav.spy-nav{ overflow-x: scroll; overflow-y: visible; scrollbar-width: none; height: 52px;}
+ul.linear-links{margin: 0; padding: 0 63px; gap: 10px; height: 52px; min-width: max-content;}
 ul.linear-links li{margin: 0;}
 ul.linear-links li::before{display: none;}
-ul.linear-links li a{padding: 12px; color: var(--Navy, #182A54); font-size: 16px; font-weight: 400; line-height: 24px; border-radius: 8px; border: 2px solid var(--Elevated, #F0F2FA); display: block;}
-ul.linear-links li a.active, ul.linear-links li a:hover{color: var(--Blue); font-weight: 700; background: var(--Elevated, #F0F2FA);}
+ul.linear-links li a{padding: 12px; color: var(--Navy, #182A54); font-size: 16px; font-weight: 600; line-height: 24px; border-radius: 8px; border: 2px solid var(--Elevated, #F0F2FA); display: block;}
+ul.linear-links li a.active, ul.linear-links li a:hover{color: var(--Blue); background: var(--Elevated, #F0F2FA);}
 
+nav.spy-nav::after, nav.spy-nav::before{content: ""; display: block; width: 52px; height: 100%; top: 0; background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); position: absolute; z-index: 1;}
+nav.spy-nav::after{right: 40px;}
+nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(255,255,255,0) 100%);}
+.spy-arrows{width: 40px; height: 100%; top: 50%; transform: translateY(-50%); cursor: pointer; z-index: 2;}
+.spy-arrow-next:hover .spy-arrow{transform: translateX(2px) scale(0.85);}
+.spy-arrow-prev:hover .spy-arrow{transform: translateX(-2px) scale(0.85) scaleX(-1);}
+.spy-arrow-prev{left: 0;}
+.spy-arrow-next{right: 0;}
+.spy-arrow{ width: 38px; height: 26px; background-image: url("images/triangle-arrow.svg"); background-repeat: no-repeat; background-position: center; }
+.spy-arrow-prev .spy-arrow{transform: scaleX(-1);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
