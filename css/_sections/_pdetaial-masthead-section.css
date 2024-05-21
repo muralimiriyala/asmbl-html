@@ -22,7 +22,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 768px){
-    body.page-template-product-detail header.site-header{background-color: var(--White);}
+    body.page-template-product-details header.site-header{background-color: var(--White);}
     .pdetaial-masthead-bg{top: 96px; height: calc(100% - 96px); background-image: url('images/pdetaial-masthead-bg@2x.jpg');}
 }
 @media screen and (min-width: 1024px){
