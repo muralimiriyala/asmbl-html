@@ -2,7 +2,7 @@
 
 
 .simple-intro-icon{width: 46px; height: 46px; margin-bottom: 19px;}
-.simple-intro-icon svg{width: 46px; height: 46px; object-fit: contain;}
+.simple-intro-icon img, .simple-intro-icon svg{width: 46px; height: 46px; object-fit: contain;}
 .simple-icon-block { width: 14px; height: 14px; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background-color: var(--White); transition: all 0.5s ease; z-index: -1; }
 .simple-icon-block.sm { width: 6px; height: 6px; top: -16px; left: 100%; transform: translate(100%, 0%); }
 .simple-intro-list:hover .simple-icon-block{ opacity: 1; }
@@ -44,7 +44,7 @@
     .simple-intro-head{display: block; margin-bottom: 60px;}
     .simple-intro-title{padding-bottom: 18px; margin-bottom: 16px; border-bottom: 1px solid  rgb(19 53 175 / 40%);}
     .simple-intro-icon{width: 40px; height: 40px;}
-    .simple-intro-icon svg{width: 40px; height: 40px;}
+    .simple-intro-icon img, .simple-intro-icon svg{width: 40px; height: 40px;}
     .simple-intro-row{display: block;}
     .simple-intro-list:not(:last-child){ margin-bottom: 30px;}
 }
