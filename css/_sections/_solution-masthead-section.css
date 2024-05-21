@@ -8,12 +8,12 @@
 .solution-masthead-text hr{margin-bottom: 23px;}
 
 .solution-masthead-thumb img{object-fit: cover; border-radius: 6px; position: relative;}
-.solution-masthead-thumb:nth-child(1){top: 108px; left: 0; width: 212px; height: 235.5px;}
-.solution-masthead-thumb:nth-child(2){top: 41px; left: 156px; width: 620px; height: 302px;}
-.solution-masthead-thumb:nth-child(2) img{object-position: left top;}
-.solution-masthead-thumb:nth-child(3){top: 355px; left: 74px; width: 368px; height: 234px;}
-.solution-masthead-thumb:nth-child(4){top: 184px; left: 460px; width: 212px; height: 215.5px;}
-.solution-masthead-thumb:nth-child(5){top: 415px; left: 460px; width: 250px; height: 151.5px;}
+.solution-masthead-1{top: 108px; left: 0; width: 212px; height: 235.5px;}
+.solution-masthead-2{top: 41px; left: 156px; width: 620px; height: 302px;}
+.solution-masthead-2 img{object-position: left top;}
+.solution-masthead-3{top: 355px; left: 74px; width: 368px; height: 234px;}
+.solution-masthead-4{top: 184px; left: 460px; width: 212px; height: 215.5px;}
+.solution-masthead-5{top: 415px; left: 460px; width: 250px; height: 151.5px;}
 
 
 /*-- animation css starts --*/
@@ -31,11 +31,11 @@
     .solution-masthead-images{height: 600px;}
     
     /*-- animation css starts --*/
-    .solution-masthead-thumb:nth-child(1) img{animation-name: anim-down-1; }
-    .solution-masthead-thumb:nth-child(2) img{animation-name: animRight; }
-    .solution-masthead-thumb:nth-child(3) img{animation-name: animdUp; }
-    .solution-masthead-thumb:nth-child(4) img{animation-name: anim-down-2;}
-    .solution-masthead-thumb:nth-child(5) img{animation-name: animdUp; }
+    .solution-masthead-1 img{animation-name: anim-down-1; }
+    .solution-masthead-2 img{animation-name: animRight; }
+    .solution-masthead-3 img{animation-name: animdUp; }
+    .solution-masthead-4 img{animation-name: anim-down-2;}
+    .solution-masthead-5 img{animation-name: animdUp; }
     @keyframes anim-down-1{ from{top: -162px;} to{top: 0;} }
     @keyframes anim-down-2{ from{top: -256px;} to{top: 0;} }
     @keyframes animdUp{ from{transform: translateY(100vh);} to{transform: translateY(0%);} }
@@ -65,11 +65,11 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     /*-- animation css starts --*/
-    .solution-masthead-thumb:nth-child(1) img{animation-name: animLeft; }
-    .solution-masthead-thumb:nth-child(2) img{animation-name: animRight; }
-    .solution-masthead-thumb:nth-child(3) img{animation-name: animLeft; }
-    .solution-masthead-thumb:nth-child(4) img{animation-name: animRight;}
-    .solution-masthead-thumb:nth-child(5) img{animation-name: animLeft; }
+    .solution-masthead-1 img{animation-name: animLeft; }
+    .solution-masthead-2 img{animation-name: animRight; }
+    .solution-masthead-3 img{animation-name: animLeft; }
+    .solution-masthead-4 img{animation-name: animRight;}
+    .solution-masthead-5 img{animation-name: animLeft; }
     @keyframes animLeft{ from{transform: translateX(-100vw);} to{transform: translateY(0%);} }
     @keyframes animRight{ from{transform: translateX(100vw);} to{transform: translateX(0%);} }
     /*-- animation css ends --*/
@@ -86,10 +86,10 @@
     .solution-masthead-btns{gap: 15px;}
 
     .solution-masthead-thumb img{object-fit: cover; border-radius: 3px;}
-    .solution-masthead-thumb:nth-child(1){top: 38px; left: 12px; width: 101px; height: 66.97px;}
-    .solution-masthead-thumb:nth-child(2){top: 16px; left: 121px; width: 478.8px; height: 61.94px;}
-    .solution-masthead-thumb:nth-child(2) img{object-position: left top;}
-    .solution-masthead-thumb:nth-child(3){top: 112px; left: 12px; width: 100.7px; height: 134.43px;}
-    .solution-masthead-thumb:nth-child(4){top: 86px; left: 121px; width: 100.7px; height: 76.95px;}
-    .solution-masthead-thumb:nth-child(5){top: 171px; left: 121px; width: 100.7px; height: 76.95px;}
+    .solution-masthead-1{top: 38px; left: 12px; width: 101px; height: 66.97px;}
+    .solution-masthead-2{top: 16px; left: 121px; width: 478.8px; height: 61.94px;}
+    .solution-masthead-2 img{object-position: left top;}
+    .solution-masthead-3{top: 112px; left: 12px; width: 100.7px; height: 134.43px;}
+    .solution-masthead-4{top: 86px; left: 121px; width: 100.7px; height: 76.95px;}
+    .solution-masthead-5{top: 171px; left: 121px; width: 100.7px; height: 76.95px;}
 }
