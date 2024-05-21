@@ -33,7 +33,7 @@ button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px);
 .res-category-arrow{ top: 3px; color: var(--Blue, #1335AF); font-size: 20px; line-height: 20px; position: relative; }
 
 .res-tags-main.open{z-index: 1;}
-.res-tags-main{flex: 0 0 100%; width: 100%; bottom: -40px; padding-top: 40px; left: 0; z-index: 0;}
+.res-tags-main{flex: 0 0 100%; width: 100%; bottom: -40px; left: 0; z-index: 0;}
 .res-tags-list{display: none;}
 ul.res-tags{margin: 0; gap: 10px;}
 ul.res-tags li::before{display: none;}

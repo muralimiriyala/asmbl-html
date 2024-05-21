@@ -1,5 +1,9 @@
 jQuery(document).ready(function(){
-    jQuery(".client-slider-up").slick({
+    var $sliderup = jQuery(".client-slider-up");
+    var $slidesup = $sliderup.children('.client-logo-slide');
+    $slidesup.slice(0, 3).clone().appendTo($sliderup);
+    // Initialize the slick slider
+    $sliderup.slick({
         arrows: false,
         dots: false,
         vertical: true,
@@ -9,7 +13,7 @@ jQuery(document).ready(function(){
         infinite: true,
         cssEase: 'linear',
         autoplay: true,
-        autoplaySpeed: 0, 
+        autoplaySpeed: 0,
         speed: 2000, 
         pauseOnHover: false,
         pauseOnFocus: false, 
@@ -24,7 +28,10 @@ jQuery(document).ready(function(){
             },
         ], 
     });
-    jQuery(".client-slider-down").slick({
+    var $sliderdown = jQuery(".client-slider-down");
+    var $slidesdown = $sliderdown.children('.client-logo-slide');
+    $slidesdown.slice(0, 3).clone().appendTo($sliderdown);
+    $sliderdown.slick({
         arrows: false,
         dots: false,
         vertical: true,
