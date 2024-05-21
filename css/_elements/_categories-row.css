@@ -14,7 +14,7 @@
 @media screen and (min-width: 1024px){
     .categories-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .categories-list:hover .categories-btn{opacity: 1; transform: translateY(0);}
-    .categories-list{ border-left: 1px solid var(--Elevated, #F0F2FA);}
+    .categories-list{ border-left: 2px solid var(--Elevated, #F0F2FA);}
     .categories-list:nth-child(4n+1){border-left: none;}
     .gray-bg .categories-list{border-left-color: var(--White);}
     .prod-overview-section.gray-bg .categories-list{padding-bottom: 47px;}

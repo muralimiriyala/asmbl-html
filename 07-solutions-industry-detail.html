@@ -918,14 +918,16 @@
         </div>
         <div class="browser-art-content flex relative o-hidden">
             <div class="browser-art-left">
-                <figure class="browser-left-thumb object-fit">
-                    <img src="images/screenshot1.jpg" alt="screenshot1">
-                </figure>
+                <picture class="browser-left-thumb object-fit">
+                    <source srcset="images/screenshot1.jpg" media="(min-width: 768px)">
+                    <img src="images/screenshot1-mobile@2x.png" alt="screenshot1-mobile">
+                </picture>
             </div>
             <div class="browser-art-right">
-                <figure class="browser-right-thumb object-fit">
-                    <img src="images/screenshot2.jpg" alt="screenshot2">
-                </figure>
+                <picture class="browser-right-thumb object-fit">
+                    <source srcset="images/screenshot2.jpg" media="(min-width: 768px)">
+                    <img src="images/screenshot2-mobile@2x.png" alt="screenshot2-mobile">
+                </picture>
             </div>
         </div>
     </div>
