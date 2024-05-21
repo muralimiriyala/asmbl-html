@@ -3,10 +3,13 @@ function scrollWithOffset(target, offset) {
         jQuery("html, body").animate({ scrollTop: jQuery(target).offset().top - offset }, 300);
     }
 }
-
 function handleStickyAndScrollspy() {
+    var $stickySection = jQuery(".sticky-spyscroll-section");
+    if ($stickySection.length === 0) {
+        return; // Exit the function if the element does not exist
+    }
     var scrollTop = jQuery(window).scrollTop();
-    var headerHeight = jQuery(".sticky-spyscroll-section").offset().top;
+    var headerHeight = $stickySection.offset().top;
     var navbarHeight = jQuery(".site-header").outerHeight();
     var lastSection = jQuery("nav.spy-nav ul.linear-links li a").last().attr("href");
     var lastSectionBottom = jQuery(lastSection).offset().top + jQuery(lastSection).outerHeight();
@@ -28,17 +31,14 @@ function handleStickyAndScrollspy() {
             }
         }
     });
-
     if (scrollTop >= lastSectionBottom - jQuery(window).height()) {
         jQuery("ul.linear-links li a").removeClass("active");
         jQuery("nav.spy-nav ul.linear-links li a").last().addClass("active");
     }
 }
 
-
 jQuery(document).ready(function(){
     var navbarHeight = jQuery(".site-header").outerHeight();
-
     jQuery("nav.spy-nav ul.linear-links li a").on("click", function (e) {
         e.preventDefault();
         var target = this.hash;
@@ -47,13 +47,8 @@ jQuery(document).ready(function(){
         jQuery(this).addClass("active");
     });
 
-    jQuery(window).on("scroll", function () {
-        handleStickyAndScrollspy();
-    });
-
-    jQuery(window).on("resize", function () {
-        handleStickyAndScrollspy();
-    });
+    jQuery(window).on("scroll", function () { handleStickyAndScrollspy(); });
+    jQuery(window).on("resize", function () { handleStickyAndScrollspy(); });
     handleStickyAndScrollspy();
 });
 
