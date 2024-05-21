@@ -39,7 +39,7 @@
     .gray-bg .categories-list{border-left-color: var(--White);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .categories-head{gap: 17px; margin-bottom: 19px;}
+    .categories-head{gap: 17px; margin-bottom: 24px;}
     .categories-icon{width: 40px;}
     .categories-head h2{font-size: 24px; line-height: 30px; margin: 0; padding-top: 4px; flex: 1;}
     .categories-row{display: block; margin-bottom: 40px;}

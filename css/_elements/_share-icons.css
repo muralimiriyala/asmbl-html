@@ -21,6 +21,9 @@
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .share-icons #st-1.st-animated{justify-content: flex-start;}
 }
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .share-icons #st-1.st-animated{justify-content: flex-start;}
+}
 @media screen and (max-width: 767px) and (min-width: 200px){
     .share-icons #st-1.st-animated{justify-content: flex-start;}
 }
