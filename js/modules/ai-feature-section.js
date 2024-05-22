@@ -44,6 +44,7 @@ jQuery(document).ready(function(){
         });
         $container.find('ul.ai-tab-links li a[data-slide]').on("click", function(e){
             e.preventDefault();
+            jQuery("ul.ai-tab-links").removeClass("ai-links");
             jQuery(this).parent("li").siblings().removeClass("ai-tab-active");
             jQuery(this).parent("li").addClass("ai-tab-active");
             var slideno = jQuery(this).data('slide');
