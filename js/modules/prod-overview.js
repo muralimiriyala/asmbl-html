@@ -1,5 +1,4 @@
 jQuery(document).ready(function(){
-
     jQuery('.prod-overview-section').each(function(index){
         const $prodSlide = jQuery(this);
         jQuery(".prod-overview-bg:first-child").addClass("active");
