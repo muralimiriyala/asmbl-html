@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8918ceb0b7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css" media="all">
-    <link rel="stylesheet" href="./core.bundle.css?v=2?v=11" media="all">
+    <link rel="stylesheet" href="./core.bundle.css?v=22" media="all">
     <script src=https://js.storylane.io/js/v1/storylane.js></script>
 </head>
 <body class="home">
@@ -456,26 +456,22 @@
                     <div class="ai-image-slider">
                         <div class="ai-image-slide">
                             <picture class="object-fit">
-                                <source srcset="images/dummy6.png" media="(min-width: 768px)">
-                                <img src="images/prod-thumb-mobile1@2x.png" alt="">
+                                <img loading="eager" src="images/prod-thumb-mobile1@2x.png" alt="">
                             </picture>
                         </div>
                         <div class="ai-image-slide">
                             <picture class="object-fit">
-                                <source srcset="images/dummy6.png" media="(min-width: 768px)">
-                                <img src="images/prod-thumb-mobile1@2x.png" alt="">
+                                <img loading="eager" src="images/prod-thumb-mobile1@2x.png" alt="">
                             </picture>
                         </div>
                         <div class="ai-image-slide">
                             <picture class="object-fit">
-                                <source srcset="images/dummy6.png" media="(min-width: 768px)">
-                                <img src="images/prod-thumb-mobile1@2x.png" alt="">
+                                <img loading="eager" src="images/prod-thumb-mobile1@2x.png" alt="">
                             </picture>
                         </div>
                         <div class="ai-image-slide">
                             <picture class="object-fit">
-                                <source srcset="images/dummy6.png" media="(min-width: 768px)">
-                                <img src="images/prod-thumb-mobile1@2x.png" alt="">
+                                <img loading="eager" src="images/prod-thumb-mobile1@2x.png" alt="">
                             </picture>
                         </div>
                     </div>
@@ -782,15 +778,18 @@
         </div>
         <div class="browser-art-content flex relative o-hidden">
             <div class="browser-art-left">
-                <figure class="browser-left-thumb object-fit">
-                    <img src="images/screenshot1.jpg" alt="screenshot1">
-                </figure>
+                <picture class="browser-left-thumb object-fit">
+                    <source srcset="images/screenshot1.jpg" media="(min-width: 768px)">
+                    <img src="images/screenshot1-mobile@2x.png" alt="screenshot1-mobile">
+                </picture>
             </div>
             <div class="browser-art-right">
-                <figure class="browser-right-thumb object-fit">
-                    <img src="images/screenshot2.jpg" alt="screenshot2">
-                </figure>
+                <picture class="browser-right-thumb object-fit">
+                    <source srcset="images/screenshot2.jpg" media="(min-width: 768px)">
+                    <img src="images/screenshot2-mobile@2x.png" alt="screenshot2-mobile">
+                </picture>
             </div>
+            <div class="browser-art-bg absolute"></div>
         </div>
     </div>
 </div>

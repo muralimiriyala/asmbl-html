@@ -101,8 +101,8 @@
     ul.ai-tab-links{visibility: visible; animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-links; animation-fill-mode: forwards; animation-timing-function: ease-in-out; animation-iteration-count: inherit; animation-play-state: paused; }
     ul.ai-tab-links.ai-links{animation-play-state: running;} @keyframes ai-links { 0%{transform: translateY(-250px);} 100%{position: translateY(0%);} }
     ul.ai-links li.ai-tab-active a{animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-active; animation-fill-mode: forwards; animation-timing-function: ease-in-out; animation-play-state: running; }
-    @keyframes ai-active { 0%{background-color: rgba(24,42,84,.6);} 100%{background-color: var(--White);} }
-    ul.ai-tab-links li.ai-tab-active a svg path:not(:first-child){animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-path; animation-fill-mode: forwards; animation-timing-function: ease-in-out; }
+    @keyframes ai-active { 0%{background-color: rgba(24,42,84,.9);} 100%{background-color: var(--White);} }
+    ul.ai-links li.ai-tab-active a svg path:not(:first-child){animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-path; animation-fill-mode: forwards; animation-timing-function: ease-in-out; }
     @keyframes ai-path { 0%{fill: var(--White);} 100%{fill: #1335AF;} }
     .ai-content-t{ height: 0; overflow: hidden; animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-content; animation-fill-mode: forwards; animation-timing-function: ease-in-out; animation-iteration-count: inherit; animation-play-state: paused; }
     .ai-visible.ai-content-t{animation-play-state: running;}
