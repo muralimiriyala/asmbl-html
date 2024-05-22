@@ -4,9 +4,8 @@ jQuery(document).ready(function(){
         e.preventDefault();
         jQuery(this).parent().siblings(".res-dropdown-pos").find(".res-dropdown").removeClass("open");
         jQuery(this).toggleClass("open");
-        jQuery(this).siblings(".res-tags-main").toggleClass("open");
         jQuery(this).parent().siblings(".res-dropdown-pos").find(".res-tags-list").fadeOut(500);
-        jQuery(this).siblings(".res-tags-main").find(".res-tags-list").fadeToggle(500);
+        jQuery(this).siblings(".res-tags-list").fadeToggle(500);
     });
 });
 function srchResize(){

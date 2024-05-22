@@ -1,12 +1,13 @@
 
 
 .xl-cta-main{padding: 48px 48px 46px; background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; }
+.xl-cta-text span.optional-text{margin-bottom: 14px;}
+
 .xl-cta-frame{border-radius: 4px; background: var(--White, #FFF); box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25);}
 .xl-cta-frame1{top: 70px; left: 77px; width: 104px;}
 .xl-cta-frame2{top: 120px; left: 140px; width: 110px;}
 .xl-cta-frame3{top: 120px; left: 0; width: 128px;}
 .xl-cta-frame4{top: 170px; left: 95px; width: 112px; z-index: -1;}
-
 
 .xl-cta-row.no_image{display: block;}
 .no_image .xl-cta-text{max-width: 100%; flex: 0 0 100%;}
@@ -42,10 +43,9 @@
     .xl-cta-wrap{padding: 0 0 78px;}
     .xl-cta-main{background-image: url('./images/xl-cta-micro@2x.jpg'); }
     .xl-cta-row{gap: 80px; margin-bottom: 39px; flex-direction: row-reverse;}
-    .xl-cta-text{flex: 1; max-width: 552px; padding-top: 22px;}
+    .xl-cta-text{flex: 1; max-width: 552px; padding-top: 22px; margin-right: auto;}
     .xl-cta-btns{gap: 16px;}
-    .xl-cta-image{flex: 0 0 528px; max-width: 528px;}
-
+    .xl-cta-image{flex: 0 0 551px; max-width: 551px;}
     .xl-step-row{gap: 32px;}
     .xl-step-list{flex: 0 0 calc(25% - 32px); flex-direction: column;}
     .xl-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; display: block; position: absolute; z-index: -1; }
