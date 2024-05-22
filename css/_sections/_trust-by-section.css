@@ -22,11 +22,10 @@
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
     body.home .trust-by-main{padding: 27px 0 80px;}
-    
     .trust-by-main{display: block; padding: 0 0 43px;}
     .trust-by-text{margin-bottom: 22px; display: block;}
-    .trust-by-logos{gap: 30px;}
-    .trust-by-logo{flex: 0 0 calc(25% - 23px);}
+    .trust-by-logos{gap: 24px;}
+    .trust-by-logo{flex: 0 0 calc(20% - 20px);}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
     body.home .trust-by-main{padding: 27px 0 80px;}
@@ -34,6 +33,7 @@
     body.page-template-integrations-detail .trust-by-main{padding-top: 38px;}
     body.page-template-product .trust-by-main{padding: 35px 0 22px;}
     body.page-template-demo .trust-by-main{padding-top: 46px;}
+    body.page-template-solutions-usecase-detail .trust-by-main{padding: 39px 0 40px;}
 
     .trust-by-main{display: block; padding: 0 0 23px;}
     .trust-by-text{margin-bottom: 22px; display: block;}

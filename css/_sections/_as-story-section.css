@@ -4,6 +4,7 @@
 .as-story-thumb img{ border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.25)); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10);}
 .as-story-text h2{margin-bottom: 20px; color: var(--Navy);}
 .as-story-text p{margin-bottom: 20px;}
+.as-story-line{transition: all 4s ease;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
@@ -14,7 +15,9 @@
     .as-story-rule{width: 1px; height: 50px; opacity: 0.4; background: var(--Blue, #1335AF); display: block;}
     .as-story-row{gap: 64px;}
     .as-story-list{flex: 0 0 calc(33.3333% - 50px);}
-    .as-story-line{top: -3px; width: 2px; height: 100%; }
+    .as-story-line{width: 2px; height: 0%;}
+    .as-story-list:nth-child(odd) .as-story-line{top: auto; bottom: 3px; }
+    .as-story-line.visible{height: calc(100% + 3px);}
     .as-story-line::before{width: 6px; height: 6px; top: 0; left: -2px; border-radius: 6px; background-color: var(--Blue);  content: ""; display: block; position: absolute;}
     .as-story-line::after{width: 2px; height: calc(100% + 3px); opacity: 0.4; content: ""; display: block; background-color: var(--Blue, #1335AF); position: absolute;}
     .as-story-text{padding-left: 19px;}
@@ -43,7 +46,7 @@
    
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
-    .as-story-main{padding: 40px 0 40px;}
+    .as-story-main{padding: 40px 0 37px;}
     .as-story-intro{display: block; padding-bottom: 47px;}
     .as-story-title{padding-bottom: 22px;}
     .as-story-title h2{font-size: 40px; line-height: 50px;}
@@ -51,11 +54,13 @@
     .as-story-row{display: block;}
     .as-story-list:not(:last-child){margin-bottom: 60px;}
     .as-story-text{padding-left: 15px;}
-    .as-story-desc{padding: 39px 0 11px 24px; }
-    .as-story-line{top: -3px; width: 2px; height: 100%; }
+    .as-story-desc{padding: 22px 0 11px 24px; }
+    .as-story-line{top: -3px; width: 2px; height: 0%; }
     .as-story-line::before{width: 6px; height: 6px; top: 0; left: -2px; border-radius: 6px; background-color: var(--Blue);  content: ""; display: block; position: absolute;}
     .as-story-line::after{width: 2px; height: calc(100% + 3px); opacity: 0.4; content: ""; display: block; background-color: var(--Blue, #1335AF); position: absolute;}
 
+    .as-story-list:nth-child(odd) .as-story-line{top: auto; bottom: 5px; }
+    .as-story-line.visible{height: calc(100% + 0px);}
 }
 
 

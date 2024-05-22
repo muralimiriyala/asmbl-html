@@ -16,6 +16,12 @@
     .alt-faqs-right{flex: 1;}
     .alt-faqs-list{margin-bottom: 52px;}
 }
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .alt-faqs-main{padding: 60px 0; display: block;}
+    .alt-faqs-text{width: 100%; gap: 32px; margin-bottom: 50px; display: flex; flex-wrap: wrap;}
+    .alt-faqs-desc{flex: 1;}
+    .alt-faqs-list:not(:last-child){margin-bottom: 50px;}
+}
 @media screen and (max-width: 767px) and (min-width: 200px){
     .alt-faqs-main{padding: 43px 0 40px; display: block;}
     .alt-faqs-text{padding-bottom: 12px;}

@@ -8,7 +8,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    body.page-template-use-case-detail .start-managing-section{margin-bottom: 40px;}
+    body.page-template-solutions-usecase-detail .start-managing-section{margin-bottom: 40px;}
     .start-managing-main{gap: 32px; align-items: center; background-image: url("./images/mini-cta-buble.svg");}
     .start-managing-text{flex: 1;}
     .start-managing-btn{width: fit-content;}
@@ -20,7 +20,7 @@
     .start-managing-btn{width: fit-content;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    body.page-template-use-case-detail .start-managing-section{margin-bottom: 21px;}
+    body.page-template-solutions-usecase-detail .start-managing-section{margin-bottom: 21px;}
     .start-managing-main{padding: 24px 24px 24px; display: block; background-image: url("./images/mini-cta-buble-mobile.svg");}
     .start-managing-text{text-align: center;}
     .start-managing-text h2{margin-bottom: 24px; font-size: 24px; line-height: 30px;}

@@ -47,12 +47,12 @@
     body.page-template-marketing-lp .reviews-main{padding-bottom: 80px;}
     body.home .reviews-main{padding-bottom: 80px;}
     body.page-template-product .reviews-main{padding: 60px 0 0;}
-
+    .repeater-section .reviews-main{padding: 0 40px;}
+    .repeater-section .reviews-row{padding: 0 0 55px;}
 
     .reviews-main{padding: 40px 0 40px; }
     .reviews-row{gap: 40px; align-items: flex-start;}
     .reviews-row:not(:last-child){margin-bottom: 40px;}
-    .repeater-section .reviews-row{padding: 56px 0 55px;}
     .reviews-image{flex: 0 0 160px;}
     .reviews-text{flex: 1;}
     .reviews-quote{font-size: 20px; line-height: 32px;}

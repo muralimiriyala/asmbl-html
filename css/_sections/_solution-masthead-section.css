@@ -1,7 +1,7 @@
 
 
 .solution-masthead-section{ background-image: linear-gradient(to top, rgba(240, 242, 250, 0) 0%, #f0f2fa 100%), linear-gradient(to bottom, #f0f2fa, #f0f2fa); }
-.solution-masthead-bg{background-repeat: no-repeat; background-size: cover;}
+.solution-masthead-bg{background-position: center top; background-repeat: no-repeat; background-size: cover;}
 
 .solution-masthead-text span.optional-text{margin-bottom: 25px;}
 .solution-masthead-text h1{margin-bottom: 25px; color: var(--Navy);}
@@ -15,6 +15,7 @@
 .solution-masthead-4{top: 184px; left: 460px; width: 212px; height: 215.5px;}
 .solution-masthead-5{top: 415px; left: 460px; width: 250px; height: 151.5px;}
 
+body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; height: 213px;}
 
 /*-- animation css starts --*/
 .solution-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
@@ -77,19 +78,22 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .solution-masthead-bg{background-image: url('images/solution-masthead-mobile@2x.jpg');}
 
-    .solution-masthead-main{padding: 80px 0 40px; display: block;}
-    .solution-masthead-images{height: 342px;}
+    .solution-masthead-main{padding: 127px 0 40px; display: block;}
+    .solution-masthead-images{height: 282px;}
     .solution-masthead-text{font-size: 16px; line-height: 24px;}
     .solution-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
     .solution-masthead-text hr{margin-bottom: 20px;}
     .solution-masthead-text p{margin-bottom: 20px;}
+    .solution-masthead-text span.optional-text{margin-bottom: 20px;}
     .solution-masthead-btns{gap: 15px;}
 
     .solution-masthead-thumb img{object-fit: cover; border-radius: 3px;}
-    .solution-masthead-1{top: 38px; left: 12px; width: 101px; height: 66.97px;}
-    .solution-masthead-2{top: 16px; left: 121px; width: 478.8px; height: 61.94px;}
+    .solution-masthead-1{top: 46px; left: 12px; width: 97px; height: 107px;}
+    .solution-masthead-2{top: 16px; left: 84px; width: 281px; height: 136px;}
     .solution-masthead-2 img{object-position: left top;}
-    .solution-masthead-3{top: 112px; left: 12px; width: 100.7px; height: 134.43px;}
-    .solution-masthead-4{top: 86px; left: 121px; width: 100.7px; height: 76.95px;}
-    .solution-masthead-5{top: 171px; left: 121px; width: 100.7px; height: 76.95px;}
+    .solution-masthead-3 { top: 158px; left: 44px; width: 170px; height: 108px; }
+    .solution-masthead-4 { top: 84px; left: 222px; width: 98px; height: 99px; }
+    .solution-masthead-5{top: 189px; left: 222px; width: 116px; height: 70px;}
+
+    body.page-template-solutions-usecase-detail .solution-masthead-3{ top: 157px; left: 43px; width: 170px; height: 100px;}
 }
