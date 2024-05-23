@@ -1,7 +1,9 @@
 
-.home-banner-section{background-color:  var(--Blue-Tint, #D9DFF2);}
-.home-banner-text h1{color: var(--Navy);}
 
+
+.home-banner-bg{background-image: linear-gradient(to bottom, rgba(240, 242, 250, 0) 0%, #f0f2fa 100%), linear-gradient(to bottom, #f0f2fa, #f0f2fa); z-index: -2;}
+.home-banner-video video{ top: 50%; left: 50%; width: 100%; height: 100%; transform: translate(-50%, -50%); position: absolute; object-fit: cover; }
+.home-banner-text h1{color: var(--Navy);}
 .home-banner-thumb img{object-fit: cover; border-radius: 6px; position: relative;}
 .home-thumb-1{top: 100px; left: 0; width: 213px; height: 141px;}
 .home-thumb-2{top: 52px; left: 227px; min-width: 493px; width: 100%; height: 131px;}
