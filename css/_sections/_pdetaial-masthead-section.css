@@ -1,7 +1,9 @@
 
 .pdetaial-masthead-section{ background-image: linear-gradient(to top, rgba(240, 242, 250, 0) 0%, #f0f2fa 100%), linear-gradient(to bottom, #f0f2fa, #f0f2fa); }
 .pdetaial-masthead-bg{background-repeat: no-repeat; background-size: cover;}
-
+.pdetaial-masthead-main.no_pdetaial_images{display: block;}
+.pdetaial-masthead-main.no_pdetaial_text{justify-content: center;}
+.no_pdetaial_images .pdetaial-masthead-text{max-width: 100%; padding-top: 80px;}
 .pdetaial-masthead-text{font-size: 20px; line-height: 28px;}
 .pdetaial-masthead-text span.optional-text{margin-bottom: 24px;}
 .pdetaial-masthead-text h1{margin-bottom: 24px; color: var(--Navy);}
