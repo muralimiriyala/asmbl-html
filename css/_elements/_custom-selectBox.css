@@ -8,7 +8,7 @@ body .selectBox-dropdown .selectBox-arrow{width: 15px; height: 10px; right: 13px
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{transform: translateY(-100%) rotate(180deg); top: calc(50% + 4px); }
 
 body.page-template-marketing-lp ul.selectBox-dropdown-menu, body.page-template-demo ul.selectBox-dropdown-menu{border: 1px solid var(--Blue-Tint,#d9dff2); box-shadow: none;}
-ul.selectBox-dropdown-menu{margin: 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; display: block; border-radius: 0 0 5px 5px; background-color: var( --White); position: absolute; z-index: 99999; border: none; white-space: nowrap; text-overflow: ellipsis; overflow: auto; box-shadow: 0 2px 2px #dadbdf;}
+ul.selectBox-dropdown-menu{margin: 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; display: block; border-radius: 0 0 5px 5px; background-color: var( --White); border: 1px solid var(--White); position: absolute; z-index: 99999; white-space: nowrap; text-overflow: ellipsis; overflow: auto; box-shadow: 0 2px 2px #dadbdf;}
 ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--Blue);}
 ul.selectBox-dropdown-menu li.selectBox-disabled{display: none;}
 ul.selectBox-dropdown-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal;}
