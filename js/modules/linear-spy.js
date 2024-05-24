@@ -14,8 +14,11 @@ function handleStickyAndScrollspy() {
     var lastSection = jQuery("nav.spy-nav ul.linear-links li a").last().attr("href");
     var lastSectionBottom = jQuery(lastSection).offset().top + jQuery(lastSection).outerHeight();
 
+    jQuery("ul.linear-links li:first-child a").addClass("active");
+    console.log("test 123")
+
     if (scrollTop >= headerHeight - navbarHeight && scrollTop <= lastSectionBottom - navbarHeight) {
-        jQuery(".sticky-spyscroll").css({ position: "fixed", top: navbarHeight + "px" });
+        jQuery(".sticky-spyscroll").css({ position: "fixed", top: navbarHeight - 16 + "px" });
     } else {
         jQuery(".sticky-spyscroll").css({ position: "static", top: "0px" });
     }

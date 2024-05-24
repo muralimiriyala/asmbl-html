@@ -1,6 +1,6 @@
 
 
-.sticky-spyscroll { top: 60px; left: 0; width: 100%; height: auto; transition: top 0.3s, position 0.3s; position: sticky; background-color: var(--White); z-index: 600; }
+.sticky-spyscroll{padding: 24px 0; top: 60px; left: 0; width: 100%; height: auto; transition: top 0.3s, position 0.3s; position: sticky; background-color: var(--White); z-index: 600; }
 nav.spy-nav{ overflow-x: scroll; overflow-y: visible; scrollbar-width: none; height: 52px;}
 ul.linear-links{margin: 0; gap: 10px; height: 52px; min-width: max-content;}
 ul.linear-links li{margin: 0;}
@@ -33,7 +33,16 @@ nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(
     .linear-prod-title{margin-bottom: 30px;}
     .linear-prod-title h2{font-size: 40px; line-height: 50px;}
     .linear-prod-description{padding: 31px 0 30px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}
-
+    nav.spy-nav{width: calc(100% + 40px);}
+    ul.linear-links{justify-content: flex-start;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    .spy-arrows{width: 32px; display: none !important;}
+    .spy-arrow{width: 32px; height: 16px;}
+    .spy-arrow-prev{left: 5px;}
+    .spy-arrow-next{right: 5px;}
+    nav.spy-nav::before { left: 0; }
+    nav.spy-nav::after { right: 0; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .linear-prod-main{padding: 40px 0 23px;}
@@ -41,9 +50,6 @@ nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(
     .linear-prod-title{margin-bottom: 30px;}
     .linear-prod-title h2{font-size: 40px; line-height: 50px;}
     .linear-prod-description{padding: 31px 0 30px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}
-
-    .spy-arrows{width: 32px;}
-    .spy-arrow{width: 32px; height: 16px;}
-    nav.spy-nav::before { left: 20px; }
-    nav.spy-nav::after { right: 20px; }
+    nav.spy-nav{width: calc(100% + 24px);}
+    ul.linear-links{justify-content: flex-start;}
 }
