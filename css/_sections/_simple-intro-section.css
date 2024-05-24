@@ -15,7 +15,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
-    body.page-template-industry-detail .simple-intro-row{gap: 33px 50px;}
+    body.page-template-solutions-industry-detail .simple-intro-row{gap: 33px 50px;}
     .simple-intro-row{gap: 33px 50px;}
     .simple-intro-list{flex: 0 0 calc(25% - 38px); padding: 20px;}
 }

@@ -16,7 +16,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    body.page-template-industry-detail .prod-overview-wrap{padding-bottom: 122px;}
+    body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 8px 0 0122px;}
     body.page-template-company-size-detail .prod-overview-wrap{padding-bottom: 122px;}
     body.page-template-marketing-lp .prod-overview-wrap{padding: 63px 0 122px;}
     body.page-template-product section.gray-bg .prod-overview-wrap{padding: 41px 0 0;}
@@ -54,8 +54,8 @@
     .white-bg .prod-overview-pos{margin-left: -160px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    body.page-template-industry-detail .prod-overview-wrap{padding: 20px 0 0;}
-    body.page-template-industry-detail .prod-tabs-main{padding: 0 0 60px;}
+    body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 20px 0 0;}
+    body.page-template-solutions-industry-detail .prod-tabs-main{padding: 0 0 60px;}
     body.page-template-company-size-detail .prod-overview-wrap{padding: 20px 0 0;}
     body.page-template-company-size-detail .prod-tabs-main{padding: 0 0 60px;}
 
@@ -89,8 +89,8 @@
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    body.page-template-industry-detail .prod-overview-wrap{padding: 57px 0 0;}
-    body.page-template-industry-detail .prod-tabs-main{padding: 0 0 40px;}
+    body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 57px 0 0;}
+    body.page-template-solutions-industry-detail .prod-tabs-main{padding: 0 0 40px;}
 
     body.page-template-company-size-detail .prod-overview-wrap{padding: 57px 0 0;}
     body.page-template-company-size-detail .prod-tabs-main{padding: 0 0 40px;}
@@ -106,14 +106,11 @@
     ul.prod-tab-links li{margin: 0; flex: 0 0 calc(25% - 3px);}
     ul.prod-tab-links li a{width: 100%; height: 60px; border-radius: 8px 8px 0px 0px; border: 2px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); border-bottom: none; background: rgba(255, 255, 255, 0.60); justify-content: center;}
     ul.prod-tab-links li a img{width: 32px;}
-    ul.prod-tab-links li.prod-tab-active a::after{width: 100%; height: 2px; bottom: -2px; left: 0; content: ""; display: block; background-color: var(--White); position: absolute;}
     ul.prod-tab-links li a span{display: none;}
 
     .gray-bg ul.prod-tab-links{border: none; gap: 8px;}
     .gray-bg ul.prod-tab-links li{flex: 0 0 calc(25% - 6px);}
-    .gray-bg ul.prod-tab-links li a{border: none; }
     .gray-bg ul.prod-tab-links li.prod-tab-active a{background-color: var(--White);}
-    .gray-bg ul.prod-tab-links li.prod-tab-active a::after{display: none;}
 
     .prod-tab-content:first-child{display: block;}
     .prod-tab-content{display: none; padding: 20px 24px 24px; border-radius: 0 0 8px 8px; border: 2px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); border-top: none;}

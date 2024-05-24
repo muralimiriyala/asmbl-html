@@ -28,25 +28,16 @@ jQuery(function ($) {
             setActive(0);
             l(false, 0);
         } else {
-            if (!$(".ai-feature-section").hasClass("scrolled")) {
-                if (window.scrollY > 100) {
-                    $(".ai-feature-section").addClass("scrolled");
-                    setActive(activeIndex);
-                    s();
-                    l(false, 1000);
-                } else {
-                    l(true, 0);
-                }
+            if (window.scrollY > 100) {
+                $(".ai-feature-section").addClass("scrolled");
+                setActive(activeIndex);
+                s();
+                l(false, 1000);
             } else {
-                if (window.scrollY > 100) {
-                    l(false, 1000);
-                } else {
-                    $(".ai-feature-section").removeClass("scrolled");
-                    setActive(activeIndex, true);
-                    l(true, 0);
-                }
+                $(".ai-feature-section").removeClass("scrolled");
+                setActive(activeIndex, true);
+                l(true, 0);
             }
-            x = $("#screen6 .arrow-wrapper").outerWidth();
             w = false;
         }
     }
@@ -78,7 +69,7 @@ jQuery(function ($) {
     function k() {
         $(".ai-feature-section").addClass("scrolled");
         setActive(0);
-        var w = document.getElementById("screen2").offsetTop;
+        var w = document.querySelector(".ai-feature-section").offsetTop;
         window.scrollTo({ top: w - 64, behavior: "smooth" });
     }
 
@@ -118,18 +109,16 @@ jQuery(function ($) {
     }
 
     function f() {
-        if (window.scrollY === 0 && $(".ai-feature-section").hasClass("scrolled")) {
-            $(".ai-feature-section").removeClass("scrolled");
-            setActive(activeIndex, true);
-            s();
-            l(true, 1000);
-        }
-
-        if (window.scrollY > 120 && !$(".ai-feature-section").hasClass("scrolled")) {
+        if (window.scrollY >= 300 && !$(".ai-feature-section").hasClass("scrolled")) {
             $(".ai-feature-section").addClass("scrolled");
             setActive(activeIndex);
             s();
             l(false, 1000);
+        } else if (window.scrollY <= 200 && $(".ai-feature-section").hasClass("scrolled")) {
+            $(".ai-feature-section").removeClass("scrolled");
+            setActive(activeIndex, true);
+            s();
+            l(true, 1000);
         }
     }
 
@@ -210,6 +199,7 @@ jQuery(function ($) {
         window.scrollTo(0, 0);
         c();
         u();
+        t(); // Ensure initial state is set based on scroll position
     });
 
     jQuery(document).ready(function () {

@@ -1,5 +1,6 @@
 var $animation_elements = jQuery('[data-animation]');
 var $window = jQuery(window);
+var $document = jQuery(document);
 
 function check_if_in_view() {
   $animation_elements.each(function() {
@@ -9,7 +10,7 @@ function check_if_in_view() {
     const delay = Number($self.data('animation-delay') || 0);
     const timeline = $self[0].tl
     const counter = $self[0].counter
-    if($self.is(':in-viewport')) {
+    if($self.is(':in-viewport', { tolerance: 50 })) {
       setTimeout(() => {
         if (animateType) _.animateRun($self, animateType);
         else $self.addClass('visible ' + animation);
@@ -27,5 +28,5 @@ function check_if_in_view() {
     }
   });
 }
-$window.on("scroll load", check_if_in_view);
-$window.trigger("scroll load");
+$window.on("load scroll", check_if_in_view);
+jQuery(check_if_in_view);

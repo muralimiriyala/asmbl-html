@@ -87,8 +87,10 @@ jQuery(document).ready(function(){
             });
         }
     }
-    jQuery(document).on('ready load', function () { mobileMedia(); });
-    
+    jQuery(window).resize(function () { mobileMedia(); });
+    jQuery(document).on('ready', function () { mobileMedia(); });
+    jQuery(window).on('load', function () { mobileMedia(); });
+
     let desktop = function(){
         if(jQuery(window).width() >= 1024){ 
             if (pageSlide <= 4) {
