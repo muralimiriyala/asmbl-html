@@ -19,7 +19,7 @@
 .cta-upload-btn a{width: 100%; height: 100%; background: var(--Blue-Tint, #D9DFF2);}
 .cta-upload-btn a:hover svg{animation: scrollDown 1s forwards ease-in-out;}
 .cta-upload-desc p{opacity: 0.6;}
-
+.cta-large-main.no_cta_text{display: block;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
@@ -29,6 +29,7 @@
     .cta-large-text{flex: 1;}
     .cta-large-btns{gap: 16px;}
     .cta-large-image{flex: 0 0 552px; max-width: 552px;}
+    .no_cta_text .cta-large-image{margin: 0 auto;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     .cta-large-main{padding: 55px 32px 54px; gap: 32px;}
@@ -38,7 +39,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     body.page-template-solutions-usecase-detail .cta-large-wrap{padding-bottom: 0;}
     .cta-large-main{padding: 55px 48px 54px; display: block; background-position: bottom center;}
-    .cta-large-image{max-width: 528px; margin: auto;}
+    .cta-large-image{max-width: 528px; margin: 0 auto;}
     .cta-large-text{margin: 40px auto 0; max-width: 528px; text-align: center; }
     .cta-large-btns{gap: 16px; justify-content: center;}
 }

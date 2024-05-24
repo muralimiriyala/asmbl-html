@@ -26,6 +26,9 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     .solution-masthead-bg{background-image: url('images/solution-masthead-bg@2x.jpg');}
 }
 @media screen and (min-width: 1024px){
+    div.no_masthead_images{display: block;}
+    .no_masthead_images .solution-masthead-text{max-width: 100%;}
+    div.no_masthead_text{justify-content: center;}
     .solution-masthead-main{padding: 80px 0 21px; flex-direction: row-reverse;} 
     .solution-masthead-btns{padding-top: 7px; gap: 16px;}
 
