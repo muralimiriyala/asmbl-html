@@ -104,8 +104,9 @@
     ul.prod-tab-links{margin: 0; gap: 4px; border-bottom: 2px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50));}
     ul.prod-tab-links li::before{display: none;}
     ul.prod-tab-links li{margin: 0; flex: 0 0 calc(25% - 3px);}
-    ul.prod-tab-links li a{width: 100%; height: 60px; border-radius: 8px 8px 0px 0px; border: 2px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); border-bottom: none; background: rgba(255, 255, 255, 0.60); justify-content: center;}
-    ul.prod-tab-links li a img{width: 32px;}
+    ul.prod-tab-links li a{width: 100%; height: 60px; border-radius: 8px 8px 0px 0px; border: 2px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); border-bottom: none; background-color: rgba(255, 255, 255, 0.60); justify-content: center;}
+    ul.prod-tab-links li a figure{display: flex; align-items: center; justify-content: center;}
+    ul.prod-tab-links li a img{width: 32px; height: 32px; object-fit: contain;}
     ul.prod-tab-links li a span{display: none;}
 
     .gray-bg ul.prod-tab-links{border: none; gap: 8px;}
