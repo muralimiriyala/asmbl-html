@@ -22,7 +22,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 .accordion-list:hover{transform: translateY(-10px); border-color: var(--Orange);}
 .accordion-header{padding: 13px 66px 17px 22px; color: var(--Navy, #182A54); font-size: 18px; line-height: 27px; cursor: pointer; position: relative; font-weight: 600;}
 .accordion-header.open{color: var(--Blue);}
-.accordion-header span{right: 25px; top: 50%; transform: translateY(-50%); width: 24px; height: 24px; position: absolute; transition: all 0.45s ease; font-size: 24px; line-height: 1.5; color: var(--Blue, #1335AF);; display: flex; align-items: center; justify-content: center;}
+.accordion-header span{right: 20px; top: 16px; width: 24px; height: 24px; position: absolute; transition: all 0.45s ease; font-size: 24px; line-height: 1.5; color: var(--Blue, #1335AF);; display: flex; align-items: center; justify-content: center; z-index: 1;}
 .accordion-header.open span::before{content: "\f056";}
 .accordion-header span::after { top: 4px; width: 20px; height: 20px; opacity: 0.4; background-color: #F9662D; content: ""; display: block; position: absolute; border-radius: 50%; z-index: -1; }
 .accordion-content{display: none; padding: 9px 22px 25px; font-size: 14px; line-height: 21px;}
@@ -31,8 +31,9 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 .faq-tab-content:first-child{display: block;}
 .no_accordions.faqs-main{padding: 143px 0 82px;}
 .no_accordions.faqs-main .faqs-text{flex: 0 0 100%;}
-
-
+.accordion-content ul > li::before { top: 8px; left: -20px; width: 6px; height: 6px; }
+.accordion-content ol { margin: 0 0 28px 29px; }
+.accordion-content ol > li::before { top: 0; left: -20px; font-size: 14px; line-height: 21px; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

@@ -45,9 +45,9 @@ ul {list-style: none; margin: 0 0 26px 29px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
 ul > li:before{top: 10px; left: -21px; width: 8px; height: 8px; border-radius: 50%; opacity: 1; background-color: var(--Orange); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
-ol {counter-reset: section; list-style: none; margin: 0 0 28px 34px;}
+ol {counter-reset: section; list-style: none; margin: 0 0 28px 31px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ol > li:before{color: var(--Orange); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -25px; position: absolute; font-weight: 700; font-size: 18px; line-height: 27px;}
+ol > li:before{color: var(--Orange); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -24px; position: absolute; font-weight: 700; font-size: 18px; line-height: 27px;}
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}
