@@ -54,5 +54,4 @@ nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(
     .linear-prod-description{padding: 31px 0 30px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}
     nav.spy-nav{width: calc(100% + 24px);}
     ul.linear-links{justify-content: flex-start;}
-    ul.linear-links li a{pointer-events: none;}
 }
