@@ -11,7 +11,7 @@ ul.linear-links li a.active, ul.linear-links li a:hover{color: var(--Blue); back
 nav.spy-nav::after, nav.spy-nav::before{content: ""; display: block; width: 52px; height: 100%; top: 0; background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); position: absolute; z-index: 1;}
 nav.spy-nav::after{right: 40px;}
 nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(255,255,255,0) 100%);}
-.spy-arrows{width: 40px; height: 100%; top: 50%; transform: translateY(-50%); cursor: pointer; z-index: 2;}
+.spy-arrows{width: 40px; height: 100%; top: 50%; transform: translateY(-50%); cursor: pointer; z-index: 2; background-color: var(--White);}
 .spy-arrow-next:hover .spy-arrow{transform: translateX(2px) scale(0.85);}
 .spy-arrow-prev:hover .spy-arrow{transform: translateX(-2px) scale(0.85) scaleX(-1);}
 .spy-arrow-prev{left: 0;}

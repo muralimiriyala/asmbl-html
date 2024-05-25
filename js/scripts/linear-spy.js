@@ -1,93 +1,98 @@
-function scrollWithOffset(target, offset) {
-    if (jQuery(target).offset() != null) {
-        jQuery("html, body").animate({ scrollTop: jQuery(target).offset().top - offset }, 300);
-    }
-}
-function handleStickyAndScrollspy() {
-    var $stickySection = jQuery(".sticky-spyscroll-section");
-    if ($stickySection.length === 0) {
-        return; // Exit the function if the element does not exist
-    }
-    var scrollTop = jQuery(window).scrollTop();
-    var headerHeight = $stickySection.offset().top;
-    var navbarHeight = jQuery(".site-header").outerHeight();
-    var lastSection = jQuery("nav.spy-nav ul.linear-links li a").last().attr("href");
-    var lastSectionBottom = jQuery(lastSection).offset().top + jQuery(lastSection).outerHeight();
-
-    jQuery("ul.linear-links li:first-child a").addClass("active");
-    console.log("test 123")
-
-    if (scrollTop >= headerHeight - navbarHeight && scrollTop <= lastSectionBottom - navbarHeight) {
-        jQuery(".sticky-spyscroll").css({ position: "fixed", top: navbarHeight - 16 + "px" });
-    } else {
-        jQuery(".sticky-spyscroll").css({ position: "static", top: "0px" });
-    }
-
-    jQuery("ul.linear-links li a").each(function () {
-        var sectionId = jQuery(this).attr("href");
-        if (jQuery(sectionId).length) {
-            var sectionTop = jQuery(sectionId).offset().top - navbarHeight - 1; // Adjusted calculation
-            var sectionHeight = jQuery(sectionId).outerHeight();
-            if (scrollTop >= sectionTop && scrollTop < sectionTop + sectionHeight) {
-                jQuery("ul.linear-links li a").removeClass("active");
-                jQuery(this).addClass("active");
-            }
+$(document).ready(function() {
+    // Smooth scroll with offset
+    function scrollWithOffset(target, offset) {
+        if ($(target).offset() != null) {
+            $("html, body").animate({ scrollTop: $(target).offset().top - offset }, 300);
         }
-    });
-    if (scrollTop >= lastSectionBottom - jQuery(window).height()) {
-        jQuery("ul.linear-links li a").removeClass("active");
-        jQuery("nav.spy-nav ul.linear-links li a").last().addClass("active");
     }
-}
 
-jQuery(document).ready(function(){
-    var navbarHeight = jQuery(".site-header").outerHeight();
-    jQuery("nav.spy-nav ul.linear-links li a").on("click", function (e) {
+    // Handle sticky navigation and scrollspy
+    function handleStickyAndScrollspy() {
+        var $stickySection = $(".sticky-spyscroll-section");
+        if ($stickySection.length === 0) {
+            return; // Exit the function if the element does not exist
+        }
+
+        var scrollTop = $(window).scrollTop();
+        var headerHeight = $stickySection.offset().top;
+        var navbarHeight = $(".site-header").outerHeight();
+        var lastSection = $("nav.spy-nav ul.linear-links li a").last().attr("href");
+        var lastSectionBottom = $(lastSection).offset().top + $(lastSection).outerHeight();
+
+        $("ul.linear-links li:first-child a").addClass("active");
+
+        if (scrollTop >= headerHeight - navbarHeight && scrollTop <= lastSectionBottom - navbarHeight) {
+            $(".sticky-spyscroll").css({ position: "fixed", top: navbarHeight + "px" });
+        } else {
+            $(".sticky-spyscroll").css({ position: "static", top: "0px" });
+        }
+
+        $("ul.linear-links li a").each(function () {
+            var sectionId = $(this).attr("href");
+            if ($(sectionId).length) {
+                var sectionTop = $(sectionId).offset().top - navbarHeight - 1; // Adjusted calculation
+                var sectionHeight = $(sectionId).outerHeight();
+                if (scrollTop >= sectionTop && scrollTop < sectionTop + sectionHeight) {
+                    $("ul.linear-links li a").removeClass("active");
+                    $(this).addClass("active");
+                }
+            }
+        });
+
+        if (scrollTop >= lastSectionBottom - $(window).height()) {
+            $("ul.linear-links li a").removeClass("active");
+            $("nav.spy-nav ul.linear-links li a").last().addClass("active");
+        }
+    }
+
+    var navbarHeight = $(".site-header").outerHeight();
+    $("nav.spy-nav ul.linear-links li a").on("click", function (e) {
         e.preventDefault();
         var target = this.hash;
         scrollWithOffset(target, navbarHeight);
-        jQuery("nav.spy-nav ul.linear-links li a").removeClass("active");
-        jQuery(this).addClass("active");
+        $("nav.spy-nav ul.linear-links li a").removeClass("active");
+        $(this).addClass("active");
     });
 
-    jQuery(window).on("scroll", function () { handleStickyAndScrollspy(); });
-    jQuery(window).on("resize", function () { handleStickyAndScrollspy(); });
+    $(window).on("scroll", handleStickyAndScrollspy);
+    $(window).on("resize", handleStickyAndScrollspy);
     handleStickyAndScrollspy();
-});
 
-function checkSpyScrollPosition() {
-    var spyScroll = jQuery("nav.spy-nav");
-    var spyListScrollWidth = jQuery("nav.spy-nav ul").innerWidth();
-    var blockwidth = spyListScrollWidth / 5;
-    var scrollLeft = spyScroll.scrollLeft();
-    var navWidth = spyScroll.width();
-    var ulWidth = spyScroll.find("ul").width();
-    var maxScrollLeft = ulWidth - navWidth;
+    // Horizontal scroll with arrow navigation
+    function checkSpyScrollPosition() {
+        var spyScroll = $("nav.spy-nav");
+        var spyListScrollWidth = $("nav.spy-nav ul").innerWidth();
+        var blockwidth = spyListScrollWidth / 5;
+        var scrollLeft = spyScroll.scrollLeft();
+        var navWidth = spyScroll.width();
+        var ulWidth = spyScroll.find("ul").width();
+        var maxScrollLeft = ulWidth - navWidth;
 
-    if (navWidth === ulWidth) {
-        jQuery(".spy-arrow-prev").hide();
-        jQuery(".spy-arrow-next").hide();
-    } else if (scrollLeft <= 0) {
-        jQuery(".spy-arrow-prev").hide();
-        jQuery(".spy-arrow-next").show();
-    } else if (scrollLeft >= maxScrollLeft) {
-        jQuery(".spy-arrow-prev").show();
-        jQuery(".spy-arrow-next").hide();
-    } else {
-        jQuery(".spy-arrow-prev").show();
-        jQuery(".spy-arrow-next").show();
+        if (navWidth === ulWidth) {
+            $(".spy-arrow-prev").hide();
+            $(".spy-arrow-next").hide();
+        } else if (scrollLeft <= 0) {
+            $(".spy-arrow-prev").hide();
+            $(".spy-arrow-next").show();
+        } else if (scrollLeft >= maxScrollLeft) {
+            $(".spy-arrow-prev").show();
+            $(".spy-arrow-next").hide();
+        } else {
+            $(".spy-arrow-prev").show();
+            $(".spy-arrow-next").show();
+        }
     }
-}
 
-jQuery(".spy-arrow-next").click(function () {
-    var blockwidth = jQuery("nav.spy-nav ul").innerWidth() / 5;
-    jQuery("nav.spy-nav").animate({ scrollLeft: "+=" + blockwidth }, 250, checkSpyScrollPosition);
+    $(".spy-arrow-next").click(function () {
+        var blockwidth = $("nav.spy-nav ul").innerWidth() / 5;
+        $("nav.spy-nav").animate({ scrollLeft: "+=" + blockwidth }, 250, checkSpyScrollPosition);
+    });
+
+    $(".spy-arrow-prev").click(function () {
+        var blockwidth = $("nav.spy-nav ul").innerWidth() / 5;
+        $("nav.spy-nav").animate({ scrollLeft: "-=" + blockwidth }, 250, checkSpyScrollPosition);
+    });
+
+    $(window).on("scroll resize", checkSpyScrollPosition);
+    checkSpyScrollPosition();
 });
-
-jQuery(".spy-arrow-prev").click(function () {
-    var blockwidth = jQuery("nav.spy-nav ul").innerWidth() / 5;
-    jQuery("nav.spy-nav").animate({ scrollLeft: "-=" + blockwidth }, 250, checkSpyScrollPosition);
-});
-
-jQuery(window).on("scroll resize", checkSpyScrollPosition);
-checkSpyScrollPosition();

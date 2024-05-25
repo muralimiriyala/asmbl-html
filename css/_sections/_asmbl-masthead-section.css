@@ -22,6 +22,8 @@
 .asmbl-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; border-radius: 6px; position: relative;}
 /*-- animation css ends --*/
 
+.asmbl-masthead-main.no_asmbl_images{display: block;}
+.no_asmbl_images .asmbl-masthead-text{padding: 74px 0 80px; max-width: 100%;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

@@ -9,6 +9,7 @@
 .intro-text h2{margin-bottom: 15px; color: var(--Navy);}
 .no_intro_description{display: block;}
 
+.no_intro_title .intro-description{padding: 0; border: none;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
