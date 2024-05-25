@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="./core.bundle.css?v=48" media="all">
     <script src=https://js.storylane.io/js/v1/storylane.js></script>
 </head>
-<body class="page-template-company-size-detail">
+<body class="page-template-company-size-detail" data-spy="scroll" data-target="#subnav-spy" data-offset="196">
 <header class="site-header">
 <div class="container">
     <div class="header flex flex-vcenter">
@@ -335,7 +335,7 @@
     <div class="container">
         <div class="solution-masthead-main flex">
             <div class="solution-masthead-images relative">
-                <div class="solution-masthead-thumb solution-masthead-1 accordion-list">
+                <div class="solution-masthead-thumb solution-masthead-1 absolute">
                     <figure class="object-fit">
                         <img src="images/company-thumb1@2x.jpg" alt="company-image1">
                     </figure>
@@ -753,11 +753,11 @@
 <section class="sticky-spyscroll-section">
     <div class="sticky-spyscroll">
         <div class="container relative">
-            <nav class="spy-nav">
+            <nav class="spy-nav" id="subnav-spy">
                 <ul class="linear-links flex flex-center">
-                    <li><a class="scrolltosection" href="#page-scroll-id-1">Solving a problem with a solution 1</a></li>
-                    <li><a class="scrolltosection" href="#page-scroll-id-2">Solving one more problem 2</a></li>
-                    <li><a class="scrolltosection" href="#page-scroll-id-3">Solving another problem 3</a></li>
+                    <li class="nav-item"><a class="nav-link scrolltosection" href="#page-scroll-id-1">Solving a problem with a solution 1</a></li>
+                    <li class="nav-item"><a class="nav-link scrolltosection" href="#page-scroll-id-2">Solving one more problem 2</a></li>
+                    <li class="nav-item"><a class="nav-link scrolltosection" href="#page-scroll-id-3">Solving another problem 3</a></li>
                 </ul>
                 <div class="spy-arrows spy-arrow-prev absolute flex flex-center">
                     <div class="spy-arrow transition"></div>
@@ -1672,6 +1672,7 @@
 <script src='https://platform-api.sharethis.com/js/sharethis.js#property=65016ac7f9bf1300121f9569&product=sop' async='async'></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 <script src="./dist/core.bundle.js?v=24"></script>
 </body>
 </html>

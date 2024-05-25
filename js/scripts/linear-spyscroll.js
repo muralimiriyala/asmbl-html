@@ -1,3 +1,5 @@
+var $ = jQuery.noConflict();
+
 function scrollWithOffset(t, o) {
   null != $(t).offset() && $("html, body").animate({ scrollTop: $(t).offset().top - o }, 300);
 }
@@ -197,11 +199,11 @@ $(window).scroll(function () {
           t = $(".sticky-spyscroll"),
           c = $("#subnav-spy .linear-links .nav-item:first-child .nav-link");
       a <= r
-          ? (t.css({position: "fixed",  boxShadow: "0px 2px 4px -1px rgba(0, 34, 51, 0.10), 0px 1px 1px 0px rgba(0, 34, 51, 0.01)", }),
+          ? (t.css({boxShadow: "0px 2px 4px -1px rgba(0, 34, 51, 0.10), 0px 1px 1px 0px rgba(0, 34, 51, 0.01)", }),
             $(".sticky-spyscroll.dark-mode .spy-arrow-prev").css("box-shadow", "20px 0 20px 4px #002233, inset 0 -1px 0 0 #193847"),
             $(".sticky-spyscroll.dark-mode .spy-arrow-next").css("box-shadow", "-20px 0 20px 4px #002233, inset 0 -1px 0 0 #193847"),
             $(t).hasClass("dark-mode"))
-          : (t.css({ boxShadow: "none", position: "static", }),
+          : (t.css({ boxShadow: "none", }),
             $(".sticky-spyscroll.dark-mode .spy-arrow-prev").css("box-shadow", "20px 0 20px 4px #002233"),
             $(".sticky-spyscroll.dark-mode .spy-arrow-next").css("box-shadow", "-20px 0 20px 4px #002233"),
             $(t).hasClass("dark-mode")),
@@ -290,60 +292,44 @@ null != vsrc && null != vcam && "event" == vsrc && "gartner-xpo-2023" == vcam &&
 
 
 
+let spycount = $("ul.linear-links > li.nav-item");
+spycount.length <= 4 ? $(".spy-arrows").css("display", "none") : $(".spy-arrows").css("display", "flex");
+
+var lastScrollTop = 0;
 
 function handleStickyAndScrollspy() {
-    var $stickySection = jQuery(".sticky-spyscroll-section");
+    var $stickySection = $(".sticky-spyscroll-section");
     if ($stickySection.length === 0) {
         return; // Exit the function if the element does not exist
     }
-    var scrollTop = jQuery(window).scrollTop();
-    var headerHeight = $stickySection.offset().top;
-    var navbarHeight = jQuery(".site-header").outerHeight();
-    var lastSection = jQuery("nav.spy-nav ul.linear-links li a").last().attr("href");
-    var lastSectionBottom = jQuery(lastSection).offset().top + jQuery(lastSection).outerHeight();
     
-    // Determine if we've scrolled past the last section
-    var pastLastSection = scrollTop >= lastSectionBottom - navbarHeight;
+    var scrollTop = $(window).scrollTop();
+    var headerHeight = $stickySection.offset().top;
+    var navbarHeight = $(".site-header").outerHeight();
+    var $lastSection = $($("nav.spy-nav ul.linear-links li a").last().attr("href"));
+    var lastSectionBottom = $lastSection.offset().top + $lastSection.outerHeight();
+    var $stickyScroll = $(".sticky-spyscroll");
 
     if (scrollTop >= headerHeight - navbarHeight && scrollTop <= lastSectionBottom - navbarHeight) {
-        jQuery(".sticky-spyscroll").css({ opacity: "1" });
+        $stickyScroll.css({ opacity: "1",  visibility: "visible"});
     } else {
-        if (pastLastSection) {
-            jQuery(".sticky-spyscroll").css({ opacity: "0" });
-        } else {
-            jQuery(".sticky-spyscroll").css({ opacity: "1" });
+        if (scrollTop > lastScrollTop && scrollTop >= lastSectionBottom - navbarHeight) {
+            $stickyScroll.css({ opacity: "0", visibility: "hidden"  });
+        } else if (scrollTop < lastScrollTop && scrollTop <= lastSectionBottom - navbarHeight) {
+            $stickyScroll.css({ opacity: "1",  visibility: "visible" });
+        } else if (scrollTop < headerHeight - navbarHeight) {
+            $stickyScroll.css({ opacity: "1",  visibility: "visible" });
         }
     }
-}
 
-// Track the last scroll position
-var lastScrollTop = 0;
-function handleScrollDirection() {
-    var scrollTop = jQuery(window).scrollTop();
-    var lastSection = jQuery("nav.spy-nav ul.linear-links li a").last().attr("href");
-    var lastSectionBottom = jQuery(lastSection).offset().top + jQuery(lastSection).outerHeight();
-    var navbarHeight = jQuery(".site-header").outerHeight();
-    
-    if (scrollTop >= lastSectionBottom - navbarHeight) {
-        // Scrolling past the last section
-        if (scrollTop <= lastScrollTop) {
-            // Scrolling up
-            jQuery(".sticky-spyscroll").css({ opacity: "1" });
-        } else {
-            // Scrolling down
-            jQuery(".sticky-spyscroll").css({ opacity: "0" });
-        }
-    }
     lastScrollTop = scrollTop;
 }
 
-jQuery(document).ready(function() {
-    jQuery(window).on("scroll", function () {
-        handleStickyAndScrollspy();
-        handleScrollDirection();
-    });
-    jQuery(window).on("resize", function () { 
+$(document).ready(function() {
+    $(window).on("scroll", function() {
         handleStickyAndScrollspy();
     });
+
+    $(window).on("resize", handleStickyAndScrollspy);
     handleStickyAndScrollspy();
 });
