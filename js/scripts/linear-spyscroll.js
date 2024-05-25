@@ -201,12 +201,11 @@ $(window).scroll(function () {
             $(".sticky-spyscroll.dark-mode .spy-arrow-prev").css("box-shadow", "20px 0 20px 4px #002233, inset 0 -1px 0 0 #193847"),
             $(".sticky-spyscroll.dark-mode .spy-arrow-next").css("box-shadow", "-20px 0 20px 4px #002233, inset 0 -1px 0 0 #193847"),
             $(t).hasClass("dark-mode"))
-          : (t.css({ boxShadow: "none", position: "static" }),
+          : (t.css({ boxShadow: "none", position: "static", }),
             $(".sticky-spyscroll.dark-mode .spy-arrow-prev").css("box-shadow", "20px 0 20px 4px #002233"),
             $(".sticky-spyscroll.dark-mode .spy-arrow-next").css("box-shadow", "-20px 0 20px 4px #002233"),
             $(t).hasClass("dark-mode")),
           a > r && $(c).addClass("active");
-          
   }
 }),
   $(".scrolltosection").length &&
@@ -289,3 +288,62 @@ var url_string = window.location.href,
 null != vsrc && null != vcam && "event" == vsrc && "gartner-xpo-2023" == vcam && ($(".gartnerworkshops").removeClass("hidden"), $(".hideongartner").addClass("hidden"));
 
 
+
+
+
+function handleStickyAndScrollspy() {
+    var $stickySection = jQuery(".sticky-spyscroll-section");
+    if ($stickySection.length === 0) {
+        return; // Exit the function if the element does not exist
+    }
+    var scrollTop = jQuery(window).scrollTop();
+    var headerHeight = $stickySection.offset().top;
+    var navbarHeight = jQuery(".site-header").outerHeight();
+    var lastSection = jQuery("nav.spy-nav ul.linear-links li a").last().attr("href");
+    var lastSectionBottom = jQuery(lastSection).offset().top + jQuery(lastSection).outerHeight();
+    
+    // Determine if we've scrolled past the last section
+    var pastLastSection = scrollTop >= lastSectionBottom - navbarHeight;
+
+    if (scrollTop >= headerHeight - navbarHeight && scrollTop <= lastSectionBottom - navbarHeight) {
+        jQuery(".sticky-spyscroll").css({ opacity: "1" });
+    } else {
+        if (pastLastSection) {
+            jQuery(".sticky-spyscroll").css({ opacity: "0" });
+        } else {
+            jQuery(".sticky-spyscroll").css({ opacity: "1" });
+        }
+    }
+}
+
+// Track the last scroll position
+var lastScrollTop = 0;
+function handleScrollDirection() {
+    var scrollTop = jQuery(window).scrollTop();
+    var lastSection = jQuery("nav.spy-nav ul.linear-links li a").last().attr("href");
+    var lastSectionBottom = jQuery(lastSection).offset().top + jQuery(lastSection).outerHeight();
+    var navbarHeight = jQuery(".site-header").outerHeight();
+    
+    if (scrollTop >= lastSectionBottom - navbarHeight) {
+        // Scrolling past the last section
+        if (scrollTop <= lastScrollTop) {
+            // Scrolling up
+            jQuery(".sticky-spyscroll").css({ opacity: "1" });
+        } else {
+            // Scrolling down
+            jQuery(".sticky-spyscroll").css({ opacity: "0" });
+        }
+    }
+    lastScrollTop = scrollTop;
+}
+
+jQuery(document).ready(function() {
+    jQuery(window).on("scroll", function () {
+        handleStickyAndScrollspy();
+        handleScrollDirection();
+    });
+    jQuery(window).on("resize", function () { 
+        handleStickyAndScrollspy();
+    });
+    handleStickyAndScrollspy();
+});

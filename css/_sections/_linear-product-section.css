@@ -1,6 +1,6 @@
 
 
-.sticky-spyscroll{padding: 24px 0; top: 80px; left: 0; width: 100%; height: auto; transition: top 0.3s, position 0.3s; position: sticky; background-color: var(--White); z-index: 600; }
+.sticky-spyscroll{padding: 24px 0; top: 80px; left: 0; width: 100%; height: auto; transition: all 0.5s ease; position: sticky; background-color: var(--White); z-index: 600; }
 nav.spy-nav{ overflow-x: scroll; overflow-y: visible; scrollbar-width: none; height: 52px;}
 ul.linear-links{margin: 0; gap: 10px; height: 52px; min-width: max-content;}
 ul.linear-links li{margin: 0;}
