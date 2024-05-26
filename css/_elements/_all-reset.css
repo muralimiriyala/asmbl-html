@@ -142,11 +142,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 /*-- custom css starts here --*/
 body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sans", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; 
-    /* background-image: linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%);  */
-    background-image: linear-gradient(to top, #F9662D -50%, #FEC74D 100%);
-    background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
-}
+span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; /* background-image: linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%);  */ background-image: linear-gradient(to top, #F9662D -50%, #FEC74D 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.white{color: var(--White);-webkit-text-fill-color: var(--White); opacity: 0.6; background: none; margin-bottom: 4px;}
 span.optional-text.large{font-size: 24px; line-height: 30px; margin-bottom: 23px;}
