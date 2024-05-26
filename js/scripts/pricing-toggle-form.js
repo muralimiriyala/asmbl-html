@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function(){
         let pricingvalue = pricingitem.getAttribute("data-value");
         pswitch.addEventListener("click", function(){
             if(pswitch.checked){
-                console.log("checked");
                 if(pricingvalue==="yearly"){
                     pricingitem.style.display = "block";
                 }
@@ -14,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function(){
                 }
             }
             else{
-                console.log("not checked");
                 if(pricingvalue==="monthly"){
                     pricingitem.style.display = "block";
                 }

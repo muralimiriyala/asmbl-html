@@ -140,7 +140,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sans", sans-serif; position: relative; color: var(--Foreground); background-color: transparent;}
+body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sans", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; 
     /* background-image: linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%);  */

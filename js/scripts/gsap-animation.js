@@ -115,11 +115,9 @@ $timeline.each(function () {
 
 // Bar Chart 
 var $drawing = jQuery('.ui-drawing')
-console.log($drawing)
 $drawing.each(function () {
   var $self = jQuery(this)
   var $path = $self.find('path');
-  console.log($self, $path, "et")
 
   var tl = gsap.timeline({
     paused: true

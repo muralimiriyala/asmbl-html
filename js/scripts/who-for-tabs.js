@@ -7,7 +7,6 @@ jQuery(document).ready(function($){
         _selflink.not(this).removeClass("active");
         $(this).addClass("active");
         let attr = $(this).attr("data-name");
-        console.log(attr)
         $(".who-for-page").hide();
         $(".who-for-page[data-value = "+ attr +" ]").fadeIn();
     })
