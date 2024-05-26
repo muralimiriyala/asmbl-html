@@ -64,12 +64,6 @@
 @keyframes scrollLeft{ 0%{transform: translateX(0px); opacity: 1;} 50%{transform: translateX(-20px); opacity: 0;} 56%{transform: translateX(20px); opacity: 0;} 100%{transform: translateX(0px); opacity: 1;} }
 
 [data-animation="step-line-anim"]{visibility: visible;}
-
-
-*[data-delighter]{ visibility: hidden; opacity: 0; animation-delay: 0.15s; -webkit-animation-duration: 0.75s; animation-duration: 0.75s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out;}
-*[data-delighter].started{ visibility: visible; opacity: 1;}
-
-
 .phone-anim path:nth-last-child(2){animation: phone-anim1 2s infinite cubic-bezier(.1, .57, .5, 1);}
 .phone-anim path:nth-last-child(1){animation: phone-anim2 2s infinite cubic-bezier(.1, .57, .5, 1);}
 
@@ -77,12 +71,7 @@
 @keyframes phone-anim2{ 0%{opacity:0; transform:translate3d(-10px, 10px, 0)} 70%,90%{opacity:1; transform:translate3d(0, 0, 0)} 100%{opacity:0}}
 
 .hand-anim{left: -10px; transform-origin: 50% 50%; animation: shakeHand 1s ease-in-out forwards alternate; position: relative; }
-@keyframes shakeHand{
-    0% { transform: rotate(0deg); transform: translateX(0); }
-    50% { transform: rotate(2deg); }
-    100% { left: 1%; transform: translateX(-100%); transform: rotate(0deg); }
-}
-
+@keyframes shakeHand{ 0% { transform: rotate(0deg); transform: translateX(0); } 50% { transform: rotate(2deg); } 100% { left: 1%; transform: translateX(-100%); transform: rotate(0deg); } }
 
 
 

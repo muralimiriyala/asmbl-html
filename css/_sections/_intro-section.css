@@ -4,11 +4,10 @@
 .intro-numbers{margin-bottom: 13px; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 80px; font-weight: 700; line-height: 70px; }
 .intro-number.hover{top: 0px; left: 0px; opacity: 0; visibility: hidden; transition: all 0.5s; z-index: -1; color: transparent; -webkit-text-stroke: 1px var(--Orange);}
 .intro-list:hover .intro-number.hover{top: 3px; left: 3px; visibility: visible; opacity: 1;}
-.intro-symbol{ color: transparent; -webkit-text-stroke: 1px var(--Orange); transition: all 0.5s; position: relative; }
+.intro-symbol{color: transparent; -webkit-text-stroke: 1px var(--Orange); transition: all 0.5s; position: relative; }
 .intro-list:hover .intro-symbol{transform: translate(3px, 3px);}
 .intro-text h2{margin-bottom: 15px; color: var(--Navy);}
 .no_intro_description{display: block;}
-
 .no_intro_title .intro-description{padding: 0; border: none;}
 
 /* media css starts here */
@@ -51,4 +50,6 @@
     .intro-description{padding: 40px 0 39px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}
     .intro-row{display: block;}
     .intro-list:not(:last-child){margin-bottom: 17px;}
+    .delighter.started .intro-number.hover{top: 3px; left: 3px; visibility: visible; opacity: 1;}
+    .delighter.started .intro-symbol{transform: translate(3px, 3px);}
 }
