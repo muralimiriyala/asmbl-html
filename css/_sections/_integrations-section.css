@@ -11,6 +11,7 @@
 .card-link{width: 32px; display: flex; align-items: center;}
 div.no_cards{display: block;}
 
+
 /* media css starts here */
 @media screen and (min-width: 1300px){
     .integrations-main{gap: 80px;}
