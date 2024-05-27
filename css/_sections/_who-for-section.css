@@ -8,7 +8,7 @@ ul.who-for-tabs li::before{display: none;}
 
 .industry-slide-text{color: var(--Foreground, #313031);}
 .industry-slide-text h2{margin-bottom: 16px; color: var(--Navy);}
-.industry-slide-icon{margin-bottom: 17px; min-height: 46px; max-width: 46px;}
+.industry-slide-icon{margin-bottom: 19px; min-height: 46px; max-width: 46px;}
 .industry-slide{border-left: 2px solid var(--White);}
 .industry-count{display: none;}
 

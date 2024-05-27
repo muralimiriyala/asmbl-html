@@ -82,8 +82,8 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .home-banner-main{padding: 80px 0 54px; display: block;} 
-    .home-banner-images{flex: 0 0 720px; height: 725px; right: -8px;}
-    .home-banner-text{max-width: 560px; padding-top: 64px; flex-shrink: 1;}
+    .home-banner-images{height: 725px; right: -8px;}
+    .home-banner-text{padding-top: 64px;}
     .home-banner-btns{padding-top: 6px; gap: 16px;}
     .home-thumb-2 img{border-radius: 8px 0 0 8px;}
     .home-thumb-8 img{border-radius: 8px;}

@@ -196,7 +196,7 @@ jQuery(function ($) {
     }
 
     $(document).ready(function () {
-        window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);
         c();
         u();
         t(); // Ensure initial state is set based on scroll position
