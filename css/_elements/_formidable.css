@@ -49,9 +49,8 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="chec
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--Blue); border-color: var(--Blue);}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{box-shadow: inset 8px 8px var(--White);}
 body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1;}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0; justify-content: flex-end;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{display: none;}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 12px; line-height: 18px; font-weight: 500; color: var(--Orange); position: absolute;}
 body .frm_success_style, body .with_frm_style .frm_message {font-size: 1.25rem; line-height: 1.5rem; font-weight: 500; font-family: Univers,sans-serif; color: var(--Foreground); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
