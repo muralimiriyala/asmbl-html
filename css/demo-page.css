@@ -15,7 +15,7 @@ ul.demo-options > li span{flex: 1; gap: 8px;}
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .demo-main{padding: 144px 0 77px; gap: 64px;} 
-    body.page-template-marketing-lp .demo-main{padding: 80px 0;}
+    body.page-template-marketing .demo-main{padding: 80px 0;}
     .demo-main.no_form{display: block;}
     .demo-text{flex: 0 0 420px;}
     .demo-form{flex: 1;}
@@ -24,11 +24,12 @@ ul.demo-options > li span{flex: 1; gap: 8px;}
     .demo-main{gap: 30px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
+    body.page-template-marketing .demo-main{padding: 68px 0 80px;}
     .demo-main{padding: 118px 0 74px; display: block;} 
     .demo-text{margin-bottom: 41px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
-    body.page-template-marketing-lp .demo-main{padding: 40px 0 40px;}
+    body.page-template-marketing .demo-main{padding: 40px 0 40px;}
     .demo-main{padding: 118px 0 73px; display: block;} 
     .demo-text{margin-bottom: 41px;}
     .demo-text h2{margin-bottom: 24px; font-size: 32px; line-height: 40px;}
