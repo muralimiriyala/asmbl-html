@@ -12,7 +12,7 @@
     .related-res-title{flex: 1;}
     .related-res-row{gap: 40px;}
     .related-res-list{flex: 0 0 calc(33.3333% - 27px);}
-    .no_start_managing_section .related-res-main{padding-bottom: 97px;}
+    .no_start_managing_section .related-res-main{margin-bottom: 40px; padding-bottom: 97px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .related-res-row{gap: 32px;}
