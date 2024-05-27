@@ -2,15 +2,15 @@
 .integrations-text h3{margin-bottom: 31px;}
 .integrations-btns{padding-top: 14px; gap: 16px;}
 
-.integrations-card{padding: 16px;}
 .integrations-card-bg{border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); background: var(--White, #FFF); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10);}
-.integrations-card span.h4{margin: -4px 0 0; display: block; flex: 1; width: calc(100% - 136px);}
-.integrations-card span.h4 a{color: var(--Navy);}
-.integrations-card span.h4 a:hover{color: var(--Orange);}
-.card-icon{width: 64px;}
-.card-link{width: 32px; display: flex; align-items: center;}
-div.no_cards{display: block;}
 .integrations-card:hover .integrations-card-bg{transform: scale(1.05);}
+.integrations-link{padding: 16px; color: var(--Navy);}
+.integrations-card span.h4{margin: -4px 0 0; color: var(--Navy); display: block; flex: 1; width: calc(100% - 136px);}
+.integrations-card:hover span.h4{color: var(--Orange);}
+.card-icon{width: 64px;}
+.card-icon-link{width: 32px; display: flex; align-items: center;}
+.integrations-card:hover .card-icon-link{transform: translateX(-4px);}
+div.no_cards{display: block;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
@@ -22,8 +22,8 @@ div.no_cards{display: block;}
 @media screen and (min-width: 1024px){
     .integrations-main{padding: 80px 0;}
     .integrations-cards{flex: 1;}
-    .integrations-card{gap: 20px;}
     .no_int_text .integrations-card{flex: 0 0 calc(33.3333% - 22px);}
+    .integrations-link{gap: 20px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .integrations-main{gap: 32px;}
@@ -41,5 +41,5 @@ div.no_cards{display: block;}
     .integrations-main{padding: 40px 0; display: block;}
     .integrations-text{margin-bottom: 40px;}
     .integrations-cards{gap: 24px; flex-direction: column;}
-    .integrations-card{gap: 17px;}
+    .integrations-link{gap: 17px;}
 }

@@ -1,6 +1,5 @@
 
 .demo-section{background: linear-gradient(180deg, rgba(240, 242, 250, 0.00) 0%, #F0F2FA 100%), #F0F2FA; background-blend-mode: normal, darken, normal;}
-
 .demo-text h2{margin-bottom: 23px;}
 .demo-text hr{margin: 0 0 39px;}
 ul.demo-options{margin: 0; color: var(--Navy);}

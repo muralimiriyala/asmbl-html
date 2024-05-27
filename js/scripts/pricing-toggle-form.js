@@ -5,22 +5,24 @@ document.addEventListener("DOMContentLoaded", function(){
         let pricingvalue = pricingitem.getAttribute("data-value");
         pswitch.addEventListener("click", function(){
             if(pswitch.checked){
-                if(pricingvalue==="yearly"){
-                    pricingitem.style.display = "block";
-                }
-                else{
-                    pricingitem.style.display = "none";
-                }
+                pricingvalue==="yearly" ? pricingitem.style.display = "block" : pricingitem.style.display = "none";
             }
             else{
-                if(pricingvalue==="monthly"){
-                    pricingitem.style.display = "block";
-                }
-                else{
-                    pricingitem.style.display = "none";
-                }
+                pricingvalue==="monthly" ? pricingitem.style.display = "block" : pricingitem.style.display = "none";
             }
         });
    });
-
+   const mswitch = document.querySelector(".marketing-plan-switch input");
+   const marketingitems = document.querySelectorAll(".marketing-plan-data");
+   marketingitems.forEach(function(marketingitem){
+       let marketingvalue = marketingitem.getAttribute("data-value");
+       mswitch.addEventListener("click", function(){
+           if(mswitch.checked){
+                marketingvalue ==="yearly" ? marketingitem.style.display = "block" : marketingitem.style.display = "none";
+           }
+           else{
+                marketingvalue ==="monthly" ? marketingitem.style.display = "block" : marketingitem.style.display = "none";
+           }
+       });
+  });
 });
