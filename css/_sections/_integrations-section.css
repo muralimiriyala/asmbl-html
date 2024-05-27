@@ -4,12 +4,15 @@
 
 .integrations-card-bg{border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); background: var(--White, #FFF); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10);}
 .integrations-card:hover .integrations-card-bg{transform: scale(1.05);}
-.integrations-link{padding: 16px; color: var(--Navy);}
+.integrations-link{padding: 16px; gap: 20px; color: var(--Navy);}
 .integrations-card span.h4{margin: -4px 0 0; color: var(--Navy); display: block; flex: 1; width: calc(100% - 136px);}
 .integrations-card:hover span.h4{color: var(--Orange);}
 .card-icon{width: 64px;}
 .card-icon-link{width: 32px; display: flex; align-items: center;}
-.integrations-card:hover .card-icon-link{transform: translateX(-4px);}
+.integrations-card:hover .card-icon-link{transform: translateX(2px);}
+.card-icon-link svg path{transition: all 0.5s ease;}
+.integrations-card:hover .card-icon-link svg path:not(:nth-child(2)){fill: var(--Orange);}
+.integrations-card:hover .card-icon-link svg path:nth-child(2){opacity: 0;}
 div.no_cards{display: block;}
 
 /* media css starts here */
@@ -23,7 +26,6 @@ div.no_cards{display: block;}
     .integrations-main{padding: 80px 0;}
     .integrations-cards{flex: 1;}
     .no_int_text .integrations-card{flex: 0 0 calc(33.3333% - 22px);}
-    .integrations-link{gap: 20px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .integrations-main{gap: 32px;}
@@ -35,7 +37,7 @@ div.no_cards{display: block;}
     .integrations-main{padding: 60px 0; display: block;}
     .integrations-text{margin-bottom: 54px;}
     .integrations-cards{gap: 32px;}
-    .integrations-card{flex: 0 0 calc(50% - 16px); gap: 20px;}
+    .integrations-card{flex: 0 0 calc(50% - 16px);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .integrations-main{padding: 40px 0; display: block;}
