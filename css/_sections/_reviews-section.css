@@ -2,7 +2,8 @@
 
 .reviews-title h2{color: var(--Navy);}
 .reviews-text{padding: 40px;}
-.reviews-block{left: -40px; top: 0;}
+.reviews-block{left: 0; top: 0; width: 40px; height: 40px; opacity: 0;}
+.started.reviews-block{opacity: 1; left: -40px;}
 .reviews-text.gray-bg:before{background-color: var(--White);}
 .reviews-quote{margin-bottom: 20px; font-size: 20px; line-height: 36px; font-weight: 500; font-family: "arboria", sans-serif; color: var(--Blue); display: block;}
 .reviews-quote p::before { content: "“"; }

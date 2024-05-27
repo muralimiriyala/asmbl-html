@@ -10,7 +10,7 @@
 .card-icon{width: 64px;}
 .card-link{width: 32px; display: flex; align-items: center;}
 div.no_cards{display: block;}
-
+.integrations-card:hover .integrations-card-bg{transform: scale(1.05);}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){

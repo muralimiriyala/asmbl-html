@@ -28,7 +28,7 @@ ul.who-for-tabs li::before{display: none;}
     .industry-slide-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .industry-slide:hover .industry-slide-btn{opacity: 1; transform: translateY(0);}
     
-    .industry-slider{border-right: 2px solid var(--White);}
+    .industry-slider{border-right: 2px solid var(--White); flex-wrap: nowrap;}
     .industry-slide{flex: 0 0 calc(25%); padding: 21px 44px 23px; }
     .industry-slide.slick-slide{width: 321px;}
 }

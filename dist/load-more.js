@@ -1,12 +1,12 @@
 var jqr5 = jQuery.noConflict();
 jqr5(function() {
-    if (jqr5("#ajax-load-more").length) {
+    if (jqr5("#resources-load-more").length) {
 	 //e = 1,
            var t = true,
             n = false,
             r = jqr5(window),
-            i = jqr5("#ajax-load-more"),
-            s = jqr5("#ajax-load-more ul"),
+            i = jqr5("#resources-load-more"),
+            s = jqr5("#resources-load-more ul"),
             o = s.attr("data-path");
             p = s.attr("data-pageNumber");
 	    if(p!=''){
@@ -25,7 +25,7 @@ jqr5(function() {
         }
 
 
-        i.append('<div id="load-more" class="more show-more-blogs aligncenter btn"><span class="loader"></span><span class="text button outline-btn violet"><span>' + jqr5button + "</span></span></div>");
+        i.append('<div id="load-more" class="load-more-resources flex flex-vcenter"><span class="loader"></span><div class="text button button-lg"><span>' + jqr5button + "</span></div></div>");
         var u = function() {
             jqr5("#load-more").addClass("loading");
             jqr5("#load-more span.text").text("Loading...");
@@ -33,6 +33,7 @@ jqr5(function() {
                 type: "GET",
                 data: {
                     postType: s.attr("data-post-type"),
+                    searchcatid: s.attr("data-search-catid"), 
                     category: s.attr("data-category"),
                     author: s.attr("data-author"),
                     taxonomy: s.attr("data-taxonomy"),
@@ -88,7 +89,7 @@ jqr5(function() {
         var remain = 0;
         var count = 0;
         var postsCount= s.attr("data-postsCount");
-        if(postsCount <=4){
+        if(postsCount <=9){
        jQuery("#load-more").hide(); 
            if(postsCount == 0){ 
               jQuery(".resource-blog-main").append("<h3 class='no_result_found'>Sorry, No posts found.</h3>")
@@ -104,9 +105,9 @@ jqr5(function() {
            
           var postsCount= s.attr("data-postsCount");
           
-            remain = postsCount - 4 * count;
+            remain = postsCount - 9 * count;
           console.log(remain);
-            if(remain <= 4){
+            if(remain <= 9){
                jQuery("#load-more").hide();
             }
         });

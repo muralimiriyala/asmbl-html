@@ -1,5 +1,6 @@
 
-jQuery(document).ready(function($){
+var $ = jQuery.noConflict();
+$(document).ready(function(){
     $("ul.who-for-tabs li:first a").addClass("active");
     const _selflink = $("ul.who-for-tabs li a");
     _selflink.on("click", function(e){
@@ -9,9 +10,8 @@ jQuery(document).ready(function($){
         let attr = $(this).attr("data-name");
         $(".who-for-page").hide();
         $(".who-for-page[data-value = "+ attr +" ]").fadeIn();
-    })
-
-    if(jQuery(window).width() <= 740){
+    });
+    if($(window).width() <= 767){
         const tabstext = $(".for-tabs-btn > span");
         $(".for-tabs-btn").on("click", function(e){
             e.preventDefault();
@@ -25,6 +25,5 @@ jQuery(document).ready(function($){
             $(".for-tabs-btn").removeClass("open");
             $(this).parent("li").closest("ul.who-for-tabs").slideUp();
         });
-    }
-
+    }    
 });
