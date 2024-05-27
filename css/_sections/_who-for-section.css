@@ -12,6 +12,7 @@ ul.who-for-tabs li::before{display: none;}
 .industry-slide{border-left: 2px solid var(--White);}
 .industry-count{display: none;}
 
+
 /* media css starts here */
 @media screen and (min-width: 768px){
     ul.who-for-tabs{margin: auto 0 0; gap: 16px;}
