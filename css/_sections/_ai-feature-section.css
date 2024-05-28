@@ -26,7 +26,7 @@
 
     .scrolled .ai-feature-head{padding: 18px 14px 18px 15px; font-size: 20px; line-height: 25px;}
     .ai-feature-head{gap: 7px; padding: 13px 14px 14px 15px; font-size: 18px; line-height: 22.5px; cursor: pointer; font-weight: 400;}
-    .ai-feature-head.open{color: var(--Blue);}
+    .ai-feature-head.open{color: var(--Blue); pointer-events: none;}
     .ai-feature-icon{width: 22px; height: 22px;}
     .ai-feature-icon svg{width: 100%; height: 100%;}
     .ai-feature-content{padding: 4px 14px 14px 15px; display: none;}
