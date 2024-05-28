@@ -9,7 +9,10 @@ ul.who-for-tabs li::before{display: none;}
 .industry-slide-text{color: var(--Foreground, #313031);}
 .industry-slide-text h2{margin-bottom: 16px; color: var(--Navy);}
 .industry-slide-icon{margin-bottom: 19px; min-height: 46px; max-width: 46px;}
-.industry-slide{border-left: 2px solid var(--White);}
+.industry-slide{position: relative;}
+.industry-slide::after, .industry-slide:first-child::before{height: 100%; content: ""; display: block; background-color: var(--White); position: absolute;}
+.industry-slide::after{top: 0; right: 0px; width: 2px; }
+.industry-slide:first-child::before{top: 0; left: 0px; width: 2px; height: 100%;}
 .industry-count{display: none;}
 
 
@@ -29,9 +32,9 @@ ul.who-for-tabs li::before{display: none;}
     .industry-slide-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .industry-slide:hover .industry-slide-btn{opacity: 1; transform: translateY(0);}
     
-    .industry-slider{border-right: 2px solid var(--White); flex-wrap: nowrap;}
+    .industry-slider{flex-wrap: nowrap;}
     .industry-slide{flex: 0 0 calc(25%); padding: 21px 44px 23px; }
-    .industry-slide.slick-slide{width: 321px;}
+    .industry-slide.slick-slide{width: 320px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .who-for-main{padding: 80px 0 40px;}
@@ -41,7 +44,7 @@ ul.who-for-tabs li::before{display: none;}
 
     .industry-slider.slick-slider{padding: 0 0 32px 2px;}
     .industry-slider.slick-slider .slick-list{overflow: inherit;}
-    .industry-slide.slick-slide{width: 298px; min-height: 245px; padding: 2px 21px 0px;}
+    .industry-slide.slick-slide{width: 298px; min-height: 245px; padding: 2px 40px 0px;}
     .industry-count{display: none;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
@@ -61,7 +64,7 @@ ul.who-for-tabs li::before{display: none;}
 
     .industry-slider.slick-slider{padding: 0 0 32px 2px;}
     .industry-slider.slick-slider .slick-list{overflow: inherit;}
-    .industry-slide.slick-slide{width: 298px; min-height: 245px; padding: 2px 21px 0px;}
+    .industry-slide.slick-slide{width: 298px; min-height: 245px; padding: 2px 22px 0px;}
     .industry-count{top: 11px; width: calc(100% - 96px); margin: 0 auto; font-size: 20px; line-height: 25px; opacity: 0.5; display: block; text-align: center; color: var(--Navy, #182A54); font-family: "arboria", sans-serif; font-weight: 700; position: relative;}
 }
 

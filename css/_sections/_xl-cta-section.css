@@ -3,11 +3,12 @@
 .xl-cta-main{padding: 48px 48px 46px; background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; }
 .xl-cta-text span.optional-text{margin-bottom: 14px;}
 
-.xl-cta-frame{border-radius: 4px; background: var(--White, #FFF); box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25);}
-.xl-cta-frame1{top: 70px; left: 77px; width: 104px;}
-.xl-cta-frame2{top: 120px; left: 140px; width: 110px;}
-.xl-cta-frame3{top: 120px; left: 0; width: 128px;}
-.xl-cta-frame4{top: 170px; left: 95px; width: 112px; z-index: -1;}
+.xl-cta-frame{transition: all 2s ease; left: 0; opacity: 0; border-radius: 4px; background: var(--White, #FFF); box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25);}
+.visible .xl-cta-frame{opacity: 1;}
+.visible .xl-cta-frame-1{top: 70px; left: 77px; width: 104px; transition-delay: 1s;}
+.visible .xl-cta-frame-2{top: 120px; left: 140px; width: 110px; transition-delay: 2s;}
+.visible .xl-cta-frame-3{top: 120px; left: 0; width: 128px; transition-delay: 3s;}
+.visible .xl-cta-frame-4{top: 170px; left: 95px; width: 112px; transition-delay: 4s; z-index: -1;}
 
 .xl-cta-row.no_image{display: block;}
 .no_image .xl-cta-text{max-width: 100%; flex: 0 0 100%;}
@@ -64,10 +65,10 @@
 
     .xl-cta-btns{gap: 16px;}
     .xl-cta-image{flex: 0 0 294px; max-width: 294px;}
-    .xl-cta-frame1 { top: -18px; left: -12px; }
-    .xl-cta-frame2{top: 122px; left: 48px;}
-    .xl-cta-frame3 { top: -18px; left: 104px; }
-    .xl-cta-frame4 { top: 122px; left: 170px; z-index: 0; }
+    .visible .xl-cta-frame-1 { top: -18px; left: -12px; }
+    .visible .xl-cta-frame-2{top: 122px; left: 48px;}
+    .visible .xl-cta-frame-3 { top: -18px; left: 104px; }
+    .visible .xl-cta-frame-4 { top: 122px; left: 170px; z-index: 0; }
 
 
     .xl-step-row{gap: 24px;}
@@ -82,10 +83,12 @@
     .xl-cta-wrap{padding: 0 0 22px;}
     .xl-cta-main{padding: 42px 24px 24px; background-image: url("images/xl-cta-micro-mobile@2x.jpg");}
     .xl-cta-row{display: block;}
-    .xl-cta-frame1 { top: -18px; left: -12px; }
-    .xl-cta-frame2{top: 122px; left: 48px;}
-    .xl-cta-frame3 { top: -18px; left: 104px; }
-    .xl-cta-frame4 { top: 122px; left: 170px; z-index: 0; }
+    .xl-cta-frame{left: -100%;}
+    .xl-cta-frame-3, .xl-cta-frame-4{left: auto; right: -100%;}
+    .visible .xl-cta-frame-1 { top: -18px; left: -12px; }
+    .visible .xl-cta-frame-2{top: 122px; left: 48px;}
+    .visible .xl-cta-frame-3 { top: -18px; left: auto; right: 62px; }
+    .visible .xl-cta-frame-4 { top: 122px; right: 12px; left: auto; z-index: 0; }
     .xl-cta-text{padding-top: 31px;}
     .xl-cta-text h2{padding-top: 4px; font-size: 24px; line-height: 30px;}
 

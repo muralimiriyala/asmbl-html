@@ -182,40 +182,38 @@ jQuery(function ($) {
     }
 
     function setActive(index, slideUp = false) {
-        $(".ai-feature-art").removeClass("active");
-        $(".ai-feature-art .ai-feature-head").removeClass("open");
-        $(".ai-feature-art .ai-feature-content").slideUp(500);
+        $(".ai-feature-art").removeClass("ai-art-open");
+        $(".ai-feature-art").find(".ai-feature-head").removeClass("ai-head-open");
+        $(".ai-feature-art").find(".ai-feature-content").slideUp(500);
         $(".ai-feature-image").removeClass("active-slide");
 
         if (!slideUp) {
-            $(".ai-feature-art").eq(index).addClass("active");
-            $(".ai-feature-art").eq(index).find(".ai-feature-head").addClass("open");
+            $(".ai-feature-art").eq(index).addClass("ai-art-open");
+            $(".ai-feature-art").eq(index).find(".ai-feature-head").addClass("ai-head-open");
             $(".ai-feature-art").eq(index).find(".ai-feature-content").slideDown(500);
             $(".ai-feature-image").eq(index).addClass("active-slide");
         }
     }
 
     $(document).ready(function () {
-        // window.scrollTo(0, 0);
         c();
         u();
         t(); // Ensure initial state is set based on scroll position
     });
 
     jQuery(document).ready(function () {
-        jQuery('.ai-feature-section').each(function (index) {
-            const $prodSlide = jQuery(this);
-
+        jQuery('.ai-feature-art').each(function (index) {
+            const $prodSlide = $(this);
             $prodSlide.find(".ai-feature-head").on("click", function (e) {
                 e.preventDefault();
-                var parent = $(this).parent();
+                var parent = $(this).parent().parent();
                 var index = parent.index();
-                activeIndex = index; // Update activeIndex to the clicked item
+                activeIndex = index;
 
-                parent.toggleClass('active');
-                parent.siblings().removeClass('active');
-                parent.siblings().find('.ai-feature-head').removeClass('open');
-                $(this).toggleClass("open");
+                parent.toggleClass('ai-art-open');
+                parent.siblings().removeClass('ai-art-open');
+                parent.siblings().find('.ai-feature-head').removeClass('ai-head-open');
+                $(this).toggleClass("ai-head-open");
                 $(this).siblings('.ai-feature-content').slideToggle(500);
                 parent.siblings().find('.ai-feature-content').slideUp(500);
 

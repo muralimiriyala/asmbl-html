@@ -20,6 +20,7 @@ jQuery(document).ready(function(){
             fade: true,
             cssEase: 'linear',
         });
+        $container.find("ul.ai-tab-links li:first-child").addClass("ai-tab-active");
         $container.find('ul.ai-tab-links li a[data-slide]').on("click", function(e){
             e.preventDefault();
             jQuery("ul.ai-tab-links").removeClass("ai-links");

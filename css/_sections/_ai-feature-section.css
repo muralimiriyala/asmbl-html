@@ -18,15 +18,16 @@
     .scrolled .ai-feature-title strong{display: block;}
 
     
-    .ai-feature-art{flex: 1; background-color: rgba(24, 42, 84, 0.60); border: 1px solid transparent; color: var(--White);}
+    .ai-feature-art{flex: 1;}
     .scrolled .ai-feature-art:not(:last-child){margin-bottom: 16px;}
-    .ai-feature-art:hover{border-color: var(--Blue); background-color: var(--Navy);}
-    .ai-feature-art.active{background-color: var(--White); color: var(--Foreground);}
+    .ai-feature-list{ background-color: rgba(24, 42, 84, 0.60); border: 1px solid rgba(24, 42, 84, 0.60); color: var(--White);}
+    .ai-feature-list:hover{border-color: var(--Blue); background-color: var(--Navy);}
+    .ai-art-open .ai-feature-list{background-color: var(--White); color: var(--Foreground);}
 
 
     .scrolled .ai-feature-head{padding: 18px 14px 18px 15px; font-size: 20px; line-height: 25px;}
     .ai-feature-head{gap: 7px; padding: 13px 14px 14px 15px; font-size: 18px; line-height: 22.5px; cursor: pointer; font-weight: 400;}
-    .ai-feature-head.open{color: var(--Blue); pointer-events: none;}
+    .ai-feature-head.ai-head-open{color: var(--Blue); pointer-events: none;}
     .ai-feature-icon{width: 22px; height: 22px;}
     .ai-feature-icon svg{width: 100%; height: 100%;}
     .ai-feature-content{padding: 4px 14px 14px 15px; display: none;}
@@ -40,7 +41,11 @@
     .ai-feature-images{min-height: 600px;}
     .ai-tabs-main{display: none;}
     .ai-feature-icon svg path:not(:first-child){fill: var(--White);}
-    .scrolled .ai-feature-head.open .ai-feature-icon svg path:not(:first-child){fill: #1335AF;}
+    .scrolled .ai-head-open .ai-feature-icon svg path:not(:first-child){fill: #1335AF;}
+    .ai_icon{width: 22px; height: 22px; top: 0; left: 0; transition: all 0.5s ease;}
+    .ai_icon_hover{opacity: 0;}
+    .scrolled .ai-head-open .ai_icon_normal{opacity: 0;}
+    .scrolled .ai-head-open .ai_icon_hover{opacity: 1;}
 }
 @media only screen and (min-width: 1440px){
     .ai-container{max-width: 1360px; margin: 0 auto; left: 40px; overflow: hidden;}
@@ -92,6 +97,10 @@
     ul.ai-tab-links li.ai-tab-open a{background-color: var(--White);}
     ul.ai-tab-links li.ai-tab-open a svg path:not(:first-child){fill: #1335AF;}
 
+    .ai_icon_wrap{width: 32px; height: 32px; }
+    .ai_icon{top: 0; left: 0; transition: all 0.5s ease;}
+    .ai-tab-open .ai_icon_normal{opacity: 0;}
+    .ai-tab-open .ai_icon_hover{opacity: 1;}
 
     .ai-tab-content:first-child{display: block;}
     .ai-tab-content{display: none; padding: 20px 24px 22px; border-radius: 0 0 16px 16px;}
@@ -109,15 +118,27 @@
     div.ai-image-t{ height: 0; overflow: hidden; animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-image; animation-fill-mode: forwards; animation-timing-function: ease-in-out; animation-play-state: paused; }
     .ai-visible.ai-image-t{animation-play-state: running;}
     @keyframes ai-image { 0%{transform: translateY(-50%); height: 0; } 100%{position:  translateY(0%); height: 100%;} }
-    ul.ai-tab-links{visibility: visible; animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-links; animation-fill-mode: forwards; animation-timing-function: ease-in-out; animation-iteration-count: inherit; animation-play-state: paused; }
+    ul.ai-tab-links{visibility: visible; animation-delay: 1s; animation-duration: 1.5s; animation-name: ai-links; animation-fill-mode: forwards; animation-timing-function: ease-in-out; animation-iteration-count: inherit; animation-play-state: paused; }
     ul.ai-tab-links.ai-links{animation-play-state: running;} @keyframes ai-links { 0%{transform: translateY(-250px);} 100%{position: translateY(0%);} }
-    ul.ai-links li.ai-tab-active a{animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-active; animation-fill-mode: forwards; animation-timing-function: ease-in-out; animation-play-state: running; color: var(--Blue); }
-    @keyframes ai-active { 0%{background-color: rgba(24,42,84,.9);} 100%{background-color: var(--White);} }
-    ul.ai-links li.ai-tab-active a svg path:not(:first-child){animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-path; animation-fill-mode: forwards; animation-timing-function: ease-in-out; }
-    @keyframes ai-path { 0%{fill: var(--White);} 100%{fill: #1335AF;} }
+    
+    ul.ai-links li.ai-tab-active a{animation-delay: 1s; animation-duration: 1.5s; animation-name: ai-active; animation-fill-mode: forwards; animation-timing-function: ease-in-out; animation-play-state: running; }
+    @keyframes ai-active { 0%, 50%{background-color: rgba(24,42,84,.9); color: var(--White);} 100%{background-color: var(--White); color: var(--Blue);} }
+ 
+    .ai_icon_hover{opacity: 0;}
+    ul.ai-links li a .ai_icon_hover{opacity: 0;}
+    ul.ai-links li.ai-tab-open a .ai_icon_normal{opacity: 0;}
+    ul.ai-links li.ai-tab-open a .ai_icon_hover{opacity: 1;}
+    ul.ai-links li.ai-tab-active a .ai_icon_hover{animation-delay: 1s; animation-duration: 1.5s; animation-name: ai-icon; animation-fill-mode: forwards; animation-timing-function: ease-in-out; }
+    @keyframes ai-icon { 0%, 50%{opacity: 0;} 100%{opacity: 1;} }
+
+    ul.ai-links li.ai-tab-active a svg path:not(:first-child){animation-delay: 1s; animation-duration: 1.5s; animation-name: ai-path; animation-fill-mode: forwards; animation-timing-function: ease-in-out; }
+    @keyframes ai-path { 0%, 50%{fill: var(--White);} 100%{fill: #1335AF;} }
+
+
+
     .ai-content-t{ height: 0; overflow: hidden; animation-delay: 0.5s; animation-duration: 1.5s; animation-name: ai-content; animation-fill-mode: forwards; animation-timing-function: ease-in-out; animation-iteration-count: inherit; animation-play-state: paused; }
     .ai-visible.ai-content-t{animation-play-state: running;}
-    @keyframes ai-content { 0%{transform: translateY(-100%);  height: 0;} 100%{position:  translateY(0%);  height: 100%;} }
+    @keyframes ai-content { 0%{transform: translateY(-100%);  height: 0;} 100%{transform: translateY(0%);  height: 100%;} }
     /*-- animation ai --*/
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
