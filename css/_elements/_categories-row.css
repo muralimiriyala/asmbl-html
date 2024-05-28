@@ -33,7 +33,7 @@
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .categories-row{gap: 64px 0;}
-    .categories-list{flex: 0 0 calc(50%); border-left: 1px solid var(--Elevated, #F0F2FA);}
+    .categories-list{flex: 0 0 calc(50%); border-left: 2px solid var(--Elevated, #F0F2FA);}
     .categories-list:nth-child(odd){ border-left: none; padding-right: 64px;}
     .categories-list:nth-child(even){border-right: none; padding-left: 64px;}
     .gray-bg .categories-list{border-left-color: var(--White);}
@@ -47,6 +47,5 @@
     body.category-resources .categories-list{border-bottom-color: var(--White);}
     .gray-bg .categories-list{border-bottom-color: var(--White);}
 
-    .prod-categories-main{padding: 5px 0 40px;}
     .prod-overview-wrap .categories-row{margin-bottom: 0;}
 }

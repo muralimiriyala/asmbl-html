@@ -1,5 +1,6 @@
 
 .digital-asset-main{padding: 80px 0 80px;}
+body.page-template-product .digital-asset-main{padding-bottom: 40px;}
 .digital-asset-title{margin-bottom: 38px;}
 .digital-asset-title h2{color: var(--Navy);}
 
@@ -15,12 +16,12 @@ ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0; width: calc(100% -
 
 @media screen and (min-width: 1024px){
     .digital-asset-row{gap: 40px; padding: 0 0 40px;}
-    .digital-asset-list{flex: 0 0 calc(33.3333% - 27px);}   
+    .digital-asset-list{flex: 0 0 calc(33.3333% - 27px);} 
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .digital-asset-row{gap: 32px; padding: 0 0 40px;}
     .digital-asset-list:first-child{flex: 0 0 100%;}
-    .digital-asset-list{flex: 0 0 calc(50% - 16px);}   
+    .digital-asset-list{flex: 0 0 calc(50% - 16px);}  
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .digital-asset-main{padding: 41px 0 80px;}
