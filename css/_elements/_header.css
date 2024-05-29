@@ -135,7 +135,6 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a{gap: 11px; font-size: 16px; font-weight: 400; line-height: 24px; color: var(--Foreground, #313031); display: flex; flex-wrap: wrap; position: relative; align-items: center; }
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a svg{width: 24px;}
 
-
     .menu-desc{flex: 1;}
     .menu-desc p{display: none;}
 
