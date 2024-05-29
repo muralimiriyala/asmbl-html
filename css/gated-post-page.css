@@ -17,7 +17,7 @@
 body .sidebar-cta-form .selectBox-dropdown{font-size: 14px; line-height: 20px; font-family: "arboria", sans-serif; }
 .sidebar_frm_field{margin-bottom: 24px;}
 .sidebar-form-desc{opacity: 0.75; padding-top: 22px;}
-body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit{display: none;}
+body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit{width: 100%;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

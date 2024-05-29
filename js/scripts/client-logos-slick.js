@@ -2,8 +2,8 @@
 jQuery(function(){
     var $sliderup = jQuery(".client-slider-up");
     if ($sliderup.length > 0) {
-        // var $slidesup = $sliderup.children('.client-logo-slide');
-        // $slidesup.slice(0, 3).clone().appendTo($sliderup);
+        var $slidesup = $sliderup.children('.client-logo-slide');
+        $slidesup.slice(0, 3).clone().appendTo($sliderup);
         $sliderup.slick({
             arrows: false,
             dots: false,
@@ -34,8 +34,8 @@ jQuery(function(){
     // Slider down initialization
     var $sliderdown = jQuery(".client-slider-down");
     if ($sliderdown.length > 0) {
-        // var $slidesdown = $sliderdown.children('.client-logo-slide');
-        // $slidesdown.slice(0, 3).clone().appendTo($sliderdown);
+        var $slidesdown = $sliderdown.children('.client-logo-slide');
+        $slidesdown.slice(0, 3).clone().appendTo($sliderdown);
         $sliderdown.slick({
             arrows: false,
             dots: false,

@@ -46,7 +46,7 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     body.page-template-story  .cta-large-wrap{padding-bottom: 78px;}
 
-    .cta-large-main{padding: 16px 4px 32px 17px; display: block; background-image: url('./images/cta-micro-mobile@2x.jpg'); background-position: bottom center;}
+    .cta-large-main{padding: 16px 17px 32px; display: block; background-image: url('./images/cta-micro-mobile@2x.jpg'); background-position: bottom center;}
     .cta-large-image{margin-bottom: -10px;}
     .cta-large-text{padding: 0 24px 0 11px; text-align: center; }
     .cta-large-text span.h2{font-size: 30px; line-height: 37px;}

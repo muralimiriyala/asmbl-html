@@ -46,6 +46,8 @@
     .ai_icon_hover{opacity: 0;}
     .scrolled .ai-head-open .ai_icon_normal{opacity: 0;}
     .scrolled .ai-head-open .ai_icon_hover{opacity: 1;}
+    .ai_icon figure{top: -2px; position: relative;}
+    .ai_icon figure img{object-fit: contain;}
 }
 @media only screen and (min-width: 1440px){
     .ai-container{max-width: 1360px; margin: 0 auto; left: 40px; overflow: hidden;}
