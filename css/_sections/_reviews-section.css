@@ -26,6 +26,11 @@
     body.page-template-solutions-industry-detail .reviews-main{padding: 0 0 80px;}
     body.page-template-company-size-detail .reviews-main{padding-top: 0;}
     body.page-template-product-details .reviews-main{padding: 80px 0 80px;}
+
+    /*-- de --*/
+    .reviews-thumb{opacity: 0; transform: scale(0.5) rotate(0deg) translate3d(10px, 50px, 0);}
+    .reviews-thumb.started{opacity: 1; transform: scale(1) rotate(0deg) translate3d(0, 0, 0);}
+    /*-- de --*/
 }
 @media screen and (min-width: 1024px){
     body.page-template-marketing .reviews-main{padding-bottom: 80px;}

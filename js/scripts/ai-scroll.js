@@ -202,7 +202,7 @@ jQuery(function ($) {
     });
 
     jQuery(document).ready(function () {
-        jQuery('.ai-feature-art').each(function (index) {
+        jQuery('.ai-feature-main').each(function (index) {
             const $prodSlide = $(this);
             $prodSlide.find(".ai-feature-head").on("click", function (e) {
                 e.preventDefault();
