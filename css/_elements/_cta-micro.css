@@ -8,6 +8,8 @@
 /* media css starts here */
 @media screen and (min-width: 740px){
     .cta-micro-bg{background-image: url('./images/cta-micro-bg@2x.jpg');}
+    .no_cta_micro_image{display: block;}
+    .no_cta_micro_image .cta-micro-text{max-width: 100%;}
 }
 @media screen and (min-width: 1200px){
     .cta-micro-main{gap: 108px; flex-direction: row-reverse;}

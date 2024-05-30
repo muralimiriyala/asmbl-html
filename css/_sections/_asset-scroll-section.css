@@ -75,7 +75,7 @@ figure.colorfulsearch img{border: 1.406px solid rgba(217, 223, 242, 0.25); borde
     .prod-banner-main .search-above{top: 14px; max-width: 195px;}
     .prod-banner-main .colorful-bg-form input{padding: 7px 11px 7px 34px; font-size: 15px; line-height: 22px;}
     .prod-banner-main .colorful-bg-form button[type="submit"]{top: 7px; left: 12px; font-size: 15px; line-height: 22px;}
-    .prod-banner-main .keywords-above{bottom: 24px; padding: 10px; max-width: 207px;}
+    .prod-banner-main .keywords-above{bottom: 24px; max-width: 207px;}
     .prod-banner-main .keywords-head span{font-size: 11px; line-height: 16px;}
     .prod-banner-main .keywords-head svg{width: 11px;}
     .prod-banner-main .keywords-show{font-size: 8.438px; line-height: 12.656px;}

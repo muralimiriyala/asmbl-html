@@ -1,5 +1,6 @@
 
 
+.categories-icon svg{width: 100%; height: 100%;}
 .categories-text{color: var(--Foreground, #313031);}
 .categories-head h2{color: var(--Navy, #182A54);}
 .categories-head h2 a{color: var(--Navy, #182A54);}
@@ -39,13 +40,13 @@
     .gray-bg .categories-list{border-left-color: var(--White);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .categories-head{gap: 17px; margin-bottom: 24px;}
-    .categories-icon{width: 40px;}
+    .categories-head{gap: 17px; margin-bottom: 11px;}
+    .categories-icon{width: 48px; height: 48px;}
     .categories-head h2{font-size: 24px; line-height: 30px; margin: 0; padding-top: 4px; flex: 1;}
     .categories-row{display: block; margin-bottom: 40px;}
     .categories-list:not(:last-child){padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid var(--Elevated, #F0F2FA);}
+    .categories-text{font-size: 18px; line-height: 27px;}
     body.category-resources .categories-list{border-bottom-color: var(--White);}
     .gray-bg .categories-list{border-bottom-color: var(--White);}
-
     .prod-overview-wrap .categories-row{margin-bottom: 0;}
 }

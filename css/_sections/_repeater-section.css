@@ -48,7 +48,6 @@
     .repeater-desc h2{font-size: 24px; line-height: 30px;}
     .repeater-desc h2.h1{margin-bottom: 22px; font-size: 30px; line-height: 40px;}
 
-
     body.page-template-integrations-detail .repeater-row:first-child{padding: 0; display: flex; flex-direction: column-reverse;}
     body.page-template-integrations-detail .repeater-row:first-child .repeater-image{margin: 0; padding: 0; width: 100%; position: static;}
     body.page-template-integrations-detail .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
@@ -71,6 +70,7 @@
     .repeater-desc h2{font-size: 24px; line-height: 30px;}
     .repeater-desc h2.h1{margin-bottom: 22px; font-size: 30px; line-height: 40px;}
     .repeater-row:nth-child(odd) .repeater-image{width: calc(100% + 24px); right: -24px; position: relative;}
+    body.page-template-product .repeater-desc h2.h1{font-size: 40px; line-height: 50px;} 
 
 
     body.home .repeater-main{padding: 0 0 8px;}

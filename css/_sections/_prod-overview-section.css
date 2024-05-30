@@ -19,12 +19,12 @@
     body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 8px 0 0122px;}
     body.page-template-company-size-detail .prod-overview-wrap{padding-bottom: 122px;}
     body.page-template-marketing .prod-overview-wrap{padding: 63px 0 122px;}
-    body.page-template-product section.gray-bg .prod-overview-wrap{padding: 41px 0 0;}
+    body.page-template-product section.gray-bg .prod-overview-wrap{padding: 28px 0 0;}
     body.page-template-product section.gray-bg .prod-overview-main{padding-bottom: 80px;}
     body.page-template-product section.white-bg .prod-overview-main{padding-bottom: 40px;}
 
     .prod-overview-wrap{padding: 48px 0 48px;} 
-    .prod-overview-section:not(.gray-bg) .prod-overview-wrap{padding-bottom: 40px;}
+    .prod-overview-section:not(.gray-bg) .prod-overview-wrap{padding: 39px 0 40px;}
     .prod-overview-main{flex-direction: row-reverse;}
     .white-bg .prod-overview-main{flex-direction: row;}
     .prod-art-title{flex: 1; gap: 4px; display: flex; align-items: center;}

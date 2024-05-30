@@ -13,16 +13,14 @@
 @media screen and (min-width: 768px){
     .awards-intro-head{gap: 32px;}
     .awards-intro-title{flex: 1; border-right: 1px solid  rgb(19 53 175 / 40%);}
-    .awards-intro-link{width: fit-content;}
+    .awards-intro-link{margin-left: auto; width: fit-content;}
     .awards-intro-head.no_link{display: block;}
     .no_link .awards-intro-title{border-right: none;}
 }
 @media screen and (min-width: 1024px){
     .awards-intro-head{margin-bottom: 64px;}
-    .awards-row{gap: 32px; padding: 28px 0 0;}
+    .awards-row{gap: 32px; padding: 28px 0 0; justify-content: center;}
     .awards-list{flex: 0 0 calc(25% - 24px); padding: 24px;}
-    .awards1-of-3 .awards-list{flex: 0 0 calc(33.3333% - 22px);}
-    .awards1-of-2 .awards-list{flex: 0 0 calc(50% - 16px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .awards-intro-head{margin-bottom: 34px;}
