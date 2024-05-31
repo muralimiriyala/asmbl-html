@@ -14,7 +14,7 @@
     .browser-art-main{height: 460px;}
     .browser-art-content{gap: 20px;}
     @keyframes scrollCoverBrowserLeft { 0% { transform: translateY(0); } 50% {transform: translateY(calc(-50% + 230px)); } 100% {transform: translateY(calc(-100% + 460px)); } }
-    @keyframes scrollCoverBrowserRight { 0% { transform: translateY(calc(-100% + 460px)); } 50% { transform: translateY(calc(-50% + 230px)); } 100% { transform: translateY(calc(-0% + 0px)); } }
+    @keyframes scrollCoverBrowserRight { 0% { transform: translateY(calc(-100% + 460px)); } 50% { transform: translateY(calc(-50% + 230px)); } 100% { transform: translateY(0); } }
 }
 @media screen and (min-width: 1024px){
     .browser-art-content{padding: 0 40px;}

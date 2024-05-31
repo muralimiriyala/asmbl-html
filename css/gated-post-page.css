@@ -8,7 +8,7 @@
 .gated-point-icon img, .gated-point-icon svg{max-width: 48px; max-height: 48px;}
 .gated-point-list h4{margin-bottom: 15px;}
 
-.sidebar-cta-resource{padding: 23px 24px 24px; background-image: linear-gradient(0deg, #1335AF -0.05%, rgba(19, 53, 175, 0.00) 99.95%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; background-image: url("images/sidebar-cta-bg@2x.jpg");}
+.sidebar-cta-resource{padding: 23px 24px 24px; background-image: linear-gradient(0deg, #1335AF -0.05%, rgba(19, 53, 175, 0.00) 99.95%), linear-gradient(300deg, #182A54 0%, #1335AF 100%), url("images/sidebar-cta-bg@2x.jpg"); background-repeat: no-repeat; background-size: cover;}
 .sidebar-cta-resource span.optional-text{margin-bottom: 25px;}
 .sidebar-cta-resource h3{margin-bottom: 24px;}
 .sidebar-cta-form input::-webkit-input-placeholder{color: var(--Blue); font-family: "arboria", sans-serif;}
