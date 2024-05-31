@@ -3,7 +3,14 @@
 .repeater-desc ul{font-size: 16px; line-height: 24px;}
 .repeater-link{padding-top: 3px;}
 
+
 /* media css starts here */
+@media screen and (min-width: 768px){
+
+    body.page-template-product-details .repeater-desc ul{padding-top: 5px;}
+    body.page-template-product-details .repeater-desc hr{margin-bottom: 22px;}
+
+}
 @media screen and (min-width: 1024px){
     .repeater-row{flex-direction: row-reverse;}
     .repeater-row:nth-child(even){flex-direction: row;}
@@ -72,6 +79,7 @@
     .repeater-row:nth-child(odd) .repeater-image{width: calc(100% + 24px); right: -24px; position: relative;}
     body.page-template-product .repeater-desc h2.h1{font-size: 40px; line-height: 50px;} 
 
+    body.page-template-product-details .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
 
     body.home .repeater-main{padding: 0 0 8px;}
     /*-- 02 - Product Landing page --*/

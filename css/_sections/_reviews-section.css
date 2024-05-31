@@ -4,7 +4,7 @@
 .reviews-text{padding: 40px;}
 .reviews-block{left: 0; top: 0; width: 40px; height: 40px; opacity: 0;}
 .reviews-block svg{width: 100%; height: 100%;}
-.gray-bg .reviews-block svg path{fill: #F0F2FA;}
+.gray-bg .reviews-block svg path{fill: var(--White);}
 .white-bg .reviews-block svg path{fill: var(--White);}
 .started.reviews-block{opacity: 1; left: -40px;}
 .reviews-row:nth-child(even) .reviews-block{ right: 0; left: auto; }
@@ -15,6 +15,8 @@
 .reviews-quote p::after{content: "”";}
 .reviews-small-text{padding-left: 16px; border-left: 1px solid var(--Orange); color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
 .reviews-reverse .reviews-block svg{transform: scaleX(-1);}
+
+.gray-bg .reviews-text{background-color: var(--White);}
 
 /* media css starts here */
 @media screen and (min-width: 768px){
@@ -87,7 +89,16 @@
     .reviews-small-main{gap: 8px;}
     .reviews-image{width: 56px; flex: 0 0 56px;}
     .reviews-small-text{flex: 1;}
+    .reviews-small-text span{display: block;}
     .reviews-btn{margin-top: 24px;}
+    .reviews-m-block{bottom: 19px; right: 20px; width: 20px; height: 20px;}
+    .reviews-m-block svg{width: 100%; height: 100%;}
+    .reviews-text::after{width: 20px; height: 20px; right: 0; bottom: 0; content: ""; display: block; position: absolute;}
+    .gray-bg .reviews-text::after{background-color: var(--Elevated); }
+    .white-bg .reviews-text::after{background-color: var(--Elevated); }
+    .white-bg .reviews-m-block svg path{fill: var(--Elevated);}
+    .gray-bg .reviews-m-block svg path{fill: var(--Elevated);}
+
 }
 
 

@@ -22,6 +22,8 @@
     .prod-overview-section:not(.gray-bg) .categories-list{padding-bottom: 22px;}
     .categories-head h2{margin-bottom: 16px;}
     body.category-resources .categories-list{padding-bottom: 54px; border-left-color: transparent;}
+    body.page-template-product-details .prod-overview-wrap{padding-bottom: 40px;}
+    body.page-template-product-details .categories-row{padding-top: 7px;}
 }
 @media only screen and (min-width: 768px){
     .categories-head{flex-direction: column;}

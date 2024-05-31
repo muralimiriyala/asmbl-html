@@ -12,6 +12,7 @@
     body.page-template-product .trust-by-main{padding: 55px 0 56px;}
     body.page-template-product-details .trust-by-section:last-child .trust-by-main{padding: 55px 0 55px;}
     body.page-template-marketing .trust-by-section:not(.gray-bg){padding-bottom: 23px;}
+    body.page-template-product-details .trust-by-main{padding: 14px 0 91px;}
     .trust-by-main{gap: 32px; padding: 24px 0 72px;}
     .trust-by-text{flex: 0 0 144px; padding-top: 17px;}
     .trust-by-logos{gap: 32px; flex: 1;}

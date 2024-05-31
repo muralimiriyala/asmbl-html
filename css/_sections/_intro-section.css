@@ -18,7 +18,7 @@
 @media screen and (min-width: 1024px){
     .intro-main{padding: 80px 0 58px;}
     .other-benficial-section .intro-main{padding-bottom: 82px;}
-    body.page-template-product-details .intro-main{padding-bottom: 42px;}
+    body.page-template-product-details .intro-main{padding: 39px 0 42px;}
     body.page-template-story .intro-main{padding-bottom: 82px;}
     body.page-template-integrations .intro-main{padding-bottom: 42px;}
     body.page-template-integrations .intro-head{margin-bottom: 66px;}
@@ -44,6 +44,7 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .intro-main{padding: 40px 0;}
     .intro-head{display: block; margin-bottom: 47px;}
+    body.page-template-product-details .intro-head{margin-bottom: 67px;}
     body.page-template-integrations .intro-head{margin-bottom: 64px;}
     .intro-title{margin-bottom: 39px;}
     .intro-title h2{font-size: 40px; line-height: 50px;}
