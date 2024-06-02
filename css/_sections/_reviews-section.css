@@ -4,18 +4,19 @@
 .reviews-text{padding: 40px;}
 .reviews-block{left: 0; top: 0; width: 40px; height: 40px; opacity: 0;}
 .reviews-block svg{width: 100%; height: 100%;}
-.gray-bg .reviews-block svg path{fill: var(--White);}
-.white-bg .reviews-block svg path{fill: var(--White);}
 .started.reviews-block{opacity: 1; left: -40px;}
 .reviews-row:nth-child(even) .reviews-block{ right: 0; left: auto; }
 .reviews-row:nth-child(even) .reviews-block.started{right: -40px; opacity: 1;}
-.reviews-text.gray-bg:before{background-color: var(--White);}
 .reviews-quote{margin-bottom: 20px; font-size: 20px; line-height: 36px; font-weight: 500; font-family: "arboria", sans-serif; color: var(--Blue); display: block;}
 .reviews-quote p::before { content: "“"; }
 .reviews-quote p::after{content: "”";}
 .reviews-small-text{padding-left: 16px; border-left: 1px solid var(--Orange); color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
 .reviews-reverse .reviews-block svg{transform: scaleX(-1);}
 
+.white-bg .reviews-text{background-color: var(--Background);}
+.white-bg .reviews-text:before{background-color: var(--White);}
+.gray-bg .reviews-block svg path{fill: var(--White);}
+.white-bg .reviews-block svg path{fill: var(--Background);}
 .gray-bg .reviews-text{background-color: var(--White);}
 
 /* media css starts here */
@@ -51,7 +52,8 @@
     .reviews-row:nth-child(even) .reviews-text:before{right: 0; left: auto;}
 
     div.reviews-reverse{flex-direction: row-reverse;}
-    div.reviews-reverse .reviews-block { right: -40px; left: auto; }
+    div.reviews-reverse .reviews-block{right: 0; left: auto;}
+    div.reviews-reverse .started.reviews-block{ right: -40px; }
     div.reviews-reverse .reviews-text:before{right: 0; left: auto;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
@@ -95,8 +97,8 @@
     .reviews-m-block svg{width: 100%; height: 100%;}
     .reviews-text::after{width: 20px; height: 20px; right: 0; bottom: 0; content: ""; display: block; position: absolute;}
     .gray-bg .reviews-text::after{background-color: var(--Elevated); }
-    .white-bg .reviews-text::after{background-color: var(--Elevated); }
-    .white-bg .reviews-m-block svg path{fill: var(--Elevated);}
+    .white-bg .reviews-text::after{background-color: var(--White); }
+    .white-bg .reviews-m-block svg path{fill: var(--White);}
     .gray-bg .reviews-m-block svg path{fill: var(--Elevated);}
 
 }
