@@ -104,6 +104,9 @@
     body.page-template-solutions-usecase-detail .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
     body.page-template-solutions-usecase-detail .repeater-row:first-child .repeater-desc hr{margin-bottom: 24px;}
 
+    body.page-template-solution-company-detail .repeater-main{padding: 0 0 42px;}
+    body.page-template-solution-company-detail .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
+    body.page-template-solution-company-detail .repeater-row:first-child .repeater-desc hr{margin-bottom: 24px;}
 
 }
 

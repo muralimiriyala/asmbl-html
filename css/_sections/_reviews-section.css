@@ -27,7 +27,7 @@
     .reviews-text:before{width: 32px; height: 32px; top: -0.001px; left: 0; position: absolute; background: var(--Background, #F0F2FA); content: ""; display: block;}
     body.page-template-story .reviews-main{padding-top: 0;}
     body.page-template-solutions-industry-detail .reviews-main{padding: 0 0 80px;}
-    body.page-template-company-size-detail .reviews-main{padding-top: 0;}
+    body.page-template-solution-company-detail .reviews-main{padding-top: 0;}
     body.page-template-product-details .reviews-main{padding: 80px 0 80px;}
 
     /*-- de --*/

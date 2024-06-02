@@ -17,7 +17,7 @@
 /* media css starts here */
 @media screen and (min-width: 1024px){
     body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 8px 0 0122px;}
-    body.page-template-company-size-detail .prod-overview-wrap{padding-bottom: 122px;}
+    body.page-template-solution-company-detail .prod-overview-wrap{padding-bottom: 122px;}
     body.page-template-marketing .prod-overview-wrap{padding: 63px 0 122px;}
     body.page-template-product section.gray-bg .prod-overview-wrap{padding: 28px 0 0;}
     body.page-template-product section.gray-bg .prod-overview-main{padding-bottom: 80px;}
@@ -57,8 +57,8 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 20px 0 0;}
     body.page-template-solutions-industry-detail .prod-tabs-main{padding: 0 0 60px;}
-    body.page-template-company-size-detail .prod-overview-wrap{padding: 20px 0 0;}
-    body.page-template-company-size-detail .prod-tabs-main{padding: 0 0 60px;}
+    body.page-template-solution-company-detail .prod-overview-wrap{padding: 20px 0 0;}
+    body.page-template-solution-company-detail .prod-tabs-main{padding: 0 0 60px;}
 
     .prod-overview-wrap{padding: 60px 0 60px;}
     .prod-overview-main{display: none;}
@@ -93,8 +93,8 @@
     body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 57px 0 0;}
     body.page-template-solutions-industry-detail .prod-tabs-main{padding: 0 0 40px;}
 
-    body.page-template-company-size-detail .prod-overview-wrap{padding: 57px 0 0;}
-    body.page-template-company-size-detail .prod-tabs-main{padding: 0 0 40px;}
+    body.page-template-solution-company-detail .prod-overview-wrap{padding: 57px 0 0;}
+    body.page-template-solution-company-detail .prod-tabs-main{padding: 0 0 40px;}
 
     .prod-overview-wrap{padding: 40px 0 40px;}
     .prod-overview-main{display: none;}
