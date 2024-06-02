@@ -47,5 +47,5 @@
     .simple-intro-icon{width: 40px; height: 40px;}
     .simple-intro-icon img, .simple-intro-icon svg{width: 40px; height: 40px;}
     .simple-intro-row{display: block;}
-    .simple-intro-list:not(:last-child){ margin-bottom: 30px;}
+    .simple-intro-list:not(:last-child){ margin-bottom: 31px;}
 }
