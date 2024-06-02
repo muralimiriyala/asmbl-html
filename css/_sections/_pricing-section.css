@@ -31,6 +31,7 @@ ul.pricing-order li::before{display: none;}
 .pricing-additional{gap: 20px;}
 .pricing-additional svg, .pricing-additional figure{width: 42px;}
 .pricing-additional span{margin-bottom: 0; flex: 1; border-left: 1px solid #fff; padding-left: 20px;}
+div.no_additional_icon span{border-left: none; padding-left: 0;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

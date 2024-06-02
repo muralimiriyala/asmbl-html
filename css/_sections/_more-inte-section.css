@@ -1,9 +1,18 @@
 
 
-.more-inte-card{padding: 16px; border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); background: var(--White, #FFF); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10);}
-.more-inte-card span.h4{margin: 0; display: block; flex: 1; color: var(--Navy);}
-.more-inte-card span.h4 a{color: var(--Navy);}
-.more-inte-card span.h4 a:hover{color: var(--Blue);}
+
+.more-inte-card:hover span.h4{color: var(--Orange);}
+.more-inte-card-bg{ border: 1px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); background: var(--White, #FFF); box-shadow: 0px 18px 36px 0px rgba(24, 42, 84, 0.10); }
+.more-inte-card:hover .more-inte-card-bg{transform: scale(1.05);}
+.card-icon-link svg path{transition: all 0.5s ease;}
+.more-inte-card:hover .more-card-link svg path:not(:nth-child(2)){fill: var(--Orange);}
+.more-inte-card:hover .more-card-link svg path:nth-child(2){opacity: 0;}
+.more-inte-card:hover .more-card-link{transform: translateX(2px);}
+
+.more-link-card{padding: 16px; }
+.more-link-card span.h4{margin: 0; display: block; flex: 1; color: var(--Navy); transition: all 0.5s ease}
+.more-link-card span.h4 a{color: var(--Navy);}
+.more-link-card span.h4 a:hover{color: var(--Blue);}
 .more-card-icon{width: 64px;}
 .more-card-link{width: 30px;}
 .more-card-link svg{margin-left: 0;}
@@ -16,7 +25,8 @@
     .more-intro-title{flex: 1; padding-right: 31px; border-right: 1px solid  rgb(19 53 175 / 40%);}
     .more-intro-link{width: fit-content;}
     .more-inte-cards{gap: 32px;}
-    .more-inte-card{flex: 0 0 calc(33.3333% - 22px); gap: 20px;}
+    .more-inte-card{flex: 0 0 calc(33.3333% - 22px);}
+    .more-link-card{ gap: 20px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .more-inte-main{padding: 60px 0 80px;}
@@ -24,12 +34,17 @@
     .more-intro-title{flex: 1; padding-right: 31px; border-right: 1px solid  rgb(19 53 175 / 40%);}
     .more-intro-link{width: fit-content;}
     .more-inte-cards{gap: 32px;}
-    .more-inte-card{flex: 0 0 calc(50% - 16px); gap: 16px;}
+    .more-inte-card{flex: 0 0 calc(50% - 16px);}
+    .more-link-card{gap: 16px;}   
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .more-inte-main{padding: 41px 0 40px;}
     .more-intro-main{margin-bottom: 38px; display: block;}
     .more-inte-cards{display: block; padding-bottom: 16px;}
-    .more-inte-card{gap: 16px; margin-bottom: 24px;}
-    .more-inte-card span.h4{padding-left: 4px; margin-top: -2px;}
+    .more-inte-card{margin-bottom: 24px;}
+    .more-link-card{gap: 16px;}    
+    .more-link-card span.h4{padding-left: 4px; margin-top: -2px;}
+}
+@media only screen and (max-width: 369px) and (min-width: 200px){
+    .more-link-card span.h4{font-size: 20px; line-height: 24px;}
 }

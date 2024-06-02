@@ -31,7 +31,7 @@
 @media screen and (max-width: 767px) and (min-width: 200px){
     body.home .trust-by-main{padding: 27px 0 80px;}
     body.page-template-integrations .trust-by-main{padding-top: 38px;}
-    body.page-template-integrations-detail .trust-by-main{padding-top: 38px;}
+    body.single-integration .trust-by-main{padding-top: 38px;}
     body.page-template-product .trust-by-main{padding: 39px 0 22px;}
     body.page-template-demo .trust-by-main{padding-top: 46px;}
     body.page-template-solutions-usecase-detail .trust-by-main{padding: 39px 0 40px;}

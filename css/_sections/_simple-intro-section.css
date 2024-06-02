@@ -42,6 +42,7 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .simple-intro-main{padding: 40px 0 40px;}
     .simple-intro-head{display: block; margin-bottom: 60px;}
+    body.single-integration .simple-intro-head{margin-bottom: 66px;}
     .simple-intro-title{padding-bottom: 18px; margin-bottom: 16px; border-bottom: 1px solid  rgb(19 53 175 / 40%);}
     .simple-intro-icon{width: 40px; height: 40px;}
     .simple-intro-icon img, .simple-intro-icon svg{width: 40px; height: 40px;}
