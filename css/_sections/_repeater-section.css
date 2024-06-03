@@ -108,6 +108,11 @@
     body.page-template-solution-company-detail .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
     body.page-template-solution-company-detail .repeater-row:first-child .repeater-desc hr{margin-bottom: 24px;}
 
+
+    body.page-template-solutions-industry-detail .repeater-main{padding: 0 0 41px;}
+    body.page-template-solutions-industry-detail .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
+    body.page-template-solutions-industry-detail .repeater-row:first-child .repeater-desc hr{margin-bottom: 24px;}
+    body.page-template-solutions-industry-detail .repeater-desc ul{margin-bottom: 16px;}
 }
 
 

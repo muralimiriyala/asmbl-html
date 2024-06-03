@@ -15,19 +15,26 @@ nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(
 .spy-arrows{width: 40px; height: 100%; top: 50%; transform: translateY(-50%); cursor: pointer; z-index: 2; background-color: var(--White);}
 .spy-arrow-next:hover .spy-arrow{transform: translateX(2px) scale(0.85);}
 .spy-arrow-prev:hover .spy-arrow{transform: translateX(-2px) scale(0.85) scaleX(-1);}
-.spy-arrow-prev{left: 0;}
-.spy-arrow-next{right: 0;}
+
 .spy-arrow{ width: 38px; height: 26px; background-image: url("images/triangle-arrow.svg"); background-repeat: no-repeat; background-position: center; background-size: contain;}
 .spy-arrow-prev .spy-arrow{transform: scaleX(-1);}
 .linear-prod-head.no_desc{display: block;}
 
 /* media css starts here */
+@media screen and (min-width: 1360px){
+    .spy-arrow-prev{left: 0;}
+    .spy-arrow-next{right: 0;}
+}
 @media screen and (min-width: 1024px){
     .linear-prod-main{padding: 81px 0 0;}
-    .linear-prod-head{gap: 60px; margin-bottom: 61px;}
+    .linear-prod-head{gap: 60px; margin-bottom: 40px;}
     .linear-prod-title{flex: 0 0 394px;}
     .linear-prod-description{flex: 1; padding: 0 60px; border-left: 1px solid rgb(19 53 175 / 40%); border-right: 1px solid rgb(19 53 175 / 40%);}
     ul.linear-links{padding: 0 63px;}
+}
+@media only screen and (max-width: 1359px) and (min-width: 1024px){
+    .spy-arrow-prev{left: 40px;}
+    .spy-arrow-next{right: 40px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .linear-prod-main{padding: 60px 0;}
@@ -47,7 +54,7 @@ nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(
     nav.spy-nav::after { right: 0; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .linear-prod-main{padding: 40px 0 23px;}
+    .linear-prod-main{padding: 40px 0 0;}
     .linear-prod-head{display: block;}
     .linear-prod-title{margin-bottom: 30px;}
     .linear-prod-title h2{font-size: 40px; line-height: 50px;}

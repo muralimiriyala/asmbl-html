@@ -27,6 +27,10 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     .solution-masthead-1::before{top: -47px; left: 88px; width: 17px; height: 17px; opacity: 1;}
     .solution-masthead-1::after{left: 27px; top: -30px; opacity: 0.5; width: 61px; height: 61px;}
     .solution-masthead-2::before{right: 40px; top: -20px; width: 168px; height: 168px; opacity: 0.5;}
+    .solution-masthead-2::before{right: 40px; top: -20px; width: 168px; height: 168px; opacity: 0.5;}
+    .solution-masthead-3::before{left: -44px; top: 17px; width: 55px; height: 55px;}
+    .solution-masthead-3::after{ top: 73px; left: -58px; width: 14px; height: 14px;}
+
     .solution-masthead-bg{background-image: url('images/solution-masthead-bg@2x.jpg');}
 }
 @media screen and (min-width: 1024px){
