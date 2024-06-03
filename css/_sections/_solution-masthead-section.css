@@ -23,6 +23,10 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
 
 /* media css starts here */
 @media screen and (min-width: 768px){
+    .solution-masthead-thumb::after, .solution-masthead-thumb::before{opacity: 0.7; content: ""; display: block; position: absolute; background-color: var(--White); z-index: -1;}
+    .solution-masthead-1::before{top: -47px; left: 88px; width: 17px; height: 17px; opacity: 1;}
+    .solution-masthead-1::after{left: 27px; top: -30px; opacity: 0.5; width: 61px; height: 61px;}
+    .solution-masthead-2::before{right: 40px; top: -20px; width: 168px; height: 168px; opacity: 0.5;}
     .solution-masthead-bg{background-image: url('images/solution-masthead-bg@2x.jpg');}
 }
 @media screen and (min-width: 1024px){

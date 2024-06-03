@@ -26,7 +26,7 @@
 }
 @media screen and (min-width: 1440px){
     .repeater-text{padding: 0 80px;}
-    .repeater-image-pos{min-width: 720px; min-height: 540px;}
+    .repeater-thumb{min-width: 720px; min-height: 540px;}
     .repeater-desc{margin-bottom: 30px;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 768px){
@@ -34,7 +34,7 @@
 }
 @media only screen and (max-width: 1439px) and (min-width: 1280px){
     .repeater-text{padding: 64px;}
-    .repeater-image-pos{min-width: 640px; min-height: 480px;}
+    .repeater-thumb{min-width: 640px; min-height: 480px;}
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
     .repeater-text{padding: 32px;}

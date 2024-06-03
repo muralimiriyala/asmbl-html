@@ -18,7 +18,7 @@
 @media screen and (min-width: 1024px){
     body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 8px 0 0122px;}
     body.page-template-solution-company-detail .prod-overview-wrap{padding-bottom: 122px;}
-    body.page-template-marketing .prod-overview-wrap{padding: 63px 0 122px;}
+    body.page-template-marketing .prod-overview-wrap{padding: 23px 0 122px;}
     body.page-template-product section.gray-bg .prod-overview-wrap{padding: 28px 0 0;}
     body.page-template-product section.gray-bg .prod-overview-main{padding-bottom: 80px;}
     body.page-template-product section.white-bg .prod-overview-main{padding-bottom: 40px;}
@@ -105,12 +105,12 @@
     ul.prod-tab-links{margin: 0; gap: 4px;}
     ul.prod-tab-links li::before{display: none;}
     ul.prod-tab-links li{margin: 0; flex: 0 0 calc(25% - 3px);}
-    ul.prod-tab-links li a{width: 100%; height: 60px; border-radius: 8px 8px 0px 0px; justify-content: center;}
+    ul.prod-tab-links li a{width: 100%; height: 60px; border-radius: 12px 12px 0px 0px; justify-content: center;}
     ul.prod-tab-links li a figure{display: flex; align-items: center; justify-content: center;}
     ul.prod-tab-links li a img{width: 32px; height: 32px; object-fit: contain;}
     ul.prod-tab-links li a span{display: none;}
 
-    .white-bg ul.prod-tab-links li a{border: 2px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); background-color: rgba(255, 255, 255, 0.60); }
+    .white-bg ul.prod-tab-links li a{border: 2px solid var(--Card-Stroke); background-color: rgba(255, 255, 255, 0.60); }
     .white-bg ul.prod-tab-links li.prod-tab-active a{border-bottom-color: transparent; background-color: var(--White);}
 
     .gray-bg ul.prod-tab-links{gap: 8px;}
@@ -119,9 +119,11 @@
     .gray-bg ul.prod-tab-links li.prod-tab-active a{background-color: var(--White);}
 
     .prod-tab-content:first-child{display: block;}
-    .prod-tab-content{display: none; padding: 20px 24px 24px; border-radius: 0 0 8px 8px; border: 2px solid var(--Card-Stroke, rgba(217, 223, 242, 0.50)); border-top: none;}
+    .prod-tab-content{display: none; padding: 20px 24px 24px; border-radius: 0 0 12px 12px; border: 2px solid var(--White); border-top: none;}
     .prod-tab-head{margin-bottom: 14px;}
     .prod-tab-head span{margin-bottom: 3px; color: var(--Blue); display: block;}
+
+    .white-bg .prod-tab-content{border: 2px solid var(--Card-Stroke); border-top: none;}
 }
 
 
