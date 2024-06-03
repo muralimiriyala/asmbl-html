@@ -23,6 +23,8 @@
     body.page-template-story .repeater-row:first-child .repeater-desc hr{margin-bottom: 22px;}
     body.page-template-story .repeater-desc h2:not(.h1){margin-bottom: 31px;}
     body.page-template-story .repeater-desc hr{margin-bottom: 30px;}
+
+    body.page-template-solutions-usecase-detail .repeater-desc hr{margin-bottom: 22px;}
 }
 @media screen and (min-width: 1440px){
     .repeater-text{padding: 0 80px;}

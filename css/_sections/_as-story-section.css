@@ -14,7 +14,7 @@
     .as-story-link{width: fit-content;}
     .as-story-rule{width: 1px; height: 50px; opacity: 0.4; background: var(--Blue, #1335AF); display: block;}
     .as-story-row{gap: 64px;}
-    .as-story-list{flex: 0 0 calc(33.3333% - 50px);}
+    .as-story-list{flex: 0 0 calc(33.3333% - 43px);}
     .as-story-line{width: 2px; height: 0%;}
     .as-story-list:nth-child(odd) .as-story-line{top: auto; bottom: 3px; }
     .as-story-line.visible{height: calc(100% + 3px);}
