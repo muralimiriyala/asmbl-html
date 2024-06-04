@@ -18,12 +18,13 @@
 body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; height: 213px;}
 
 /*-- animation css starts --*/
+.solution-masthead-thumb::after, .solution-masthead-thumb::before{opacity: 0.7; visibility: hidden; content: ""; display: block; position: absolute; background-color: var(--White); z-index: -1; animation-delay: 1s; animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; animation-name: suedo;}
+@keyframes suedo{ from{visibility: hidden; opacity: 0;} to{visibility: visible;} }
 .solution-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
 /*-- animation css ends --*/
 
 /* media css starts here */
 @media screen and (min-width: 768px){
-    .solution-masthead-thumb::after, .solution-masthead-thumb::before{opacity: 0.7; content: ""; display: block; position: absolute; background-color: var(--White); z-index: -1;}
     .solution-masthead-1::before{top: -47px; left: 88px; width: 17px; height: 17px; opacity: 1;}
     .solution-masthead-1::after{left: 27px; top: -30px; opacity: 0.5; width: 61px; height: 61px;}
     .solution-masthead-2::before{right: 40px; top: -20px; width: 168px; height: 168px; opacity: 0.5;}
@@ -107,4 +108,12 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     .solution-masthead-5{top: 189px; left: 222px; width: 116px; height: 70px;}
 
     body.page-template-solutions-usecase-detail .solution-masthead-3{ top: 157px; left: 43px; width: 170px; height: 100px;}
+
+
+    .solution-masthead-1::before{top: -23px; left: 38px; width: 8px; height: 8px; opacity: 1;}
+    .solution-masthead-1::after{left: 12px; top: -16px; opacity: 0.5; width: 26px; height: 26px;}
+    .solution-masthead-2::before{right: 30px; top: -20px; width: 76px; height: 76px; opacity: 0.5;}
+    .solution-masthead-3::before{left: -16px; top: 6px; width: 26px; height: 26px;}
+    .solution-masthead-3::after{ top: 32px; left: -24px; width: 8px; height: 8px;}
+
 }

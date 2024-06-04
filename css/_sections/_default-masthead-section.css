@@ -17,12 +17,21 @@
 .default-masthead-main.no_masthead_images{display: block;}
 
 /*-- animation css starts --*/
+.default-masthead-thumb::after, .default-masthead-thumb::before{opacity: 0.7; visibility: hidden; content: ""; display: block; position: absolute; background-color: var(--White); z-index: -1; animation-delay: 1s; animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; animation-name: dsuedo;}
+@keyframes dsuedo{ from{visibility: hidden; opacity: 0;} to{visibility: visible;} }
 .default-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
 /*-- animation css ends --*/
 
 /* media css starts here */
 @media screen and (min-width: 768px){
     .default-masthead-bg{background-image: url('images/default-masthead-bg@2x.jpg');}
+
+    .default-masthead-1::before{top: -47px; left: 88px; width: 17px; height: 17px; opacity: 1;}
+    .default-masthead-1::after{left: 27px; top: -30px; opacity: 0.5; width: 61px; height: 61px;}
+    .default-masthead-2::before{right: 40px; top: -20px; width: 168px; height: 168px; opacity: 0.5;}
+    .default-masthead-3::before{left: -44px; top: 17px; width: 55px; height: 55px;}
+    .default-masthead-3::after{ top: 73px; left: -58px; width: 14px; height: 14px;}
+
 }
 @media screen and (min-width: 1024px){
     .default-masthead-main{padding: 80px 0 21px; flex-direction: row-reverse;} 
@@ -92,4 +101,10 @@
     .default-masthead-3{top: 148px; left: 44px; width: 170px; height: 100px;}
     .default-masthead-4{top: 76px; left: 222px; width: 98px; height: 98px;}
     .default-masthead-5{top: 181px; left: 222px; width: 115px; height: 70px;}
+
+    .default-masthead-1::before{top: -23px; left: 38px; width: 8px; height: 8px; opacity: 1;}
+    .default-masthead-1::after{left: 12px; top: -16px; opacity: 0.5; width: 26px; height: 26px;}
+    .default-masthead-2::before{right: 30px; top: -20px; width: 76px; height: 76px; opacity: 0.5;}
+    .default-masthead-3::before{left: -16px; top: 6px; width: 26px; height: 26px;}
+    .default-masthead-3::after{ top: 32px; left: -24px; width: 8px; height: 8px;}
 }
