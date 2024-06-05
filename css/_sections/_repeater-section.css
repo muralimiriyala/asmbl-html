@@ -25,6 +25,11 @@
     body.page-template-story .repeater-desc hr{margin-bottom: 30px;}
 
     body.page-template-solutions-usecase-detail .repeater-desc hr{margin-bottom: 22px;}
+
+
+    body.home .repeater-desc hr{margin-bottom: 24px;}
+    body.home .repeater-desc h2.h1{margin-bottom: 25px;}
+    
 }
 @media screen and (min-width: 1440px){
     .repeater-text{padding: 0 80px;}
@@ -77,7 +82,9 @@
     .repeater-desc{margin-bottom: 0;}
     .repeater-desc h2{font-size: 24px; line-height: 30px;}
     .repeater-desc h2.h1{margin-bottom: 22px; font-size: 30px; line-height: 40px;}
-    .repeater-row:nth-child(odd) .repeater-image{width: calc(100% + 24px); right: -24px; position: relative;}
+    .repeater-row:nth-child(odd) .repeater-image{width: calc(100% + 24px); right: 0; position: relative;}
+    
+
     body.page-template-product .repeater-desc h2.h1{font-size: 40px; line-height: 50px;} 
 
     body.page-template-product-details .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}

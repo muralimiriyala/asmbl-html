@@ -8,6 +8,8 @@ ul.who-for-tabs li::before{display: none;}
 
 .industry-slide-text{color: var(--Foreground, #313031);}
 .industry-slide-text h2{margin-bottom: 16px; color: var(--Navy);}
+.industry-slide-text h2 a{color: var(--Navy);}
+.industry-slide-text h2 a:hover{color: var(--Blue);}
 .industry-slide-icon{margin-bottom: 19px; min-height: 46px; max-width: 46px;}
 .industry-slide{position: relative;}
 .industry-slide::after, .industry-slide:first-child::before{height: 100%; content: ""; display: block; background-color: var(--White); position: absolute;}
@@ -15,6 +17,7 @@ ul.who-for-tabs li::before{display: none;}
 .industry-slide:first-child::before{top: 0; left: 0px; width: 2px; height: 100%;}
 .industry-count{display: none;}
 
+body.home .industry-slide svg{margin-bottom: 12px;}
 
 /* media css starts here */
 @media screen and (min-width: 768px){
@@ -29,6 +32,8 @@ ul.who-for-tabs li::before{display: none;}
     .who-for-image{flex: 1;}
     .who-for-text{flex: 0 0 426px; padding-top: 41px; display: flex; flex-wrap: wrap; flex-direction: column;}
     
+    body.home .who-for-text{flex: 0 0 415px;}
+
     .industry-slide-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .industry-slide:hover .industry-slide-btn{opacity: 1; transform: translateY(0);}
     

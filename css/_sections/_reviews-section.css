@@ -105,6 +105,7 @@
     .white-bg .reviews-m-block svg path{fill: var(--White);}
     .gray-bg .reviews-m-block svg path{fill: var(--Elevated);}
 
+    body.home  .reviews-main {padding: 18px 0 40px;}
 }
 
 

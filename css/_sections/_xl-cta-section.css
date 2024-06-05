@@ -103,4 +103,8 @@
     .xl-step-text{flex: 1; font-size: 14px; line-height: 21px;}
     .xl-step-text h2{margin-bottom: 12px;}
     .xl-step-text p{margin-bottom: 12px; opacity: 0.9;}
+
+    body.home .xl-cta-details {margin: 0 11px;}
+    body.home .xl-cta-text span.optional-text { margin-bottom: 10px; }
+    body.home  .xl-cta-text h2 {margin-bottom: 38px;}
 }
