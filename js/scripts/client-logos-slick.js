@@ -1,6 +1,8 @@
 
 jQuery(function(){
 
+    jQuery('.client-slider-up .slick-slide').removeAttr('aria-hidden');
+    jQuery('.client-slider-down .slick-slide').removeAttr('aria-hidden');
 
     var $sliderup = jQuery(".client-slider-up");
     if ($sliderup.length > 0) {
@@ -68,5 +70,15 @@ jQuery(function(){
             ], 
         });
     }
+    $sliderup.on('beforeChange, afterChange, init, setPosition', function(event, slick, currentSlide) {
+        setTimeout(function() {
+          jQuery('.client-slider-up .slick-slide').removeAttr('aria-hidden');
+        }, 100);
+    });
+    $sliderdown.on('beforeChange, afterChange, init, setPosition', function(event, slick, currentSlide) {
+        setTimeout(function() {
+          jQuery('.client-slider-down .slick-slide').removeAttr('aria-hidden');
+        }, 100);
+    });
 });
 
