@@ -133,7 +133,9 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li > ul{margin: 0; padding: 0 0 7px; display: none;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li{margin: 0 0 12px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a{gap: 11px; font-size: 16px; font-weight: 400; line-height: 24px; color: var(--Foreground, #313031); display: flex; flex-wrap: wrap; position: relative; align-items: center; }
-    ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a svg{width: 24px;}
+    ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a img.menu-image,  ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a svg, ul.main_menu > li > ul > li > ul > li > a img.menu-image{width: 24px; padding: 0; top: 1px; position: relative;}
+    ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a span.menu-image-title, ul.main_menu > li > ul > li > ul > li > a span.menu-image-title{padding: 0;}
+
 
     .menu-desc{flex: 1;}
     .menu-desc p{display: none;}

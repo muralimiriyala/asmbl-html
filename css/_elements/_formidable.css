@@ -118,7 +118,7 @@ body .demo-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_fi
 body .demo-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{opacity: 0.9; font-weight: 400; font-size: 14px; line-height: 20px; color: var(--Foreground);}
 body .demo-form .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 30px;}
 body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
-
+body .gated-post-aside .frm_forms .frm_form_fields .frm_form_field#frm_field_40_container{margin-bottom: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

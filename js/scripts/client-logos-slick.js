@@ -1,5 +1,7 @@
 
 jQuery(function(){
+
+
     var $sliderup = jQuery(".client-slider-up");
     if ($sliderup.length > 0) {
         var $slidesup = $sliderup.children('.client-logo-slide');
@@ -18,6 +20,8 @@ jQuery(function(){
             speed: 2000, 
             pauseOnHover: false,
             pauseOnFocus: false, 
+            focusOnSelect: true,
+            accessibility: true,
             responsive: [
                 {
                   breakpoint: 767,
@@ -50,6 +54,8 @@ jQuery(function(){
             speed: 2000, 
             pauseOnHover: false,
             pauseOnFocus: false,    
+            focusOnSelect: false,
+            accessibility: true,
             responsive: [
                 {
                   breakpoint: 767,
@@ -63,3 +69,4 @@ jQuery(function(){
         });
     }
 });
+

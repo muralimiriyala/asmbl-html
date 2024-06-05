@@ -5,7 +5,7 @@
 <head>
     <!-- Meta -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="HTML, CSS, XML, PHP, JavaScript, jQuery">
     <meta name="description" content="The PWL Capital team can help you achieve your financial goals. ......">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -269,6 +269,7 @@
 <div class="home-banner-video background-bg">
     <video loop autoplay muted preload="none">
         <source src="videos/asmbl-backgroundvid.mp4" type="video/mp4">
+        <track src="captions.vtt" kind="captions" srclang="en" label="English">
         Your browser does not support the video tag.
     </video>
 </div>
@@ -494,7 +495,7 @@
                 </div>
                 <ul class="ai-tab-links flex">
                     <li>
-                        <a data-slide="1" href="javascript:void(0);" class="flex flex-vcenter">
+                        <a data-slide="1" href="javascript:void(0);" role="button" class="flex flex-vcenter">
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1905 27.4259C20.4634 27.4259 25.6771 22.8914 26.7326 16.9215C25.6771 10.9516 20.4634 6.41711 14.1905 6.41711C7.91772 6.41711 2.704 10.9516 1.64844 16.9215C2.704 22.8914 7.91772 27.4259 14.1905 27.4259ZM7.86384 13.997C7.10094 14.132 7.10094 15.2456 7.86384 15.3806C10.6277 15.8695 12.826 18.0102 13.4259 20.7969L13.4719 21.0105C13.6369 21.7772 14.7105 21.7819 14.8821 21.0167L14.938 20.7678C15.5601 17.9943 17.7589 15.8717 20.5151 15.3841C21.2819 15.2485 21.2819 14.1291 20.5151 13.9935C17.7589 13.5059 15.5601 11.3833 14.938 8.60978L14.8821 8.36086C14.7105 7.59565 13.6369 7.60041 13.4719 8.36712L13.4259 8.58072C12.826 11.3674 10.6277 13.5081 7.86384 13.997Z" fill="#F9662D" fill-opacity="0.4"/>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.3125 14.6885C0.3125 7.02441 6.52551 0.811401 14.1896 0.811401C21.8538 0.811401 28.0668 7.02441 28.0668 14.6885C28.0668 22.3527 21.8538 28.5657 14.1896 28.5657C6.52551 28.5657 0.3125 22.3527 0.3125 14.6885ZM14.1896 3.0914C7.78472 3.0914 2.5925 8.28362 2.5925 14.6885C2.5925 21.0935 7.78472 26.2857 14.1896 26.2857C20.5946 26.2857 25.7868 21.0935 25.7868 14.6885C25.7868 8.28362 20.5946 3.0914 14.1896 3.0914Z" fill="#1335AF"/>
@@ -513,7 +514,7 @@
                         </a>
                     </li>
                     <li>
-                        <a data-slide="2" href="javascript:void(0);" class="flex flex-vcenter">
+                        <a data-slide="2" href="javascript:void(0);" role="button" class="flex flex-vcenter">
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
                                 <path d="M9.75 29.3339L15.7584 28.9972L28.9201 15.7505C29.119 15.5532 29.277 15.3184 29.3848 15.0597C29.4398 14.9279 29.4811 14.7913 29.5084 14.6518L27.5574 12.6855C27.3598 12.4833 27.1237 12.3226 26.863 12.213C26.6024 12.1033 26.3224 12.0468 26.0396 12.0468C25.7568 12.0468 25.4768 12.1033 25.2161 12.213C24.9557 12.3226 24.7194 12.4833 24.5217 12.6855L9.83333 26.7505L9.75 29.3339Z" fill="#F9662D" fill-opacity="0.4"/>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M24.3254 10.5963C24.446 10.5456 24.5756 10.5195 24.7064 10.5195L24.3254 10.5963ZM23.4408 8.49493C23.8414 8.32636 24.2718 8.2395 24.7064 8.2395C25.141 8.2395 25.5714 8.32636 25.972 8.49493C26.3713 8.66293 26.733 8.90872 27.0362 9.21806L29.7267 11.9297C30.0307 12.2322 30.2721 12.5917 30.4372 12.9877C30.6031 13.3856 30.6882 13.8122 30.6882 14.2427C30.6882 14.6732 30.6031 15.0998 30.4372 15.4978C30.2721 15.8938 30.0305 16.2535 29.7263 16.5561L16.5673 29.8001C16.3772 29.9913 16.1256 30.1091 15.857 30.1323L9.48844 30.6843C9.15304 30.7133 8.82195 30.5927 8.5839 30.3546C8.34586 30.1166 8.22519 29.7855 8.25426 29.4501L8.80621 23.0815C8.82948 22.8129 8.9472 22.5613 9.13844 22.3713L22.3798 9.21477C22.6825 8.90679 23.0436 8.66218 23.4408 8.49493ZM24.7064 10.5195C24.8373 10.5195 24.967 10.5457 25.0877 10.5965L24.7064 10.5195ZM25.0877 10.5965C25.2084 10.6472 25.3176 10.7216 25.409 10.8151L25.0877 10.5965ZM24.3254 10.5963C24.2046 10.6473 24.0949 10.7218 24.0038 10.8151L23.9921 10.827L11.0416 23.6944L10.6429 28.2957L15.2442 27.8969L28.1173 14.9406C28.2095 14.8492 28.2827 14.7404 28.3327 14.6205C28.3825 14.501 28.4082 14.3727 28.4082 14.2427C28.4082 14.1128 28.3825 13.9844 28.3327 13.8649C28.2827 13.745 28.2095 13.6362 28.1174 13.5448L28.111 13.5384L25.409 10.8151" fill="white"/>
@@ -531,7 +532,7 @@
                         </a>
                     </li>
                     <li>
-                        <a data-slide="3" href="javascript:void(0);" class="flex flex-vcenter">
+                        <a data-slide="3" href="javascript:void(0);" role="button" class="flex flex-vcenter">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6893 12.9089C16.8301 13.1107 17.7874 14.0075 18.0528 15.2405L18.097 15.4459C19.0925 20.0702 25.6716 20.1119 26.7097 15.4832L26.7634 15.2438C27.0326 14.0438 27.9505 13.1645 29.0542 12.9306V25.303C29.0542 25.866 28.8304 26.4061 28.4324 26.8041C28.0344 27.2021 27.4943 27.4259 26.9313 27.4259H9.94846L1.92188 29.5488L7.25521 23.1799V6.19708C7.25521 5.63405 7.47887 5.0941 7.87697 4.69598C8.27509 4.29788 8.81504 4.07422 9.37806 4.07422L16.3159 4.07447C16.116 4.16046 15.906 4.22385 15.6893 4.26217C10.8653 5.11558 10.8654 12.0555 15.6893 12.9089Z" fill="#F9662D" fill-opacity="0.4"/>
                                 <path d="M1.66424 30.1518C1.36555 30.1518 1.0882 30.0238 0.874859 29.8105C0.618844 29.5331 0.512171 29.1064 0.640179 28.7438L2.70963 22.5141V5.61706C2.70963 4.76368 3.05099 3.95296 3.64836 3.35559C4.24572 2.75822 5.05644 2.41687 5.90982 2.41687H15.5104C16.1078 2.41687 16.5771 2.88623 16.5771 3.4836C16.5771 4.08097 16.1078 4.55033 15.5104 4.55033H5.93116C5.65381 4.55033 5.37646 4.657 5.18445 4.87035C4.99244 5.08369 4.86443 5.33971 4.86443 5.61706V22.6847C4.86443 22.7914 4.86443 22.9194 4.80042 23.0261L3.28567 27.5917L9.94206 25.9276C9.94206 25.9276 10.1127 25.9063 10.1981 25.9063H27.2657C27.5431 25.9063 27.8204 25.7996 28.0125 25.5862C28.2045 25.3729 28.3325 25.1169 28.3325 24.8395V13.1055C28.3325 12.5081 28.8018 12.0388 29.3992 12.0388C29.9966 12.0388 30.4659 12.5081 30.4659 13.1055V24.8395C30.4659 25.6929 30.1246 26.5036 29.5272 27.101C28.9298 27.6984 28.0978 28.0397 27.2657 28.0397H10.3261L1.92025 30.1518C1.92025 30.1518 1.74958 30.1732 1.66424 30.1732V30.1518Z" fill="white"/>
@@ -541,7 +542,7 @@
                         </a>
                     </li>
                     <li>
-                        <a data-slide="4" href="javascript:void(0);" class="flex flex-vcenter">
+                        <a data-slide="4" href="javascript:void(0);" role="button" class="flex flex-vcenter">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
                                 <path d="M28.5516 4.08553H20.2237C19.9966 4.06668 19.7655 4.15435 19.608 4.31904L3.21958 20.7075C3.06039 20.8669 2.93846 21.0565 2.85938 21.2629L9.67932 28.0828C9.97783 28.3811 10.3825 28.5484 10.8044 28.5484C11.2264 28.5484 11.631 28.3811 11.9295 28.0828L13.5783 26.4341C13.4853 26.1362 13.4232 25.8289 13.392 25.5184C10.4659 23.4973 11.0646 18.3206 15.1882 17.5911C16.3289 17.3893 17.2862 16.4925 17.5517 15.2595L17.5959 15.0541C18.5209 10.7572 24.2666 10.417 25.9086 14.1037L28.318 11.6944C28.4828 11.5369 28.5705 11.3058 28.5516 11.0787V4.08553Z" fill="#F9662D" fill-opacity="0.4"/>
                                 <path d="M22.086 9.4165C20.9812 9.4165 20.0859 8.5211 20.0859 7.4165C20.0859 6.31194 20.9812 5.4165 22.086 5.4165C23.1904 5.4165 24.0859 6.31194 24.0859 7.4165C24.0859 8.5211 23.1904 9.4165 22.086 9.4165Z" fill="white"/>
@@ -838,9 +839,9 @@
                         </svg>
                     </div>
                    <ul class="who-for-tabs flex">
-                       <li><a href="" class="radius-8" data-name="who-tab-1">By Industry</a></li>
-                       <li><a href="" class="radius-8" data-name="who-tab-2">By Use Case</a></li>
-                       <li><a href="" class="radius-8" data-name="who-tab-3">By Company Size</a></li>
+                       <li><a href="javascript:void(0);" role="button" class="radius-8" data-name="who-tab-1">By Industry</a></li>
+                       <li><a href="javascript:void(0);" role="button" class="radius-8" data-name="who-tab-2">By Use Case</a></li>
+                       <li><a href="javascript:void(0);" role="button" class="radius-8" data-name="who-tab-3">By Company Size</a></li>
                    </ul>
                </div>
             </div>
@@ -1248,8 +1249,17 @@
 <section class="digital-asset-section">
 <div class="container">
     <div class="digital-asset-main">
-        <div class="digital-asset-title">
-            <h2 class="h3">Learn about Digital Asset Management</h2>
+        <div class="digital-asset-head flex">
+            <div class="digital-asset-title">
+                <h2 class="h3">Learn about Digital Asset Management</h2>
+            </div>
+            <div class="digital-asset-link hide-mobile">
+                <a href="#" class="text-btn-link">All Resources<svg width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.592285 8.001C0.592285 7.52879 0.975081 7.146 1.44728 7.146H9.77657C10.2488 7.146 10.6316 7.52879 10.6316 8.001C10.6316 8.4732 10.2488 8.856 9.77657 8.856H1.44728C0.975081 8.856 0.592285 8.4732 0.592285 8.001Z" fill="#1335AF"></path>
+                    <path d="M14.5771 9.3916L9.77637 14.3695L9.78027 5.0791L14.5771 9.3916Z" fill="#F9662D" fill-opacity="0.4"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.44919 0.842452C9.76868 0.710114 10.1364 0.783264 10.381 1.02779L16.7495 7.39636C16.9099 7.55671 17 7.77418 17 8.00094C17 8.2277 16.9099 8.44517 16.7495 8.60552L10.381 14.9741C10.1364 15.2186 9.76868 15.2918 9.44919 15.1594C9.1297 15.0271 8.92139 14.7153 8.92139 14.3695V1.63237C8.92139 1.28655 9.1297 0.97479 9.44919 0.842452ZM10.6314 3.69652V12.3054L14.9358 8.00094L10.6314 3.69652Z" fill="#1335AF"></path>
+                  </svg></a>
+            </div>
         </div>
         <div class="digital-asset-row flex">
             <div class="digital-asset-list">
@@ -1581,9 +1591,9 @@
                     <li><a href="">Contact</a></li>
                 </ul>
                 <ul class="social-icons flex">
-                    <li><a class="flex flex-center radius-4" href="#" target="_blank" rel="noopener"><span class="fa-brands fa-linkedin-in"></span></a></li>
-                    <li><a class="flex flex-center radius-4" href="#" target="_blank" rel="noopener"><span class="fa-brands fa-facebook-f"></span></a></li>
-                    <li><a class="flex flex-center radius-4" href="#" target="_blank" rel="noopener"><span class="fa-brands fa-x-twitter"></span></a></li>
+                    <li><a class="flex flex-center radius-4" href="#" target="_blank" rel="noopener"><span class="fs-0">linkedin</span><span class="fa-brands fa-linkedin-in"></span></a></li>
+                    <li><a class="flex flex-center radius-4" href="#" target="_blank" rel="noopener"><span class="fs-0">facebook</span><span class="fa-brands fa-facebook-f"></span></a></li>
+                    <li><a class="flex flex-center radius-4" href="#" target="_blank" rel="noopener"><span class="fs-0">twitter</span><span class="fa-brands fa-x-twitter"></span></a></li>
                 </ul>
             </div>
             <div class="footer-bg relative">

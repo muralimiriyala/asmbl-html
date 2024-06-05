@@ -47,7 +47,7 @@ body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color:
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .newsletter-wrap{padding: 0 0 22px;}
     .newsletter-overlay{height: 50%;}
-    .newsletter-bg{background-image: url("./images/newsletter-mobile-bg.svg");}
+    .newsletter-bg{background-image: url("./images/newsletter-mobile-bg@2x.jpg");}
     .newsletter-main{display: block; padding: 32px 32px 23px;}
     .newsletter-text{padding: 0 20px 7px 0;}
     .newsletter-text h2{font-size: 24px; line-height: 30px;}
