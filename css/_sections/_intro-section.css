@@ -18,6 +18,7 @@
 }
 @media screen and (min-width: 1024px){
     .intro-main{padding: 80px 0 58px;}
+    body.page-template-solution-company-detail .intro-main{padding: 40px 0  58px;}
     body.page-template-solutions-industry-detail .intro-section:nth-child(2) .intro-main{padding: 40px 0 57px;}
     .other-benficial-section .intro-main{padding-bottom: 82px;}
     body.page-template-product-details .intro-main{padding: 39px 0 42px;}
@@ -29,6 +30,7 @@
     .intro-title{flex: 0 0 394px;}
     .intro-description{flex: 1; padding: 0 60px; border-left: 1px solid rgb(19 53 175 / 40%); border-right: 1px solid rgb(19 53 175 / 40%);}
 
+    body.page-template-solution-company-detail .intro-description {padding: 0 45px;}
     .intro-links{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .intro-list:hover .intro-links{opacity: 1; transform: translateY(0);}
 }

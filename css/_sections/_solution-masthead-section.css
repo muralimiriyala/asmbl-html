@@ -35,6 +35,7 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     .solution-masthead-bg{background-image: url('images/solution-masthead-bg@2x.jpg');}
 }
 @media screen and (min-width: 1024px){
+    body.page-template-solution-company-detail .solution-masthead-images {margin-top: 25px;}
     .solution-masthead-main.no_masthead_images{display: block; padding-bottom: 60px;}
     .no_masthead_images .solution-masthead-text{max-width: 100%;}
     .solution-masthead-main.no_masthead_text{justify-content: center;}
