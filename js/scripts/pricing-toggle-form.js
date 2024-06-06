@@ -1,13 +1,16 @@
 document.addEventListener("DOMContentLoaded", function(){
+    const form = document.querySelector(".pricing-toggle-form");
     const pswitch = document.querySelector(".pricing-switch input");
     const pricingitems = document.querySelectorAll(".pricing-data");
    pricingitems.forEach(function(pricingitem){
         let pricingvalue = pricingitem.getAttribute("data-value");
         pswitch.addEventListener("click", function(){
             if(pswitch.checked){
+                form.classList.remove("pricing-active");
                 pricingvalue==="yearly" ? pricingitem.style.display = "block" : pricingitem.style.display = "none";
             }
             else{
+                form.classList.add("pricing-active");
                 pricingvalue==="monthly" ? pricingitem.style.display = "block" : pricingitem.style.display = "none";
             }
         });
