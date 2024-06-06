@@ -100,7 +100,7 @@
     .xl-step-line::before{width: 100%; height: 0%; animation-name: xlineAnimVertical;}
     @keyframes xlineAnimVertical{ 0%{height: 0%;} 100%{height: 100%;} }
     .xl-step-4{height: calc(100% - 50px);}
-    .xl-step-4::after { width: 12px; height: 20px; left: -5px; bottom: -6px; top: auto; transform: rotate(90deg); }
+    .xl-step-list:last-child .xl-step-line::after { width: 12px; height: 20px; left: -5px; bottom: -6px; top: auto; transform: rotate(90deg); }
     .xl-step-text{flex: 1; font-size: 14px; line-height: 21px;}
     .xl-step-text h2{margin-bottom: 12px;}
     .xl-step-text p{margin-bottom: 12px; opacity: 0.9;}
