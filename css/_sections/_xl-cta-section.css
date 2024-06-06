@@ -1,6 +1,6 @@
 
 
-.xl-cta-main{padding: 48px 48px 46px; background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; }
+.xl-cta-main{padding: 43px 48px 46px; background: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); background-repeat: no-repeat; background-size: cover; }
 .xl-cta-text span.optional-text{margin-bottom: 14px;}
 
 .xl-cta-frame{transition: all 2s ease; left: 0; opacity: 0; border-radius: 4px; background: var(--White, #FFF); box-shadow: 8px 8px 12px 0px rgba(24, 42, 84, 0.25);}
@@ -34,9 +34,9 @@
 .xl-line-anim .xl-step-2::before{animation-delay: 3000ms;}
 .xl-line-anim .xl-step-3::before{animation-delay: 5000ms;}
 .xl-line-anim .xl-step-4::before{animation-delay: 7000ms;}
-.xl-step-4::after{opacity: 0; animation-name: xlineArrow; animation-play-state: paused; animation-fill-mode: forwards; animation-duration: 2s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); width: 12px; height: 20px; top: 50%; transform: translateY(-50%); right: 0; content: ""; display: block; background-image: url("images/triangle.svg"); background-repeat: no-repeat; background-size: contain; position: absolute; }
+.xl-step-list:last-child .xl-step-line::after{opacity: 0; animation-name: xlineArrow; animation-play-state: paused; animation-fill-mode: forwards; animation-duration: 2s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); width: 12px; height: 20px; top: 50%; transform: translateY(-50%); right: 0; content: ""; display: block; background-image: url("images/triangle.svg"); background-repeat: no-repeat; background-size: contain; position: absolute; }
 @keyframes xlineArrow{ 0%{opacity: 0;} 100%{opacity: 1;} }
-.xl-line-anim .xl-step-4::after{animation-delay: 8000ms; animation-play-state: running; }
+.xl-line-anim .xl-step-list:last-child .xl-step-line::after{animation-delay: 8000ms; animation-play-state: running; }
 /*-- anim --*/
 
 /* media css starts here */
@@ -44,9 +44,9 @@
     .xl-cta-wrap{padding: 0 0 78px;}
     .xl-cta-main{background-image: url('./images/xl-cta-micro@2x.jpg'); }
     .xl-cta-row{gap: 80px; margin-bottom: 39px; flex-direction: row-reverse;}
-    .xl-cta-text{flex: 1; max-width: 552px; padding-top: 22px; margin-right: auto;}
+    .xl-cta-text{flex: 1; max-width: 552px; margin-right: auto;}
     .xl-cta-btns{gap: 16px;}
-    .xl-cta-image{flex: 0 0 551px; max-width: 551px;}
+    .xl-cta-image{flex: 0 0 575px; max-width: 575px; margin-right: -19px;}
     .xl-step-row{gap: 32px;}
     .xl-step-list{flex: 0 0 calc(25% - 32px); flex-direction: column;}
     .xl-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; display: block; position: absolute; z-index: -1; }
@@ -54,7 +54,8 @@
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .xl-cta-row{gap: 32px;}
-    .xl-cta-text h2{font-size: 38px;}
+    .xl-cta-image{flex: 0 0 451px;}
+    .xl-cta-text h2{font-size: 32px; line-height: 40px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .xl-cta-wrap{padding: 0 0 78px;}
@@ -64,7 +65,7 @@
     .xl-cta-text h2{padding-top: 4px; font-size: 30px; line-height: 37px;}
 
     .xl-cta-btns{gap: 16px;}
-    .xl-cta-image{flex: 0 0 294px; max-width: 294px;}
+    .xl-cta-image{flex: 0 0 294px; max-width: 294px; margin-right: -19px;}
     .visible .xl-cta-frame-1 { top: -18px; left: -12px; }
     .visible .xl-cta-frame-2{top: 122px; left: 48px;}
     .visible .xl-cta-frame-3 { top: -18px; left: 104px; }
@@ -81,15 +82,15 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .xl-cta-wrap{padding: 0 0 22px;}
-    .xl-cta-main{padding: 42px 24px 24px; background-image: url("images/xl-cta-micro-mobile@2x.jpg");}
+    .xl-cta-main{padding: 20px 24px 24px; background-image: url("images/xl-cta-micro-mobile@2x.jpg");}
     .xl-cta-row{display: block;}
+    .xl-cta-image{margin-bottom: -4px;}
     .xl-cta-frame{left: -100%;}
     .xl-cta-frame-3, .xl-cta-frame-4{left: auto; right: -100%;}
     .visible .xl-cta-frame-1 { top: -18px; left: -12px; }
     .visible .xl-cta-frame-2{top: 122px; left: 48px;}
     .visible .xl-cta-frame-3 { top: -18px; left: auto; right: 62px; }
     .visible .xl-cta-frame-4 { top: 122px; right: 12px; left: auto; z-index: 0; }
-    .xl-cta-text{padding-top: 31px;}
     .xl-cta-text h2{padding-top: 4px; font-size: 24px; line-height: 30px;}
 
     .xl-step-row{display: block;}
@@ -99,7 +100,7 @@
     .xl-step-line::before{width: 100%; height: 0%; animation-name: xlineAnimVertical;}
     @keyframes xlineAnimVertical{ 0%{height: 0%;} 100%{height: 100%;} }
     .xl-step-4{height: calc(100% - 50px);}
-    .xl-step-4::after { width: 12px; height: 20px; left: -5px; bottom: -6px; top: auto; transform: rotate(90deg); }
+    .xl-step-list:last-child .xl-step-line::after { width: 12px; height: 20px; left: -5px; bottom: -6px; top: auto; transform: rotate(90deg); }
     .xl-step-text{flex: 1; font-size: 14px; line-height: 21px;}
     .xl-step-text h2{margin-bottom: 12px;}
     .xl-step-text p{margin-bottom: 12px; opacity: 0.9;}
