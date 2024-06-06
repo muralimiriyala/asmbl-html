@@ -34,9 +34,9 @@
 .xl-line-anim .xl-step-2::before{animation-delay: 3000ms;}
 .xl-line-anim .xl-step-3::before{animation-delay: 5000ms;}
 .xl-line-anim .xl-step-4::before{animation-delay: 7000ms;}
-.xl-step-4::after{opacity: 0; animation-name: xlineArrow; animation-play-state: paused; animation-fill-mode: forwards; animation-duration: 2s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); width: 12px; height: 20px; top: 50%; transform: translateY(-50%); right: 0; content: ""; display: block; background-image: url("images/triangle.svg"); background-repeat: no-repeat; background-size: contain; position: absolute; }
+.xl-step-list:last-child .xl-step-line::after{opacity: 0; animation-name: xlineArrow; animation-play-state: paused; animation-fill-mode: forwards; animation-duration: 2s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); width: 12px; height: 20px; top: 50%; transform: translateY(-50%); right: 0; content: ""; display: block; background-image: url("images/triangle.svg"); background-repeat: no-repeat; background-size: contain; position: absolute; }
 @keyframes xlineArrow{ 0%{opacity: 0;} 100%{opacity: 1;} }
-.xl-line-anim .xl-step-4::after{animation-delay: 8000ms; animation-play-state: running; }
+.xl-line-anim .xl-step-list:last-child .xl-step-line::after{animation-delay: 8000ms; animation-play-state: running; }
 /*-- anim --*/
 
 /* media css starts here */
