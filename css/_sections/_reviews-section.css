@@ -106,6 +106,7 @@
     .gray-bg .reviews-m-block svg path{fill: var(--Elevated);}
 
     body.home  .reviews-main {padding: 18px 0 40px;}
+    body.page-template-solution-company-detail .reviews-main{padding: 50px 0 40px;}
 }
 
 

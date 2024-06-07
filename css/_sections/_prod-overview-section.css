@@ -18,7 +18,8 @@
 @media screen and (min-width: 1024px){
     body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 8px 0 0122px;}
     body.page-template-solution-company-detail .prod-overview-wrap{padding-bottom: 122px;}
-    body.page-template-marketing .prod-overview-wrap{padding: 23px 0 122px;}
+    body.page-template-marketing .prod-overview-wrap{padding: 40px 0 122px;}
+    body.page-template-marketing .prod-overview-text { padding-top: 12px; }
     body.page-template-product section.gray-bg .prod-overview-wrap{padding: 28px 0 0;}
     body.page-template-product section.gray-bg .prod-overview-main{padding-bottom: 80px;}
     body.page-template-product section.white-bg .prod-overview-main{padding-bottom: 40px;}
@@ -93,13 +94,12 @@
     body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 57px 0 0;}
     body.page-template-solutions-industry-detail .prod-tabs-main{padding: 0 0 40px;}
 
-    body.page-template-solution-company-detail .prod-overview-wrap{padding: 57px 0 0;}
+    body.page-template-solution-company-detail .prod-overview-wrap{padding: 62px 0 0;}
     body.page-template-solution-company-detail .prod-tabs-main{padding: 0 0 40px;}
 
     .prod-overview-wrap{padding: 40px 0 40px;}
     .prod-overview-main{display: none;}
     .prod-tabs-main{padding: 0 0 48px;}
-
 
     .prod-tabs-desc h2{margin-bottom: 0; text-align: center;}
     ul.prod-tab-links{margin: 0; gap: 4px;}
