@@ -26,6 +26,7 @@
     .simple-intro-link{width: fit-content;}
     .simple-intro-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .simple-intro-list:hover .simple-intro-btn{opacity: 1; transform: translateY(0);}
+    body.page-template-marketing .simple-intro-main{padding:  80px 0 0;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .simple-intro-row{gap: 32px;}

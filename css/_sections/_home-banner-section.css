@@ -124,6 +124,8 @@
     .home-thumb-8{top: 220px; left: 230px; width: 100.7px; height: 111.64px;}
     .home-thumb-8 img{border-radius: 3px 3px 0 0;}
 
+    body.page-template-marketing .home-banner-main{padding: 115px 0 40px;}
+
     .home-banner-thumb:first-child::before { width: 26px; height: 26px; top: 28px; left: 42px; }
     @keyframes home-anim-1{ from{top: 28px; left: 42px; } to { top: 0; left: 0; opacity: 0; } }
 
