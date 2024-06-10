@@ -54,4 +54,5 @@ ul.marketing-plan-order li::before{display: none;}
     .marketing-plan-title h1{margin-bottom: 24px; font-size: 32px; line-height: 40px;}
     .marketing-plan-row{display: block;}
     .marketing-plan-list:not(:last-child){margin-bottom: 24px;}
+    body.page-template-marketing  .marketing-i-left p{margin-bottom: 8px;}
 }

@@ -28,7 +28,7 @@ ul.demo-options > li span{flex: 1; gap: 8px;}
     .demo-text{margin-bottom: 41px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
-    body.page-template-marketing .demo-main{padding: 40px 0 40px;}
+    body.page-template-marketing .demo-main{padding: 40px 0 28px;}
     .demo-main{padding: 118px 0 73px; display: block;} 
     .demo-text{margin-bottom: 41px;}
     .demo-text h2{margin-bottom: 24px; font-size: 32px; line-height: 40px;}

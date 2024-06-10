@@ -45,6 +45,7 @@
     .trust-by-logos{gap: 14px 24px;}
     .trust-by-logo{flex: 0 0 calc(33.3333% - 16px);}
     .trust-by-desc{font-size: 14px; line-height: 21px;}
+    body.page-template-marketing .trust-by-main {padding: 0 0 28px;}
 }
 
 
