@@ -46,5 +46,5 @@
     .more-link-card span.h4{padding-left: 4px; margin-top: -2px;}
 }
 @media only screen and (max-width: 369px) and (min-width: 200px){
-    .more-link-card span.h4{font-size: 20px; line-height: 24px;}
+    .more-link-card span.h4{font-size: 1.25rem; line-height: 1.5rem;}
 }

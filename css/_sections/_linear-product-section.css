@@ -6,7 +6,7 @@ nav.spy-nav{ overflow-x: scroll; overflow-y: visible; scrollbar-width: none; hei
 ul.linear-links{margin: 0; gap: 10px; height: 52px; min-width: max-content;}
 ul.linear-links li{margin: 0;}
 ul.linear-links li::before{display: none;}
-ul.linear-links li a{padding: 12px; color: var(--Navy, #182A54); font-size: 16px; font-weight: 600; line-height: 24px; border-radius: 8px; border: 2px solid var(--Elevated, #F0F2FA); display: block;}
+ul.linear-links li a{padding: 12px; color: var(--Navy, #182A54); font-size: 1rem; font-weight: 600; line-height: 1.5rem; border-radius: 8px; border: 2px solid var(--Elevated, #F0F2FA); display: block;}
 ul.linear-links li a.active{color: var(--Blue); background: var(--Elevated, #F0F2FA);}
 
 nav.spy-nav::after, nav.spy-nav::before{content: ""; display: block; width: 52px; height: 100%; top: 0; background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); position: absolute; z-index: 1;}
@@ -40,7 +40,7 @@ nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(
     .linear-prod-main{padding: 60px 0;}
     .linear-prod-head{display: block;}
     .linear-prod-title{margin-bottom: 30px;}
-    .linear-prod-title h2{font-size: 40px; line-height: 50px;}
+    .linear-prod-title h2{font-size: 2.5rem; line-height: 3.125rem;}
     .linear-prod-description{padding: 31px 0 30px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}
     nav.spy-nav{width: calc(100% + 40px);}
     ul.linear-links{justify-content: flex-start;}
@@ -57,7 +57,7 @@ nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(
     .linear-prod-main{padding: 40px 0 0;}
     .linear-prod-head{display: block;}
     .linear-prod-title{margin-bottom: 30px;}
-    .linear-prod-title h2{font-size: 40px; line-height: 50px;}
+    .linear-prod-title h2{font-size: 2.5rem; line-height: 3.125rem;}
     .linear-prod-description{padding: 31px 0 30px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}
     nav.spy-nav{width: calc(100% + 24px);}
     ul.linear-links{justify-content: flex-start;}

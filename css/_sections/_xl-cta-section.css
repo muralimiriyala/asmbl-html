@@ -21,7 +21,7 @@
 .xl-upload-btn a:hover svg{animation: scrollDown 1s forwards ease-in-out;}
 .xl-upload-desc p{opacity: 0.6;}
 
-.xl-step-num{width: 64px; height: 64px; color: var(--Orange, #F9662D); font-family: "arboria", sans-serif; font-size: 48px; font-weight: 700; line-height: 60px;}
+.xl-step-num{width: 64px; height: 64px; color: var(--Orange, #F9662D); font-family: "arboria", sans-serif; font-size: 3rem; font-weight: 700; line-height: 3.75rem;}
 .xl-step-num span{top: -4px; left: 0px; position: relative;}
 .xl-step-text h2{margin-bottom: 13px;}
 .xl-step-text p{margin-bottom: 19px;}
@@ -55,14 +55,14 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .xl-cta-row{gap: 32px;}
     .xl-cta-image{flex: 0 0 451px;}
-    .xl-cta-text h2{font-size: 32px; line-height: 40px;}
+    .xl-cta-text h2{font-size: 2rem; line-height: 2.5rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .xl-cta-wrap{padding: 0 0 78px;}
     .xl-cta-main{padding: 50px 32px 32px; background-image: url('./images/xl-cta-micro-ipad@2x.jpg'); }
     .xl-cta-row{gap: 24px; margin-bottom: 39px; flex-direction: row-reverse;}
     .xl-cta-text{flex: 1; max-width: 552px; padding-top: 22px;}
-    .xl-cta-text h2{padding-top: 4px; font-size: 30px; line-height: 37px;}
+    .xl-cta-text h2{padding-top: 4px; font-size: 1.875rem; line-height: 37px;}
 
     .xl-cta-btns{gap: 16px;}
     .xl-cta-image{flex: 0 0 294px; max-width: 294px; margin-right: -19px;}
@@ -77,8 +77,8 @@
     .xl-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; position: absolute; z-index: -1; }
     .xl-step-line.xl-step-4{width: calc(100% - 64px);}
     .xl-step-num{margin-bottom: 19px;}
-    .xl-step-text{font-size: 14px; line-height: 21px;}
-    .xl-step-text h2{font-size: 20px; line-height: 25px;}
+    .xl-step-text{font-size: 0.875rem; line-height: 1.313rem;}
+    .xl-step-text h2{font-size: 1.25rem; line-height: 1.563rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .xl-cta-wrap{padding: 0 0 22px;}
@@ -91,7 +91,7 @@
     .visible .xl-cta-frame-2{top: 122px; left: 48px;}
     .visible .xl-cta-frame-3 { top: -18px; left: auto; right: 62px; }
     .visible .xl-cta-frame-4 { top: 122px; right: 12px; left: auto; z-index: 0; }
-    .xl-cta-text h2{padding-top: 4px; font-size: 24px; line-height: 30px;}
+    .xl-cta-text h2{padding-top: 4px; font-size: 1.5rem; line-height: 1.875rem;}
 
     .xl-step-row{display: block;}
     .xl-step-list{gap: 20px; margin-bottom: 20px;}
@@ -101,7 +101,7 @@
     @keyframes xlineAnimVertical{ 0%{height: 0%;} 100%{height: 100%;} }
     .xl-step-4{height: calc(100% - 50px);}
     .xl-step-list:last-child .xl-step-line::after { width: 12px; height: 20px; left: -5px; bottom: -6px; top: auto; transform: rotate(90deg); }
-    .xl-step-text{flex: 1; font-size: 14px; line-height: 21px;}
+    .xl-step-text{flex: 1; font-size: 0.875rem; line-height: 1.313rem;}
     .xl-step-text h2{margin-bottom: 12px;}
     .xl-step-text p{margin-bottom: 12px; opacity: 0.9;}
 

@@ -27,11 +27,11 @@
     .cta-micro-main{gap: 24px; padding: 24px 16px 25px 32px; flex-direction: row-reverse;}
     .cta-micro-text{flex: 1;}
     .cta-micro-image{flex: 0 0 310px;}
-    .cta-micro-text span.h3{font-size: 30px; line-height: 37px;}
+    .cta-micro-text span.h3{font-size: 1.875rem; line-height: 37px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){    
     .cta-micro-main{padding: 21px 24px 23px; margin-bottom: 4px; display: block;}
     .cta-micro-bg{background-image: url('./images/cta-micro-bg-mobile@2x.jpg');}
     .cta-micro-image{margin-bottom: -3px; left: -16px; width: calc(100% + 32px); position: relative;}
-    .cta-micro-text span.h3{font-size: 24px; line-height: 30px;}
+    .cta-micro-text span.h3{font-size: 1.5rem; line-height: 1.875rem;}
 }

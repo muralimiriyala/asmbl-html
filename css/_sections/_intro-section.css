@@ -50,7 +50,7 @@
     .intro-main{padding: 40px 0;}
     .intro-head{display: block; margin-bottom: 47px;}
     .intro-title{margin-bottom: 39px;}
-    .intro-title h2{font-size: 40px; line-height: 50px;}
+    .intro-title h2{font-size: 2.5rem; line-height: 3.125rem;}
     .intro-description{padding: 40px 0 39px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}
     .intro-row{display: block;}
     .intro-list:not(:last-child){margin-bottom: 17px;}

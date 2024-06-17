@@ -5,7 +5,7 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
 .in-detail-icon{width: 38px; margin-bottom: 11px;}
 .in-detail-icon svg{max-width: 38px; height: auto;}
 
-.in-detail-text{font-size: 20px; line-height: 28px;}
+.in-detail-text{font-size: 1.25rem; line-height: 1.75rem;}
 .in-detail-text span.optional-text{margin-bottom: 24px;}
 .in-detail-text h1{margin-bottom: 24px; color: var(--Navy);}
 .in-detail-text hr{margin-bottom: 23px;}
@@ -48,7 +48,7 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
     figure.in-detail-logo{width: 80px; height: 80px;}
     figure.in-detail-logo img{object-fit: contain;}
     .in-detail-savings{flex:1; margin-left: auto;}
-    .in-detail-savings h2{font-size: 16px; line-height: 20px;}
+    .in-detail-savings h2{font-size: 1rem; line-height: 1.25rem;}
     .in-detail-savings-desc{padding: 19px 20px;}
     .in-detail-icon{width: 24px; margin-bottom: 9px;}
     .in-detail-icon svg{max-width: 24px;}
@@ -56,9 +56,9 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
     .in-detail-rectangle svg{width: 44px;}
     .in-detail-arrow{top: calc(50% + 5px); transform: translateY(-50%); left: -36px;}
     .in-detail-arrow svg{width: 39px;}
-    .in-detail-text{font-size: 16px; line-height: 24px;}
+    .in-detail-text{font-size: 1rem; line-height: 1.5rem;}
     .in-detail-text span.optional-text{margin-bottom: 20px;}
-    .in-detail-text h1{margin-bottom: 19px; font-size: 32px; line-height: 40px;}
+    .in-detail-text h1{margin-bottom: 19px; font-size: 2rem; line-height: 2.5rem;}
     .in-detail-text hr{margin-bottom: 19px;}
     .masthead-btns{padding-top: 1px;}
 }

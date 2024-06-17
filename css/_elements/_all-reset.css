@@ -9,11 +9,11 @@ a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Orange);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Blue); font-weight: 700; font-family: "arboria", sans-serif; text-transform: none;}
-.h1, h1{font-size: 48px; line-height: 60px; margin-bottom: 33px;}
-.h2, h2{font-size: 40px; line-height: 50px; margin-bottom: 30px;}
-.h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 23px;}
-.h4, h4{font-size: 24px; line-height: 30px; margin-bottom: 25px;}
-.h5, h5{font-size: 20px; line-height: 25px; margin-bottom: 12px;}
+.h1, h1{font-size: 3rem; line-height: 3.75rem; margin-bottom: 33px;}
+.h2, h2{font-size: 2.5rem; line-height: 3.125rem; margin-bottom: 30px;}
+.h3, h3{font-size: 2rem; line-height: 2.5rem; margin-bottom: 23px;}
+.h4, h4{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 25px;}
+.h5, h5{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 12px;}
 .h6, h6{font-size: 1.125rem; line-height: 1.375rem; margin-bottom: 14px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Blue);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Navy);}
@@ -26,7 +26,7 @@ p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q{-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
-blockquote{padding: 32px; margin: 48px 0 17px; background: var(--Background, #F0F2FA); color: var(--Blue); font-size: 20px; line-height: 36px; font-weight: 500; font-family: "arboria", sans-serif; font-style: normal; position: relative; }
+blockquote{padding: 32px; margin: 48px 0 17px; background: var(--Background, #F0F2FA); color: var(--Blue); font-size: 1.25rem; line-height: 2.25rem; font-weight: 500; font-family: "arboria", sans-serif; font-style: normal; position: relative; }
 blockquote p::before{content: "“";}
 blockquote p::after{content: "”";}
 blockquote cite, blockquote small {font-size: 1rem;}
@@ -47,7 +47,7 @@ ul > li:before{top: 10px; left: -21px; width: 8px; height: 8px; border-radius: 5
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 31px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ol > li:before{color: var(--Orange); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -24px; position: absolute; font-weight: 700; font-size: 18px; line-height: 27px;}
+ol > li:before{color: var(--Orange); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -24px; position: absolute; font-weight: 700; font-size: 1.125rem; line-height: 1.688rem;}
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}
@@ -59,7 +59,7 @@ table {margin: 52px 0 49px; border-collapse: separate; border-spacing: 0; border
 table tr td:first-child {text-align: left;}
 th {border-width: 0; padding: 11px 16px 12px; background-color: var(--Blue); color: var(--White); border-radius: 0; font-family: "arboria", sans-serif; font-weight: 700;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
-td {border-width: 0; padding: 13px 15px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 16px; line-height: 24px;}
+td {border-width: 0; padding: 13px 15px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1rem; line-height: 1.5rem;}
 table tr:nth-child(odd) td{background-color: rgba(0,0,0, 0.02);}
 table tr:last-child td{border-bottom: none;}
 th:first-child{border-radius: 8px 0 0 0}
@@ -74,7 +74,7 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 ::-moz-selection {background-color: var(--Foreground); color: var( --White);}
 
 /* Buttons */
-.button, button, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{padding: 8px 12px 8px 12px; font-size: 16px; font-weight: 600; line-height: 24px; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 4px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
+.button, button, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{padding: 8px 12px 8px 12px; font-size: 1rem; font-weight: 600; line-height: 1.5rem; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 4px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
 .button:hover, button:hover, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit:hover, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit:hover{ background: var(--Orange); color: var( --White); }
 .button.gray{border-radius: 4px; background: var(--Blue-Tint, #D9DFF2); color: var(--Blue, #1335AF);}
 .button.gray:hover{background-color: var(--Blue); color: var(--White);}
@@ -101,7 +101,7 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .button.transparent::after, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit::after{top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(287deg,#f9662d,#fec74d, #ffdc54 150%) border-box; opacity: 0; }
 .button.transparent:hover::after, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit:hover::after{opacity: 1;}
 
-.text-btn-link{color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 600; line-height: 24px; display: inline-flex; align-items: center;}
+.text-btn-link{color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.5rem; display: inline-flex; align-items: center;}
 .text-btn-link svg{top: 1px; margin-left: 5px; position: relative;}
 .text-btn-link:hover{color: var(--Blue, #1335AF);}
 .text-btn-link:hover svg {animation: scrollRight 1s forwards ease-in-out; }
@@ -111,7 +111,7 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .text-btn-link.white:hover{color: var(--White);}
 .inverted .text-btn-link{color: var(--White);}
 
-.text-btn-link.lg{font-size: 24px; line-height: 30px; font-family: "arboria", sans-serif;}
+.text-btn-link.lg{font-size: 1.5rem; line-height: 1.875rem; font-family: "arboria", sans-serif;}
 
 .text-btn-link.back svg{margin-right: 5px; margin-left: auto;}
 .text-btn-link.back:hover svg {animation: scrollLeft 1s forwards ease-in-out; }
@@ -153,14 +153,14 @@ img.aligncenter{margin: 25px auto; clear: both;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 18px; line-height: 27px; font-weight: 400; font-family: "Noto Sans", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
+body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: "Noto Sans", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 9px; font-size: 18px; line-height: 22px; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; /* background-image: linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%);  */ background-image: linear-gradient(to top, #F9662D -50%, #FEC74D 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+span.optional-text{margin-bottom: 9px; font-size: 1.125rem; line-height: 1.375rem; font-weight: 700; display: block; text-transform: none;  font-family: "arboria", sans-serif; /* background-image: linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%);  */ background-image: linear-gradient(to top, #F9662D -50%, #FEC74D 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.white{color: var(--White);-webkit-text-fill-color: var(--White); opacity: 0.6; background: none; margin-bottom: 4px;}
-span.optional-text.large{font-size: 24px; line-height: 30px; margin-bottom: 23px;}
-span.optional-text.md{font-size: 20px; line-height: 25px; margin-bottom: 22px;}
-.optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue, #1335AF); font-size: 16px; font-weight: 600; line-height: 20px;}
+span.optional-text.large{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 23px;}
+span.optional-text.md{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 22px;}
+.optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue, #1335AF); font-size: 1rem; font-weight: 600; line-height: 1.25rem;}
 .optional-blue svg{left: 0; position: absolute;}
 .optional-blue span{opacity: 0.6; padding-top: 5px; display: block;}
 .optional-blue.no_svg{padding-left: 0;}
@@ -172,13 +172,13 @@ span.optional-text.md{font-size: 20px; line-height: 25px; margin-bottom: 22px;}
 .f-800{font-weight: 800;}
 
 .fs-0{font-size: 0; line-height: 0;}
-.fs-12{font-size: 12px; line-height: 20px;}
-.fs-14{font-size: 14px; line-height: 21px;}
-.fs-15{font-size: 15px; line-height: 22px;}
-.fs-16{font-size: 16px; line-height: 24px;}
-.fs-18{font-size: 18px; line-height: 27px;}
-.fs-20{font-size: 20px; line-height: 30px;}
-.fs-24{font-size: 24px; line-height: 36px;}
+.fs-12{font-size: 0.75rem; line-height: 1.25rem;}
+.fs-14{font-size: 0.875rem; line-height: 1.313rem;}
+.fs-15{font-size: 0.938rem; line-height: 1.375rem;}
+.fs-16{font-size: 1rem; line-height: 1.5rem;}
+.fs-18{font-size: 1.125rem; line-height: 1.688rem;}
+.fs-20{font-size: 1.25rem; line-height: 1.875rem;}
+.fs-24{font-size: 1.5rem; line-height: 2.25rem;}
 .radius-4, .radius-img-4 img{border-radius: 4px;}
 .radius-6, .radius-img-6 img{border-radius: 6px;}
 .radius-8, .radius-img-8 img{border-radius: 8px;}
@@ -302,8 +302,8 @@ ul.slick-dots li button{display: none;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
 
-    .h1, h1{font-size: 40px; line-height: 50px;}
-    .h2, h2{font-size: 32px; line-height: 40px;}/*-- some places h3 as 32px so i cant reduce in mobile --*/
+    .h1, h1{font-size: 2.5rem; line-height: 3.125rem;}
+    .h2, h2{font-size: 2rem; line-height: 2.5rem;}/*-- some places h3 as 32px so i cant reduce in mobile --*/
 
     span.optional-text.md{margin-bottom: 6px;}
 
@@ -317,7 +317,7 @@ ul.slick-dots li button{display: none;}
 
     body.home{bottom: -50px}
 
-    blockquote{margin: 32px 0 16px; padding: 24px; font-size: 20px; line-height: 32px;}
+    blockquote{margin: 32px 0 16px; padding: 24px; font-size: 1.25rem; line-height: 2rem;}
 
     img.alignnone, img.alignleft, img.alignright, img.aligncenter{margin: 25px auto; clear: both; float: none; display: block;}
 }

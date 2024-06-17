@@ -6,7 +6,7 @@ button.__sl-close-btn::after {
 	left: 50%;
 	top: 50%;
 	content: "\f00d";
-	font-size: 28px;
+	font-size: 1.75rem;
 	line-height: 34px;
 	color: transparent;
 	transform: translate(-50%,-50%);

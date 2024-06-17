@@ -1,6 +1,6 @@
 
 .repeater-desc h2{color: var(--Navy, #182A54);}
-.repeater-desc ul{font-size: 16px; line-height: 24px;}
+.repeater-desc ul{font-size: 1rem; line-height: 1.5rem;}
 .repeater-link{padding-top: 3px;}
 
 
@@ -58,12 +58,12 @@
     .repeater-desc hr{margin-bottom: 22px}
     .repeater-desc ul{padding: 5px 0 3px;}
     .repeater-desc{margin-bottom: 0;}
-    .repeater-desc h2{font-size: 24px; line-height: 30px;}
-    .repeater-desc h2.h1{margin-bottom: 22px; font-size: 30px; line-height: 40px;}
+    .repeater-desc h2{font-size: 1.5rem; line-height: 1.875rem;}
+    .repeater-desc h2.h1{margin-bottom: 22px; font-size: 1.875rem; line-height: 2.5rem;}
 
     body.single-integration .repeater-row:first-child{padding: 0; display: flex; flex-direction: column-reverse;}
     body.single-integration .repeater-row:first-child .repeater-image{margin: 0; padding: 0; width: 100%; position: static;}
-    body.single-integration .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
+    body.single-integration .repeater-row:first-child .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
 
     body.single-integration .repeater-main{padding: 60px 0 38px;}
     body.single-integration .repeater-desc hr{margin-bottom: 22px}
@@ -81,25 +81,25 @@
     .repeater-desc ul{padding: 5px 0 3px; margin-bottom: 16px;}
     .repeater-row:nth-child(even):not(:first-child) .repeater-image{width: calc(100% + 24px); left: -24px; position: relative;}
     .repeater-desc{margin-bottom: 0;}
-    .repeater-desc h2{font-size: 24px; line-height: 30px;}
-    .repeater-desc h2.h1{margin-bottom: 22px; font-size: 30px; line-height: 40px;}
+    .repeater-desc h2{font-size: 1.5rem; line-height: 1.875rem;}
+    .repeater-desc h2.h1{margin-bottom: 22px; font-size: 1.875rem; line-height: 2.5rem;}
     .repeater-row:nth-child(odd) .repeater-image{width: calc(100% + 24px); right: 0; position: relative;}
     
 
-    body.page-template-product .repeater-desc h2.h1{font-size: 40px; line-height: 50px;} 
+    body.page-template-product .repeater-desc h2.h1{font-size: 2.5rem; line-height: 3.125rem;} 
 
-    body.page-template-product-details .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
+    body.page-template-product-details .repeater-row:first-child .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
 
     body.home .repeater-main{padding: 0 0 8px;}
     /*-- 02 - Product Landing page --*/
     body.page-template-product .repeater-main{padding: 0 0 40px;}
     /*-- 02 - Product Landing page --*/
     body.page-template-story .repeater-main{padding-top: 0;}
-    body.page-template-story .repeater-desc h2.h1{font-size: 40px; line-height: 50px;}
+    body.page-template-story .repeater-desc h2.h1{font-size: 2.5rem; line-height: 3.125rem;}
 
     body.single-integration .repeater-row:first-child{padding: 0; display: flex; flex-direction: column-reverse;}
     body.single-integration .repeater-row:first-child .repeater-image{padding-top: 47px; margin: 0; width: 100%; position: static;}
-    body.single-integration .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
+    body.single-integration .repeater-row:first-child .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
 
     body.single-integration .repeater-main{padding: 40px 0 8px;}
     body.single-integration .repeater-desc hr{margin-bottom: 22px}
@@ -110,16 +110,16 @@
     body.single-integration .repeater-row:nth-child(3){padding-top: 10px;}
     body.single-integration .repeater-row:nth-child(3) .repeater-image{padding-top: 0; padding-bottom: 30px;}
 
-    body.page-template-solutions-usecase-detail .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
+    body.page-template-solutions-usecase-detail .repeater-row:first-child .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
     body.page-template-solutions-usecase-detail .repeater-row:first-child .repeater-desc hr{margin-bottom: 24px;}
 
     body.page-template-solution-company-detail .repeater-main{padding: 0 0 42px;}
-    body.page-template-solution-company-detail .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
+    body.page-template-solution-company-detail .repeater-row:first-child .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
     body.page-template-solution-company-detail .repeater-row:first-child .repeater-desc hr{margin-bottom: 24px;}
 
 
     body.page-template-solutions-industry-detail .repeater-main{padding: 0 0 41px;}
-    body.page-template-solutions-industry-detail .repeater-row:first-child .repeater-desc h2{font-size: 32px; line-height: 40px;}
+    body.page-template-solutions-industry-detail .repeater-row:first-child .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
     body.page-template-solutions-industry-detail .repeater-row:first-child .repeater-desc hr{margin-bottom: 24px;}
 }
 

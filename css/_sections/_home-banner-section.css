@@ -65,7 +65,7 @@
     .home-banner-main{padding: 123px 0 56px; align-items: center;}
     .home-banner-images{flex: 0 0 510px; height: 458px; right: -40px;}
     .home-banner-text{flex: 0 0 calc(100% - 510px);}
-    .home-banner-text h1{font-size: 40px; line-height: 50px;}
+    .home-banner-text h1{font-size: 2.5rem; line-height: 3.125rem;}
     .home-banner-text h1 br{display: none;}
     
     .home-banner-thumb img{object-fit: cover; border-radius: 3px;}
@@ -106,8 +106,8 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .home-banner-main{padding: 80px 0 40px; display: block;}
     .home-banner-images{height: 342px;}
-    .home-banner-text{font-size: 16px; line-height: 24px;}
-    .home-banner-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
+    .home-banner-text{font-size: 1rem; line-height: 1.5rem;}
+    .home-banner-text h1{margin-bottom: 20px; font-size: 2rem; line-height: 2.5rem;}
     .home-banner-text hr{margin-bottom: 20px;}
     .home-banner-text p{margin-bottom: 20px;}
     .home-banner-btns{gap: 15px;}

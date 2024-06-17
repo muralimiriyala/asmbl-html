@@ -1,6 +1,6 @@
 
 select.selectBox{display: none;}
-body .selectBox-dropdown{padding: 12px 34px 14px 14px; width: 100%; font-size: 14px; line-height: 20px; font-weight: 700; height: auto; border: 1px solid var(--Blue-Tint,#d9dff2); background: var(--Elevated, #F0F2FA); border-radius: 8px; color: var(--Blue); font-family: "arboria", sans-serif; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+body .selectBox-dropdown{padding: 12px 34px 14px 14px; width: 100%; font-size: 0.875rem; line-height: 1.25rem; font-weight: 700; height: auto; border: 1px solid var(--Blue-Tint,#d9dff2); background: var(--Elevated, #F0F2FA); border-radius: 8px; color: var(--Blue); font-family: "arboria", sans-serif; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 body .selectBox-dropdown span.selectBox-label{display: block;}
 body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 8px 8px 0 0;}
@@ -14,7 +14,7 @@ ul.selectBox-dropdown-menu li.selectBox-disabled{display: none;}
 ul.selectBox-dropdown-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal;}
 ul.selectBox-dropdown-menu li::before{display: none;}
 ul.selectBox-dropdown-menu li.frm-select-placeholder{display: none;}
-ul.selectBox-dropdown-menu li a{padding: 8px 16px; width: 100%; color: var(--Foreground); cursor: pointer; font-size: 14px; line-height: 1.5; font-weight: 500; display: block; text-transform: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+ul.selectBox-dropdown-menu li a{padding: 8px 16px; width: 100%; color: var(--Foreground); cursor: pointer; font-size: 0.875rem; line-height: 1.5; font-weight: 500; display: block; text-transform: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
 ul.selectBox-dropdown-menu li:hover a{color: var(--Blue); background-color: transparent;}
 ul.selectBox-dropdown-menu li:hover{background-color: transparent; }
 body.page-template-faq ul.selectBox-dropdown-menu{border: 1px solid var(--Blue-Tint,#d9dff2); border-top: none;}

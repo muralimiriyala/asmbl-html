@@ -4,7 +4,7 @@
 .newsletter-bg{background-size: cover; background-repeat: no-repeat; background-position: center top;}
 .newsletter-field-wrap{clear: both;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 0;}
-body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 19px 60px 19px 20px; font-size: 16px; line-height: 24px; font-weight: 700; background-color: var(--White); color: var(--Foreground, #313031);}
+body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 19px 60px 19px 20px; font-size: 1rem; line-height: 1.5rem; font-weight: 700; background-color: var(--White); color: var(--Foreground, #313031);}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder{color: var(--Foreground); font-family: "Noto Sans", sans-serif;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder{color: var(--Foreground); font-family: "Noto Sans", sans-serif; opacity: 1;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{color: var(--Foreground); font-family: "Noto Sans", sans-serif; opacity: 1;}
@@ -50,7 +50,7 @@ body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color:
     .newsletter-bg{background-image: url("./images/newsletter-mobile-bg@2x.jpg");}
     .newsletter-main{display: block; padding: 32px 32px 23px;}
     .newsletter-text{padding: 0 20px 7px 0;}
-    .newsletter-text h2{font-size: 24px; line-height: 30px;}
+    .newsletter-text h2{font-size: 1.5rem; line-height: 1.875rem;}
     body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 19px 19px;}
     body .newsletter-signup .frm_forms .frm_form_fields .frm_submit{top: 13px;}
 }

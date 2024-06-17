@@ -65,7 +65,7 @@
     .default-masthead-main{align-items: center;}
     .default-masthead-images{flex: 0 0 510px; right: -40px;}
     .default-masthead-text{flex: 0 0 calc(100% - 510px);}
-    .default-masthead-text h1{font-size: 40px; line-height: 50px;}
+    .default-masthead-text h1{font-size: 2.5rem; line-height: 3.125rem;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .default-masthead-main{padding: 80px 0 54px; display: block;} 
@@ -88,8 +88,8 @@
 
     .default-masthead-main{padding: 80px 0 40px; display: block;}
     .default-masthead-images{height: 272px;}
-    .default-masthead-text{font-size: 16px; line-height: 24px;}
-    .default-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
+    .default-masthead-text{font-size: 1rem; line-height: 1.5rem;}
+    .default-masthead-text h1{margin-bottom: 20px; font-size: 2rem; line-height: 2.5rem;}
     .default-masthead-text hr{margin-bottom: 20px;}
     .default-masthead-text p{margin-bottom: 20px;}
     .default-masthead-btns{gap: 15px;}

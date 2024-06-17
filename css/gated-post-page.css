@@ -1,7 +1,7 @@
 
 
 .gated-post-article h1{margin-bottom: 25px;}
-.gated-post-article p span { color: var(--Navy,#182a54); font-size: 24px; font-weight: 400; line-height: 36px; }
+.gated-post-article p span { color: var(--Navy,#182a54); font-size: 1.5rem; font-weight: 400; line-height: 2.25rem; }
 .gated-post-article h3{margin-bottom: 18px;}
 .gated-post-article br{display: none;}
 
@@ -15,7 +15,7 @@
 .sidebar-cta-form input::-webkit-input-placeholder{color: var(--Blue); font-family: "arboria", sans-serif;}
 .sidebar-cta-form input:-moz-placeholder{color: var(--Blue); font-family: "arboria", sans-serif; opacity: 1;}
 .sidebar-cta-form input::-moz-placeholder{color: var(--Blue); font-family: "arboria", sans-serif; opacity: 1;}
-body .sidebar-cta-form .selectBox-dropdown{font-size: 14px; line-height: 20px; font-family: "arboria", sans-serif; }
+body .sidebar-cta-form .selectBox-dropdown{font-size: 0.875rem; line-height: 1.25rem; font-family: "arboria", sans-serif; }
 .sidebar_frm_field{margin-bottom: 24px;}
 .sidebar-form-desc{opacity: 0.75; padding-top: 22px;}
 body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit{width: 100%;}
@@ -45,22 +45,22 @@ body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit{width
     .gated-post-section{padding: 119px 0 37px; }
     .gated-post-main{display: block;}
     .gated-post-article{margin-bottom: 37px;}
-    .gated-post-article h1{font-size: 32px; line-height: 40px;}
-    .gated-post-article h3{margin-bottom: 20px; font-size: 24px; line-height: 30px;}
-    .gated-post-article p span{font-size: 20px; line-height: 30px; }
+    .gated-post-article h1{font-size: 2rem; line-height: 2.5rem;}
+    .gated-post-article h3{margin-bottom: 20px; font-size: 1.5rem; line-height: 1.875rem;}
+    .gated-post-article p span{font-size: 1.25rem; line-height: 1.875rem; }
 
     .gated-point-main{padding: 15px 0 32px; display: block;}
     .gated-point-list:not(:last-child){margin-bottom: 34px;}
     .gated-point-icon{max-width: 32px; min-height: 32px; margin-bottom: 16px;}
     .gated-point-icon svg{max-width: 32px; max-height: 32px;}
-    .gated-point-list h4{font-size: 20px; line-height: 25px;}
+    .gated-point-list h4{font-size: 1.25rem; line-height: 1.563rem;}
 
     .cta-resource-bg{padding: 24px; top: 0%; left: 0; width: 100%; height: 100%;transform: translateY(100%); transition: all 0.5s ease; position: fixed; z-index: 800;}
     .cta-resource-bg.open{transform: translateY(0);}
     .cta-resource-overlay{ top: 0; left: 0; width: 100%; height: 100%; opacity: 0.9; background-color: var(--Navy); position: fixed; z-index: 800;}
     .cta-resource-mobile{width: 100%; height: 100%; position: relative; z-index: 805; overflow-y: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: none; scrollbar-width: none; }
     .cta-resource-mobile::-webkit-scrollbar { display: none; }
-    .cta-resource-close{top: 22px; right: 24px; font-size: 30px; line-height: 40px; cursor: pointer;}
+    .cta-resource-close{top: 22px; right: 24px; font-size: 1.875rem; line-height: 2.5rem; cursor: pointer;}
     .cta-resource-close:hover{background-image: linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
     .sidebar-cta-resource span.optional-text{padding-right: 30px;}
     html.cta-scroll-hide, html.cta-scroll-hide body{overflow: hidden;}

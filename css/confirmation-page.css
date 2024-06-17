@@ -1,12 +1,12 @@
 
 .confirmation-section{background: linear-gradient(180deg, rgba(240, 242, 250, 0.00) 0%, #F0F2FA 100%), #F0F2FA; background-blend-mode: normal, darken, normal;}
 .confirmation-bg{background-position: center top; background-repeat: no-repeat; background-size: cover;}
-.confirmation-optional{gap: 19px; margin-bottom: 27px; color: var(--Blue, #1335AF); font-size: 18px; font-weight: 700; line-height: 22px; font-family: "arboria", sans-serif;}
+.confirmation-optional{gap: 19px; margin-bottom: 27px; color: var(--Blue, #1335AF); font-size: 1.125rem; font-weight: 700; line-height: 1.375rem; font-family: "arboria", sans-serif;}
 .confirmation-optional svg{flex: 0 0 39px;}
 .confirmation-optional span{flex: 1;}
 .confirmation-desc a{text-decoration: underline;}
 .confirmation-btns{gap: 16px;}
-.confirmation-btns a{padding: 8px 12px; gap: 11px; width: fit-content; color: var(--Blue, #1335AF); font-size: 20px; font-weight: 700; line-height: 30px; }
+.confirmation-btns a{padding: 8px 12px; gap: 11px; width: fit-content; color: var(--Blue, #1335AF); font-size: 1.25rem; font-weight: 700; line-height: 1.875rem; }
 .confirmation-btns a:hover{color: var(--Orange);}
 .confirmation-text h2{margin-bottom: 23px;}
 .confirmation-text hr{margin-bottom: 39px;}
@@ -40,7 +40,7 @@
     .confirmation-optional{display: block; margin-bottom: 25px;}
     .confirmation-optional svg{margin-bottom: 16px;}
     .confirmation-optional span{display: block;}
-    .confirmation-text h2{font-size: 32px; line-height: 40px;}
+    .confirmation-text h2{font-size: 2rem; line-height: 2.5rem;}
     .confirmation-date{margin-bottom: 39px;}
     .confirmation-desc { margin-bottom: 23px; }
     .confirmation-btns > span{flex: 1;}

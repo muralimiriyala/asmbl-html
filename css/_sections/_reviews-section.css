@@ -7,10 +7,10 @@
 .started.reviews-block{opacity: 1; left: -40px;}
 .reviews-row:nth-child(even) .reviews-block{ right: 0; left: auto; }
 .reviews-row:nth-child(even) .reviews-block.started{right: -40px; opacity: 1;}
-.reviews-quote{margin-bottom: 20px; font-size: 20px; line-height: 36px; font-weight: 500; font-family: "arboria", sans-serif; color: var(--Blue); display: block;}
+.reviews-quote{margin-bottom: 20px; font-size: 1.25rem; line-height: 2.25rem; font-weight: 500; font-family: "arboria", sans-serif; color: var(--Blue); display: block;}
 .reviews-quote p::before { content: "“"; }
 .reviews-quote p::after{content: "”";}
-.reviews-small-text{padding-left: 16px; border-left: 1px solid var(--Orange); color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
+.reviews-small-text{padding-left: 16px; border-left: 1px solid var(--Orange); color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.5rem;}
 .reviews-reverse .reviews-block svg{transform: scaleX(-1);}
 
 .white-bg .reviews-text{background-color: var(--Background);}
@@ -72,7 +72,7 @@
     .reviews-row:not(:last-child){margin-bottom: 40px;}
     .reviews-image{flex: 0 0 160px;}
     .reviews-text{flex: 1;}
-    .reviews-quote{font-size: 20px; line-height: 32px;}
+    .reviews-quote{font-size: 1.25rem; line-height: 2rem;}
     .testimonials-row .reviews-row{padding: 0 0 40px;}
     body.page-template-product .testimonials-row .reviews-row:last-child{padding: 0;}
     .reviews-row:nth-child(even){flex-direction: row-reverse;}
@@ -87,11 +87,11 @@
     .reviews-main{padding: 40px 0 40px;}
     .reviews-head{display: block;}
     .reviews-title{display: block; margin-bottom: 23px;}
-    .reviews-title h2{font-size: 24px; line-height: 30px;}
+    .reviews-title h2{font-size: 1.5rem; line-height: 1.875rem;}
     .reviews-row{display: block;}
     .reviews-row:not(:last-child){margin-bottom: 24px;}
     .reviews-text{padding: 20px;}
-    .reviews-quote{font-size: 20px; line-height: 32px;}
+    .reviews-quote{font-size: 1.25rem; line-height: 2rem;}
     .reviews-small-main{gap: 8px;}
     .reviews-image{width: 56px; flex: 0 0 56px;}
     .reviews-small-text{flex: 1;}

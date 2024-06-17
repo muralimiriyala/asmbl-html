@@ -24,7 +24,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .awards-intro-head{margin-bottom: 34px;}
-    .awards-intro-title h2{font-size: 30px; line-height: 40px;}
+    .awards-intro-title h2{font-size: 1.875rem; line-height: 2.5rem;}
     .awards-row{gap: 62px 32px; padding: 28px 0 0;}
     .awards-list{flex: 0 0 calc(50% - 16px); padding: 24px;}
 }

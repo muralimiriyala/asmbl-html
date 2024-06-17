@@ -30,7 +30,7 @@
     .asmbl-masthead-bg{background-image: url("images/asmbl-masthead-bg@2x.jpg");}
     .asmbl-masthead-main{padding: 80px 0 2px; flex-direction: row-reverse;} 
     .asmbl-masthead-btns{padding-top: 6px; gap: 16px;}
-    .asmbl-masthead-text{font-size: 20px; line-height: 28px;}
+    .asmbl-masthead-text{font-size: 1.25rem; line-height: 1.75rem;}
 
     /*-- animation css starts --*/
     .asmbl-masthead-images{height: 725px;}
@@ -62,7 +62,7 @@
     .asmbl-masthead-main{align-items: center;}
     .asmbl-masthead-images{flex: 0 0 510px; right: -40px;}
     .asmbl-masthead-text{flex: 0 0 calc(100% - 510px);}
-    .asmbl-masthead-text h1{font-size: 40px; line-height: 50px;}
+    .asmbl-masthead-text h1{font-size: 2.5rem; line-height: 3.125rem;}
     .asmbl-masthead-text h1 br{display: none;}
     
     /* .asmbl-masthead-thumb img{object-fit: cover; border-radius: 3px;}
@@ -105,8 +105,8 @@
 
     .asmbl-masthead-main{padding: 132px 0 40px; display: block;}
     .asmbl-masthead-images{height: 364px;}
-    .asmbl-masthead-text{font-size: 16px; line-height: 24px;}
-    .asmbl-masthead-text h1{margin-bottom: 20px; font-size: 32px; line-height: 40px;}
+    .asmbl-masthead-text{font-size: 1rem; line-height: 1.5rem;}
+    .asmbl-masthead-text h1{margin-bottom: 20px; font-size: 2rem; line-height: 2.5rem;}
     .asmbl-masthead-text hr{margin-bottom: 20px;}
     .asmbl-masthead-text p{margin-bottom: 20px;}
     .asmbl-masthead-btns{gap: 15px; padding-top: 0;}

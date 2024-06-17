@@ -14,8 +14,8 @@
 .marketing-plan-switch input:checked + .marketing-plan-switch-round:before { transform: translateX(26px); }
   
 .plan-dollar{margin-bottom: 22px;}
-.plan-dollar sup:not(sub){font-family: "arboria", sans-serif; font-size: 48px; font-weight: 700; line-height: 48px; letter-spacing: -2.4px; bottom: 0;}
-.plan-dollar sub{padding-left: 11px; font-size: 14px; font-weight: 400; line-height: 21px; opacity: 0.6; }
+.plan-dollar sup:not(sub){font-family: "arboria", sans-serif; font-size: 3rem; font-weight: 700; line-height: 48px; letter-spacing: -2.4px; bottom: 0;}
+.plan-dollar sub{padding-left: 11px; font-size: 0.875rem; font-weight: 400; line-height: 1.313rem; opacity: 0.6; }
 .marketing-plan-head{margin-bottom: 17px; gap: 8px;}
 .marketing-plan-head svg, .marketing-plan-head figure{width: 32px; height: 32px;}
 .marketing-plan-head span{flex: 1; transition: all 0.5s ease;}
@@ -46,12 +46,12 @@ ul.marketing-plan-order li::before{display: none;}
     .marketing-i-left { flex: 0 0 calc(50% - 24.5px); }
     .marketing-i-line { width: 1px; height: 100%; content: ""; display: block; background: var(--Background,#f0f2fa); opacity: 0.2; }
     .marketing-i-right { flex: 0 0 calc(50% - 24.5px); }
-    .marketing-plan-title h1{font-size: 40px; line-height: 50px;}
+    .marketing-plan-title h1{font-size: 2.5rem; line-height: 3.125rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .marketing-plan-main{padding: 41px 0 40px;}
     .marketing-plan-top{margin-bottom: 33px; display: block;}
-    .marketing-plan-title h1{margin-bottom: 24px; font-size: 32px; line-height: 40px;}
+    .marketing-plan-title h1{margin-bottom: 24px; font-size: 2rem; line-height: 2.5rem;}
     .marketing-plan-row{display: block;}
     .marketing-plan-list:not(:last-child){margin-bottom: 24px;}
     body.page-template-marketing  .marketing-i-left p{margin-bottom: 8px;}

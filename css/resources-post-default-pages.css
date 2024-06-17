@@ -1,5 +1,5 @@
 .resource-post-article h1{margin-bottom: 25px;}
-.resource-post-article p span{color: var(--Navy, #182A54); font-size: 24px; font-weight: 400; line-height: 36px;}
+.resource-post-article p span{color: var(--Navy, #182A54); font-size: 1.5rem; font-weight: 400; line-height: 2.25rem;}
 .resource-post-article h2{margin-bottom: 19px;}
 .resource-post-article h3{padding-top: 30px;}
 .resource-post-article h4{padding-top: 27px;}
@@ -17,7 +17,7 @@
 .subtle-link svg{margin-left: 9px; min-width: 25px;}
 .blockquote-small{gap: 20px;}
 .quote-small-img{width: 48px;}
-.quote-small-text{padding-left: 16px; flex: 1; border-left: 1px solid var(--Orange); color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 24px;}
+.quote-small-text{padding-left: 16px; flex: 1; border-left: 1px solid var(--Orange); color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.5rem;}
 .blockquote-svg{right: 0; bottom: -1px; width: 44px; height: 44px;}
 .blockquote-svg svg{max-width: 44px; max-height: 44px;}
 .resource-post-article .accordion-main{padding: 37px 0 46px;}
@@ -54,9 +54,9 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .resource-post-main{padding: 119px 0 38px; display: block;}
     .resource-post-article:not(:last-child){padding-bottom: 40px;}
-    .resource-post-article h1{font-size: 32px; line-height: 40px;}
-    .resource-post-article p span{font-size: 20px; line-height: 30px;}
-    .resource-post-article h3{padding-top: 14px; font-size: 24px; line-height: 30px;}
+    .resource-post-article h1{font-size: 2rem; line-height: 2.5rem;}
+    .resource-post-article p span{font-size: 1.25rem; line-height: 1.875rem;}
+    .resource-post-article h3{padding-top: 14px; font-size: 1.5rem; line-height: 1.875rem;}
     .resource-post-article h4{margin-bottom: 19px;}
 
     .post-date-wrap{margin-bottom: 32px;}

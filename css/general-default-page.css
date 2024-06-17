@@ -25,7 +25,7 @@ ul.aside-links{margin: 0 0 39px;}
 ul.aside-links li{margin: 0 0 17px;}
 ul.aside-links li::before{display: none;}
 
-.article-cta-link .text-btn-link{font-size: 24px; line-height: 30px; font-family: "arboria", sans-serif;}
+.article-cta-link .text-btn-link{font-size: 1.5rem; line-height: 1.875rem; font-family: "arboria", sans-serif;}
 .article-cta-link .text-btn-link svg{top: 2px; margin-left: 10px; min-width: 25px;}
 .default-article blockquote{margin: 52px 0 49px;}
 
@@ -38,16 +38,16 @@ ul.aside-links li::before{display: none;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .default-main{padding: 24px 0 21px; display: block;}
-    .article-block-cta{margin-bottom: 31px; font-size: 20px; line-height: 30px;} 
+    .article-block-cta{margin-bottom: 31px; font-size: 1.25rem; line-height: 1.875rem;} 
     .article-block-cta .h1{margin-bottom: 23px;}
     .article-block-cta hr{margin-bottom: 23px;}
     .article-block-cta p{margin-bottom: 16px;}
 
     .default-article:not(:last-child){padding-bottom: 44px;}
-    .default-article h3:not(.mini-cta-text h3){padding-top: 13px; font-size: 24px; line-height: 30px;}
+    .default-article h3:not(.mini-cta-text h3){padding-top: 13px; font-size: 1.5rem; line-height: 1.875rem;}
     
     .article-cta-link{margin: 31px 0 32px;}
-    .article-cta-link .text-btn-link{flex: 1; font-size: 24px; line-height: 30px;}
+    .article-cta-link .text-btn-link{flex: 1; font-size: 1.5rem; line-height: 1.875rem;}
 
     .mini-cta-article{display: block; margin: 40px 0 32px;}
     .mini-cta-text{margin-bottom: 24px;}
@@ -60,16 +60,16 @@ ul.aside-links li::before{display: none;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .default-main{padding: 24px 0 21px; display: block;}
-    .article-block-cta{margin-bottom: 31px; font-size: 20px; line-height: 30px;} 
+    .article-block-cta{margin-bottom: 31px; font-size: 1.25rem; line-height: 1.875rem;} 
     .article-block-cta .h1{margin-bottom: 23px;}
     .article-block-cta hr{margin-bottom: 23px;}
     .article-block-cta p{margin-bottom: 16px;}
 
     .default-article:not(:last-child){padding-bottom: 44px;}
-    .default-article h3:not(.mini-cta-text h3){padding-top: 13px; font-size: 24px; line-height: 30px;}
+    .default-article h3:not(.mini-cta-text h3){padding-top: 13px; font-size: 1.5rem; line-height: 1.875rem;}
     
     .article-cta-link{margin: 31px 0 32px;}
-    .article-cta-link .text-btn-link{flex: 1; font-size: 24px; line-height: 30px;}
+    .article-cta-link .text-btn-link{flex: 1; font-size: 1.5rem; line-height: 1.875rem;}
 
     .mini-cta-article{display: block; margin: 40px 0 32px;}
     .mini-cta-text{margin-bottom: 24px;}

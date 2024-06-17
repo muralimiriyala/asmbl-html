@@ -18,8 +18,8 @@
 .pricing-active span.pricing-yearly{color: var(--Navy);}
 
 .price-dollar{margin-bottom: 22px;}
-.price-dollar sup:not(sub){color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 48px; font-weight: 700; line-height: 48px; letter-spacing: -2.4px; bottom: 0;}
-.price-dollar sub{padding-left: 9px; color: var(--Foreground, #313031); font-size: 14px; font-weight: 400; line-height: 21px; opacity: 0.6; }
+.price-dollar sup:not(sub){color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 3rem; font-weight: 700; line-height: 48px; letter-spacing: -2.4px; bottom: 0;}
+.price-dollar sub{padding-left: 9px; color: var(--Foreground, #313031); font-size: 0.875rem; font-weight: 400; line-height: 1.313rem; opacity: 0.6; }
 .pricing-head{margin-bottom: 17px; gap: 10px;}
 .pricing-head svg, figure.pricing-h-icon{width: 26px; height: 30px;}
 .pricing-head span{flex: 1;}
@@ -54,7 +54,7 @@ div.no_additional_icon span{border-left: none; padding-left: 0;}
     .pricing-additional{flex: 0 0 calc(50% - 20px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .pricing-title h1{font-size: 40px; line-height: 50px;}
+    .pricing-title h1{font-size: 2.5rem; line-height: 3.125rem;}
     .pricing-row{gap: 24px; margin-bottom: 64px;}
     .pricing-list{flex: 0 0 100%; width: 100%; gap: 24px; align-items: center; display: flex; flex-wrap: wrap;}
     .pricing-i-left{flex: 0 0 calc(50% - 24.5px);}
@@ -66,7 +66,7 @@ div.no_additional_icon span{border-left: none; padding-left: 0;}
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .pricing-top{display: block; margin-bottom: 33px;}
     .pricing-title{margin-bottom: 25px;}
-    .pricing-top h1{font-size: 32px; line-height: 40px;}
+    .pricing-top h1{font-size: 2rem; line-height: 2.5rem;}
     .pricing-toggle-form{gap: 8px;}
     .pricing-main{padding: 120px 0 61px;}
     .pricing-row{display: block;}
@@ -74,5 +74,5 @@ div.no_additional_icon span{border-left: none; padding-left: 0;}
     .pricing-i-left p{margin-bottom: 7px;}
     .pricing-additional-main{padding: 32px 0 0; display: block;}
     .pricing-additional:not(:last-child){margin-bottom: 48px;}
-    .pricing-additional span{font-size: 20px; line-height: 25px;}
+    .pricing-additional span{font-size: 1.25rem; line-height: 1.563rem;}
 }

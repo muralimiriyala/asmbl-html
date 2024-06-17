@@ -1,7 +1,7 @@
 
 .process-step-line{ display: block; z-index: -1; }
 .process-step-4::after{content: ""; display: block; background-image: url("images/triangle.svg"); background-repeat: no-repeat; background-size: contain; position: absolute; }
-.process-num{width: 64px; height: 64px; color: var(--Orange, #F9662D); font-family: "arboria", sans-serif; font-size: 48px; font-weight: 700; line-height: 60px;}
+.process-num{width: 64px; height: 64px; color: var(--Orange, #F9662D); font-family: "arboria", sans-serif; font-size: 3rem; font-weight: 700; line-height: 3.75rem;}
 .process-num span{top: -4px; left: 0px; position: relative;}
 .process-text h2{margin-bottom: 13px;}
 
@@ -32,13 +32,13 @@
     .process-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; }
     .process-step-line.process-step-4{width: calc(100% - 64px);}
     .process-num{margin-bottom: 19px;}
-    .process-text{font-size: 14px; line-height: 21px;}
-    .process-text h2{font-size: 20px; line-height: 25px;}
+    .process-text{font-size: 0.875rem; line-height: 1.313rem;}
+    .process-text h2{font-size: 1.25rem; line-height: 1.563rem;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .process-row{display: block;}
     .process-list{gap: 20px; margin-bottom: 32px;}
-    .process-text{flex: 1; font-size: 14px; line-height: 21px;}
+    .process-text{flex: 1; font-size: 0.875rem; line-height: 1.313rem;}
     .process-text h2{margin-bottom: 9px;}
     .process-step-line{width: 2px; height: calc(100% - 32px); top: 64px; left: 32px; }
     .process-step-4::after { width: 12px; height: 20px; left: -5px; bottom: -6px; top: auto; transform: rotate(90deg); }

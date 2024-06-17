@@ -15,15 +15,15 @@
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .start-managing-main{gap: 24px; background-image: url("./images/mini-cta-buble-ipad@2x.jpg"); align-items: center;}
     .start-managing-text{flex: 1;}
-    .start-managing-text h2{font-size: 24px; line-height: 30px;}
+    .start-managing-text h2{font-size: 1.5rem; line-height: 1.875rem;}
     .start-managing-btn{width: fit-content;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     body.page-template-solutions-usecase-detail .start-managing-section{margin-bottom: 21px;}
     .start-managing-main{padding: 24px 24px 24px; display: block; background-image: url("./images/mini-cta-buble-mobile@2x.jpg");}
     .start-managing-text{text-align: center;}
-    .start-managing-text h2{margin-bottom: 24px; font-size: 24px; line-height: 30px;}
-    .start-managing-btn .button{padding: 10px 12px 10px 12px; width: 100%; font-size: 20px; line-height: 30px;}
+    .start-managing-text h2{margin-bottom: 24px; font-size: 1.5rem; line-height: 1.875rem;}
+    .start-managing-btn .button{padding: 10px 12px 10px 12px; width: 100%; font-size: 1.25rem; line-height: 1.875rem;}
 }
 
 

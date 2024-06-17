@@ -9,10 +9,10 @@ body.page-template-product .digital-asset-main{padding-bottom: 40px;}
 ul.optional-tag{margin: 0 0 18px; gap: 12px;}
 ul.optional-tag li{margin: 0;}
 ul.optional-tag li::before{display: none;}
-ul.optional-tag li:not(:has(a)){padding: 12px 10px 10px; margin: 0; gap: 9px; display: flex; align-items: center; flex-wrap: wrap; border-radius: 4px; background: #F0F2FA; color: var(--Navy, #182A54); font-size: 12px; font-weight: 400; line-height: 18px; }
+ul.optional-tag li:not(:has(a)){padding: 12px 10px 10px; margin: 0; gap: 9px; display: flex; align-items: center; flex-wrap: wrap; border-radius: 4px; background: #F0F2FA; color: var(--Navy, #182A54); font-size: 0.75rem; font-weight: 400; line-height: 1.125rem; }
 ul.optional-tag li svg{width: 23px;}
 ul.optional-tag li span{flex: 1;}
-ul.optional-tag li a{padding: 12px 10px 10px; margin: 0; gap: 9px; display: flex; align-items: center; flex-wrap: wrap; border-radius: 4px; background: #F0F2FA; color: var(--Navy, #182A54); font-size: 12px; font-weight: 400; line-height: 18px; }
+ul.optional-tag li a{padding: 12px 10px 10px; margin: 0; gap: 9px; display: flex; align-items: center; flex-wrap: wrap; border-radius: 4px; background: #F0F2FA; color: var(--Navy, #182A54); font-size: 0.75rem; font-weight: 400; line-height: 1.125rem; }
 ul.optional-tag li a:hover{color: var(--Orange);}
 ul.optional-tag.absolute{bottom: 24px; left: 24px; margin: 0; width: calc(100% - 24px);}
 

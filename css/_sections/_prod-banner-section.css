@@ -19,7 +19,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .prod-banner-main{padding: 133px 0 40px;}
-    .prod-banner-text{margin-bottom: 20px; font-size: 18px; line-height: 27px;}
-    .prod-banner-text h1{font-size: 32px; line-height: 40px;}
+    .prod-banner-text{margin-bottom: 20px; font-size: 1.125rem; line-height: 1.688rem;}
+    .prod-banner-text h1{font-size: 2rem; line-height: 2.5rem;}
     .prod-banner-text hr{margin-bottom: 23px;}
 }
