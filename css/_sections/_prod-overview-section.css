@@ -18,7 +18,8 @@
 @media screen and (min-width: 1024px){
     body.page-template-solutions-industry-detail .prod-overview-wrap{padding: 8px 0 0122px;}
     body.page-template-solution-company-detail .prod-overview-wrap{padding-bottom: 122px;}
-    body.page-template-marketing .prod-overview-wrap{padding: 40px 0 122px;}
+    body.page-template-marketing .prod-overview-wrap{padding: 45px 0 122px;}
+    
     body.page-template-marketing .prod-overview-text { padding-top: 12px; }
     body.page-template-product section.gray-bg .prod-overview-wrap{padding: 28px 0 0;}
     body.page-template-product section.gray-bg .prod-overview-main{padding-bottom: 80px;}

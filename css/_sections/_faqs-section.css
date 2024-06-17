@@ -51,9 +51,14 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
     .faqs-main{padding: 118px 0 28px; display: block;}
     .faqs-text{gap: 60px; margin-bottom: 60px; display: flex; flex-wrap: wrap; align-items: flex-start;}
     .faqs-questions{flex: 1; max-width: 300px; margin-right: auto;}
-    .need-more-answers{flex: 0 0 300px;}
+    .need-more-answers{flex: 0 0 300px;  }
+      .need-more-ipad{gap: 50px; }
     .faqs-list{margin-bottom: 52px;}
     .faqs-category-btn{display: none;}
+    .need-more-lt{flex: 1;}
+    .need-more-rt{flex: 0 0 109px; text-align: right;}
+    .need-more-ipad span.optional-text.md{margin-bottom: 2px;}
+    .need-more-ipad h2{margin-bottom: 0;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
     .faqs-main{display: block; padding: 120px 0 40px;}
