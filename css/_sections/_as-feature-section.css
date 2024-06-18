@@ -11,17 +11,18 @@
 .as-feature-text h2{margin-bottom: 14px; color: var(--Navy);}
 span.rule{width: 1px; height: 50px;opacity: 0.4; background: var(--Blue, #1335AF); display: block;}
 
+
 /* media css starts here */
 @media screen and (min-width: 1280px){
     .as-feature-row{padding: 0 20px;}
 }
 @media screen and (min-width: 1024px){
-    .as-feature-main{padding: 81px 0 96px;}
+    .as-feature-main{padding: 81px 0 128px;}
     .as-feature-head{gap: 30px; margin-bottom: 84px;}
     .as-feature-title{flex: 1;}
     .as-feature-link{gap: 30px; flex: 0 0 156px; margin-left: auto;}
     .as-feature-row{gap: 60px;}
-    .as-feature-list{flex: 0 0 calc(25% - 45px); padding: 0 0 6px;}
+    .as-feature-list{flex: 0 0 calc(25% - 45px); padding: 0 0 15px;}
     .as-text-link{opacity: 0; visibility: hidden; transform: translateY(30px);}
     .as-feature-list:hover .as-text-link{visibility: visible; opacity: 1; transform: translateY(0);}
 }

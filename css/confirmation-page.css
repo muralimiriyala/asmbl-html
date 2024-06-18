@@ -33,8 +33,9 @@
     .confirmation-text{margin-bottom: 60px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .confirmation-bg{background-image: url("images/demo-book-mobile@2x.jpg");}
-    .confirmation-main{padding: 121px 0 60px;}
+    
+    .confirmation-bg{background-image: url("images/demo-book-mobile@2x.jpg"); background-size: 100% 102%;}
+    .confirmation-main{padding: 121px 0 70px;}
     .confirmation-row{display: block;}
     .confirmation-text{margin-bottom: 39px;}
     .confirmation-optional{display: block; margin-bottom: 25px;}

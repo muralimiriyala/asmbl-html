@@ -53,6 +53,7 @@ figure.colorfulsearch img{border: 1.406px solid rgba(217, 223, 242, 0.25); borde
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .asset-scroll-main{padding: 40px 0 62px;}
+    .page-template-confirmation .asset-scroll-section{margin-bottom: 40px;}
 }
 @media screen and (max-width: 1359px) and (min-width: 1024px){
     .search-above{left: 40px;}
@@ -65,7 +66,7 @@ figure.colorfulsearch img{border: 1.406px solid rgba(217, 223, 242, 0.25); borde
 @media screen and (max-width: 767px) and (min-width: 200px){
     .prod-banner-main .asset-scroll-main{padding-bottom: 89px;}
     .asset-scroll-main{padding: 40px 0 114px;}
-    .search-above{left: 23px;}
+    .search-above{left: 23px; top: 0;}
     .keywords-above{right: 24px; bottom: 21px;}
     .asset-scroll-slider:not(.is-active) .splide__track{padding-left: 12px;}
     .asset-scroll-slider.is-initialized:not(.is-active) ul.splide__list{justify-content: flex-start;}
