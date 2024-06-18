@@ -15,7 +15,9 @@
     body.page-template-product-details .trust-by-main{padding: 14px 0 91px;}
     body.page-template-solution-company-detail .trust-by-main {padding: 24px 0 32px;}
 
+    body.page-template-integrations .trust-by-main{padding: 24px 0 58px;}
     .trust-by-main{gap: 32px; padding: 24px 0 72px;}
+    body.page-template-story .trust-by-main{padding: 24px 0 58px;}
 
     .trust-by-text{flex: 0 0 144px; padding-top: 17px;}
     .trust-by-logos{gap: 32px; flex: 1;}

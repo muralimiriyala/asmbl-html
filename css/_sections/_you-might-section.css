@@ -5,6 +5,7 @@
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .you-might-main{padding: 80px 0 88px;}
+    body.single-post .you-might-main{padding: 80px 0 80px;}
     .you-might-head{gap: 32px; margin-bottom: 40px;}
     .you-might-title{flex: 1;}
     .you-might-btn{width: fit-content;}

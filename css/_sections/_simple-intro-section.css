@@ -21,6 +21,7 @@
 }
 @media screen and (min-width: 1024px){
     .simple-intro-main{padding: 80px 0 42px;}
+    body.page-template-story .simple-intro-main{padding: 80px 0 65px;}
     .simple-intro-head{margin-bottom: 63px; gap: 31px;}
     .simple-intro-title{flex: 1; padding-right: 31px; border-right: 1px solid  rgb(19 53 175 / 40%);}
     .simple-intro-link{width: fit-content;}
