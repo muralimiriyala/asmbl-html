@@ -474,7 +474,7 @@
             , heightToTop = pos.top - scrollPos
             , heightToBottom = $(window).height() - ( heightToTop + controlHeight )
             , posTop = (heightToTop > heightToBottom) && (settings.keepInViewport == null ? true : settings.keepInViewport)
-            , width = control.innerWidth() >= options.innerWidth() ? control.innerWidth() + 'px' : 'auto'
+            , width = control.innerWidth() >= options.innerWidth() ? control.innerWidth() + 'px' : control.innerWidth() + 'px'
             , top = posTop
                   ? pos.top - optionsHeight + borderTopWidth + topPositionCorrelation
                   : pos.top + controlHeight - borderBottomWidth - bottomPositionCorrelation;
