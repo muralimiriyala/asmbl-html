@@ -48,7 +48,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
     .faqs-main{gap: 60px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
-    .faqs-main{padding: 118px 0 80px; display: block;}
+    .faqs-main{padding: 118px 0 60px; display: block;}
     .faqs-text{margin-bottom: 60px;}
     .faqs-questions{margin-bottom: 33px;}
     .need-more-answers{flex: 0 0 300px;  }
