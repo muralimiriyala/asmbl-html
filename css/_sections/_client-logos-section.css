@@ -23,6 +23,8 @@
     .client-logos-text h2{display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 2;}
     
     .client-logos-slider{width: 64px;}
+
+    body.home .client-logos-section.no-ai-feature.relative { margin-top: 60px; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .client-logos-main{padding-right: 32px;}

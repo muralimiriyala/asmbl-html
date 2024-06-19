@@ -35,6 +35,9 @@
     .home-banner-main{padding: 80px 0 2px; flex-direction: row-reverse;} 
     .home-banner-btns{padding-top: 14px; gap: 16px;}
 
+    .home-banner-main.no_masthead_images{display: block; padding-bottom: 60px;}
+    .no_masthead_images .home-banner-text{max-width: 100%;}
+
     /*-- animation css starts --*/
     .home-thumb-1 img{animation-name: anim-down-1; }
     .home-thumb-2 img{animation-name: animRight; }

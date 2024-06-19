@@ -43,7 +43,7 @@
     .more-inte-cards{display: block; padding-bottom: 16px;}
     .more-inte-card{margin-bottom: 24px;}
     .more-link-card{gap: 16px;}    
-    .more-link-card span.h4{padding-left: 4px; margin-top: -2px;}
+    .more-link-card span.h4{padding-left: 4px; margin-top: -5px;}
 }
 @media only screen and (max-width: 369px) and (min-width: 200px){
     .more-link-card span.h4{font-size: 1.25rem; line-height: 1.5rem;}

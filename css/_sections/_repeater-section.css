@@ -31,6 +31,7 @@
     body.home .repeater-desc h2.h1, body.page-template-marketing .repeater-desc h2.h1{margin-bottom: 25px;}
     
     body.page-template-solution-company-detail .repeater-desc hr{margin-bottom: 22px;}
+    body.integration-template-default .repeater-desc hr{margin-bottom: 22px;}
 }
 @media screen and (min-width: 1440px){
     .repeater-text{padding: 0 80px;}

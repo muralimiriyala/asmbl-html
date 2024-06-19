@@ -71,6 +71,8 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
     ul.faqs-links li a{font-size: 0.875rem; line-height: 1.125rem;}
     .faqs-right{padding: 0 0 40px;}
     .faqs-list:not(:last-child){margin-bottom: 50px;}
+    .need-more-answers{padding: 23px 20px 24px; }
+    .need-more-rt{width: 100%;}
 }
 
 
