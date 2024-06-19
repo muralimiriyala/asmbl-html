@@ -18,7 +18,7 @@ body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_butto
 .newsletter-disclaimer{padding: 9px; color: var(--White); text-align: center;}
 body .newsletter-signup .frm_success_style, body .newsletter-signup .with_frm_style .frm_message{margin: 0; color: var(--White); font-family: "arboria", sans-serif; text-align: center;}
 .newsletter-signup .with_frm_style .frm_message p{color: var(--White);}
-body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White); position: static;}
+body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White); left: 0; right: auto;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
