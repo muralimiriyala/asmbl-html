@@ -26,7 +26,7 @@
     body.page-template-integrations .intro-main{padding-bottom: 42px;}
     body.page-template-integrations .intro-head{margin-bottom: 66px;}
     body.page-template-marketing .intro-main{padding-bottom: 80px;}
-    .intro-head{gap: 60px; margin-bottom: 55px;}
+    .intro-head{gap: 60px; margin-bottom: 67px;}
     .intro-title{flex: 0 0 394px;}
     .intro-description{flex: 1; padding: 0 60px; border-left: 1px solid rgb(19 53 175 / 40%); border-right: 1px solid rgb(19 53 175 / 40%);}
 
@@ -48,7 +48,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .intro-main{padding: 40px 0;}
-    .intro-head{display: block; margin-bottom: 47px;}
+    .intro-head{display: block; margin-bottom: 60px;}
     .intro-title{margin-bottom: 39px;}
     .intro-title h2{font-size: 2.5rem; line-height: 3.125rem;}
     .intro-description{padding: 40px 0 39px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}

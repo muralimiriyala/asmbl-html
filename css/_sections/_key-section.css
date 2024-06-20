@@ -20,6 +20,7 @@
     .key-intro-desc{flex: 1; padding: 4px 60px 0;border-left: 1px solid rgb(19 53 175 / 40%); border-right: 1px solid rgb(19 53 175 / 40%);}
     .key-integration-row{gap: 40px;}
     .key-integration-list{flex: 0 0 calc(33.3333% - 27px);}
+    .key-intro-head.no_desc .key-intro-title{flex: 100%;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .key-integration-main{padding: 60px 0;}
