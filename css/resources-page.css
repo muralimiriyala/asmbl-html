@@ -37,8 +37,9 @@ button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px);
 ul.res-tags{margin: 0; gap: 10px;}
 ul.res-tags li{margin: 0;}
 ul.res-tags li::before{display: none;}
-ul.res-tags li a{font-size: 1rem; line-height: 1.125rem; padding: 8px 12px 7px; border-radius: 8px; background-color: var(--White); color: var(--Blue);}
-ul.res-tags li.active a, ul.res-tags li a:hover{background-color: var(--Navy); color: var(--White);}
+ul.res-tags li a{display: flex; align-items: center; gap: 6px; font-size: 1rem; line-height: 1.125rem; padding: 8px 12px 7px; border-radius: 8px; background-color: var(--White); color: var(--Blue);}
+ul.res-tags li a.active, ul.res-tags li a:hover{background-color: var(--Navy); color: var(--White);}
+ul.res-tags li a.active::after{content: "\f00d"; font-family: "Font Awesome 6 Pro"; opacity: 0.5; color: var(--White);}
 
 .load-more-resources{gap: 16px;}
 .load-more-resources::before, .load-more-resources::after{height: 1px; content: ""; display: block; opacity: 0.2; background: var(--Foreground, #313031); }
