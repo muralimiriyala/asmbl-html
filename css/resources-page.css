@@ -60,7 +60,7 @@ ul.blog_list{margin: 0; width: 100%;}
     button.res-expand-icon{opacity: 0; visibility: hidden;}
     .res-srch-form.open button.res-srch-icon{opacity: 0; visibility: hidden;}
     .res-srch-form.open button.res-expand-icon{opacity: 1; visibility: visible;}
-    .resources-row{justify-content: center;}
+    
 }
 @media screen and (min-width: 1024px){
     .res-srch-main{gap: 46px 92px;}
@@ -72,6 +72,8 @@ ul.blog_list{margin: 0; width: 100%;}
     body.page-template-integrations .res-srch-main{margin-bottom: 83px;}
     .load-more-resources{margin-top: 62px;}
     #more-blog:not(:first-child){margin-top: 40px;}
+
+    body.category-videos-tours .featured-res-main{padding-bottom: 50px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .resources-row{gap: 32px;}

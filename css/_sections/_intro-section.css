@@ -48,6 +48,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .intro-main{padding: 40px 0;}
+    body.page-template-solution-company-detail   .intro-main{padding: 40px 0 80px;}
     .intro-head{display: block; margin-bottom: 60px;}
     .intro-title{margin-bottom: 39px;}
     .intro-title h2{font-size: 2.5rem; line-height: 3.125rem;}
