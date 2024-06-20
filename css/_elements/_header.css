@@ -42,6 +42,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li:nth-child(2){flex: 0 0 191px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > a{gap: 14px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 1.25rem; font-weight: 700; line-height: 1.5rem;}
     ul.main_menu > li.nav-product > ul > li > ul > li > a:hover{color: var(--Orange);}
+    ul.main_menu > li.nav-product > ul > li > ul > li.no_link > a{color: var(--Blue,#1335af);}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul{margin: 0; padding-top: 24px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li{margin: 0 0 24px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a{gap: 12px; display: flex; flex-wrap: nowrap; align-items: flex-start; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.5rem; }
@@ -60,8 +61,9 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-solutions > ul > li > ul > li{margin: 0 0 22px;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li > a{gap: 12px; align-items: flex-start; flex-wrap: nowrap; display: flex; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.5rem;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li.current-menu-item > a, ul.main_menu > li.nav-solutions > ul > li > ul > li > a:hover{color: var(--Orange);}
-    ul.main_menu > li.nav-solutions > ul > li > ul > li > a figure{width: 25px;}
-    ul.main_menu > li.nav-solutions > ul > li > ul > li > a span{top: 1px; position: relative;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li > a figure{width: 25px; padding: 0;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li > a img{padding: 0;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li > a span{top: 1px; position: relative; padding: 0;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1) > ul{display: flex; flex-wrap: wrap;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(1) > ul > li{flex: 0 0 50%;}
     ul.main_menu > li.nav-solutions > ul > li:last-child > ul{padding: 0; gap: 42px; display: flex; flex-wrap: wrap; background-color: transparent;}
