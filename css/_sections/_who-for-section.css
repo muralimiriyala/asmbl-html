@@ -17,7 +17,7 @@ ul.who-for-tabs li::before{display: none;}
 .industry-slide:first-child::before{top: 0; left: 0px; width: 2px; height: 100%;}
 .industry-count{display: none;}
 
-body.home .industry-slide svg{margin-bottom: 12px;}
+body.home .industry-slide > svg{margin-bottom: 12px;}
 
 /* media css starts here */
 @media screen and (min-width: 768px){
