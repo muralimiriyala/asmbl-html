@@ -17,7 +17,7 @@
     .intro-list{padding: 20px; flex: 0 0 calc(25% - 48px); max-width: calc(25% - 48px);}
 }
 @media screen and (min-width: 1024px){
-    .intro-main{padding: 80px 0 58px;}
+    .intro-main{padding: 80px 0 80px;}
     body.page-template-solution-company-detail .intro-main{padding: 40px 0  80px;}
     body.page-template-solutions-industry-detail .intro-section:nth-child(2) .intro-main{padding: 40px 0 57px;}
     .other-benficial-section .intro-main{padding-bottom: 82px;}
@@ -26,7 +26,7 @@
     body.page-template-integrations .intro-main{padding-bottom: 42px;}
     body.page-template-integrations .intro-head{margin-bottom: 66px;}
     body.page-template-marketing .intro-main{padding-bottom: 80px;}
-    .intro-head{gap: 60px; margin-bottom: 61px;}
+    .intro-head{gap: 60px; margin-bottom: 55px;}
     .intro-title{flex: 0 0 394px;}
     .intro-description{flex: 1; padding: 0 60px; border-left: 1px solid rgb(19 53 175 / 40%); border-right: 1px solid rgb(19 53 175 / 40%);}
 

@@ -41,7 +41,7 @@ dl:last-child{margin-bottom: 0;}
 dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--Foreground); content: ""; display: inline-block; vertical-align: middle;}
 blockquote dl dt::before{background-color: var( --White);}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 0 0 26px 29px;}
+ul {list-style: none; margin: 0 0 26px 31px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
 ul > li:before{top: 10px; left: -21px; width: 8px; height: 8px; border-radius: 50%; opacity: 1; background-color: var(--Orange); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
