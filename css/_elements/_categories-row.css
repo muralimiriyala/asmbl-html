@@ -23,7 +23,7 @@
     .prod-overview-section.gray-bg .categories-list{padding-bottom: 47px;}
     .prod-overview-section:not(.gray-bg) .categories-list{padding-bottom: 22px;}
     .categories-head h2{margin-bottom: 16px;}
-    body.category-resources .categories-list{padding-bottom: 54px; border-left-color: transparent;}
+    body.category .categories-list{padding-bottom: 54px; border-left-color: transparent;}
     body.page-template-product-details .prod-overview-wrap{padding-bottom: 40px;}
     body.page-template-product-details .categories-row{padding-top: 7px;}
 }
@@ -49,7 +49,7 @@
     .categories-row{display: block; margin-bottom: 40px;}
     .categories-list:not(:last-child){padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid var(--Elevated, #F0F2FA);}
     .categories-text{font-size: 1.125rem; line-height: 1.688rem;}
-    body.category-resources .categories-list{border-bottom-color: var(--White);}
+    body.category .categories-list{border-bottom-color: var(--White);}
     .gray-bg .categories-list{border-bottom-color: var(--White);}
     .prod-overview-wrap .categories-row{margin-bottom: 0;}
 }

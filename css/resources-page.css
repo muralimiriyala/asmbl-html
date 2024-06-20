@@ -38,8 +38,9 @@ ul.res-tags{margin: 0; gap: 10px;}
 ul.res-tags li{margin: 0;}
 ul.res-tags li::before{display: none;}
 ul.res-tags li a{display: flex; align-items: center; gap: 6px; font-size: 1rem; line-height: 1.125rem; padding: 8px 12px 7px; border-radius: 8px; background-color: var(--White); color: var(--Blue);}
-ul.res-tags li a.active, ul.res-tags li a:hover{background-color: var(--Navy); color: var(--White);}
-ul.res-tags li a.active::after{content: "\f00d"; font-family: "Font Awesome 6 Pro"; opacity: 0.5; color: var(--White);}
+ul.res-tags li a span{display: none;}
+ul.res-tags li.active a, ul.res-tags li a:hover{background-color: var(--Navy); color: var(--White);}
+ul.res-tags li.active a span{opacity: 0.5; color: var(--White); display: block;}
 
 .load-more-resources{gap: 16px;}
 .load-more-resources::before, .load-more-resources::after{height: 1px; content: ""; display: block; opacity: 0.2; background: var(--Foreground, #313031); }
@@ -73,8 +74,6 @@ ul.blog_list{margin: 0; width: 100%;}
     body.page-template-integrations .res-srch-main{margin-bottom: 83px;}
     .load-more-resources{margin-top: 62px;}
     #more-blog:not(:first-child){margin-top: 40px;}
-
-    body.category .featured-res-main{padding-bottom: 50px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .resources-row{gap: 32px;}
