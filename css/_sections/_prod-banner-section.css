@@ -22,4 +22,5 @@
     .prod-banner-text{margin-bottom: 20px; font-size: 1.125rem; line-height: 1.688rem;}
     .prod-banner-text h1{font-size: 2rem; line-height: 2.5rem;}
     .prod-banner-text hr{margin-bottom: 23px;}
+    body.page-template-product  .prod-banner-main { padding: 123px 0 40px; }
 }

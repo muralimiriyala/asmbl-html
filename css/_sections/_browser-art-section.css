@@ -34,6 +34,8 @@
     .browser-art-content img{min-width: 816px; object-fit: contain; position: relative;}
     body.page-template-marketing .browser-art-section{padding: 40px 0 0;}
 
+    .browser-art-section .container{padding: 0 20px;}
+
     @keyframes scrollCoverBrowserLeft{0% { transform: translateX(0%);} 50% {transform: translateX(calc(-50%)); } 100% {transform: translateX(calc(-100%)); } }
     @keyframes scrollCoverBrowserRight { 0% { transform: translateX(calc(-100%)); } 50% { transform: translateX(calc(-50% + 20px)); } 100% { transform: translateX(calc(0% + 20px)); } }
 }
