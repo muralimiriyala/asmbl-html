@@ -41,8 +41,8 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > a span p{ color: var(--Foreground,#313031); font-family: "Noto Sans",sans-serif; font-size: 1rem; font-weight: 400; }
 
     ul.main_menu > li.nav-product > ul > li > a svg{width: 35px;}
-    ul.main_menu > li.nav-product > ul > li > ul{margin: 0; padding: 32px; gap: 56px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px; box-shadow: none;}
-    ul.main_menu > li.nav-product > ul > li > ul > li{margin: 0 0 22px; flex: 0 0 calc(33.3333% - 22px);}
+    ul.main_menu > li.nav-product > ul > li > ul{margin: 0; padding: 32px 32px 8px; gap: 56px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px; box-shadow: none;}
+    ul.main_menu > li.nav-product > ul > li > ul > li{margin: 0; flex: 0 0 calc(33.3333% - 22px);}
     ul.main_menu > li.nav-product > ul > li > ul > li:nth-child(2){flex: 0 0 191px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > a{gap: 14px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 1.25rem; font-weight: 700; line-height: 1.5rem;}
     ul.main_menu > li.nav-product > ul > li > ul > li > a:hover{color: var(--Orange);}
@@ -57,7 +57,8 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     
     ul.main_menu > li.nav-solutions > ul {max-height: 0; overflow: hidden; padding: 32px 32px 0; max-width: 956px; left: -455px; gap: 31px; display: flex; flex-wrap: wrap; width: 100vw; z-index: 10; border-radius: 0 0 8px 8px;}
     ul.main_menu > li.nav-solutions:hover > ul{max-height: inherit;}
-    ul.main_menu > li.nav-solutions > ul > li:nth-child(1){flex: 1;}
+    ul.main_menu > li.nav-solutions > ul > li > ul > li:last-child{margin: 0;}
+    ul.main_menu > li.nav-solutions > ul > li:nth-child(1){flex: 1; margin: 0;}
     ul.main_menu > li.nav-solutions > ul > li:nth-child(2){flex: 0 0 274px; max-width: 274px;}
     ul.main_menu > li.nav-solutions > ul > li:last-child{padding: 20px 32px; margin: 0; flex: 0 0 calc(100% + 64px); left: -32px; gap: 40px; display: flex; flex-wrap: wrap; background: var(--Background, #F0F2FA); border-radius: 0 0 8px 8px;}
     ul.main_menu > li.nav-solutions > ul > li > a{ color: var(--Blue, #1335AF); font-size: 1.25rem; font-weight: 700; line-height: 1.563rem; font-family: "arboria", sans-serif; }
@@ -138,6 +139,10 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li > a{ padding: 22px 0 19px; border-top: 1px solid var(--Blue-Tint,#d9dff2); color: var(--Blue,#1335af); font-family: "arboria", sans-serif; font-size: 1.125rem; font-weight: 700; line-height: 1.375rem; display: block; position: relative; }
     ul.main_menu > li.nav-product > ul > li > ul > li.menu-item-has-children > a::after{top: calc(50% + 2px); transform: translateY(-50%); right: 0; width: 15px; height: 9px; background-image: url("./images/caret-down.svg"); background-repeat: no-repeat; content: ""; display: block; position: absolute;}
     ul.main_menu > li.nav-product > ul > li > ul > li.menu-item-has-children > a.active::after{transform: translateY(-50%) scaleY(-1);}
+    ul.main_menu > li.nav-product > ul > li > a img.menu-image{padding: 0;}
+    ul.main_menu > li.nav-product > ul > li > a span.menu-image-title-after{padding: 0;}
+    ul.main_menu > li.nav-product > ul > li > a span p{ color: var(--Foreground,#313031); font-family: "Noto Sans",sans-serif; font-size: 1rem; font-weight: 400; }
+
 
     ul.main_menu > li.nav-product > ul > li > ul > li > ul{margin: 0; padding: 0 0 7px; display: none;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li{margin: 0 0 12px;}
@@ -153,6 +158,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .header_btns.off{display: none;}
     .header_btns .button{flex: 1;}
 }
-@media screen and (max-width: 767px) and (min-width: 200px){
-   
+@media screen and (max-width: 370px) and (min-width: 200px){
+    .header_btns{display: block;}
+    .header_btns .button{margin: 10px 0; display: block; width: 100%;}
 }
