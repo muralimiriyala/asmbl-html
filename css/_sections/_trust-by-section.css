@@ -12,8 +12,9 @@
     body.page-template-product .trust-by-main{padding: 55px 0 56px;}
     body.page-template-product-details .trust-by-section:last-child .trust-by-main{padding: 55px 0 55px;}
     body.page-template-marketing .trust-by-section:not(.gray-bg){padding-bottom: 23px;}
-    body.page-template-product-details .trust-by-main{padding: 14px 0 91px;}
+    body.page-template-product-details .trust-by-main{padding: 14px 0 96px;}
     body.page-template-solution-company-detail .trust-by-main {padding: 24px 0 32px;}
+
 
     body.page-template-integrations .trust-by-main{padding: 24px 0 58px;}
     .trust-by-main{gap: 32px; padding: 24px 0 72px;}
@@ -48,6 +49,7 @@
     .trust-by-logo{flex: 0 0 calc(33.3333% - 16px);}
     .trust-by-desc{font-size: 0.875rem; line-height: 1.313rem;}
     body.page-template-marketing .trust-by-main {padding: 0 0 28px;}
+    body.page-template-product-details .trust-by-main{padding: 0 0 80px;}
 }
 
 

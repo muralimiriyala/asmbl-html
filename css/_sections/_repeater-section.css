@@ -90,6 +90,7 @@
     body.page-template-product .repeater-desc h2.h1{font-size: 2.5rem; line-height: 3.125rem;} 
 
     body.page-template-product-details .repeater-row:first-child .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
+    body.page-template-product-details .repeater-main{padding: 0 0 40px;}
 
     body.home .repeater-main{padding: 0 0 8px;}
     /*-- 02 - Product Landing page --*/

@@ -6,7 +6,7 @@
 
 .prod-overview-bg:not(:last-child){margin-bottom: 16px;}
 .prod-overview-desc{margin-bottom: 31px;}
-.prod-art-head{gap: 7px; padding: 16px 14px 16px 15px;  cursor: pointer; color: var(--Navy, #182A54); font-size: 1.25rem; font-weight: 400; line-height: 1.563rem;}
+.prod-art-head{gap: 7px; padding: 14px 14px 14px 15px;  cursor: pointer; color: var(--Navy, #182A54); font-size: 1.25rem; font-weight: 400; line-height: 1.563rem;}
 .prod-art-head.open{color: var(--Blue);}
 .prod-art-title{flex: 1;}
 .prod-art-icon{width: 31px;}
