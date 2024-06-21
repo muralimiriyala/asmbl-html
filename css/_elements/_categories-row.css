@@ -47,7 +47,7 @@
     .categories-icon{width: 48px; height: 48px;}
     .categories-head h2{font-size: 1.5rem; line-height: 1.875rem; margin: 0; padding-top: 4px; flex: 1;}
     .categories-row{display: block; margin-bottom: 40px;}
-    .categories-list:not(:last-child){padding: 0 0 24px; margin-bottom: 24px; border-bottom: 1px solid var(--Elevated, #F0F2FA);}
+    .categories-list:not(:last-child){padding: 0 0 30px; margin-bottom: 24px; border-bottom: 1px solid var(--Elevated, #F0F2FA);}
     .categories-text{font-size: 1.125rem; line-height: 1.688rem;}
     body.category .categories-list{border-bottom-color: var(--White);}
     .gray-bg .categories-list{border-bottom-color: var(--White);}
