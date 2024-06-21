@@ -65,8 +65,8 @@ ul.footer-nav-links li.current_page_item a, ul.footer-nav-links li a:hover{color
     ul.footer-links li::before { width: 12px; height: 12px; left: -22px; top: 8px; }
     ul.footer-links li a{font-size: 1.063rem; line-height: 1.688rem;}
     .footer-middle{padding: 0 0 40px 32px; }
-    .footer-bg{padding: 40px 0 70px 32px; }
-    ul.footer-nav-links { margin: 0 0 60px; gap: 10px 20px; }
+    .footer-bg{padding: 40px 0 50px 32px; }
+    ul.footer-nav-links { margin: 0 0 50px; gap: 10px 20px; }
     ul.footer-nav-links > li { flex: 0 0 calc(33.33333% - 14px); }
 }
 @media screen and (max-width: 1023px) and (min-width:  768px) {
