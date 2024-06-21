@@ -12,7 +12,9 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .header{padding: 0 14px; margin: 16px 0; gap: 16px; border-radius: 8px; border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--White, #FFF); box-shadow: 0px 6px 12px 0px rgba(24, 42, 84, 0.10); }
     .logo{flex: 0 0 144px;}
     .humburger-btn{display: none;}
-    
+    .mobile_header_btns{display: none;}
+
+
     .header_right{flex: 1;}
     ul.main_menu{margin: 0; gap: 0 32px; padding-right: 103px; flex: 1; width: fit-content; position: relative; justify-content: flex-end;}
     ul.main_menu li::before{display: none;}
@@ -157,6 +159,11 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .header_btns{gap: 16px; margin: 20px 0 16px;}
     .header_btns.off{display: none;}
     .header_btns .button{flex: 1;}
+    .mobile_header_btns{flex: 0 0 150px; gap: 12px; top: 2px; position: relative; justify-content: flex-end; margin-left: auto; margin-right: 74px;}
+    .mobile_header_btns .button span{display: none;}
+}
+@media screen and (max-width: 439px) and (min-width: 200px){
+    .mobile_header_btns{display: none;}
 }
 @media screen and (max-width: 370px) and (min-width: 200px){
     .header_btns{display: block;}
