@@ -42,11 +42,11 @@
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .xl-cta-wrap{padding: 0 0 78px;}
-    .xl-cta-main{background-image: url('./images/xl-cta-micro@2x.jpg'); }
+    .xl-cta-main{background-image: url('./images/xl-cta-micro@2x.jpg'); padding: 30px 48px 46px;}
     .xl-cta-row{gap: 80px; margin-bottom: 39px; flex-direction: row-reverse;}
     .xl-cta-text{flex: 1; max-width: 552px; margin-right: auto;}
     .xl-cta-btns{gap: 16px;}
-    .xl-cta-image{flex: 0 0 575px; max-width: 575px; margin-right: -19px;}
+    .xl-cta-image{flex: 0 0 575px; max-width: 575px;}
     .xl-step-row{gap: 32px;}
     .xl-step-list{flex: 0 0 calc(25% - 32px); flex-direction: column;}
     .xl-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; display: block; position: absolute; z-index: -1; }

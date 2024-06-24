@@ -36,7 +36,7 @@ body.home .industry-slide > svg{margin-bottom: 12px;}
     .who-for-text{flex: 0 0 426px; padding-top: 41px; display: flex; flex-wrap: wrap; flex-direction: column;}
     
     body.home .who-for-text{flex: 0 0 415px;}
-
+    body.home  .who-for-main { padding: 80px 0 40px; }
     .industry-slide-btn{opacity: 0; transform: translateY(15px); transition: all 0.5s ease;}
     .industry-slide:hover .industry-slide-btn{opacity: 1; transform: translateY(0);}
     
@@ -44,7 +44,7 @@ body.home .industry-slide > svg{margin-bottom: 12px;}
     .industry-slide{flex: 0 0 calc(25%); padding: 21px 44px 23px; }
     .industry-slide.slick-slide{width: 320px;}
 
-    .industry-slide svg{margin-bottom: 17px;}
+    .industry-slide a > svg{margin-bottom: 17px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .who-for-main{padding: 80px 0 40px;}
