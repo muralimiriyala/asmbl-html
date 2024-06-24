@@ -2,8 +2,8 @@
 jQuery(document).ready(function(){
     jQuery(".res-dropdown").on('click', function(e){
         e.preventDefault();
-        jQuery(this).parent().siblings(".res-dropdown-pos").find(".res-dropdown").removeClass("open");
-        jQuery(this).toggleClass("open");
+        // jQuery(this).parent().siblings(".res-dropdown-pos").find(".res-dropdown").removeClass("open");
+        // jQuery(this).toggleClass("open");
         jQuery(this).parent().siblings(".res-dropdown-pos").find(".res-tags-list").fadeOut(500);
         jQuery(this).siblings(".res-tags-list").fadeToggle(500);
     });
