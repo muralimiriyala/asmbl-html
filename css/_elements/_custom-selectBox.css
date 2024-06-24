@@ -25,9 +25,11 @@ body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{ top: calc(50% +
 body .res-dropdown .selectBox-dropdown .selectBox-arrow::before{ content: "\f078"; }
 body .res-dropdown .selectBox-dropdown::after { width: 100%; height: 2px; bottom: 0; opacity: 0; position: absolute; content: ""; display: block; background-color: var(--Orange); transition: all .5s ease; }
 body .res-dropdown .selectBox-dropdown.selectBox-menuShowing::after{ opacity: 1; }
-ul.selectBox-dropdown-menu.res-tags-selectBox-dropdown-menu{min-width: 200px;}
 
 /* media css starts here */
+@media only screen and (min-width: 768px){
+    ul.selectBox-dropdown-menu.res-tags-selectBox-dropdown-menu{min-width: 200px;}
+}
 @media only screen and (max-width: 767px) and (min-width: 200px){
     ul.selectBox-dropdown-menu{max-width: 100%;}
 }
