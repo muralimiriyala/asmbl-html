@@ -51,7 +51,7 @@
     .prod-overview-section .container{padding: 0;}
     .prod-overview-text{flex: 0 0 480px; padding: 0 40px;}
     .prod-art-title{flex-direction: column; align-items: flex-start;}
-    .prod-art-title span{display: none;}
+   
     .prod-overview-image{flex: 1;}
     .prod-image-thumb img{object-position: center left;}
     .white-bg .prod-overview-pos{margin-left: -160px;}

@@ -43,6 +43,8 @@ body.home .industry-slide > svg{margin-bottom: 12px;}
     .industry-slider{flex-wrap: nowrap;}
     .industry-slide{flex: 0 0 calc(25%); padding: 21px 44px 23px; }
     .industry-slide.slick-slide{width: 320px;}
+
+    .industry-slide svg{margin-bottom: 17px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .who-for-main{padding: 80px 0 40px;}

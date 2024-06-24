@@ -105,7 +105,7 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .text-btn-link svg{top: 1px; margin-left: 5px; position: relative;}
 .text-btn-link:hover{color: var(--Blue, #1335AF);}
 .text-btn-link:hover svg {animation: scrollRight 1s forwards ease-in-out; }
-.text-btn-link.top-0 svg{top: 0;}
+
 .text-btn-link.top-2 svg{top: 2px;}
 .text-btn-link.white{color: var(--White);}
 .text-btn-link.white:hover{color: var(--White);}
@@ -115,7 +115,6 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 
 .text-btn-link.back svg{margin-right: 5px; margin-left: auto;}
 .text-btn-link.back:hover svg {animation: scrollLeft 1s forwards ease-in-out; }
-
 
 button.text-btn-link{padding: 0; border-radius: 0; background: none;}
 
