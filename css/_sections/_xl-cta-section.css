@@ -46,7 +46,7 @@
     .xl-cta-row{gap: 80px; margin-bottom: 39px; flex-direction: row-reverse;}
     .xl-cta-text{flex: 1; max-width: 552px; margin-right: auto;}
     .xl-cta-btns{gap: 16px;}
-    .xl-cta-image{flex: 0 0 575px; max-width: 575px;}
+    .xl-cta-image{flex: 0 0 575px; max-width: 575px; top: -6px;}
     .xl-step-row{gap: 32px;}
     .xl-step-list{flex: 0 0 calc(25% - 32px); flex-direction: column;}
     .xl-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; display: block; position: absolute; z-index: -1; }

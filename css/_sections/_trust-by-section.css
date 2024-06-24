@@ -23,6 +23,8 @@
     .trust-by-text{flex: 0 0 144px; padding-top: 17px;}
     .trust-by-logos{gap: 32px; flex: 1;}
     .trust-by-logo{flex: 0 0 calc(16.666666% - 27px);}
+
+    .no-brand-assets .trust-by-main{padding-top: 58px;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     body.page-template-product .trust-by-main{padding: 14px 0 60px;}
