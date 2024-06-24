@@ -27,11 +27,14 @@
     body.page-template-solutions-usecase-detail .repeater-desc hr{margin-bottom: 22px;}
 
 
-    body.home .repeater-desc hr, body.page-template-marketing .repeater-desc hr {margin-bottom: 24px;}
+    body.home .repeater-desc hr{margin-bottom: 24px;}
     body.home .repeater-desc h2.h1, body.page-template-marketing .repeater-desc h2.h1{margin-bottom: 25px;}
     
     body.page-template-solution-company-detail .repeater-desc hr{margin-bottom: 22px;}
     body.integration-template-default .repeater-desc hr{margin-bottom: 22px;}
+
+    body.page-template-marketing .repeater-row:not(:first-child) .repeater-desc h2{margin-bottom: 30px;}
+    body.page-template-marketing .repeater-row:not(:first-child) .repeater-desc hr{margin-bottom: 30px;}
 }
 @media screen and (min-width: 1440px){
     .repeater-text{padding: 0 80px;}
@@ -123,6 +126,13 @@
     body.page-template-solutions-industry-detail .repeater-main{padding: 0 0 41px;}
     body.page-template-solutions-industry-detail .repeater-row:first-child .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
     body.page-template-solutions-industry-detail .repeater-row:first-child .repeater-desc hr{margin-bottom: 24px;}
+
+    body.page-template-marketing .repeater-main{padding: 0 0 39px;}
+    body.page-template-marketing .repeater-row:first-child .repeater-text{padding-top: 8px;}
+    body.page-template-marketing .repeater-row:first-child .repeater-desc h2{font-size: 3rem; line-height: 3.125rem;}
+
+    body.page-template-marketing .repeater-row:not(:first-child) .repeater-desc h2{margin-bottom: 34px;}
+    body.page-template-marketing .repeater-row:not(:first-child) .repeater-desc hr{margin-bottom: 31px;}
 }
 
 

@@ -125,6 +125,8 @@
     .prod-tab-head span{margin-bottom: 3px; color: var(--Blue); display: block;}
 
     .white-bg .prod-tab-content{border: 2px solid var(--Card-Stroke); border-top: none;}
+
+    body.page-template-marketing .prod-overview-wrap{padding-top: 52px;}
 }
 
 
