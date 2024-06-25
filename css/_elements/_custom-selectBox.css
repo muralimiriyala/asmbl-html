@@ -28,7 +28,8 @@ body .res-dropdown .selectBox-dropdown.selectBox-menuShowing::after{ opacity: 1;
 
 ul.res-tags-selectBox-dropdown-menu li a{display: flex; align-items: center; gap: 6px; font-size: 1rem; line-height: 1.125rem; padding: 8px 12px 7px; border-radius: 8px; background-color: var(--White); color: var(--Blue);}
 ul.res-tags-selectBox-dropdown-menu li.selectBox-selected a, ul.res-tags-selectBox-dropdown-menu li a:hover{ background-color: var(--Navy); color: var(--White); }
-ul.res-tags-selectBox-dropdown-menu li.selectBox-selected a::after{content: "\f00d"; opacity: .5; color: var(--White); display: block; font-weight: 900; font-family: "Font Awesome 6 Pro";}
+ul.res-tags-selectBox-dropdown-menu li.selectBox-selected a #close{opacity: .5; color: var(--White); display: block; font-weight: 900; font-family: "Font Awesome 6 Pro";}
+ul.res-tags-selectBox-dropdown-menu li.selectBox-selected a #close::before{content: "\f00d"; }
 
 
 /* media css starts here */
