@@ -60,7 +60,7 @@ body.home .industry-slide > svg{margin-bottom: 12px;}
     .industry-slide.slick-slide{height: auto;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .who-for-main{padding: 39px 0 40px;}
+    .who-for-main{padding: 39px 0 55px;}
     .who-for-row{display: block;}
     .who-for-image{margin-bottom: 24px;}
 

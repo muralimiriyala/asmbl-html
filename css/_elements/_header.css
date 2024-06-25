@@ -46,7 +46,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul{margin: 0; padding: 32px 32px 8px; gap: 56px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px; box-shadow: none;}
     ul.main_menu > li.nav-product > ul > li > ul > li{margin: 0; flex: 0 0 calc(33.3333% - 22px);}
     ul.main_menu > li.nav-product > ul > li > ul > li:nth-child(2){flex: 0 0 191px;}
-    ul.main_menu > li.nav-product > ul > li > ul > li > a{gap: 14px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 1.25rem; font-weight: 700; line-height: 1.5rem;}
+    ul.main_menu > li.nav-product > ul > li > ul > li > a{gap: 14px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 1.25rem; font-weight: 700; line-height: 1.5rem; cursor: pointer;} 
     ul.main_menu > li.nav-product > ul > li > ul > li > a:hover{color: var(--Orange);}
     ul.main_menu > li.nav-product > ul > li > ul > li.no_link > a{color: var(--Blue,#1335af);}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul{margin: 0; padding-top: 24px;}
@@ -120,7 +120,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu li::before{display: none;}
     ul.main_menu > li > a{padding: 21px 0 19px; border-bottom: 1px solid var(--Blue-Tint, #D9DFF2); display: block; color: var(--Blue); font-family: "arboria", sans-serif; font-size: 1.25rem; font-weight: 600; line-height: 1.563rem; position: relative;}
     ul.main_menu > li > a.active{border-bottom-color: transparent;}
-    ul.main_menu > li > a:hover{color: var(--Orange);}
+    ul.main_menu > li > a:hover, ul.main_menu > li.current-menu-item > a{color: var(--Orange);}
     ul.main_menu > li.menu-item-has-children > a::after{top: 50%; transform: translateY(-50%); right: 0; width: 24px; height: 24px; background-image: url("./images/down-arrow.svg"); background-repeat: no-repeat; background-position: center; content: ""; display: block; position: absolute;}
     ul.main_menu > li.menu-item-has-children > a.active{font-size: 1rem; color: rgb(19 53 175 / 50%); text-align: center; text-transform: uppercase;}
     ul.main_menu > li.menu-item-has-children > a.active::after{top: calc(50% + 3px); transform: translateY(-50%) scaleX(-1); left: 0; right: auto;}
@@ -141,9 +141,9 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li > a{ padding: 22px 0 19px; border-top: 1px solid var(--Blue-Tint,#d9dff2); color: var(--Blue,#1335af); font-family: "arboria", sans-serif; font-size: 1.125rem; font-weight: 700; line-height: 1.375rem; display: block; position: relative; }
     ul.main_menu > li.nav-product > ul > li > ul > li.menu-item-has-children > a::after{top: calc(50% + 2px); transform: translateY(-50%); right: 0; width: 15px; height: 9px; background-image: url("./images/caret-down.svg"); background-repeat: no-repeat; content: ""; display: block; position: absolute;}
     ul.main_menu > li.nav-product > ul > li > ul > li.menu-item-has-children > a.active::after{transform: translateY(-50%) scaleY(-1);}
-    ul.main_menu > li.nav-product > ul > li > a img.menu-image{padding: 0;}
+    ul.main_menu > li.nav-product > ul > li > a img.menu-image{padding: 0; width: 24px;}
     ul.main_menu > li.nav-product > ul > li > a span.menu-image-title-after{padding: 0;}
-    ul.main_menu > li.nav-product > ul > li > a span p{ color: var(--Foreground,#313031); font-family: "Noto Sans",sans-serif; font-size: 1rem; font-weight: 400; }
+    ul.main_menu > li.nav-product > ul > li > a span p{display: none; color: var(--Foreground,#313031); font-family: "Noto Sans",sans-serif; font-size: 1rem; font-weight: 400; }
 
 
     ul.main_menu > li.nav-product > ul > li > ul > li > ul{margin: 0; padding: 0 0 7px; display: none;}

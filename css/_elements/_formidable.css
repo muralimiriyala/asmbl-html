@@ -23,6 +23,8 @@ body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_for
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 160px;}
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"][type="checkbox"]):focus{background-color: var(--White); border-color: rgb(19 53 175 / 60%); box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--Foreground); border: 1px solid var(--Orange); background: transparent;}
+body .sidebar-cta-resource .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{background: var(--White);}
+body .sidebar-cta-resource .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--Blue); font-family: "arboria", sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--Blue); font-family: "arboria", sans-serif; opacity: 1;}
 body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--Blue); font-family: "arboria", sans-serif; opacity: 1;}
