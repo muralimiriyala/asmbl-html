@@ -8,9 +8,6 @@ function menu(){
             jQuery(".header_right").fadeToggle(600);
         });
         let level1 = jQuery("ul.main_menu > li.menu-item-has-children > a");
-
-
-
         level1.on("click", function(e){
             e.preventDefault();
             jQuery(this).parent("li").closest("ul.main_menu").siblings(".header_btns").toggleClass("off");
@@ -63,3 +60,6 @@ const observer = new MutationObserver(function(mutationsList) {
     }
 });
 observer.observe(document.body, { childList: true, subtree: true });
+
+
+

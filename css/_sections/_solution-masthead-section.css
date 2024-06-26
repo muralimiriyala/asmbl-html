@@ -20,7 +20,8 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
 /*-- animation css starts --*/
 .solution-masthead-thumb::after, .solution-masthead-thumb::before{opacity: 0.7; visibility: hidden; content: ""; display: block; position: absolute; background-color: var(--White); z-index: -1; animation-delay: 1s; animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; animation-name: suedo;}
 @keyframes suedo{ from{visibility: hidden; opacity: 0;} to{visibility: visible;} }
-.solution-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
+.solution-masthead-thumb img{opacity: 0; animation-play-state: paused; animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
+[data-images].loaded .solution-masthead-thumb img{opacity: 1; animation-play-state: running;}
 /*-- animation css ends --*/
 
 /* media css starts here */
@@ -45,11 +46,11 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     .solution-masthead-images{height: 600px;}
     
     /*-- animation css starts --*/
-    .solution-masthead-1 img{animation-name: anim-down-1; }
-    .solution-masthead-2 img{animation-name: animRight; }
-    .solution-masthead-3 img{animation-name: animdUp; }
-    .solution-masthead-4 img{animation-name: anim-down-2;}
-    .solution-masthead-5 img{animation-name: animdUp; }
+    [data-images].loaded .solution-masthead-1 img{animation-name: anim-down-1; }
+    [data-images].loaded .solution-masthead-2 img{animation-name: animRight; }
+    [data-images].loaded .solution-masthead-3 img{animation-name: animdUp; }
+    [data-images].loaded .solution-masthead-4 img{animation-name: anim-down-2;}
+    [data-images].loaded .solution-masthead-5 img{animation-name: animdUp; }
     @keyframes anim-down-1{ from{top: -162px;} to{top: 0;} }
     @keyframes anim-down-2{ from{top: -256px;} to{top: 0;} }
     @keyframes animdUp{ from{transform: translateY(100vh);} to{transform: translateY(0%);} }
@@ -79,11 +80,11 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     /*-- animation css starts --*/
-    .solution-masthead-1 img{animation-name: animLeft; }
-    .solution-masthead-2 img{animation-name: animRight; }
-    .solution-masthead-3 img{animation-name: animLeft; }
-    .solution-masthead-4 img{animation-name: animRight;}
-    .solution-masthead-5 img{animation-name: animLeft; }
+    [data-images].loaded .solution-masthead-1 img{animation-name: animLeft; }
+    [data-images].loaded .solution-masthead-2 img{animation-name: animRight; }
+    [data-images].loaded .solution-masthead-3 img{animation-name: animLeft; }
+    [data-images].loaded .solution-masthead-4 img{animation-name: animRight;}
+    [data-images].loaded .solution-masthead-5 img{animation-name: animLeft; }
     @keyframes animLeft{ from{transform: translateX(-100vw);} to{transform: translateY(0%);} }
     @keyframes animRight{ from{transform: translateX(100vw);} to{transform: translateX(0%);} }
     /*-- animation css ends --*/

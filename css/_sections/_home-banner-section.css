@@ -16,8 +16,10 @@
 .home-thumb-8 img{border-radius: 8px 8px 0 0;}
 
 /*-- animation css starts --*/
-.home-banner-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
-.home-banner-thumb::before, .home-thumb-7::after{background: var(--Background, #F0F2FA); backdrop-filter: blur(2px); animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; z-index: -1; content: ""; display: block; position: absolute;}
+.home-banner-thumb img{opacity: 0; pointer-events: none; animation-play-state: paused;  animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
+[data-images].loaded .home-banner-thumb img{opacity: 1; animation-play-state: running;}
+.home-banner-thumb::before, .home-thumb-7::after{visibility: hidden;}
+[data-images].loaded .home-banner-thumb::before, [data-images].loaded .home-thumb-7::after{visibility: visible; background: var(--Background, #F0F2FA); backdrop-filter: blur(2px); animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; z-index: -1; content: ""; display: block; position: absolute;}
 .home-thumb-1::before{width: 56px; height: 56px; top: 162px; left: 130px;  opacity: 0.3; animation-name: home-anim-1;}
 @keyframes home-anim-1{ from{ top: 162px; left: 130px; } to { top: 122px; left: 130px; opacity: 0; } }
 .home-thumb-2::before{width: 426px; height: 426px; top: 20px; left: -13px; opacity: 0.3; animation-name: home-anim-2;}
@@ -39,14 +41,14 @@
     .no_masthead_images .home-banner-text{max-width: 100%;}
 
     /*-- animation css starts --*/
-    .home-thumb-1 img{animation-name: anim-down-1; }
-    .home-thumb-2 img{animation-name: animRight; }
-    .home-thumb-3 img{animation-name: animdUp; }
-    .home-thumb-4 img{animation-name: anim-down-2;}
-    .home-thumb-5 img{animation-name: animdUp; }
-    .home-thumb-6 img{animation-name: animRight; }
-    .home-thumb-7 img{animation-name: animRight; }
-    .home-thumb-8 img{animation-name: animdUp; }
+    [data-images].loaded .home-thumb-1 img{animation-name: anim-down-1; }
+    [data-images].loaded .home-thumb-2 img{animation-name: animRight; }
+    [data-images].loaded .home-thumb-3 img{animation-name: animdUp; }
+    [data-images].loaded .home-thumb-4 img{animation-name: anim-down-2;}
+    [data-images].loaded .home-thumb-5 img{animation-name: animdUp; }
+    [data-images].loaded .home-thumb-6 img{animation-name: animRight; }
+    [data-images].loaded .home-thumb-7 img{animation-name: animRight; }
+    [data-images].loaded .home-thumb-8 img{animation-name: animdUp; }
     @keyframes anim-down-1{ from{top: -162px;} to{top: 0;} }
     @keyframes anim-down-2{ from{top: -256px;} to{top: 0;} }
     @keyframes animdUp{ from{transform: translateY(100vh);} to{transform: translateY(0%);} }
@@ -94,14 +96,14 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     /*-- animation css starts --*/
-    .home-thumb-1 img{animation-name: animLeft; }
-    .home-thumb-2 img{animation-name: animRight; }
-    .home-thumb-3 img{animation-name: animLeft; }
-    .home-thumb-4 img{animation-name: animRight;}
-    .home-thumb-5 img{animation-name: animLeft; }
-    .home-thumb-6 img{animation-name: animRight; }
-    .home-thumb-7 img{animation-name: animLeft; }
-    .home-thumb-8 img{animation-name: animRight; }
+    [data-images].loaded .home-thumb-1 img{animation-name: animLeft; }
+    [data-images].loaded .home-thumb-2 img{animation-name: animRight; }
+    [data-images].loaded .home-thumb-3 img{animation-name: animLeft; }
+    [data-images].loaded .home-thumb-4 img{animation-name: animRight;}
+    [data-images].loaded .home-thumb-5 img{animation-name: animLeft; }
+    [data-images].loaded .home-thumb-6 img{animation-name: animRight; }
+    [data-images].loaded .home-thumb-7 img{animation-name: animLeft; }
+    [data-images].loaded .home-thumb-8 img{animation-name: animRight; }
     @keyframes animLeft{ from{transform: translateX(-100vw);} to{transform: translateY(0%);} }
     @keyframes animRight{ from{transform: translateX(100vw);} to{transform: translateX(0%);} }
     /*-- animation css ends --*/

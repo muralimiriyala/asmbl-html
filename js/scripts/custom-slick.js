@@ -26,7 +26,7 @@ jQuery(document).on("ready", function(){
                 }
             }
             else {
-                if (pageSlide >= 4 && !_this.hasClass('slick-initialized')) {
+                if (pageSlide >= 5 && !_this.hasClass('slick-initialized')) {
                     _this.on('init reInit afterChange', function(event, slick, currentSlide) {
                         let i = (currentSlide ? currentSlide : 0) + 1;
                         $status.text(i + '/' + slick.slideCount);

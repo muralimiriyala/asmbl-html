@@ -47,7 +47,7 @@ body.home .industry-slide > svg{margin-bottom: 12px;}
     .industry-slide a > svg{margin-bottom: 17px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .who-for-main{padding: 80px 0 40px;}
+    .who-for-main{padding: 80px 0 100px;}
     .who-for-row{display: block;}
     .who-for-image{margin-bottom: 24px;}
     .who-for-text{padding: 27px 0 40px;}

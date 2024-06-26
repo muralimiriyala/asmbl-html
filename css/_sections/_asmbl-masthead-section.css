@@ -19,7 +19,8 @@
 .asmbl-masthead-8{top: 455px; left: 410px; width: 294px; height: 269px;}
 
 /*-- animation css starts --*/
-.asmbl-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; border-radius: 6px; position: relative;}
+.asmbl-masthead-thumb img{opacity: 0; animation-play-state: paused; animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; border-radius: 6px; position: relative;}
+[data-images].loaded .asmbl-masthead-thumb img{opacity: 1; animation-play-state: running;}
 /*-- animation css ends --*/
 
 .asmbl-masthead-main.no_asmbl_images{display: block;}
@@ -34,14 +35,14 @@
 
     /*-- animation css starts --*/
     .asmbl-masthead-images{height: 725px;}
-    .asmbl-masthead-1 img{animation-name: anim-down-1; }
-    .asmbl-masthead-2 img{animation-name: animRight; }
-    .asmbl-masthead-3 img{animation-name: animdUp; }
-    .asmbl-masthead-4 img{animation-name: anim-down-2;}
-    .asmbl-masthead-5 img{animation-name: animdUp; }
-    .asmbl-masthead-6 img{animation-name: animRight; }
-    .asmbl-masthead-7 img{animation-name: animRight; }
-    .asmbl-masthead-8 img{animation-name: animdUp; }
+    [data-images].loaded .asmbl-masthead-1 img{animation-name: anim-down-1; }
+    [data-images].loaded .asmbl-masthead-2 img{animation-name: animRight; }
+    [data-images].loaded .asmbl-masthead-3 img{animation-name: animdUp; }
+    [data-images].loaded .asmbl-masthead-4 img{animation-name: anim-down-2;}
+    [data-images].loaded .asmbl-masthead-5 img{animation-name: animdUp; }
+    [data-images].loaded .asmbl-masthead-6 img{animation-name: animRight; }
+    [data-images].loaded .asmbl-masthead-7 img{animation-name: animRight; }
+    [data-images].loaded .asmbl-masthead-8 img{animation-name: animdUp; }
     @keyframes anim-down-1{ from{top: -162px;} to{top: 0;} }
     @keyframes anim-down-2{ from{top: -256px;} to{top: 0;} }
     @keyframes animdUp{ from{transform: translateY(100vh);} to{transform: translateY(0%);} }
@@ -65,18 +66,6 @@
     .asmbl-masthead-text h1{font-size: 2.5rem; line-height: 3.125rem;}
     .asmbl-masthead-text h1 br{display: none;}
     
-    /* .asmbl-masthead-thumb img{object-fit: cover; border-radius: 3px;}
-    .asmbl-masthead-1{top: 38px; left: 12px; width: 121px; height: 86.97px;}
-    .asmbl-masthead-2{top: 16px; left: 149px; width: 498.8px; height: 81.94px;}
-    .asmbl-masthead-2 img{object-position: left top;}
-    .asmbl-masthead-3{top: 141px; left: 12px; width: 120.7px; height: 154.43px;}
-    .asmbl-masthead-4{top: 115px; left: 150px; width: 120.7px; height: 96.95px;}
-    .asmbl-masthead-5{top: 228px; left: 150px; width: 120.7px; height: 96.95px;}
-    .asmbl-masthead-6{top: 115px; left: 287px; width: 120.7px; height: 146.35px;}
-    .asmbl-masthead-7{top: 341px; left: 78px; width: 192.9px; height: 96.52px;}
-    .asmbl-masthead-8{top: 278px; left: 286px; width: 120.7px; height: 121.64px;}
-    .asmbl-masthead-8 img{border-radius: 3px 3px 0 0;} */
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .asmbl-masthead-main{padding: 80px 0 54px; display: block;} 
@@ -88,14 +77,14 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     /*-- animation css starts --*/
-    .asmbl-masthead-1 img{animation-name: animLeft; }
-    .asmbl-masthead-2 img{animation-name: animRight; }
-    .asmbl-masthead-3 img{animation-name: animLeft; }
-    .asmbl-masthead-4 img{animation-name: animRight;}
-    .asmbl-masthead-5 img{animation-name: animLeft; }
-    .asmbl-masthead-6 img{animation-name: animRight; }
-    .asmbl-masthead-7 img{animation-name: animLeft; }
-    .asmbl-masthead-8 img{animation-name: animRight; }
+    [data-images].loaded .asmbl-masthead-1 img{animation-name: animLeft; }
+    [data-images].loaded .asmbl-masthead-2 img{animation-name: animRight; }
+    [data-images].loaded .asmbl-masthead-3 img{animation-name: animLeft; }
+    [data-images].loaded .asmbl-masthead-4 img{animation-name: animRight;}
+    [data-images].loaded .asmbl-masthead-5 img{animation-name: animLeft; }
+    [data-images].loaded .asmbl-masthead-6 img{animation-name: animRight; }
+    [data-images].loaded .asmbl-masthead-7 img{animation-name: animLeft; }
+    [data-images].loaded .asmbl-masthead-8 img{animation-name: animRight; }
     @keyframes animLeft{ from{transform: translateX(-100vw);} to{transform: translateY(0%);} }
     @keyframes animRight{ from{transform: translateX(100vw);} to{transform: translateX(0%);} }
     /*-- animation css ends --*/

@@ -14,9 +14,9 @@ body .cky-accordion-header .cky-always-active{color: var(--Orange);}
 body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: var(--Blue);}
 body .cky-preference-header .cky-btn-close{ padding: 6px; border: 2px solid transparent; border-radius: 4px; }
 body .cky-preference-header .cky-btn-close:hover{border-color: var(--Orange);}
-body .cky-btn-revisit-wrapper{background: linear-gradient(to top,#f9662d -50%,#fec74d 100%);}
+body .cky-btn-revisit-wrapper{background: linear-gradient(to top,#1335af -50%,#182A54 100%) !important;}
 body .cky-btn-revisit{z-index: 1;}
-body .cky-btn-revisit::before, body .cky-btn-revisit::after{ background-color: #fec74d; animation: 4s riffle infinite linear; transform: scale(1); filter: opacity(0.5); -webkit-filter: opacity(0.5); transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 50%; bottom: 0; content: ""; left: 0; position: absolute; right: 0; top: 0; display: block; z-index: -1;}
+body .cky-btn-revisit::before, body .cky-btn-revisit::after{ background-color: #1335af; animation: 4s riffle infinite linear; transform: scale(1); filter: opacity(0.5); -webkit-filter: opacity(0.5); transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 50%; bottom: 0; content: ""; left: 0; position: absolute; right: 0; top: 0; display: block; z-index: -1;}
 body .cky-btn-revisit::before{ -webkit-animation-delay: 2s; animation-delay: 2s;}
 body .cky-btn-revisit::after{ -webkit-animation-delay: 4s; animation-delay: 4s;}
 @keyframes riffle{ 0% { transform: scale(1); opacity: 1; } 100% { transform: scale(4); opacity: 0; } }

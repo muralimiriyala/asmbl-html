@@ -17,14 +17,10 @@ button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px);
 .res-dropdown-main{flex: 1; gap: 40px; transition: all 0.5s ease;}
 .res-dropdown-main.fade{opacity: 0; visibility: hidden;}
 .res-rule{width: 1px; height: 56px; background-color: var(--White);}
-.res-dropdown-pos{width: fit-content;}
 
 .res-scroll-top .res-rule{opacity: 0;}
-.res-scroll-top .res-dropdown{transform: translateY(-30px);}
-.res-scroll-top .res-srch-form{transform: translateY(-30px);}
 
 .res-srch-main{z-index: 2;}
-.res-dropdown{gap: 13px; width: fit-content; cursor: pointer;  transition: all 0.5s ease;}
 .open .res-category-arrow{color: var(--Orange);}
 .open .res-category-arrow::before{content: "\f077";}
 .res-category{color: var(--Navy, #182A54); font-family: "arboria", sans-serif; font-size: 1.75rem; font-weight: 700; line-height: 2.375rem;}
@@ -75,6 +71,8 @@ ul.blog_list{margin: 0; width: 100%;}
     body.page-template-integrations .res-srch-main{margin-bottom: 83px;}
     .load-more-resources{margin-top: 62px;}
     #more-blog:not(:first-child){margin-top: 40px;}
+
+    .res-dropdown-pos{width: fit-content;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .resources-row{gap: 32px;}
@@ -82,7 +80,7 @@ ul.blog_list{margin: 0; width: 100%;}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .res-dropdown-main{gap: 32px;}
-    .res-srch-main{gap: 32px;}
+    .res-srch-main{gap: 46px 92px;}
     .res-srch-form.open .res-srch-field{width: 309px;}
     .resources-wrap{padding: 32px 0 62px;}
     .resources-blogs{padding: 42px 0 0;}
@@ -108,6 +106,7 @@ ul.blog_list{margin: 0; width: 100%;}
     .res-rule{height: 34px;}
     .res-dropdown-main{position: relative;}
     ul.res-tags{padding-top: 10px;}
+    .res-dropdown-pos{width: calc(50% - 41px);}
 }
 
 
