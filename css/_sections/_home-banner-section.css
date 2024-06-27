@@ -16,7 +16,7 @@
 .home-thumb-8 img{border-radius: 8px 8px 0 0;}
 
 /*-- animation css starts --*/
-.home-banner-thumb img{opacity: 0; pointer-events: none; animation-play-state: paused;  animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
+.home-banner-thumb img{opacity: 0; pointer-events: none; animation-play-state: paused;  animation-duration: 3.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
 [data-images].loaded .home-banner-thumb img{opacity: 1; animation-play-state: running;}
 .home-banner-thumb::before, .home-thumb-7::after{visibility: hidden;}
 [data-images].loaded .home-banner-thumb::before, [data-images].loaded .home-thumb-7::after{visibility: visible; background: var(--Background, #F0F2FA); backdrop-filter: blur(2px); animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; z-index: -1; content: ""; display: block; position: absolute;}

@@ -4,38 +4,87 @@
 .browser-art-head{width: 100%;}
 .browser-art-content{align-items: flex-start; z-index: 0;}
 .browser-art-bg{ width: 100%; height: 40px; top: auto; bottom: 0; opacity: 0.25; background-image: linear-gradient(to top, #182a54, rgba(24, 42, 84, 0)); display: block; z-index: 1; }
-.browser-left-thumb img { animation-duration: 5s; animation-name: scrollCoverBrowserLeft; animation-timing-function: cubic-bezier(1, 0.005, 0.305, 1); animation-direction: alternate; animation-iteration-count: infinite; animation-fill-mode: none; }
-.browser-right-thumb img { animation-duration: 5s; animation-name: scrollCoverBrowserRight; animation-timing-function: cubic-bezier(1, 0.005, 0.305, 1); animation-direction: alternate; animation-iteration-count: infinite; animation-fill-mode: none; }
 .no_browse_left .browser-art-right{flex: 0 0 100%;}
 .browser-art-text{padding: 32px; border-radius: 8px; background: var(--Blue, #1335AF);}
+.browser-art-text h2{margin-bottom: 11px;}
+[data-animation="browser"]{opacity: 1; visibility: visible;}
+.browser-art-links{gap: 15px;}
+
+
+[data-animation="browser"] > * > *:not(:nth-child(2)){animation-name: opacity; animation-play-state: paused; animation-delay: 0.75s; animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: ease;}
+[data-animation="browser"].visible > * > *:not(:nth-child(2)){animation-play-state: running;}
+@keyframes opacity{ from{opacity: 1;} to{opacity: 0.5; filter: blur(1.75px);} }
+
+.browser-left-thumb img { animation-duration: 5s; animation-name: scrollCoverBrowserLeft; animation-timing-function: cubic-bezier(1, 0.005, 0.305, 1); animation-direction: alternate; animation-iteration-count: infinite; animation-fill-mode: none; }
+.browser-right-thumb img { animation-duration: 5s; animation-name: scrollCoverBrowserRight; animation-timing-function: cubic-bezier(1, 0.005, 0.305, 1); animation-direction: alternate; animation-iteration-count: infinite; animation-fill-mode: none; }
+
 
 /* media css starts here */
 @media screen and (min-width: 768px){
     .browser-art-main{height: 460px;}
     .browser-art-content{gap: 20px;}
+
     @keyframes scrollCoverBrowserLeft { 0% { transform: translateY(0); } 50% {transform: translateY(calc(-50% + 230px)); } 100% {transform: translateY(calc(-100% + 460px)); } }
     @keyframes scrollCoverBrowserRight { 0% { transform: translateY(calc(-100% + 460px)); } 50% { transform: translateY(calc(-50% + 230px)); } 100% { transform: translateY(0); } }
 }
 @media screen and (min-width: 1024px){
     .browser-art-content{padding: 0 40px;}
     .browser-art-left{flex: 1; gap: 20px; padding-top: 20px; flex-direction: column; }
-    .browser-art-right{flex: 0 0 300px; gap: 20px; flex-direction: column;}
-}
+    .browser-art-right{flex: 0 0 332px; gap: 20px; flex-direction: column;}
+
+    .browser-art-anim > picture > img{min-height: 230px;}
+
+    .browser-art-anim{animation-play-state: paused; animation-delay: 0.75s; animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: ease;}
+    [data-animation="browser"].visible .browser-art-anim{animation-play-state: running;}
+    .browser-art-left{animation-name: browserLeft;}
+    @keyframes browserLeft { 0%{transform: translateY(0);} 20%{transform: translateY(20px);} 100%{transform: translateY(-205px);} }
+    .browser-art-right{ animation-name: browserRight; transform: translateY(-390px);}
+    @keyframes browserRight { 0%{transform: translateY(-390px);} 20%{transform: translateY(-410px);} 100%{transform: translateY(-188px);} }
+} 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .browser-art-content{padding: 0 20px;}
     .browser-art-left{flex: 0 0 calc(50% - 10px);}
     .browser-art-right{flex: 0 0 calc(50% - 10px);}
+
+    .browser-art-text{padding: 22px;}
+    .browser-art-text h2{font-size: 24px; line-height: 30px;}
+    .browser-art-text{font-size: 16px; line-height: 24px;}
+    .browser-art-links{gap: 11px;}
+    
+    .browser-art-anim > picture > img{min-height: 200px;}
+
+    .browser-art-anim{gap: 20px; flex-direction: column; animation-play-state: paused; animation-delay: 0.75s; animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: ease;}
+    [data-animation="browser"].visible .browser-art-anim{animation-play-state: running;}
+    .browser-art-left{animation-name: browserLeft;}
+    @keyframes browserLeft { from{transform: translateY(0);} to{transform: translateY(-205px);} }
+    .browser-art-right{ animation-name: browserRight; transform: translateY(-390px);}
+    @keyframes browserRight { from{transform: translateY(-390px);} to{transform: translateY(-188px);} }
+
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .browser-art-main{height: 500px; margin-bottom: -1px;}
     .browser-art-content{gap: 19px; padding: 19px 0 20px; flex-direction: column;}
     .browser-art-left{width: 100%; height: 201px; padding-left: 20px;}
     .browser-art-right{width: 100%; height: 201px; padding-left: 20px;}
-    .browser-art-content img{min-width: 816px; object-fit: contain; position: relative;}
     body.page-template-marketing .browser-art-section{padding: 53px 0 0;}
-
+    
     .browser-art-section .container{padding: 0 20px;}
+    div.browser-art-anim > *{min-width: 256px; width: 256px;}
+    .browser-art-text p{display: none;}
+    .browser-art-links{display: block;}
+    .browser-art-links > span:nth-child(n+2){display: none;}
+    .browser-art-text{padding: 13px 20px 23px;}
+    .browser-art-links a{width: 100%;}
+    .browser-art-anim > picture > img{min-height: 200px;}
+    
+    .browser-art-anim{gap: 20px; flex-wrap: nowrap; animation-play-state: paused; animation-delay: 0.75s; animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: ease;}
+    [data-animation="browser"].visible .browser-art-anim{animation-play-state: running;}
+    .browser-art-left{animation-name: browserLeft; transform: translateX(-498px);}
+    @keyframes browserLeft { from{transform: translateX(-498px);} to{transform: translateX(-246px);} }
+    .browser-art-right{ animation-name: browserRight;}
+    @keyframes browserRight { from{transform: translateX(0px);} to{transform: translateX(-245px);} }
 
     @keyframes scrollCoverBrowserLeft{0% { transform: translateX(0%);} 50% {transform: translateX(calc(-50%)); } 100% {transform: translateX(calc(-100%)); } }
     @keyframes scrollCoverBrowserRight { 0% { transform: translateX(calc(-100%)); } 50% { transform: translateX(calc(-50% + 20px)); } 100% { transform: translateX(calc(0% + 20px)); } }
+
 }
