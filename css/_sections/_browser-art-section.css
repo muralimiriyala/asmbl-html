@@ -7,7 +7,7 @@
 .browser-left-thumb img { animation-duration: 5s; animation-name: scrollCoverBrowserLeft; animation-timing-function: cubic-bezier(1, 0.005, 0.305, 1); animation-direction: alternate; animation-iteration-count: infinite; animation-fill-mode: none; }
 .browser-right-thumb img { animation-duration: 5s; animation-name: scrollCoverBrowserRight; animation-timing-function: cubic-bezier(1, 0.005, 0.305, 1); animation-direction: alternate; animation-iteration-count: infinite; animation-fill-mode: none; }
 .no_browse_left .browser-art-right{flex: 0 0 100%;}
-
+.browser-art-text{padding: 32px; border-radius: 8px; background: var(--Blue, #1335AF);}
 
 /* media css starts here */
 @media screen and (min-width: 768px){
@@ -18,8 +18,8 @@
 }
 @media screen and (min-width: 1024px){
     .browser-art-content{padding: 0 40px;}
-    .browser-art-left{flex: 1;}
-    .browser-art-right{flex: 0 0 300px;}
+    .browser-art-left{flex: 1; gap: 20px; padding-top: 20px; flex-direction: column; }
+    .browser-art-right{flex: 0 0 300px; gap: 20px; flex-direction: column;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .browser-art-content{padding: 0 20px;}

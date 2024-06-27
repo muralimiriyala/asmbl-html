@@ -24,7 +24,6 @@
     .ai-feature-list:hover{border-color: var(--Blue); background-color: var(--Navy);}
     .ai-art-open .ai-feature-list{background-color: var(--White); color: var(--Foreground);}
 
-
     .scrolled .ai-feature-head{padding: 18px 14px 18px 15px; font-size: 1.2rem; line-height: 1.563rem;}
     .ai-feature-head{gap: 7px; padding: 13px 14px 14px 15px; font-size: 1.125rem; line-height: 22.5px; cursor: pointer; font-weight: 400;}
     .ai-feature-head.ai-head-open{color: var(--Blue); pointer-events: none;}
