@@ -21,6 +21,10 @@
 /*-- animation css starts --*/
 .asmbl-masthead-thumb img{opacity: 0; animation-play-state: paused; animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; border-radius: 6px; position: relative;}
 [data-images].loaded .asmbl-masthead-thumb img{opacity: 1; animation-play-state: running;}
+.asmbl-masthead-7::after{animation-play-state: paused; visibility: hidden; background: #D9DFF2; backdrop-filter: blur(2px); animation-duration: 2s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; z-index: -1; content: ""; display: block; position: absolute;}
+[data-images].loaded .asmbl-masthead-7::after{animation-play-state: running; visibility: visible;}
+
+
 /*-- animation css ends --*/
 
 .asmbl-masthead-main.no_asmbl_images{display: block;}
@@ -49,6 +53,10 @@
     @keyframes animDown{ from{transform: translateY(-100vh);} to{transform: translateY(0%);} }
     @keyframes animRight{ from{transform: translateX(100vw);} to{transform: translateX(0%);} }
     /*-- animation css ends --*/
+
+    .asmbl-masthead-7::after{width: 87px; height: 87px; bottom: 8px; right: 82px; animation-name: asmbl-anim-7-after;}
+    @keyframes asmbl-anim-7-after{ from{ opacity: 1; bottom: 50px; right: 82px; } to{ bottom: 8px; right: 82px; opacity: 0.5;} }
+
 }
 @media screen and (min-width: 1440px){
     .asmbl-masthead-wrapper{max-width: 1600px; margin: 0 auto;}
