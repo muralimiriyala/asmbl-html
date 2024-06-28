@@ -8,8 +8,8 @@
 @media screen and (min-width: 1024px){
     .ai-feature-wrap{padding: 48px 0 48px;} 
     .scrolled .ai-feature-main{padding: 66px 0 66px; width: 100%; display: flex; flex-wrap: wrap; }
-    .ai-feature-title{flex: 1; gap: 4px; display: flex; align-items: center;}
-    .ai-feature-title strong{white-space: nowrap; display: none;}
+    .ai-feature-title{width: calc(100% - 39px); flex: 1; gap: 4px; display: flex; align-items: center;}
+    .ai-feature-title strong{display: none;}
     .ai-feature-text{align-items: center;}
     .scrolled .ai-feature-text{padding-top: 54px; display: block;}
     .ai-feature-desc{flex: 0 0 225px;}
