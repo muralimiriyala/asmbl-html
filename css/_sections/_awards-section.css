@@ -19,7 +19,7 @@
 }
 @media screen and (min-width: 1024px){
     .awards-intro-head{margin-bottom: 64px;}
-    .awards-row{gap: 32px; padding: 28px 0 0; justify-content: center;}
+    .awards-row{gap: 64px 32px; padding: 28px 0 0;}
     .awards-list{flex: 0 0 calc(25% - 24px); padding: 24px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){

@@ -15,17 +15,10 @@
 [data-animation="browser"].visible > * > *:not(:nth-child(2)){animation-play-state: running;}
 @keyframes opacity{ from{opacity: 1;} to{opacity: 0.5; filter: blur(1.75px);} }
 
-.browser-left-thumb img { animation-duration: 5s; animation-name: scrollCoverBrowserLeft; animation-timing-function: cubic-bezier(1, 0.005, 0.305, 1); animation-direction: alternate; animation-iteration-count: infinite; animation-fill-mode: none; }
-.browser-right-thumb img { animation-duration: 5s; animation-name: scrollCoverBrowserRight; animation-timing-function: cubic-bezier(1, 0.005, 0.305, 1); animation-direction: alternate; animation-iteration-count: infinite; animation-fill-mode: none; }
-
-
 /* media css starts here */
 @media screen and (min-width: 768px){
     .browser-art-main{height: 460px;}
     .browser-art-content{gap: 20px;}
-
-    @keyframes scrollCoverBrowserLeft { 0% { transform: translateY(0); } 50% {transform: translateY(calc(-50% + 230px)); } 100% {transform: translateY(calc(-100% + 460px)); } }
-    @keyframes scrollCoverBrowserRight { 0% { transform: translateY(calc(-100% + 460px)); } 50% { transform: translateY(calc(-50% + 230px)); } 100% { transform: translateY(0); } }
 }
 @media screen and (min-width: 1024px){
     .browser-art-content{padding: 0 40px;}
@@ -83,8 +76,5 @@
     @keyframes browserLeft { from{transform: translateX(-498px);} to{transform: translateX(-246px);} }
     .browser-art-right{ animation-name: browserRight;}
     @keyframes browserRight { from{transform: translateX(0px);} to{transform: translateX(-245px);} }
-
-    @keyframes scrollCoverBrowserLeft{0% { transform: translateX(0%);} 50% {transform: translateX(calc(-50%)); } 100% {transform: translateX(calc(-100%)); } }
-    @keyframes scrollCoverBrowserRight { 0% { transform: translateX(calc(-100%)); } 50% { transform: translateX(calc(-50% + 20px)); } 100% { transform: translateX(calc(0% + 20px)); } }
 
 }
