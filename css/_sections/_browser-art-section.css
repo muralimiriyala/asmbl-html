@@ -37,7 +37,7 @@
     .browser-art-anim{animation-play-state: paused; animation-delay: 0.75s; animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: ease;}
     [data-animation="browser"].visible .browser-art-anim{animation-play-state: running;}
     .browser-art-left{animation-name: browserLeft;}
-    @keyframes browserLeft { 0%{transform: translateY(0);} 20%{transform: translateY(20px);} 100%{transform: translateY(-205px);} }
+    @keyframes browserLeft { 0%{transform: translateY(0);} 20%{transform: translateY(20px);} 100%{transform: translateY(-215px);} }
     .browser-art-right{ animation-name: browserRight; transform: translateY(-390px);}
     @keyframes browserRight { 0%{transform: translateY(-390px);} 20%{transform: translateY(-410px);} 100%{transform: translateY(-188px);} }
 } 

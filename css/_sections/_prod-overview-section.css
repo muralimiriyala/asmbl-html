@@ -29,8 +29,7 @@
     .prod-overview-section:not(.gray-bg) .prod-overview-wrap{padding: 39px 0 40px;}
     .prod-overview-main{flex-direction: row-reverse;}
     .white-bg .prod-overview-main{flex-direction: row;}
-    .prod-art-title{flex: 1; gap: 4px; display: flex; align-items: center;}
-    .prod-art-title strong{white-space: nowrap;}
+    .prod-art-title{flex: 1; width: calc(100% - 39px); gap: 4px; display: flex; align-items: center;}
     .prod-overview-text{padding-top: 40px;}
     .prod-overview-pos{position: relative; min-height: 600px;}
     .prod-image-list.active-slide{transform: translateX(0);}
