@@ -22,6 +22,7 @@
 .price-dollar sub{padding-left: 9px; color: var(--Foreground, #313031); font-size: 0.875rem; font-weight: 400; line-height: 1.313rem; opacity: 0.6; }
 .pricing-head{margin-bottom: 17px; gap: 10px;}
 .pricing-head svg, figure.pricing-h-icon{width: 26px; height: 30px;}
+figure.pricing-h-icon img{object-fit: contain;}
 .pricing-head span{flex: 1;}
 .pricing-list{padding: 24px; border: 2px solid transparent;}
 .pricing-list:hover{background-color: transparent; border-color: var(--Gradient-Gold-B, #F9662D);}
