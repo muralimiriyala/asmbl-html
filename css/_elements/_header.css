@@ -48,7 +48,8 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > ul > li:nth-child(2){flex: 0 0 191px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > a{gap: 14px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 1.25rem; font-weight: 700; line-height: 1.5rem; cursor: pointer;} 
     ul.main_menu > li.nav-product > ul > li > ul > li > a:hover{color: var(--Orange);}
-    ul.main_menu > li.nav-product > ul > li > ul > li.no_link > a{color: var(--Blue,#1335af);}
+    ul.main_menu > li.nav-product > ul > li > ul > li.no_link > a{color: var(--Blue,#1335af); cursor: inherit;}
+    ul.main_menu > li.nav-product > ul > li > ul > li.no_link > a:hover{color: var(--Blue);}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul{margin: 0; padding-top: 24px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li{margin: 0 0 24px;}
     ul.main_menu > li.nav-product > ul > li > ul > li > ul > li > a{gap: 12px; display: flex; flex-wrap: nowrap; align-items: flex-start; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.5rem; }
@@ -65,6 +66,8 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-solutions > ul > li:last-child{padding: 20px 32px; margin: 0; flex: 0 0 calc(100% + 64px); left: -32px; gap: 40px; display: flex; flex-wrap: wrap; background: var(--Background, #F0F2FA); border-radius: 0 0 8px 8px;}
     ul.main_menu > li.nav-solutions > ul > li > a{ color: var(--Blue, #1335AF); font-size: 1.25rem; font-weight: 700; line-height: 1.563rem; font-family: "arboria", sans-serif; }
     ul.main_menu > li.nav-solutions > ul > li > a:hover{color: var(--Orange);}
+    ul.main_menu > li.nav-solutions > ul > li.no_link > a{color: var(--Blue);}
+    ul.main_menu > li.nav-solutions > ul > li.no_link > a:hover{color: var(--Blue);}
     ul.main_menu > li.nav-solutions > ul > li > ul{margin: 0; padding: 20px 0 0; left: 0; top: auto; position: static; box-shadow: none; opacity: 1; visibility: visible;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li{margin: 0 0 22px;}
     ul.main_menu > li.nav-solutions > ul > li > ul > li > a{gap: 12px; align-items: flex-start; flex-wrap: nowrap; display: flex; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.5rem;}

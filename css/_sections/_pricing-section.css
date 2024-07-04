@@ -18,7 +18,7 @@
 .pricing-active span.pricing-yearly{color: var(--Navy);}
 
 .price-dollar{margin-bottom: 22px;}
-.price-dollar sup:not(sub){color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 3rem; font-weight: 700; line-height: 48px; letter-spacing: -2.4px; bottom: 0;}
+.price-dollar sup:not(sub){color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 2.5rem; font-weight: 700; line-height: 2.5rem; letter-spacing: -2.4px; bottom: 0;}
 .price-dollar sub{padding-left: 9px; color: var(--Foreground, #313031); font-size: 0.875rem; font-weight: 400; line-height: 1.313rem; opacity: 0.6; }
 .pricing-head{margin-bottom: 17px; gap: 10px;}
 .pricing-head svg, figure.pricing-h-icon{width: 26px; height: 30px;}
