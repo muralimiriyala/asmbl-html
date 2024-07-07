@@ -10,7 +10,7 @@
 .reviews-quote{margin-bottom: 20px; font-size: 1.25rem; line-height: 2.25rem; font-weight: 500; font-family: "arboria", sans-serif; color: var(--Blue); display: block;}
 .reviews-quote p::before { content: "“"; }
 .reviews-quote p::after{content: "”";}
-.reviews-small-text{padding-left: 16px; border-left: 1px solid var(--Orange); color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.5rem;}
+.reviews-small-text{padding-left: 16px; border-left: 1px solid var(--Orange); color: var(--Foreground); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 400; line-height: 1.5rem;}
 .reviews-reverse .reviews-block svg{transform: scaleX(-1);}
 
 .white-bg .reviews-text{background-color: var(--Background);}
@@ -24,7 +24,7 @@
     .reviews-head{gap: 32px; margin-bottom: 40px;}
     .reviews-title{flex: 1;}
     .reviews-intro-link{width: fit-content;}
-    .reviews-text:before{width: 32px; height: 32px; top: -0.001px; left: 0; position: absolute; background: var(--Background, #F0F2FA); content: ""; display: block;}
+    .reviews-text:before{width: 32px; height: 32px; top: -0.001px; left: 0; position: absolute; background: var(--Background); content: ""; display: block;}
     body.page-template-story .reviews-main{padding-top: 0;}
     body.page-template-solutions-industry-detail .reviews-main{padding: 0 0 80px;}
     body.page-template-solution-company-detail .reviews-main{padding-top: 0;}

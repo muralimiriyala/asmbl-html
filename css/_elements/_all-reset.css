@@ -26,7 +26,7 @@ p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q{-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
-blockquote{padding: 32px; margin: 48px 0 17px; background: var(--Background, #F0F2FA); color: var(--Blue); font-size: 1.25rem; line-height: 2.25rem; font-weight: 500; font-family: "arboria", sans-serif; font-style: normal; position: relative; }
+blockquote{padding: 32px; margin: 48px 0 17px; background: var(--Background); color: var(--Blue); font-size: 1.25rem; line-height: 2.25rem; font-weight: 500; font-family: "arboria", sans-serif; font-style: normal; position: relative; }
 blockquote p::before{content: "“";}
 blockquote p::after{content: "”";}
 blockquote cite, blockquote small {font-size: 1rem;}
@@ -76,7 +76,7 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 /* Buttons */
 .button, button, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{padding: 8px 12px 8px 12px; font-size: 1rem; font-weight: 600; line-height: 1.5rem; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 4px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
 .button:hover, button:hover, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit:hover, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit:hover{ background: var(--Orange); color: var( --White); }
-.button.gray{border-radius: 4px; background: var(--Blue-Tint, #D9DFF2); color: var(--Blue, #1335AF);}
+.button.gray{border-radius: 4px; background: var(--Blue-Tint, #D9DFF2); color: var(--Blue);}
 .button.gray:hover{background-color: var(--Blue); color: var(--White);}
 .button.white{background-color: var(--White); color: var(--Blue);}
 .button.white:hover{ background: var(--Orange); color: var( --White);}
@@ -101,9 +101,9 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .button.transparent::after, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit::after{top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(287deg,#f9662d,#fec74d, #ffdc54 150%) border-box; opacity: 0; }
 .button.transparent:hover::after, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit:hover::after{opacity: 1;}
 
-.text-btn-link{color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.5rem; display: inline-flex; align-items: center;}
+.text-btn-link{color: var(--Blue); font-family: "Noto Sans", sans-serif; font-size: 1rem; font-weight: 600; line-height: 1.5rem; display: inline-flex; align-items: center;}
 .text-btn-link svg{top: 1px; margin-left: 5px; position: relative;}
-.text-btn-link:hover{color: var(--Blue, #1335AF);}
+.text-btn-link:hover{color: var(--Blue);}
 .text-btn-link:hover svg {animation: scrollRight 1s forwards ease-in-out; }
 
 .text-btn-link.top-2 svg{top: 2px;}
@@ -159,7 +159,7 @@ span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue);
 span.optional-text.white{color: var(--White);-webkit-text-fill-color: var(--White); opacity: 0.6; background: none; margin-bottom: 4px;}
 span.optional-text.large{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 23px;}
 span.optional-text.md{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 22px;}
-.optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue, #1335AF); font-size: 1rem; font-weight: 600; line-height: 1.25rem;}
+.optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue); font-size: 1rem; font-weight: 600; line-height: 1.25rem;}
 .optional-blue svg{left: 0; position: absolute;}
 .optional-blue span{opacity: 0.6; padding-top: 5px; display: block;}
 .optional-blue.no_svg{padding-left: 0;}
@@ -249,7 +249,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .clamp-3{ -webkit-line-clamp: 3; }
 
 .white-bg{background-color: var( --White);}
-.gray-bg{background: var(--Background, #F0F2FA);}
+.gray-bg{background: var(--Background);}
 
 div.slick-arrow{width: 48px; height: 48px; padding: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease; border-radius: 8px; background: linear-gradient(300deg, #182A54 0%, #1335AF 100%); }
 div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%); content: ""; display: block; border-radius: 8px; position: absolute; transition: all 0.5s ease; z-index: -1;}

@@ -12,7 +12,7 @@
 ul.get-author-links{margin: 0;}
 ul.get-author-links li{margin: 7px 0 0;}
 ul.get-author-links li::before{display: none;}
-ul.get-author-links li a{gap: 10px; color: var(--Blue, #1335AF); font-size: 1rem; font-weight: 700; line-height: 1.5rem;}
+ul.get-author-links li a{gap: 10px; color: var(--Blue); font-size: 1rem; font-weight: 700; line-height: 1.5rem;}
 ul.get-author-links li a:hover{color: var(--Orange);}
 ul.get-author-links li a svg{width: 23px; height: 23px;}
 ul.get-author-links li:not(:first-child) a{gap: 8px;}

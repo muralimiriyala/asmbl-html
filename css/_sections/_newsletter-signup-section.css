@@ -1,10 +1,10 @@
 
-.newsletter-overlay{height: 108px; background: var(--Background, #F0F2FA);}
+.newsletter-overlay{height: 108px; background: var(--Background);}
 .newsletter-main{ background-image: linear-gradient(90deg, #1335AF 0%, rgba(19, 53, 175, 0.00) 100%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); position: relative; z-index: 1;}
 .newsletter-bg{background-size: cover; background-repeat: no-repeat; background-position: center top;}
 .newsletter-field-wrap{clear: both;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 0;}
-body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 19px 60px 19px 20px; font-size: 1rem; line-height: 1.5rem; font-weight: 700; background-color: var(--White); color: var(--Foreground, #313031);}
+body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 19px 60px 19px 20px; font-size: 1rem; line-height: 1.5rem; font-weight: 700; background-color: var(--White); color: var(--Foreground);}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder{color: var(--Foreground); font-family: "Noto Sans", sans-serif;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder{color: var(--Foreground); font-family: "Noto Sans", sans-serif; opacity: 1;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{color: var(--Foreground); font-family: "Noto Sans", sans-serif; opacity: 1;}

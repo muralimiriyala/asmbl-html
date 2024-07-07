@@ -15,6 +15,11 @@
 [data-animation="browser"].visible > * > *:not(:nth-child(2)){animation-play-state: running;}
 @keyframes opacity{ from{opacity: 1;} to{opacity: 0.5; filter: blur(1.75px);} }
 
+.browser-art-top{margin-top: 60px;}
+.browser-art-content.no_browser_content{height: 100%;}
+.no_browser_content .browser-art-anim{animation: none !important; padding-top: 80px;}
+.no_browser_content .browser-art-text{animation: none !important;}
+
 /* media css starts here */
 @media screen and (min-width: 768px){
     .browser-art-main{height: 460px;}
@@ -53,6 +58,8 @@
     .browser-art-right{ animation-name: browserRight; transform: translateY(-390px);}
     @keyframes browserRight { from{transform: translateY(-390px);} to{transform: translateY(-188px);} }
 
+    .no_browser_content .browser-art-anim { animation: none !important; padding-top: 80px; transform: none; flex-wrap: wrap; width: 100%; padding-right: 20px; flex: 0 0 100%; }
+    .no_browser_content div.browser-art-anim > * { min-width: 100%; width: 100%; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .browser-art-main{height: 500px; margin-bottom: -1px;}
@@ -77,4 +84,7 @@
     .browser-art-right{ animation-name: browserRight;}
     @keyframes browserRight { from{transform: translateX(0px);} to{transform: translateX(-245px);} }
 
+
+    .no_browser_content .browser-art-anim { animation: none !important; padding-top: 80px; transform: none; flex-wrap: wrap; width: 100%; padding-right: 20px; }
+    .no_browser_content div.browser-art-anim > * { min-width: 100%; width: 100%; }
 }

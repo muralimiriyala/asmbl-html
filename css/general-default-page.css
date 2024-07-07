@@ -8,8 +8,8 @@
 .default-article h3:not(.mini-cta-text h3){padding-top: 30px; margin-bottom: 19px;}
 .default-article h4{margin-bottom: 20px;}
 .image-caption-main{margin: 57px 0 140px;}
-.image-caption-text{ width: calc(100% - 80px); left: 40px; bottom: -53px; padding: 24px 24px 6px; background: rgba(240, 242, 250, 0.75); backdrop-filter: blur(4px); color: var(--Navy, #182A54); }
-.image-caption-box{width: 40px; height: 40px; bottom: -40px; right: -40px; background: var(--Background, #F0F2FA);}
+.image-caption-text{ width: calc(100% - 80px); left: 40px; bottom: -53px; padding: 24px 24px 6px; background: rgba(240, 242, 250, 0.75); backdrop-filter: blur(4px); color: var(--Navy); }
+.image-caption-box{width: 40px; height: 40px; bottom: -40px; right: -40px; background: var(--Background);}
 .article-cta-link{margin: 47px 0 47px; padding-left: 20px; border-left: 4px solid var(--Orange);}
 
 .mini-cta-article {margin: 56px 0 48px; padding: 32px; gap: 24px; background-image: linear-gradient(90deg, #1335af 0, rgba(19, 53, 175, 0) 100%), url("images/mini-cta-article@2x.png"); position: relative; background-blend-mode: multiply; background-size: cover; background-repeat: no-repeat; }

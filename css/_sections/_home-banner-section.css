@@ -18,7 +18,7 @@
 /*-- animation css starts --*/
 .home-banner-thumb img{opacity: 0; pointer-events: none; animation-play-state: paused;  animation-duration: 2s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 1s ease;}
 [data-images].loaded .home-banner-thumb img{opacity: 1; animation-play-state: running;}
-.home-banner-thumb::before, .home-thumb-7::after{animation-play-state: paused;  visibility: hidden; background: var(--Background, #F0F2FA); backdrop-filter: blur(2px); animation-duration: 2s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; z-index: -1; content: ""; display: block; position: absolute;}
+.home-banner-thumb::before, .home-thumb-7::after{animation-play-state: paused;  visibility: hidden; background: var(--Background); backdrop-filter: blur(2px); animation-duration: 2s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease; z-index: -1; content: ""; display: block; position: absolute;}
 [data-images].loaded .home-banner-thumb::before, [data-images].loaded .home-thumb-7::after{animation-play-state: running; visibility: visible;}
 .home-thumb-1::before{width: 56px; height: 56px; top: 162px; left: 130px;  opacity: 0.3; animation-name: home-anim-1;}
 @keyframes home-anim-1{ from{ top: 162px; left: 130px; } to { top: 122px; left: 130px; opacity: 0; } }

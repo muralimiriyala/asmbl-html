@@ -18,8 +18,8 @@ ul.selectBox-dropdown-menu li:hover a{color: var(--Blue); background-color: tran
 ul.selectBox-dropdown-menu li:hover{background-color: transparent; }
 body.page-template-faq ul.selectBox-dropdown-menu{border: 1px solid var(--Blue-Tint,#d9dff2); border-top: none;}
 
-body .res-dropdown-pos .selectBox-dropdown{ padding: 0 34px 0 0; border: none; color: var(--Navy,#182a54); font-family: arboria,sans-serif; font-size: 1.75rem; font-weight: 700; line-height: 2.375rem; }
-body .res-dropdown-pos .selectBox-dropdown .selectBox-arrow { top: calc(50% + 2px); right: 0; width: auto; height: auto; color: var(--Blue,#1335af); font-size: 1.25rem; line-height: 1.25rem; position: absolute; font-family: "Font Awesome 6 Pro"; font-weight: 900; background: none; }
+body .res-dropdown-pos .selectBox-dropdown{ padding: 0 34px 0 0; border: none; color: var(--Navy); font-family: arboria,sans-serif; font-size: 1.75rem; font-weight: 700; line-height: 2.375rem; }
+body .res-dropdown-pos .selectBox-dropdown .selectBox-arrow { top: calc(50% + 2px); right: 0; width: auto; height: auto; color: var(--Blue); font-size: 1.25rem; line-height: 1.25rem; position: absolute; font-family: "Font Awesome 6 Pro"; font-weight: 900; background: none; }
 body .res-dropdown-pos .selectBox-menuShowing .selectBox-arrow{ top: calc(50% + 5px); transform: translateY(-50%) rotate(180deg); }
 body .res-dropdown-pos .selectBox-dropdown .selectBox-arrow::before{ content: "\f078"; }
 body .res-dropdown-pos .selectBox-dropdown::after { width: 100%; height: 2px; bottom: 0; opacity: 0; position: absolute; content: ""; display: block; background-color: var(--Orange); transition: all .5s ease; }

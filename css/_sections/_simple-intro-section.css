@@ -7,10 +7,10 @@
 .simple-icon-block.sm { width: 6px; height: 6px; top: -16px; left: 100%; transform: translate(100%, 0%); }
 .simple-intro-list:hover .simple-icon-block{ opacity: 1; }
 .simple-intro-list:hover .simple-icon-block:not(.sm) { width: 60px; height: 60px;}
-.white-bg .simple-icon-block{background: var(--Background, #F0F2FA);}
+.white-bg .simple-icon-block{background: var(--Background);}
 
-.simple-intro-text{color: var(--Foreground, #313031);}
-.simple-intro-text h2{margin-bottom: 16px; color: var(--Navy, #182A54);}
+.simple-intro-text{color: var(--Foreground);}
+.simple-intro-text h2{margin-bottom: 16px; color: var(--Navy);}
 .no_simple_fig_icon:hover .simple-icon-block{opacity: 0;}
 
 /* media css starts here */

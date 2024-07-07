@@ -8,7 +8,7 @@ ul.who-for-tabs li::before{display: none;}
 
 .industry-slide > a{width: 100%; height: 100%; display: block;}
 .industry-slide > a:hover h2{color: var(--Blue);}
-.industry-slide-text{color: var(--Foreground, #313031);}
+.industry-slide-text{color: var(--Foreground);}
 .industry-slide-text h2{margin-bottom: 16px; color: var(--Navy);}
 .industry-slide-text h2 a{color: var(--Navy);}
 .industry-slide-text h2 a:hover{color: var(--Blue);}
@@ -26,7 +26,7 @@ body.home .industry-slide > svg{margin-bottom: 12px;}
 @media screen and (min-width: 768px){
     ul.who-for-tabs{margin: auto 0 0; gap: 15px;}
     ul.who-for-tabs li{display: block; margin: 0;}
-    ul.who-for-tabs li a{padding: 11px 9px; border: 2px solid var(--White, #FFF);; color: var(--Navy, #182A54); font-size: 1rem; line-height: 1.5rem; display: block;}
+    ul.who-for-tabs li a{padding: 11px 9px; border: 2px solid var(--White, #FFF);; color: var(--Navy); font-size: 1rem; line-height: 1.5rem; display: block;}
     ul.who-for-tabs li a.active, ul.who-for-tabs li a:hover{font-weight: 700; background-color: var(--White); color: var(--Blue);}
 }
 @media screen and (min-width: 1024px){
@@ -66,13 +66,13 @@ body.home .industry-slide > svg{margin-bottom: 12px;}
     .who-for-image{margin-bottom: 24px;}
 
     .for-tabs-text{margin-bottom: 32px;}
-    .for-tabs-btn{ padding: 14px; font-size: 0.875rem; line-height: 1.25rem; color: var(--Blue, #1335AF); border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--White, #FFF); font-family: "arboria", sans-serif; font-weight: 700; display: block; cursor: pointer;}
+    .for-tabs-btn{ padding: 14px; font-size: 0.875rem; line-height: 1.25rem; color: var(--Blue); border: 1px solid var(--Blue-Tint, #D9DFF2); background: var(--White, #FFF); font-family: "arboria", sans-serif; font-weight: 700; display: block; cursor: pointer;}
     .for-tabs-btn.open{border-radius: 8px 8px 0 0; border-bottom-color: transparent;}
     .for-tabs-btn svg{top: 50%; transform: translateY(-50%); right: 15px; position: absolute; transition: all 0.3s ease-in-out;}
     .for-tabs-btn.open svg{transform: translateY(-50%) scaleY(-1);}
     ul.who-for-tabs{margin: 0; top: 100%; left: 0; border-radius: 0 0 8px 8px; display: none; background-color: var(--White); border: 1px solid var(--Blue-Tint); border-top: none; position: absolute;}
     ul.who-for-tabs li{display: block; margin: 0; border-top: 1px solid var(--Blue-Tint); }
-    ul.who-for-tabs li a{padding: 14px 14px; color: var(--Navy, #182A54); font-size: 0.813rem; line-height: 1.25rem; font-weight: 700; display: block; border-radius: 0;}
+    ul.who-for-tabs li a{padding: 14px 14px; color: var(--Navy); font-size: 0.813rem; line-height: 1.25rem; font-weight: 700; display: block; border-radius: 0;}
     ul.who-for-tabs li a.active, ul.who-for-tabs li a:hover{color: var(--Blue);}
 
     .who-for-text{z-index: 1; position: relative;}
@@ -81,7 +81,7 @@ body.home .industry-slide > svg{margin-bottom: 12px;}
     .industry-slider .slick-track{display: flex;}
     .industry-slide.slick-slide{height: auto;}
     .industry-slide.slick-slide{width: 298px; min-height: 145px; padding: 2px 22px 0px;}
-    .industry-count{top: 11px; width: calc(100% - 96px); margin: 0 auto; font-size: 1.25rem; line-height: 1.563rem; opacity: 0.5; display: block; text-align: center; color: var(--Navy, #182A54); font-family: "arboria", sans-serif; font-weight: 700; position: relative;}
+    .industry-count{top: 11px; width: calc(100% - 96px); margin: 0 auto; font-size: 1.25rem; line-height: 1.563rem; opacity: 0.5; display: block; text-align: center; color: var(--Navy); font-family: "arboria", sans-serif; font-weight: 700; position: relative;}
 }
 
 

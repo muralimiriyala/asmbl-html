@@ -1,5 +1,5 @@
 
-.faqs-section{background-color: var(--Background,#f0f2fa);}
+.faqs-section{background-color: var(--Background);}
 .faqs-questions h3{margin-bottom: 22px;}
 .faqs-questions hr{margin: 0 0 17px;}
 .faqs-title{gap: 18px; margin-bottom: 23px;}
@@ -10,7 +10,7 @@
 ul.faqs-links{margin: 0;}
 ul.faqs-links li{margin: 0 0 17px;}
 ul.faqs-links li::before{display: none;}
-ul.faqs-links li a{font-size: 1rem; line-height: 1.5rem; font-weight: 600; color: var(--Blue, #1335AF); font-family: "Noto Sans", sans-serif; display: inline-flex; align-items: center; gap: 7px; position: relative; }
+ul.faqs-links li a{font-size: 1rem; line-height: 1.5rem; font-weight: 600; color: var(--Blue); font-family: "Noto Sans", sans-serif; display: inline-flex; align-items: center; gap: 7px; position: relative; }
 ul.faqs-links li a svg{ top: 1px; position: relative;}
 ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 .need-more-answers{padding: 23px 24px 24px; background: linear-gradient(0deg, #1335AF -0.05%, rgba(19, 53, 175, 0.00) 99.95%), linear-gradient(300deg, #182A54 0%, #1335AF 100%); position: relative; z-index: 1;}
@@ -20,9 +20,9 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 .accordion-list{margin-bottom: 22px; border: solid 1px rgba(217, 223, 242, 0.50); transition: all 0.4s ease;}
 .accordion-list:last-child{margin-bottom: 0;}
 .accordion-list:hover{transform: translateY(-10px); border-color: var(--Orange);}
-.accordion-header{padding: 13px 66px 17px 22px; color: var(--Navy, #182A54); font-size: 1.125rem; line-height: 1.688rem; cursor: pointer; position: relative; font-weight: 600;}
+.accordion-header{padding: 13px 66px 17px 22px; color: var(--Navy); font-size: 1.125rem; line-height: 1.688rem; cursor: pointer; position: relative; font-weight: 600;}
 .accordion-header.open{color: var(--Blue);}
-.accordion-header span{right: 20px; top: 16px; width: 24px; height: 24px; position: absolute; transition: all 0.45s ease; font-size: 1.5rem; line-height: 1.5; color: var(--Blue, #1335AF);; display: flex; align-items: center; justify-content: center; z-index: 1;}
+.accordion-header span{right: 20px; top: 16px; width: 24px; height: 24px; position: absolute; transition: all 0.45s ease; font-size: 1.5rem; line-height: 1.5; color: var(--Blue);; display: flex; align-items: center; justify-content: center; z-index: 1;}
 .accordion-header.open span::before{content: "\f056";}
 .accordion-header span::after { top: 4px; width: 20px; height: 20px; opacity: 0.4; background-color: #F9662D; content: ""; display: block; position: absolute; border-radius: 50%; z-index: -1; }
 .accordion-content{display: none; padding: 9px 22px 25px; font-size: 0.875rem; line-height: 1.313rem;}
@@ -63,7 +63,7 @@ ul.faqs-links li a:hover svg{animation: scrollRight 1s forwards ease-in-out;}
 @media screen and (max-width: 767px) and (min-width: 200px){
     .faqs-main{display: block; padding: 120px 0 40px;}
     .faqs-text{padding: 0 0 41px;}
-    .faqs-category-btn{padding: 13px 16px 13px; color: var(--Blue, #1335AF); font-family: "arboria", sans-serif; font-size: 0.875rem; font-weight: 700; line-height: 1.25rem; display: block; border: 1px solid var(--Blue-Tint, #D9DFF2); cursor: pointer;}
+    .faqs-category-btn{padding: 13px 16px 13px; color: var(--Blue); font-family: "arboria", sans-serif; font-size: 0.875rem; font-weight: 700; line-height: 1.25rem; display: block; border: 1px solid var(--Blue-Tint, #D9DFF2); cursor: pointer;}
     .faqs-category-btn.active{border-bottom-color: transparent; border-radius: 8px 8px 0 0;}
     .faqs-category-btn svg{right: 15px; top: 50%; transform: translateY(-50%); position: absolute;}
     .faqs-category-btn.active svg{transform: translateY(-50%) scaleY(-1);}

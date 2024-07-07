@@ -1,7 +1,7 @@
 
 
 
-.resources-section{background: var(--Background, #F0F2FA);}
+.resources-section{background: var(--Background);}
 .res-srch-form{transition: all .5s ease;}
 
 .res-srch-field input{width: 100%; padding: 15px 48px 16px 16px; font-size: 1.125rem; line-height: 1.375rem; background-color: var(--White); border-color: transparent;}
@@ -10,7 +10,7 @@
 .res-srch-field input::-moz-placeholder {color: var(--Navy); opacity: 0.5;}
 
 .res-srch-field.open input{width: 100%; min-width: 436px; border-image: var(--Gradient-Gold, linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%)); background-color: var(--White);}
-button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px); transform: translateY(-50%); color: var(--Blue, #1335AF); background-color: transparent; font-size: 2rem; line-height: 2rem; padding: 0; border: none;}
+button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px); transform: translateY(-50%); color: var(--Blue); background-color: transparent; font-size: 2rem; line-height: 2rem; padding: 0; border: none;}
 .res-srch-form.open button.res-srch-icon, .res-srch-form.open button.res-expand-icon{right: 20px; top: 50%; font-size: 1.25rem;}
 
 
@@ -23,9 +23,9 @@ button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px);
 .res-srch-main{z-index: 2;}
 .open .res-category-arrow{color: var(--Orange);}
 .open .res-category-arrow::before{content: "\f077";}
-.res-category{color: var(--Navy, #182A54); font-family: "arboria", sans-serif; font-size: 1.75rem; font-weight: 700; line-height: 2.375rem;}
+.res-category{color: var(--Navy); font-family: "arboria", sans-serif; font-size: 1.75rem; font-weight: 700; line-height: 2.375rem;}
 .res-category span{font-weight: 400;}
-.res-category-arrow{ top: 3px; color: var(--Blue, #1335AF); font-size: 1.25rem; line-height: 1.25rem; position: relative; }
+.res-category-arrow{ top: 3px; color: var(--Blue); font-size: 1.25rem; line-height: 1.25rem; position: relative; }
 
 .res-tags-list{display: none; width: 100%; top: 100%; left: 0; height: auto; position: absolute; z-index: 1;}
 .res-tags-list.open{display: flex;}

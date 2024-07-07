@@ -44,7 +44,7 @@ ul.marketing-plan-order li::before{display: none;}
     .marketing-plan-row{gap: 30px;}
     .marketing-plan-list{ flex: 0 0 100%; width: 100%; gap: 24px; align-items: center; display: flex; flex-wrap: wrap; }
     .marketing-i-left { flex: 0 0 calc(50% - 24.5px); }
-    .marketing-i-line { width: 1px; height: 100%; content: ""; display: block; background: var(--Background,#f0f2fa); opacity: 0.2; }
+    .marketing-i-line { width: 1px; height: 100%; content: ""; display: block; background: var(--Background); opacity: 0.2; }
     .marketing-i-right { flex: 0 0 calc(50% - 24.5px); }
     .marketing-plan-title h1{font-size: 2.5rem; line-height: 3.125rem;}
 }

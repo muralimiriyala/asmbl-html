@@ -2,7 +2,7 @@
 
 
 .client-logos-gray{height: 50%;}
-.client-logos-main{background: var(--Background, #F0F2FA);}
+.client-logos-main{background: var(--Background);}
 .client-logos-main.inverted{background: linear-gradient(300deg, #182A54 0%, #1335AF 100%);}
 .client-logo-thumb img{border-radius: 8px;}
 

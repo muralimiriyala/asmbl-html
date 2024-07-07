@@ -6,7 +6,7 @@ nav.spy-nav{ overflow-x: scroll; overflow-y: visible; scrollbar-width: none; hei
 ul.linear-links{margin: 0; gap: 10px; height: 52px; min-width: max-content;}
 ul.linear-links li{margin: 0;}
 ul.linear-links li::before{display: none;}
-ul.linear-links li a{padding: 12px; color: var(--Navy, #182A54); font-size: 1rem; font-weight: 600; line-height: 1.5rem; border-radius: 8px; border: 2px solid var(--Elevated, #F0F2FA); display: block;}
+ul.linear-links li a{padding: 12px; color: var(--Navy); font-size: 1rem; font-weight: 600; line-height: 1.5rem; border-radius: 8px; border: 2px solid var(--Elevated, #F0F2FA); display: block;}
 ul.linear-links li a.active{color: var(--Blue); background: var(--Elevated, #F0F2FA);}
 
 nav.spy-nav::after, nav.spy-nav::before{content: ""; display: block; width: 52px; height: 100%; top: 0; background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); position: absolute; z-index: 1;}

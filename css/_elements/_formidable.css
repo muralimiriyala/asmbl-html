@@ -4,7 +4,7 @@
 label:not(.pricing-monthly){padding-bottom: 9px; display: block; font-size: 1.125rem; line-height: 1.375rem; font-weight: 800;}
 textarea {width: 100%; resize: none; height: 160px;}
 input:focus, textarea:focus{outline: 0;}
-input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--blue); font-weight: bold;  position: relative; text-transform: uppercase; text-align: center; color: #FFFFFF; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
+input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--blue); font-weight: bold;  position: relative; text-transform: uppercase; text-align: center; color: var(--White); transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {background-color: var(--black); color: var(--White);}
 input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {outline: none;}
 
@@ -32,7 +32,7 @@ body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 6px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 41px; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; text-indent: 0; color: #5e6783; position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 28px; height: 28px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 0; margin: 0; text-indent: 0; border-radius: 8px; display: block; cursor: pointer; color: var(--Foreground, #313031); font-family: "Noto Sans", sans-serif; font-size: 0.875rem; font-weight: 400; line-height: 1.313rem; }
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 0; margin: 0; text-indent: 0; border-radius: 8px; display: block; cursor: pointer; color: var(--Foreground); font-family: "Noto Sans", sans-serif; font-size: 0.875rem; font-weight: 400; line-height: 1.313rem; }
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--Blue);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{display: block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a{color: var(--navy); position: relative; display: inline-block;}

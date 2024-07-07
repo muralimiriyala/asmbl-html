@@ -1,6 +1,6 @@
 
 
-.quote-section{background: var(--Background, #F0F2FA);}
+.quote-section{background: var(--Background);}
 .quote-icon{margin-bottom: 27px;}
 .quote-text h2{margin-bottom: 30px; color: var(--Foreground);}
 .quote-text p::after{content: '"'; display: inline;}
