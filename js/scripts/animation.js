@@ -1,6 +1,7 @@
 
 
 gsap.registerPlugin(ScrollTrigger);
+document.addEventListener('DOMContentLoaded', function (){
 const $animation_elements = jQuery('[data-animation]');
 $animation_elements.each(function(){
     const $self = jQuery(this);
@@ -9,11 +10,11 @@ $animation_elements.each(function(){
     const timeline = $self[0].tl
     const counter = $self[0].counter
 
-    gsap.to($self, {
+    gsap.to($self,{
         scrollTrigger: {
             trigger: $self,
             start: 'top 90%',
-            end: 'top 10%', 
+            end: 'bottom 10%', 
             toggleActions: "play none none none",
             // markers: true, 
             onEnter: function(){
@@ -40,3 +41,6 @@ $animation_elements.each(function(){
         ease: 'power1.inOut',
     });
 });
+ScrollTrigger.refresh();
+});
+window.addEventListener('load', function () { ScrollTrigger.refresh(); });

@@ -5,7 +5,7 @@
 .key-integration-icon{max-width: 64px; margin-bottom: 19px;}
 .key-tags{margin-top: 32px;}
 .key-tags ul.optional-tag{flex: 1; margin: 0;}
-.key-tags .text-btn-link{width: 38px;}
+.key-tags .text-btn-link{width: 38px; margin-left: auto;}
 .key-integration-text h2{margin-bottom: 21px; color: var(--Navy);}
 .key-integration-text h2 a{color: var(--Navy);}
 .key-integration-text h2 a:hover{color: var(--Orange);}
