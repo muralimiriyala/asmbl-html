@@ -41,6 +41,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-product > ul > li > a img.menu-image{padding: 0;}
     ul.main_menu > li.nav-product > ul > li > a span.menu-image-title-after{padding: 0;}
     ul.main_menu > li.nav-product > ul > li > a span p{ color: var(--Foreground); font-family: "Noto Sans",sans-serif; font-size: 1rem; font-weight: 400; }
+    ul.main_menu > li.nav-product > ul > li > a:hover{color: var(--Orange);}
 
     ul.main_menu > li.nav-product > ul > li > a svg{width: 35px;}
     ul.main_menu > li.nav-product > ul > li > ul{margin: 0; padding: 32px 32px 8px; gap: 56px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px; box-shadow: none;}
