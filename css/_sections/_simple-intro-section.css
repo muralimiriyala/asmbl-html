@@ -5,13 +5,17 @@
 .simple-intro-icon img, .simple-intro-icon svg{width: 46px; height: 46px; object-fit: contain;}
 .simple-icon-block { width: 14px; height: 14px; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background-color: var(--White); transition: all 0.5s ease; z-index: -1; }
 .simple-icon-block.sm { width: 6px; height: 6px; top: -16px; left: 100%; transform: translate(100%, 0%); }
-.simple-intro-list:hover .simple-icon-block{ opacity: 1; }
-.simple-intro-list:hover .simple-icon-block:not(.sm) { width: 60px; height: 60px;}
+.simple-intro-list:hover .simple-icon-block, .icon-block-hover:hover .simple-icon-block{ opacity: 1; }
+.simple-intro-list:hover .simple-icon-block:not(.sm), .icon-block-hover:hover .simple-icon-block:not(.sm){ width: 60px; height: 60px;}
 .white-bg .simple-icon-block{background: var(--Background);}
 
 .simple-intro-text{color: var(--Foreground);}
 .simple-intro-text h2{margin-bottom: 16px; color: var(--Navy);}
 .no_simple_fig_icon:hover .simple-icon-block{opacity: 0;}
+
+.simple-intro-list.no_hover_state:hover .simple-icon-block{ opacity: 0; }
+.no_hover_state a{cursor: inherit; color: inherit; pointer-events: none;}
+.no_intro_link .simple-intro-title{padding-right: 0; border-right: none;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){

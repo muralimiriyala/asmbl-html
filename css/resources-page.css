@@ -73,6 +73,7 @@ ul.blog_list{margin: 0; width: 100%;}
     #more-blog:not(:first-child){margin-top: 40px;}
 
     .res-dropdown-pos{width: fit-content;}
+    .res-dropdown{gap: 8px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .resources-row{gap: 32px;}

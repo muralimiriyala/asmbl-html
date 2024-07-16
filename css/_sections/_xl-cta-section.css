@@ -29,6 +29,7 @@
 /*-- anim --*/
 .xl-step-line::before{width: 0%; height: 100%; top: 0; left: 0; animation-name: xlineAnim; animation-play-state: paused; animation-fill-mode: forwards; animation-duration: 2s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); background-image: linear-gradient(to left, #f9662d 18%, #fec74d 100%, #ffdc54 0%); content: ""; display: block; position: absolute;}
 @keyframes xlineAnim{ 0%{width: 0%;} 100%{width: 100%;} }
+
 .xl-line-anim .xl-step-line::before{animation-play-state: running;}
 .xl-line-anim .xl-step-1::before{animation-delay: 1000ms;}
 .xl-line-anim .xl-step-2::before{animation-delay: 3000ms;}
@@ -50,7 +51,9 @@
     .xl-step-row{gap: 32px;}
     .xl-step-list{flex: 0 0 calc(25% - 32px); flex-direction: column;}
     .xl-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; display: block; position: absolute; z-index: -1; }
+    .xl-step-line.xl-step-4{left: 52px;}
     .xl-step-num{margin-bottom: 19px;}
+    .xl-step-list:last-child .xl-step-line::after{right: -12px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .xl-cta-row{gap: 32px;}

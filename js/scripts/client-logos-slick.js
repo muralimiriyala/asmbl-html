@@ -1,5 +1,4 @@
-
-jQuery(function(){
+jQuery(document).ready(function(){
 
     jQuery('.client-slider-up .slick-slide').removeAttr('aria-hidden');
     jQuery('.client-slider-down .slick-slide').removeAttr('aria-hidden');
