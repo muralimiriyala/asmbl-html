@@ -39,6 +39,7 @@
 
     .home-banner-main.no_masthead_images{display: block; padding-bottom: 60px;}
     .no_masthead_images .home-banner-text{max-width: 100%;}
+    .home-static-image{flex: 1; right: -40px; padding-top: 60px; position: relative;}
 
     /*-- animation css starts --*/
     [data-images].loaded .home-thumb-1 img{animation-name: anim-down-1; }
@@ -64,6 +65,7 @@
     .home-banner-images{flex: 0 0 720px; width: 720px; height: 725px; right: -80px;}
     .home-banner-text{max-width: 560px; padding-top: 148px; flex: 0 0 calc(100% - 720px);}
     body.page-template-marketing .home-banner-text { padding-top: 88px;}
+    .home-static-image{min-width: 720px; right: -60px; padding: 60px 0 60px;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 1280px){
     .home-banner-images{flex: 0 0 720px; height: 725px; right: -80px;}
@@ -96,8 +98,10 @@
     .home-banner-btns{padding-top: 6px; gap: 16px;}
     .home-thumb-2 img{border-radius: 8px 0 0 8px;}
     .home-thumb-8 img{border-radius: 8px;}
+    .home-static-image{padding: 40px 0 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
+
     /*-- animation css starts --*/
     [data-images].loaded .home-thumb-1 img{animation-name: animLeft; }
     [data-images].loaded .home-thumb-2 img{animation-name: animRight; }
@@ -112,6 +116,8 @@
     /*-- animation css ends --*/
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .home-static-image{padding: 40px 0 40px;}
+
     .home-banner-main{padding: 80px 0 40px; display: block;}
     .home-banner-images{height: 342px;}
     .home-banner-text{font-size: 1rem; line-height: 1.5rem;}

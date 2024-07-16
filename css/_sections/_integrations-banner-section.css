@@ -67,12 +67,13 @@ button.integrations-srch-btn:hover{background-image: none; -webkit-text-fill-col
     .i-icon-9 { bottom: 188px; right: 364px; }
     .i-icon-10{top: 89px; right: 181px;}
     .i-icon-11 { bottom: 124px; right: 113px; }
+    .integrations-static-image{flex: 1; right: -40px; padding: 60px 0; position: relative;}
 }
 @media screen and (max-width: 1260px) and (min-width: 1200px){
     .integrations-banner-main{gap: 50px;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
-    .integrations-banner-main{padding: 110px 0 24px; gap: 64px; flex-direction: row-reverse;}
+    .integrations-banner-main{padding: 110px 0 24px; gap: 32px; flex-direction: row-reverse;}
     .integrations-banner-text{flex: 0 0 550px;}
     .integrations-srch-from{margin-top: 31px; max-width: 420px; }
     .integrations-banner-images{flex: 0 0 298px; margin-left: auto; margin-right: 32px;}

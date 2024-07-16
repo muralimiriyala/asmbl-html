@@ -22,6 +22,7 @@
 .default-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
 /*-- animation css ends --*/
 
+
 /* media css starts here */
 @media screen and (min-width: 768px){
     .default-masthead-bg{background-image: url('images/default-masthead-bg@2x.jpg');}
@@ -38,6 +39,8 @@
     .default-masthead-btns{padding-top: 7px; gap: 16px;}
     .default-masthead-images{height: 600px;}
     .no_masthead_images .default-masthead-text{padding: 80px 0; max-width: 100%;}
+    .default-static-image{flex: 1; right: -40px; padding: 60px 0; position: relative;}
+
     
     /*-- animation css starts --*/
     .default-masthead-1 img{animation-name: anim-down-1; }
@@ -56,13 +59,15 @@
     .default-masthead-wrapper{max-width: 1600px; margin: 0 auto;}
     .default-masthead-images{flex: 0 0 720px; right: -80px;}
     .default-masthead-text{max-width: 560px; padding-top: 119px; flex: 0 0 calc(100% - 720px);}
+
+    .default-static-image{min-width: 720px; right: -60px; }
 }
 @media only screen and (max-width: 1439px) and (min-width: 1280px){
     .default-masthead-images{flex: 0 0 720px; height: 420px; right: -80px;}
     .default-masthead-text{flex: 0 0 calc(100% - 720px); padding-top: 148px; }
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
-    .default-masthead-main{align-items: center;}
+    .default-masthead-main{padding: 120px 0 21px; align-items: center;}
     .default-masthead-images{flex: 0 0 510px; right: -40px;}
     .default-masthead-text{flex: 0 0 calc(100% - 510px);}
     .default-masthead-text h1{font-size: 2.5rem; line-height: 3.125rem;}
@@ -73,6 +78,7 @@
     .default-masthead-btns{padding-top: 6px; gap: 16px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
+    .default-static-image{padding: 40px 0;}
     /*-- animation css starts --*/
     .default-masthead-1 img{animation-name: animLeft; }
     .default-masthead-2 img{animation-name: animRight; }

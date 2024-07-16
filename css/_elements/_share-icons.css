@@ -13,7 +13,6 @@
 .share-icons #st-1.st-animated img{display: none;}
 .share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 2rem;}
 
-
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .post-video-aside .share-icons{padding-top: 21px;}
@@ -26,4 +25,9 @@
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
     .share-icons #st-1.st-animated{justify-content: flex-start;}
+}
+@media screen and (max-width: 370px) and (min-width: 200px){
+    .share-icons{gap: 10px;}
+    .share-icons #st-1.st-animated{gap: 10px;}
+    .share-icons #st-1.st-animated .st-btn{min-width: 46px; width: 46px; height: 46px;}
 }

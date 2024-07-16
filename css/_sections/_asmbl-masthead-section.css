@@ -26,7 +26,7 @@
 
 
 /*-- animation css ends --*/
-.asmbl-masthead-images.static-image{padding-top: 60px; height: auto; position: relative;}
+.asmbl-static-image{flex: 1; padding-top: 60px; height: auto; position: relative;}
 
 .asmbl-masthead-main.no_asmbl_images{display: block;}
 .no_asmbl_images .asmbl-masthead-text{padding: 74px 0 80px; max-width: 100%;}
@@ -64,12 +64,12 @@
     .asmbl-masthead-images{flex: 0 0 720px; right: -80px;}
     .asmbl-masthead-text{max-width: 560px; padding-top: 148px; flex: 0 0 calc(100% - 720px);}
 
-    .asmbl-masthead-images.static-image{min-width: 720px; padding: 60px 0 60px 60px; right: -60px;}
+    .asmbl-static-image{min-width: 720px; right: -60px;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 1280px){
     .asmbl-masthead-images{flex: 0 0 720px; right: -80px;}
     .asmbl-masthead-text{flex: 0 0 calc(100% - 720px); padding-top: 148px; }
-    .asmbl-masthead-images.static-image{padding: 60px 0; right: -40px;}
+   .static-image{padding: 60px 0; right: -40px;}
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
     .asmbl-masthead-main{align-items: center;}
@@ -103,7 +103,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .asmbl-masthead-bg{background-image: url('images/asmbl-masthead-mobile@2x.jpg');}
-    .asmbl-masthead-images.static-image{padding: 0 0 40px;}
+    .asmbl-static-image{padding: 0 0 40px;}
     .asmbl-masthead-main{padding: 132px 0 40px; display: block;}
     .asmbl-masthead-images{height: 364px;}
     .asmbl-masthead-text{font-size: 1rem; line-height: 1.5rem;}

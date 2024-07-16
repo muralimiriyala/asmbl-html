@@ -47,8 +47,9 @@
     .confirmation-btns > span{flex: 1;}
     .confirmation-btns a{width: 100%;}
 }
-
-
+@media screen and (max-width: 370px) and (min-width: 200px){
+    .confirmation-btns a{font-size: 15px;}
+}
 
 
 

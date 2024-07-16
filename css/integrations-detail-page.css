@@ -11,17 +11,21 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
 .in-detail-text hr{margin-bottom: 23px;}
 .in-detail-btns {padding-top: 5px; gap: 16px;}
 
+.in-detail-static-image{flex: 1; height: auto; position: relative;}
+
 /* media css starts here */
 @media screen and (min-width: 1300px){
     .in-detail-main{gap: 80px;}
     .in-detail-images{margin-right: 24px;}
+    .in-detail-static-image{min-width: 720px; right: -60px;}
 }
 @media screen and (min-width: 1024px){
     .in-detail-bg{background-image: url('images/in-detail-bg@2x.jpg');}
-    .in-detail-main{padding: 190px 0 68px;}
+    .in-detail-main{padding: 160px 0 68px; align-items: center;}
     .in-detail-text{flex: 1; padding: 7px 20px 0 0;}
     .in-detail-images{flex: 0 0 552px; max-width: 552px; margin-left: auto;}
     .in-detail-savings{flex: 0 0 300px; margin-top: 28px; margin-left: 60px;}
+    .in-detail-static-image{max-width: 552px;}
 }
 @media screen and (min-width: 768px){
     .in-detail-logos{flex-direction: column; flex: 1; gap: 64px; max-width: 193px;}
@@ -61,6 +65,7 @@ figure.in-detail-logo{background: var(--Gradient-Blue, linear-gradient(300deg, #
     .in-detail-text h1{margin-bottom: 19px; font-size: 2rem; line-height: 2.5rem;}
     .in-detail-text hr{margin-bottom: 19px;}
     .masthead-btns{padding-top: 1px;}
+    .in-detail-static-image{padding: 0 0 30px;}
 }
 @media only screen and (max-width: 389px) and (min-width: 200px){
     .in-detail-images{max-width: 100%; gap: 32px;}

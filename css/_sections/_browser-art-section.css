@@ -62,33 +62,30 @@
     .no_browser_content div.browser-art-anim > * { min-width: 100%; width: 100%; }
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .browser-art-main{height: 500px; margin-bottom: -1px;}
-    .browser-art-content{gap: 19px; padding: 19px 0 20px; flex-direction: column;}
-    .browser-art-left{width: 100%; height: 201px; padding-left: 20px;}
+    .browser-art-main{height: auto; margin-bottom: -1px;}/*-- 500px to auto --*/
+    .browser-art-content{gap: 20px; padding: 19px 0 20px; flex-direction: column;}
+    .browser-art-left{width: 100%; height: auto; padding-left: 20px;}
     .browser-art-right{width: 100%; height: 201px; padding-left: 20px;}
     body.page-template-marketing .browser-art-section{padding: 53px 0 0;}
     
     .browser-art-section .container{padding: 0 20px;}
-    div.browser-art-anim > *{min-width: 256px; width: 256px;}
-    .browser-art-text p{display: none;}
+    div.browser-art-anim > *{min-width: 275px; width: 275px;}
     .browser-art-links{display: block;}
     .browser-art-links > span:nth-child(n+2){display: none;}
-    .browser-art-text{padding: 13px 20px 23px;}
+    .browser-art-text{padding: 13px 20px 23px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+    .browser-art-text p{display: none;}
     .browser-art-links a{width: 100%;}
     .browser-art-anim > picture > img{min-height: 200px;}
     
-    .browser-art-anim{gap: 20px; flex-wrap: nowrap; animation-play-state: paused; animation-delay: 0.75s; animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: ease;}
+    .browser-art-anim{gap: 20px; width: 865px; justify-content: center; flex-wrap: nowrap; animation-play-state: paused; animation-delay: 0.75s; animation-duration: 1.5s; animation-fill-mode: forwards; animation-timing-function: ease; position: relative;}
     [data-animation="browser"].visible .browser-art-anim{animation-play-state: running;}
-    .browser-art-left{animation-name: browserLeft; transform: translateX(-498px);}
-    @keyframes browserLeft { from{transform: translateX(-498px);} to{transform: translateX(-246px);} }
-    .browser-art-right{ animation-name: browserRight;}
-    @keyframes browserRight { from{transform: translateX(0px);} to{transform: translateX(-245px);} }
+    .browser-art-left{animation-name: browserLeft; left: calc(50% - 10px); transform: translateX(-50%);}
+    @keyframes browserLeft { from{transform: translateX(-100%);} to{transform: translateX(-50%);} }
+    .browser-art-right{ animation-name: browserRight; left: calc(50% - 10px); transform: translateX(-50%); animation-duration: 2s;}
+    @keyframes browserRight { from{transform: translateX(50%);} to{transform: translateX(-50%);} }
 
 
     .no_browser_content .browser-art-anim { animation: none !important; padding-top: 80px; transform: none; flex-wrap: wrap; width: 100%; padding-right: 20px; }
     .no_browser_content div.browser-art-anim > * { min-width: 100%; width: 100%; }
-}
-@media only screen and (max-width: 767px) and (min-width: 414px){
-    div.browser-art-anim > *{min-width: 275px; width: 275px;}
-    .browser-art-text h2{font-size: 28px; margin-bottom: 23px;}
+    .browser-art-text h2{font-size: 28px; line-height: 32px; margin-bottom: 23px;}
 }

@@ -40,7 +40,9 @@ ul.get-author-links li:not(:first-child) a svg{width: 24px;}
 
     body.page-template-faq .get-answer-main{padding: 39px 0 0;}
 }
-
+@media screen and (max-width: 370px) and (min-width: 200px){
+    ul.get-author-links li a{font-size: 0.9rem; line-height: 1rem;}
+}
 
 
 

@@ -320,3 +320,6 @@ ul.slick-dots li button{display: none;}
 
     img.alignnone, img.alignleft, img.alignright, img.aligncenter{margin: 25px auto; clear: both; float: none; display: block;}
 }
+@media screen and (max-width: 370px) and (min-width: 200px){
+    caption, td, th{font-size: 13px; line-height: 20px; padding: 10px;}
+}

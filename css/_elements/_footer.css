@@ -115,7 +115,7 @@ ul.footer-nav-links li.current_page_item a, ul.footer-nav-links li a:hover{color
     ul.footer-nav-links{margin: 0; display: none;}
     .copyrights-main{display: block;}
     .copyrights-text{margin-bottom: 12px;}
-    ul.copyrights-links{justify-content: flex-start;}
+    ul.copyrights-links{gap: 0 32px; justify-content: flex-start;}
 }
 @media screen and (max-width: 370px) and (min-width: 200px) {
     .footer-btns{flex-direction: column;}

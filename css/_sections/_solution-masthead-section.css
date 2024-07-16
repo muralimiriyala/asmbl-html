@@ -34,6 +34,7 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     .solution-masthead-3::after{ top: 73px; left: -58px; width: 14px; height: 14px;}
 
     .solution-masthead-bg{background-image: url('images/solution-masthead-bg@2x.jpg');}
+    .solution-static-image{flex: 1; right: -40px; padding: 60px 0; position: relative;}
 }
 @media screen and (min-width: 1024px){
     body.page-template-solution-company-detail .solution-masthead-images {margin-top: 25px;}
@@ -62,6 +63,7 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     .solution-masthead-wrapper{max-width: 1600px; margin: 0 auto;}
     .solution-masthead-images{flex: 0 0 720px; right: -80px;}
     .solution-masthead-text{max-width: 560px; padding-top: 80px; flex: 0 0 calc(100% - 720px);}
+    .solution-static-image{min-width: 720px; right: -60px; padding: 60px 0 60px;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 1280px){
     .solution-masthead-images{flex: 0 0 720px; height: 420px; right: -80px;}
@@ -77,6 +79,7 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     .solution-masthead-main{padding: 80px 0 54px; display: block;} 
     .solution-masthead-images{height: 600px;}
     .solution-masthead-btns{padding-top: 6px; gap: 16px;}
+    .solution-static-image{padding: 40px 0 40px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     /*-- animation css starts --*/
@@ -90,6 +93,8 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     /*-- animation css ends --*/
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .solution-static-image{padding: 0 0 40px;}
+
     .solution-masthead-bg{background-image: url('images/solution-masthead-mobile@2x.jpg');}
 
     .solution-masthead-main{padding: 127px 0 40px; display: block;}

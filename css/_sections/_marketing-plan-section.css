@@ -26,7 +26,7 @@
 .marketing-plan-list:hover .h3{color: var(--White); -webkit-text-fill-color: var(--White)}
 .marketing-plan-list hr{margin: 0; opacity: 0.2; width: 100%; height: 1px; background: var(--White);}
 ul.marketing-plan-order{margin: 24px 0 24px;}
-ul.marketing-plan-order li{gap: 13px;}
+ul.marketing-plan-order li{gap: 13px; align-items: center;}
 ul.marketing-plan-order li::before{display: none;}
 
 /* media css starts here */
@@ -55,4 +55,7 @@ ul.marketing-plan-order li::before{display: none;}
     .marketing-plan-row{display: block;}
     .marketing-plan-list:not(:last-child){margin-bottom: 24px;}
     body.page-template-marketing  .marketing-i-left p{margin-bottom: 8px;}
+}
+@media only screen and (max-width: 370px) and (min-width: 200px){
+    ul.marketing-plan-order li{font-size: 15px; line-height: 20px;}
 }
