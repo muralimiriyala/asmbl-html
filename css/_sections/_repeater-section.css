@@ -41,6 +41,7 @@
     .repeater-thumb{min-width: 720px; min-height: 540px; width: calc(100% + 74px);}
     .repeater-desc{margin-bottom: 30px;}
     .repeater-row:nth-child(even) .repeater-thumb{margin-left: -74px;}
+    .repeater-row.reverse .repeater-thumb{margin-left: -74px;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 768px){
     .repeater-section .container{padding: 0;}

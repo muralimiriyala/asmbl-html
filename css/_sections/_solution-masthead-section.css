@@ -33,7 +33,7 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
     .solution-masthead-3::before{left: -44px; top: 17px; width: 55px; height: 55px;}
     .solution-masthead-3::after{ top: 73px; left: -58px; width: 14px; height: 14px;}
 
-    .solution-masthead-bg{background-image: url('images/solution-masthead-bg@2x.jpg');}
+    /* .solution-masthead-bg{background-image: url('images/solution-masthead-bg@2x.jpg');} */
     .solution-static-image{flex: 1; right: -40px; padding: 60px 0; position: relative;}
 }
 @media screen and (min-width: 1024px){
