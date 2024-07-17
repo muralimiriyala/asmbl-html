@@ -12,6 +12,9 @@
 .featured-res-list:nth-child(2n+1):not(:nth-child(2n+3)) .featured-res-text, .featured-res-list:nth-child(4) .featured-res-text { padding: 26px 20px 30px; }
 .featured-res-list:nth-child(2n+2):not(:nth-child(2n+4)) h2, .featured-res-list:nth-child(2n+3) h2{margin-bottom: 20px; font-size: 1.5rem; line-height: 1.875rem;}
 
+.featured-res-row.no_right_category{display: block;}
+
+
 /* media css starts here */
 @media screen and (min-width: 1024px){
     body.category-resources .featured-res-main{padding-bottom: 8px;}

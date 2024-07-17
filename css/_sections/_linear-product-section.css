@@ -3,16 +3,16 @@
 .sticky-spyscroll-section{ top: 80px; left: 0; width: 100%; height: auto; z-index: 600; transition: all 0.5s ease;}
 .sticky-spyscroll{padding: 24px 0; transition: all 0.5s ease; background-color: var(--White); }
 nav.spy-nav{ overflow-x: scroll; overflow-y: visible; scrollbar-width: none; height: 52px;}
-ul.linear-links{margin: 0; gap: 10px; height: 52px; min-width: max-content;}
-ul.linear-links li{margin: 0;}
+ul.linear-links{margin: 0; gap: 10px; height: 52px; overflow-y: hidden; overflow-x: auto; flex-wrap: nowrap;}
+ul.linear-links li{margin: 0 0 5px;}
 ul.linear-links li::before{display: none;}
-ul.linear-links li a{padding: 12px; color: var(--Navy); font-size: 1rem; font-weight: 600; line-height: 1.5rem; border-radius: 8px; border: 2px solid var(--Elevated, #F0F2FA); display: block;}
+ul.linear-links li a{white-space: nowrap; min-width: fit-content; padding: 12px; color: var(--Navy); font-size: 1rem; font-weight: 600; line-height: 1.5rem; border-radius: 8px; border: 2px solid var(--Elevated, #F0F2FA); display: block;}
 ul.linear-links li a.active{color: var(--Blue); background: var(--Elevated, #F0F2FA);}
 
 nav.spy-nav::after, nav.spy-nav::before{content: ""; display: block; width: 52px; height: 100%; top: 0; background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); position: absolute; z-index: 1;}
 nav.spy-nav::after{right: 40px;}
 nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(255,255,255,0) 100%);}
-.spy-arrows{width: 40px; height: 100%; top: 50%; transform: translateY(-50%); cursor: pointer; z-index: 2; background-color: var(--White);}
+.spy-arrows{width: 40px; height: 100%; top: 50%; transform: translateY(-50%); cursor: pointer; z-index: 2; background-color: var(--White); display: none;}
 .spy-arrow-next:hover .spy-arrow{transform: translateX(2px) scale(0.85);}
 .spy-arrow-prev:hover .spy-arrow{transform: translateX(-2px) scale(0.85) scaleX(-1);}
 

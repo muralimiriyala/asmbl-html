@@ -95,7 +95,7 @@ body.page-template-solutions-usecase-detail .solution-masthead-3{width: 368px; h
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .solution-static-image{padding: 0 0 40px;}
 
-    .solution-masthead-bg{background-image: url('images/solution-masthead-mobile@2x.jpg');}
+    /* .solution-masthead-bg{background-image: url('images/solution-masthead-mobile@2x.jpg');} */
 
     .solution-masthead-main{padding: 127px 0 40px; display: block;}
     .solution-masthead-images{height: 282px;}

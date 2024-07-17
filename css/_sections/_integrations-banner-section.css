@@ -45,7 +45,7 @@ button.integrations-srch-btn:hover{background-image: none; -webkit-text-fill-col
     .integrations-banner-images{flex: 1; max-width: 490px; margin-left: auto; margin-right: 32px;}
 }
 @media screen and (min-width: 1024px){
-    .integrations-bg{background-image: url('images/integrations-bg@2x.jpg');}
+    /* .integrations-bg{background-image: url('images/integrations-bg@2x.jpg');} */
     .i-circle-main{width: 490px; height: 490px;}
     .i-circle{margin: auto; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;}
     .i-circle-1{ width: 128px; height: 128px; top: 0; left: 0; transform: none; }
@@ -102,7 +102,7 @@ button.integrations-srch-btn:hover{background-image: none; -webkit-text-fill-col
     .i-icon-11 { bottom: 71px; right: 67px; }
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
-    .integrations-bg{background-image: url('images/integrations-bg@2x.jpg');}
+    /* .integrations-bg{background-image: url('images/integrations-bg@2x.jpg');} */
     .integrations-banner-main{padding: 123px 0 24px; gap: 50px; flex-direction: row-reverse;}
     .integrations-banner-text{flex:1; font-size: 1rem; line-height: 1.5rem;}
     .integrations-banner-text span.optional-text{margin-bottom: 21px;}
@@ -112,7 +112,7 @@ button.integrations-srch-btn:hover{background-image: none; -webkit-text-fill-col
     .integrations-banner-images{flex: 0 0 298px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
-    .integrations-bg{background-image: url('images/integrations-bg-mobile@2x.jpg');}
+    /* .integrations-bg{background-image: url('images/integrations-bg-mobile@2x.jpg');} */
     .integrations-banner-main{padding: 123px 0 37px; display: block;}
     .integrations-banner-text{padding-top: 33px; font-size: 1rem; line-height: 1.5rem;}
     .integrations-banner-text span.optional-text{margin-bottom: 21px;}

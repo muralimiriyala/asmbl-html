@@ -50,7 +50,7 @@
     .xl-cta-image{flex: 0 0 575px; max-width: 575px; top: -6px;}
     .xl-step-row{gap: 32px;}
     .xl-step-list{flex: 0 0 calc(25% - 32px); flex-direction: column;}
-    .xl-step-line{width: calc(100% - 32px); height: 2px; top: 35px; left: 64px; display: block; position: absolute; z-index: -1; }
+    .xl-step-line{width: calc(100% - 32px); height: 2px; top: 31px; left: 64px; display: block; position: absolute; z-index: -1; }
     .xl-step-line.xl-step-4{left: 52px;}
     .xl-step-num{margin-bottom: 19px;}
     .xl-step-list:last-child .xl-step-line::after{right: -12px;}

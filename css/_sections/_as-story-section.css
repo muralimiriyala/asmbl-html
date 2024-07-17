@@ -17,6 +17,7 @@
     .as-story-list{flex: 0 0 calc(33.3333% - 43px);}
     .as-story-line{width: 2px; height: 0%;}
     .as-story-list:nth-child(odd) .as-story-line{top: auto; bottom: 3px; }
+    .as-story-list:nth-child(even) .as-story-line{top: -6px; bottom: auto; }
     .visible .as-story-line{height: calc(100% + 3px);}
     .as-story-line::before{width: 6px; height: 6px; top: 0; left: -2px; border-radius: 6px; background-color: var(--Blue);  content: ""; display: block; position: absolute;}
     .as-story-line::after{width: 2px; height: calc(100% + 3px); opacity: 0.4; content: ""; display: block; background-color: var(--Blue); position: absolute;}

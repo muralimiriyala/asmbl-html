@@ -44,7 +44,7 @@
     body.single-integration .trust-by-main{padding-top: 38px;}
     body.page-template-product .trust-by-main{padding: 39px 0 22px;}
     body.page-template-demo .trust-by-main{padding-top: 46px;}
-    body.page-template-solutions-industry-detail .trust-by-main{padding: 39px 0 23px;}
+    body.page-template-solutions-industry-detail .trust-by-main{padding: 0;}
     body.page-template-solutions-usecase-detail .trust-by-main{padding: 39px 0 40px;}
 
     .trust-by-main{display: block; padding: 0 0 23px;}

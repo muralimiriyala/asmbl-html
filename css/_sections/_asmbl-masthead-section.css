@@ -33,7 +33,7 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .asmbl-masthead-bg{background-image: url("images/asmbl-masthead-bg@2x.jpg");}
+    /* .asmbl-masthead-bg{background-image: url("images/asmbl-masthead-bg@2x.jpg");} */
     .asmbl-masthead-main{padding: 80px 0 2px; flex-direction: row-reverse;} 
     .asmbl-masthead-btns{padding-top: 6px; gap: 16px;}
     .asmbl-masthead-text{font-size: 1.25rem; line-height: 1.75rem;}
@@ -102,7 +102,7 @@
     /*-- animation css ends --*/
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .asmbl-masthead-bg{background-image: url('images/asmbl-masthead-mobile@2x.jpg');}
+    /* .asmbl-masthead-bg{background-image: url('images/asmbl-masthead-mobile@2x.jpg');} */
     .asmbl-static-image{padding: 0 0 40px;}
     .asmbl-masthead-main{padding: 132px 0 40px; display: block;}
     .asmbl-masthead-images{height: 364px;}
