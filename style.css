@@ -5,7 +5,10 @@ Theme URI: https://parachutedesign.ca/
 Author: 
 Author URI: https://parachutedesign.ca/
 Description: 
-Version: 2024-06-28-7
+Version: 2024-06-28-11
 Text Domain: ASMBL
 */
+
+@import url("custom-css/_cookies.css");
+@import url("custom-css/_home-banner-section.css");
 

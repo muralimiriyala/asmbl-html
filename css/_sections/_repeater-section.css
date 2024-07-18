@@ -13,6 +13,7 @@
     .repeater-row{flex-direction: row-reverse;}
     .repeater-row:nth-child(even){flex-direction: row;}
     .repeater-row.reverse{flex-direction: row;}
+    .repeater-row.no-reverse{flex-direction: row-reverse;}
     .no_repeater_image .repeater-text{flex: 0 0 100%; padding: 80px; }
 
     .repeater-main{padding: 60px 0 40px;}
@@ -42,6 +43,7 @@
     .repeater-desc{margin-bottom: 30px;}
     .repeater-row:nth-child(even) .repeater-thumb{margin-left: -74px;}
     .repeater-row.reverse .repeater-thumb{margin-left: -74px;}
+    .repeater-row.no-reverse .repeater-thumb{margin-right: -74px; margin-left: auto;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 768px){
     .repeater-section .container{padding: 0;}

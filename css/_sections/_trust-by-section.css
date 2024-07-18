@@ -1,5 +1,5 @@
 
-.trust-by-text{color: var(--Foreground); opacity: 0.6;}
+.trust-by-text{color: var(--Foreground-6);}
 .trust-by-text span.fs-16{display: block;}
 
 
@@ -12,7 +12,7 @@
     body.page-template-product .trust-by-main{padding: 55px 0 56px;}
     body.page-template-product-details .trust-by-section:last-child .trust-by-main{padding: 55px 0 55px;}
     body.page-template-marketing .trust-by-section:not(.gray-bg){padding-bottom: 23px;}
-    body.page-template-product-details .trust-by-main{padding: 14px 0 96px;}
+    body.page-template-product-details .trust-by-main{padding: 40px 0 96px;}
     body.page-template-solution-company-detail .trust-by-main {padding: 24px 0 32px;}
 
 

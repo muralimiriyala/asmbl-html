@@ -1,5 +1,5 @@
 
-function menu(){
+jQuery(document).ready(function(){
     if(window.matchMedia('(max-width: 935px)').matches) {
         jQuery(".humburger-btn").on("click", function(e){
             e.preventDefault();
@@ -41,8 +41,7 @@ function menu(){
             jQuery(this).siblings("ul").slideToggle(600);
         });
     }
-}
-jQuery(document).on("ready load", function() { menu(); });
+});
 function desktopMenu(){
     if(window.matchMedia('(min-width: 936px)').matches){
         jQuery(".humburger-btn").removeClass("open");
@@ -50,8 +49,8 @@ function desktopMenu(){
         jQuery(".h_mobile_overlay").removeClass("open");
     }
 }
-jQuery(document).on("ready", function() { desktopMenu(); });
-jQuery(window).on("resize", function() { desktopMenu(); });
+jQuery(document).on("ready", function() { desktopMenu; });
+jQuery(window).on("resize", function() { desktopMenu; });
 const observer = new MutationObserver(function(mutationsList) {
     for (let mutation of mutationsList) {
         if (mutation.type === 'childList') {

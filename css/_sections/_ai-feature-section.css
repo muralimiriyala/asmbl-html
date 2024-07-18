@@ -36,7 +36,7 @@
     .scrolled .ai-feature-arts{display: block;}
     .ai-feature-pos{position: relative; min-height: 600px;}
     .ai-feature-image.active-slide{transform: translateX(0);}
-    .ai-feature-image{ top: 0; left: 0; width: 100%; height: 100%; transition: all .5s ease; position: absolute; transform: translateX(100%); }
+    .ai-feature-image{ top: 0; left: 0; width: 100%; height: 100%; transition: all 1s ease; position: absolute; transform: translateX(200%); }
     .ai-feature-images{min-height: 600px;}
     .ai-tabs-main{display: none;}
     .ai-feature-icon svg path:not(:first-child){fill: var(--White);}

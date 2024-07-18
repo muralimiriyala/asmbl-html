@@ -8,7 +8,7 @@ jqr5(function() {
             i = jqr5("#resources-load-more"),
             s = jqr5("#resources-load-more ul"),
             o = s.attr("data-path");
-            p = s.attr("data-pageNumber");
+            p = s.attr("data-pagenumber");
 	    if(p!=''){
 		e = p;
 	    } else {
@@ -35,6 +35,8 @@ jqr5(function() {
                     postType: s.attr("data-post-type"),
                     searchcatid: s.attr("data-search-catid"), 
                     category: s.attr("data-category"),
+                    topic: s.attr("data-topic"),
+                    type: s.attr("data-type"),
                     author: s.attr("data-author"),
                     taxonomy: s.attr("data-taxonomy"),
                     tag: s.attr("data-tag"),
@@ -55,7 +57,7 @@ jqr5(function() {
                 beforeSend: function() {
                     if (e != 1) {
                         jqr5("#load-more").addClass("loading");
-                        jqr5("#load-more span.text").text("Loading...")
+                        jqr5("#load-more span.loader").text("Loading...")
                     }
                 },
                 success: function(e) {
@@ -70,7 +72,7 @@ jqr5(function() {
                         t = false;
                         n = true
                     } else if (jqr5data.length > 0) {
-                        jqr5data = jqr5('<span id="more-blog">' + e + "</span>");
+                        jqr5data = jqr5(e);
                         jqr5data.hide();
                         s.append(jqr5data);
                         jqr5data.fadeIn(500, function() {

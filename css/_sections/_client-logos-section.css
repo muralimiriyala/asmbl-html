@@ -21,9 +21,9 @@
     .client-logos-right{flex: 0 0 280px; gap: 8px;}
     .client-logos-text span.optional-text{margin-bottom: 4px;}
     .client-logos-text h2{display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 2;}
-    
+    body.page-template-product-details .client-logos-text h2{font-size: 28px;}
     .client-logos-slider{width: 64px; max-height: 145px; overflow: hidden;}
-
+    .client-logo-thumb img{min-height: 62px;}
     body.home .client-logos-section.no-ai-feature.relative { margin-top: 60px; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
@@ -41,6 +41,7 @@
     .client-logos-text h2{font-size: 1.5rem; line-height: 1.875rem; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 2;}
     .client-logos-right{flex: 0 0 280px; gap: 8px;}
     .client-logos-slider{width: 64px;}
+    .client-logo-thumb img{min-height: 62px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .client-logos-main{display: block;}
@@ -53,6 +54,7 @@
     .client-logos-text h2{font-size: 1.5rem; line-height: 1.875rem;}
     .client-logos-slider:nth-child(n+3){display: none;}
     .client-logo-slide{margin: 4px; width: 40px;}
+    .client-logo-thumb img{min-height: 40px;}
 }
 
 

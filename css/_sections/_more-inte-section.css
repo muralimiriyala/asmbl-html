@@ -17,6 +17,8 @@
 .more-card-link{width: 30px; transition: all 0.5s ease;}
 .more-card-link svg{margin-left: 0;}
 
+.more-inte-card:hover div.more-link-card span.h4{color: var(--Navy);}
+
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

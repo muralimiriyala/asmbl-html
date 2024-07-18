@@ -13,7 +13,7 @@ $animation_elements.each(function(){
     gsap.to($self,{
         scrollTrigger: {
             trigger: $self,
-            start: 'top 90%',
+            start: 'top 95%',
             end: 'bottom 10%', 
             toggleActions: "play none none none",
             // markers: true, 

@@ -10,6 +10,8 @@
     --Background: #F0F2FA;
     --Navy: #182A54;
     --Foreground: #313031;
+    --Foreground-6: rgb(49 48 49 / 60%);
+    --Foreground-8: rgb(49 48 49 / 80%);
     --Card-Stroke: rgba(217, 223, 242, 0.25);
     --Elevated: #F0F2FA;
 }

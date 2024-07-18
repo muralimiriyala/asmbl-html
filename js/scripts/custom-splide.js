@@ -12,36 +12,11 @@ let removeInvalidAriaAttributes = function () {
     }
 };
 
-let mobileSplide = function () {
-    if (jQuery(window).width() <= 1299) {
-        if (Splider.length > 0) {
-            const splideInstance = new Splide(Splider[0], {
-                type: "loop",
-                drag: "free",
-                focus: "left",
-                perPage: 6,
-                fixedWidth: "256px",
-                autoScroll: {
-                    speed: 1
-                },
-                arrows: false,
-                pagination: false
-            }).mount(window.splide.Extensions);
-
-            const observer = new MutationObserver(removeInvalidAriaAttributes);
-            observer.observe(Splider[0], { childList: true, subtree: true });
-            removeInvalidAriaAttributes();
-        }
-    }
-};
-
-jQuery(document).on('ready load', function () { mobileSplide(); });
-
-let desktopSplide = function () {
+jQuery(document).ready(function(){
     if (jQuery(window).width() >= 1300) {
         if (Splider.length > 0) {
-            const pageSplide = Splider.find('.splide__slide').length;
-            if (pageSplide <= 4) {
+            var pageSplide = Splider.find('.splide__slide').length;
+            if (pageSplide < 4) {
                 new Splide(Splider[0], {
                     destroy: true,
                 }).mount(window.splide.Extensions);
@@ -65,6 +40,26 @@ let desktopSplide = function () {
             }
         }
     }
-};
+    else{
+        if (Splider.length > 0) {
+            const splideInstance = new Splide(Splider[0], {
+                type: "loop",
+                drag: "free",
+                focus: "left",
+                perPage: 6,
+                fixedWidth: "256px",
+                autoScroll: {
+                    speed: 1
+                },
+                arrows: false,
+                pagination: false
+            }).mount(window.splide.Extensions);
 
-jQuery(document).on('ready load', function () { desktopSplide(); });
+            const observer = new MutationObserver(removeInvalidAriaAttributes);
+            observer.observe(Splider[0], { childList: true, subtree: true });
+            removeInvalidAriaAttributes();
+        }
+    }
+});
+
+

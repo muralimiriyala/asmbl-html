@@ -1,11 +1,10 @@
-jQuery(document).on("ready", function(){
+jQuery(function(){
     const pageSlider = jQuery(".industry-slider");
-    function initializeSlider() {
         pageSlider.each(function(){
             const _this = jQuery(this);
             const pageSlide = _this.children(".industry-slide").length;
             const $status = _this.closest('.who-for-page').find(".industry-count");
-            if(jQuery(window).width() <= 1024){
+            if(jQuery(window).width() < 1023){
                 if (!_this.hasClass('slick-initialized')) {
                     _this.on('init reInit afterChange', function(event, slick, currentSlide) {
                         let i = (currentSlide ? currentSlide : 0) + 1;
@@ -45,22 +44,5 @@ jQuery(document).on("ready", function(){
                     });
                 }
             }
-        });
-    }
-    function destroySlider() {
-        pageSlider.each(function(){
-            const _this = jQuery(this);
-            if(jQuery(window).width() >= 1024 && _this.hasClass('slick-initialized')) {
-                _this.slick('unslick');
-            }
-        });
-    }
-
-    jQuery(window).on('resize', function() {
-        destroySlider();
-        initializeSlider();
-    });
-
-    // Initial call
-    initializeSlider();
+        });    
 });

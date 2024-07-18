@@ -18,9 +18,11 @@ span.rule{width: 1px; height: 50px;opacity: 0.4; background: var(--Blue, #1335AF
 }
 @media screen and (min-width: 1024px){
     .as-feature-main{padding: 81px 0 128px;}
+    body.page-template-pricing .as-feature-main{padding-bottom: 88px;}
     .as-feature-head{gap: 30px; margin-bottom: 84px;}
     .as-feature-title{flex: 1;}
     .as-feature-link{gap: 30px; flex: 0 0 156px; margin-left: auto;}
+
     .as-feature-row{gap: 60px;}
     .as-feature-list{flex: 0 0 calc(25% - 45px); padding: 0 0 15px;}
     .as-text-link{opacity: 0; visibility: hidden; transform: translateY(30px);}

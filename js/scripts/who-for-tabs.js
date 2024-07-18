@@ -11,7 +11,7 @@ $(document).ready(function(){
         $(".who-for-page").hide();
         $(".who-for-page[data-value = "+ attr +" ]").fadeIn();
     });
-    if($(window).width() <= 767){
+    if($(window).width() < 768){
         const tabstext = $(".for-tabs-btn > span");
         $(".for-tabs-btn").on("click", function(e){
             e.preventDefault();

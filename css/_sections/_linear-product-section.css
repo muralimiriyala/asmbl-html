@@ -4,10 +4,10 @@
 .sticky-spyscroll{padding: 24px 0; transition: all 0.5s ease; background-color: var(--White); }
 nav.spy-nav{ overflow-x: scroll; overflow-y: visible; scrollbar-width: none; height: 52px;}
 ul.linear-links{margin: 0; gap: 10px; height: 52px; overflow-y: hidden; overflow-x: auto; flex-wrap: nowrap;}
-ul.linear-links li{margin: 0 0 5px;}
+ul.linear-links li{margin: 5px 0;}
 ul.linear-links li::before{display: none;}
 ul.linear-links li a{white-space: nowrap; min-width: fit-content; padding: 12px; color: var(--Navy); font-size: 1rem; font-weight: 600; line-height: 1.5rem; border-radius: 8px; border: 2px solid var(--Elevated, #F0F2FA); display: block;}
-ul.linear-links li a.active{color: var(--Blue); background: var(--Elevated, #F0F2FA);}
+ul.linear-links li a:hover{color: var(--Blue); background: var(--Elevated, #F0F2FA);}
 
 nav.spy-nav::after, nav.spy-nav::before{content: ""; display: block; width: 52px; height: 100%; top: 0; background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); position: absolute; z-index: 1;}
 nav.spy-nav::after{right: 40px;}
@@ -42,7 +42,6 @@ nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(
     .linear-prod-title{margin-bottom: 30px;}
     .linear-prod-title h2{font-size: 2.5rem; line-height: 3.125rem;}
     .linear-prod-description{padding: 31px 0 30px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}
-    nav.spy-nav{width: calc(100% + 40px);}
     ul.linear-links{justify-content: flex-start;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
@@ -59,6 +58,5 @@ nav.spy-nav::before{left: 40px; background: linear-gradient(-270deg,#fff 0,rgba(
     .linear-prod-title{margin-bottom: 30px;}
     .linear-prod-title h2{font-size: 2.5rem; line-height: 3.125rem;}
     .linear-prod-description{padding: 31px 0 30px; border-top: 1px solid rgb(19 53 175 / 40%); border-bottom: 1px solid rgb(19 53 175 / 40%);}
-    nav.spy-nav{width: calc(100% + 24px);}
     ul.linear-links{justify-content: flex-start;}
 }
