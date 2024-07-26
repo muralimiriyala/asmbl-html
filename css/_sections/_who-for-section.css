@@ -13,6 +13,7 @@ ul.who-for-tabs li::before{display: none;}
 .industry-slide-text h2 a{color: var(--Navy);}
 .industry-slide-text h2 a:hover{color: var(--Blue);}
 .industry-slide-icon{margin-bottom: 19px; min-height: 46px; max-width: 46px;}
+.industry-slide-icon img{opacity: 1 !important; animation: none !important; -webkit-animation: none !important; visibility: visible;}
 .industry-slide{position: relative;}
 .industry-slide::after, .industry-slide:first-child::before{height: 100%; content: ""; display: block; background-color: var(--White); position: absolute;}
 .industry-slide::after{top: 0; right: 0px; width: 2px; }
@@ -20,7 +21,6 @@ ul.who-for-tabs li::before{display: none;}
 .industry-count{display: none;}
 
 body.home .industry-slide > svg{margin-bottom: 12px;}
-
 
 /* media css starts here */
 @media screen and (min-width: 768px){

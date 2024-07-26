@@ -6,6 +6,7 @@
 .pricing-top h1{color: var(--Blue);}
 .pricing-title{flex: 1;}
 .pricing-toggle-form{ gap: 10px; font-family: "arboria", sans-serif; }
+.pricing-active .pricing-switch-round{background-color: var(--Blue);}
 .pricing-yearly{color: var(--Blue);}
 
 .pricing-data[data-value="monthly"]{display: none;}

@@ -4,14 +4,14 @@
 .home-banner-video video{ top: 50%; left: 50%; width: 100%; height: 100%; transform: translate(-50%, -50%); position: absolute; object-fit: cover; }
 .home-banner-text h1{color: var(--Navy);}
 .home-banner-thumb img{object-fit: cover; border-radius: 6px; position: relative;}
-.home-thumb-1{top: 100px; left: 0; width: 213px; height: 141px;}
-.home-thumb-2{top: 52px; left: 227px; min-width: 493px; width: 100%; height: 131px;}
-.home-thumb-2 img{object-position: left top;}
+.home-thumb-1{top: 116px; left: -16px; width: 213px; height: 141px;}
+.home-thumb-2{top: 52px; left: 147px; width: 600px; height: 132px;}
+.home-thumb-2 figure img{object-position: left top;}
 .home-thumb-3{top: 261px; left: 0; width: 212px; height: 282px;}
 .home-thumb-4{top: 198px; left: 227px; width: 212px; height: 162px;}
 .home-thumb-5{top: 376px; left: 227px; width: 212px; height: 162px;}
 .home-thumb-6{top: 198px; left: 454px; width: 212px; height: 266px;}
-.home-thumb-7{top: 555px; left: 75px; width: 364px; height: 119px;}
+.home-thumb-7{top: 555px; left: 75px; width: 364px; height: 120px;}
 .home-thumb-8{top: 480px; left: 454px; width: 212px; height: 266px;}
 .home-thumb-8 img{border-radius: 8px 8px 0 0;}
 
@@ -34,10 +34,10 @@
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .home-banner-main{padding: 80px 0 2px; flex-direction: row-reverse;} 
+    div.home-banner-main{padding: 80px 0 2px; flex-direction: row-reverse;} 
     .home-banner-btns{padding-top: 14px; gap: 16px;}
 
-    .home-banner-main.no_masthead_images{display: block; padding-bottom: 60px;}
+    div.home-banner-main.no_masthead_images{display: block; padding-bottom: 60px;}
     .no_masthead_images .home-banner-text{max-width: 100%;}
     .home-static-image{flex: 1; right: -40px; padding-top: 60px; position: relative;display: flex; flex-direction: column; align-items: center; justify-content: center;}
 
@@ -52,7 +52,7 @@
     [data-images].loaded .home-thumb-8 img{animation-name: animdUp; }
     @keyframes anim-down-1{ from{top: -162px;} to{top: 0;} }
     @keyframes anim-down-2{ from{top: -256px;} to{top: 0;} }
-    @keyframes animRight-2{ from{transform: translateX(720px);} to{transform: translateX(0%);} }
+    @keyframes animRight-2{ from{transform: translateX(600px);} to{transform: translateX(0%);} }
     @keyframes animdUp{ from{transform: translateY(50vh);} to{transform: translateY(0%);} }
     @keyframes animDown{ from{transform: translateY(-50vh);} to{transform: translateY(0%);} }
     @keyframes animRight-6{ from{transform: translateX(360px);} to{transform: translateX(0%);} }
@@ -62,44 +62,54 @@
 }
 @media screen and (min-width: 1440px){
     .home-banner-wrapper{max-width: 1600px; margin: 0 auto;}
-    .home-banner-images{flex: 0 0 720px; width: 720px; height: 725px; right: -80px;}
-    .home-banner-text{max-width: 560px; padding-top: 148px; flex: 0 0 calc(100% - 720px);}
+    .home-banner-images{flex: 1; max-width: 740px; height: 725px; right: -70px;}
+    .home-banner-text{flex: 0 0 540px; padding-top: 148px;}
     body.page-template-marketing .home-banner-text { padding-top: 88px;}
     .home-static-image{min-width: 720px; right: -60px; padding: 60px 0 60px;}
 }
-@media only screen and (max-width: 1439px) and (min-width: 1280px){
-    .home-banner-images{flex: 0 0 720px; height: 725px; right: -80px;}
-    .home-banner-text{flex: 0 0 calc(100% - 720px); padding-top: 148px; }
-    body.page-template-marketing .home-banner-main{padding-bottom: 74px;}
+@media only screen and (max-width: 1439px) and (min-width: 1366px){
+    div.home-banner-main{gap: 60px;}
+    .home-banner-images { flex: 0 0 754px; max-width: 754px; height: 725px; right: -50px; }
+    .home-banner-text{flex: 1; padding-top: 148px; }
+    .home-banner-text h1{font-size: 2.7rem; line-height: 3.5rem;}
+    body.page-template-marketing div.home-banner-main{padding-bottom: 74px;}
 }
-@media only screen and (max-width: 1279px) and (min-width: 1024px){
-    .home-banner-main{padding: 123px 0 56px; align-items: center;}
-    .home-banner-images{flex: 0 0 510px; height: 458px; right: -40px;}
-    .home-banner-text{flex: 0 0 calc(100% - 510px);}
+@media only screen and (max-width: 1365px) and (min-width: 1200px){
+    div.home-banner-main{gap: 32px;}
+    .home-banner-images{flex: 1; height: 725px;}
+    .home-banner-text{flex: 1; }
+    .home-banner-text h1{font-size: 2.7rem; line-height: 3.5rem;}
+    body.page-template-marketing div.home-banner-main{padding-bottom: 74px;}
+}
+@media only screen and (max-width: 1365px) and (min-width: 1024px){
+    div.home-banner-main{padding: 123px 0 56px; gap: 32px; align-items: center;}
+    .home-banner-images{flex: 0 0 670px; height: 458px; margin-right: -60px; max-width: 670px;}
+    .home-banner-text{flex: 1; margin-right: auto;} 
     .home-banner-text h1{font-size: 2.5rem; line-height: 3.125rem;}
     .home-banner-text h1 br{display: none;}
     
     .home-banner-thumb img{object-fit: cover; border-radius: 3px;}
-    .home-thumb-1{top: 38px; left: 12px; width: 121px; height: 86.97px;}
-    .home-thumb-2{top: 16px; left: 149px; width: 498.8px; height: 81.94px;}
+    .home-thumb-1 { top: 46px; left: 0; width: 132px; height: 92px; }
+    .home-thumb-2 { top: -6px; left: 150px; width: 500px; height: 110px; }
     .home-thumb-2 img{object-position: left top;}
     .home-thumb-3{top: 141px; left: 12px; width: 120.7px; height: 154.43px;}
     .home-thumb-4{top: 115px; left: 150px; width: 120.7px; height: 96.95px;}
     .home-thumb-5{top: 228px; left: 150px; width: 120.7px; height: 96.95px;}
-    .home-thumb-6{top: 115px; left: 287px; width: 120.7px; height: 146.35px;}
-    .home-thumb-7{top: 341px; left: 78px; width: 192.9px; height: 96.52px;}
-    .home-thumb-8{top: 278px; left: 286px; width: 120.7px; height: 121.64px;}
+    .home-thumb-6 { top: 115px; left: 287px; width: 150px; height: 190px; }
+    .home-thumb-7 { top: 327px; left: -4px; width: 284px; height: 94px; }
+    .home-thumb-8 { top: 316px; left: 286px; width: 150px; height: 188px; }
     .home-thumb-8 img{border-radius: 3px 3px 0 0;}
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .home-banner-main{padding: 80px 0 54px; display: block;} 
-    .home-banner-images{height: 725px; right: -8px;}
+    div.home-banner-main{padding: 80px 0 54px; display: block;} 
+    .home-banner-images { height: 725px; max-width: 680px; margin: 0 auto; left: 4px; }
     .home-banner-text{padding-top: 64px;}
     .home-banner-btns{padding-top: 6px; gap: 16px;}
     .home-thumb-2 img{border-radius: 8px 0 0 8px;}
     .home-thumb-8 img{border-radius: 8px;}
     .home-static-image{padding: 40px 0 0;}
+    .home-thumb-2 { top: 76px; left: 228px; width: 492px; height: 108px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
 
@@ -119,8 +129,8 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .home-static-image{padding: 40px 0 40px;}
 
-    .home-banner-main{padding: 80px 0 40px; display: block;}
-    .home-banner-images{height: 342px;}
+    div.home-banner-main{padding: 80px 0 40px; display: block;}
+    .home-banner-images{height: 342px; max-width: 370px; margin: 0 auto 16px; left: -8px;}
     .home-banner-text{font-size: 1rem; line-height: 1.5rem;}
     .home-banner-text h1{margin-bottom: 20px; font-size: 2rem; line-height: 2.5rem;}
     .home-banner-text hr{margin-bottom: 20px;}
@@ -128,8 +138,8 @@
     .home-banner-btns{gap: 15px;}
 
     .home-banner-thumb img{object-fit: cover; border-radius: 3px;}
-    .home-thumb-1{top: 38px; left: 12px; width: 101px; height: 66.97px;}
-    .home-thumb-2{top: 16px; left: 121px; width: 478.8px; min-width: 478px; height: 61.94px;}
+    .home-thumb-1{top: 40px; left: 12px; width: 101px; height: 66.97px;}
+    .home-thumb-2 { top: 16px; left: 83px; width: 282px; height: 62px; }
     .home-thumb-2 img{object-position: left top;}
     .home-thumb-3{top: 112px; left: 12px; width: 100.7px; height: 134.43px;}
     .home-thumb-4{top: 86px; left: 121px; width: 100.7px; height: 76.95px;}
@@ -139,7 +149,7 @@
     .home-thumb-8{top: 220px; left: 230px; width: 100.7px; height: 111.64px;}
     .home-thumb-8 img{border-radius: 3px 3px 0 0;}
 
-    body.page-template-marketing .home-banner-main{padding: 115px 0 40px;}
+    body.page-template-marketing div.home-banner-main{padding: 115px 0 40px;}
     body.page-template-marketing .home-banner-text{padding-top: 12px;}
 
     .home-banner-thumb:first-child::before { width: 26px; height: 26px; top: 28px; left: 42px; }

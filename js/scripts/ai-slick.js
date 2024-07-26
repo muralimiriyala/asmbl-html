@@ -19,6 +19,7 @@ jQuery(document).ready(function(){
             focusOnSelect: true,
             fade: true,
             cssEase: 'linear',
+            speed: 100,
         });
         $container.find("ul.ai-tab-links li:first-child").addClass("ai-tab-active");
         $container.find('ul.ai-tab-links li a[data-slide]').on("click", function(e){
@@ -29,6 +30,11 @@ jQuery(document).ready(function(){
             jQuery(this).parent().addClass("ai-tab-open");
             var slideno = jQuery(this).data('slide');
             $contentSlider.slick('slickGoTo', slideno - 1);
+        });
+        $imageSlider.on('afterChange', function(event, slick, currentSlide){
+            var $currentLink = $container.find('ul.ai-tab-links li a[data-slide="' + (currentSlide + 1) + '"]').parent();
+            $currentLink.siblings().removeClass('ai-tab-open ai-tab-active no-delay');
+            $currentLink.addClass('ai-tab-active no-delay');
         });
     });
 });

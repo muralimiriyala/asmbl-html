@@ -1,6 +1,6 @@
 
 
-
+.client-logos-section{overflow: hidden;}
 .client-logos-gray{height: 50%;}
 .client-logos-main{background: var(--Background);}
 .client-logos-main.inverted{background: linear-gradient(300deg, #182A54 0%, #1335AF 100%);}
@@ -8,7 +8,7 @@
 
 
 .client-logo-slide{margin: 4px 0;}
-.client-logos-icons span.optional-text, .client-logos-text span.optional-text{font-size: 1rem; line-height: 1.25rem;}
+div.client-logos-icons span.optional-text, .client-logos-text span.optional-text{font-size: 1rem; line-height: 1.25rem;}
 .client-slider-down{transform: rotate(180deg);}
 .client-slider-down .client-logo-thumb{transform: rotate(180deg);}
 
@@ -16,7 +16,7 @@
 @media screen and (min-width: 1024px){
     .client-logos-main{gap: 33px; padding-right: 63px;}
     .client-logos-left{flex: 1; padding: 45px 33px 42px; gap: 33px;}
-    .client-logos-icons{width: 46px; height: 46px;}
+    div.client-logos-icons{width: 46px; height: 46px;}
     .client-logos-text{flex: 1;}
     .client-logos-right{flex: 0 0 280px; gap: 8px;}
     .client-logos-text span.optional-text{margin-bottom: 4px;}
@@ -33,10 +33,10 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .client-logos-main{gap: 32px; padding-right: 32px;}
     .client-logos-left{flex: 1; padding: 25px 32px 25px; display: block;}
-    .client-logos-icons{gap: 16px; margin-bottom: 11px;}
+    div.client-logos-icons{gap: 16px; margin-bottom: 11px;}
     .client-logos-icon{max-height: 22px;}
     .client-logos-icon svg{width: 22px; height: 22px;}
-    .client-logos-icons span.optional-text{margin-bottom: 0;}
+    div.client-logos-icons span.optional-text{margin-bottom: 0;}
     .client-logos-text{flex: 1;}
     .client-logos-text h2{font-size: 1.5rem; line-height: 1.875rem; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 2;}
     .client-logos-right{flex: 0 0 280px; gap: 8px;}
@@ -45,10 +45,10 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .client-logos-main{display: block;}
-    .client-logos-icons{gap: 16px; margin-bottom: 11px;}
+    div.client-logos-icons{gap: 16px; margin-bottom: 11px;}
     .client-logos-icon{max-height: 22px;}
     .client-logos-icon svg{width: 22px; height: 22px;}
-    .client-logos-icons span.optional-text{margin-bottom: 0;}
+    div.client-logos-icons span.optional-text{margin-bottom: 0;}
     .client-logos-left{padding: 24px 24px 20px; display: block;}
     .client-logos-right{display: block; padding-bottom: 20px; max-height: 136px; overflow: hidden;}
     .client-logos-text h2{font-size: 1.5rem; line-height: 1.875rem;}

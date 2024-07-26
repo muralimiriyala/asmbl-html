@@ -21,8 +21,8 @@ ul.copyrights-links li.current_page_item a, ul.copyrights-links li a:hover{color
 
 ul.footer-links{margin: 0;}
 ul.footer-links li{margin: 0;}
-ul.footer-links li:first-child::before{display: none;}
-ul.footer-links li::before{width: 16px; height: 16px; left: -39px; top: 7px; background: var(--Background); border-radius: 0;}
+ul.footer-links li:last-child::before{display: none;}
+ul.footer-links li::before{width: 16px; height: 16px; right: -39px; left: auto; top: 7px; background: var(--Background); border-radius: 0;}
 ul.footer-links li a{color: var(--Blue); font-size: 1.25rem; font-weight: 700; line-height: 1.875rem;}
 ul.footer-links li.current-menu-item a, ul.footer-links li a:hover{color: var(--Orange);}
 
@@ -49,25 +49,30 @@ ul.footer-nav-links li.current_page_item a, ul.footer-nav-links li a:hover{color
     ul.footer-nav-links{margin: 0 0 75px; gap: 17px 47px;}
     ul.footer-nav-links > li{flex: 0 0 calc(33.33333% - 32px); margin-bottom: 0;}
     
-    ul.footer-links{gap: 66px; flex: 1;}
+    ul.footer-links{gap: 16px 66px; flex: 1;}
     ul.copyrights-links{flex: 1; justify-content: flex-end;}
 }
 @media screen and (min-width: 768px){
     ul.social-icons{flex: 0 0 212px;}
     .mail-links a svg{left: 0; top: calc(50% + 2px); transform: translateY(-50%); position: absolute;}
 }
+@media screen and (max-width: 1439px) and (min-width: 1280px){
+    .footer-middle{padding-left: 50px;}
+}
 @media screen and (max-width: 1279px) and (min-width: 1024px){
+    .footer{gap: 30px;}
     .footer-svg{left: -110px;}
     .footer-logo{margin-bottom: 48px; max-width: 214px;}
     .footer-text{flex: 0 0 300px;}
     .footer-text span.h3{font-size: 1.5rem; line-height: 1.875rem;}
-    ul.footer-links{gap: 32px;}
-    ul.footer-links li::before { width: 12px; height: 12px; left: -22px; top: 8px; }
-    ul.footer-links li a{font-size: 1.063rem; line-height: 1.688rem;}
+    ul.footer-links{gap: 16px 50px;}
+    ul.footer-links li::before { width: 12px; height: 12px; right: -22px; top: 8px; }
+    ul.footer-links li a{font-size: 1.125rem; line-height: 1.5rem;}
     .footer-middle{padding: 0 0 40px 32px; }
     .footer-bg{padding: 40px 0 50px 32px; }
     ul.footer-nav-links { margin: 0 0 50px; gap: 10px 20px; }
     ul.footer-nav-links > li { flex: 0 0 calc(33.33333% - 14px); }
+    ul.social-icons{gap: 8px;}
 }
 @media screen and (max-width: 1023px) and (min-width:  768px) {
     .footer-svg{z-index: -1; top: 0; left: 0; max-width: 512px;}
@@ -82,7 +87,7 @@ ul.footer-nav-links li.current_page_item a, ul.footer-nav-links li a:hover{color
     .footer-bg::before{width: 1000vw; height: 100%; left: -100%; top: 0; content: ""; display: block; background-color: var(--Background); position: absolute; z-index: -1; }
 
     .footer-middle{padding-bottom: 40px;}
-    ul.footer-links{flex: 1; gap: 55px;}
+    ul.footer-links{flex: 1; gap: 24px 55px;}
 
     ul.footer-nav-links{margin: 0 0 66px; gap: 17px 43px;}
     ul.footer-nav-links > li{flex: 0 0 calc(33.3333% - 0px); margin-bottom: 0;}

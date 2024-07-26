@@ -11,7 +11,7 @@
 
 .process-step-line::after{width: 12px; height: 20px; top: 50%; transform: translateY(-50%); left: 2px; animation-name: stepArrow; animation-play-state: paused; animation-fill-mode: forwards; animation-duration: 8s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); content: ""; display: block; background-image: url("images/triangle.svg"); background-repeat: no-repeat; background-size: contain; position: absolute; }
 .step-line-anim .process-step-line::after{animation-play-state: running;}
-@keyframes stepArrow{ 0%{left: 2px;} 100%{left: calc(100% - 13px);} }
+@keyframes stepArrow{ 0%{left: 2px;} 100%{left: calc(100% - 11px);} }
 /*-- anim --*/
 
 /* media css starts here */
@@ -32,7 +32,6 @@
     .process-list{gap: 20px; padding-bottom: 32px;}
     .process-text{flex: 1; font-size: 0.875rem; line-height: 1.313rem;}
     .process-text h2{margin-bottom: 9px;}
-
 
     .process-step-line{width: 2px; height: calc(100% - 2px); top: 2px; left: 31px;}
     .process-step-line::before{width: 100%; height: 0%; animation-name: stepAnimVertical;}

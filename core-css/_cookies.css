@@ -24,5 +24,7 @@ body .cky-btn-revisit::after{ -webkit-animation-delay: 4s; animation-delay: 4s;}
 
 /*-- media css starts here --*/
 @media screen and (max-width: 767px) and (min-width: 200px){
+    body .cky-modal, body .cky-modal.cky-modal-open{top: auto; transform: none; left: 0; bottom: 0;}
     body .cky-box-bottom-left{right: 24px; left: auto; width: calc(100% - 48px);}
+    body .cky-preference-center{max-height: calc(100vh - 100px);}
 }

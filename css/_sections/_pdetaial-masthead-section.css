@@ -18,6 +18,7 @@
 .pdetaial-masthead-thumb:nth-child(5){top: 447px; left: 455px; width: 212px; height: 151px;}
 
 /*-- animation css starts --*/
+.pdetaial-banner-btns{align-items: center; padding-top: 7px; gap: 16px;}
 .pdetaial-masthead-thumb img{animation-duration: 2.5s; animation-fill-mode: forwards; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); transition: all 0.5s ease;}
 /*-- animation css ends --*/
 
@@ -27,8 +28,6 @@
 }
 @media screen and (min-width: 1024px){
     .pdetaial-masthead-main{padding: 80px 0 21px; flex-direction: row-reverse;} 
-    .pdetaial-banner-btns{padding-top: 7px; gap: 16px;}
-
     .pdetaial-static-image{flex: 1; right: -40px; padding: 60px 0 20px; position: relative;}
 
     /*-- animation css starts --*/
@@ -66,7 +65,7 @@
     .pdetaial-masthead-main{padding: 80px 0 21px; display: block;} 
     .pdetaial-masthead-images{flex: 0 0 720px; height: 620px; right: -8px;}
     .pdetaial-masthead-text{padding-top: 24px;}
-    .pdetaial-banner-btns{padding-top: 6px; gap: 16px;}
+
     .pdetaial-masthead-thumb:nth-child(2) img{border-radius: 8px 0 0 8px;}
     .pdetaial-masthead-thumb:nth-child(8) img{border-radius: 8px;}
 }

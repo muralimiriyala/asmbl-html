@@ -2,7 +2,8 @@
 .repeater-desc h2{color: var(--Navy);}
 .repeater-desc ul{font-size: 1rem; line-height: 1.5rem;}
 .repeater-link{padding-top: 3px;}
-
+.center-heading h2{color: var(--Navy);}
+.center-heading hr{margin: 0 auto;}
 
 /* media css starts here */
 @media screen and (min-width: 768px){
@@ -16,9 +17,13 @@
     .repeater-row.no-reverse{flex-direction: row-reverse;}
     .no_repeater_image .repeater-text{flex: 0 0 100%; padding: 80px; }
 
+    .new-repeater-section .repeater-main{padding-bottom: 0;}
+    .repeater-wrap{padding-top: 60px;}
+    .repeater-wrap .repeater-main{padding-top: 40px;}
     .repeater-main{padding: 60px 0 40px;}
     .repeater-text{flex: 0 0 50%;}
     .repeater-image{flex: 0 0 50%;}
+    .repeater-thumb img{object-fit: contain;}
 
     body.page-template-story .repeater-desc h2.h1{margin-bottom: 24px;}
     body.page-template-story .repeater-row:first-child .repeater-desc hr{margin-bottom: 22px;}
@@ -39,23 +44,21 @@
 }
 @media screen and (min-width: 1440px){
     .repeater-text{padding: 0 80px;}
-    .repeater-thumb{min-width: 720px; min-height: 540px; width: calc(100% + 74px);}
+    .repeater-thumb{min-height: 540px;}
     .repeater-desc{margin-bottom: 30px;}
-    .repeater-row:nth-child(even) .repeater-thumb{margin-left: -74px;}
-    .repeater-row.reverse .repeater-thumb{margin-left: -74px;}
-    .repeater-row.no-reverse .repeater-thumb{margin-right: -74px; margin-left: auto;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 768px){
     .repeater-section .container{padding: 0;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 1280px){
     .repeater-text{padding: 64px;}
-    .repeater-thumb{min-width: 640px; min-height: 480px;}
+    .repeater-thumb{ min-height: 480px;}
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
     .repeater-text{padding: 32px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .repeater-wrap{padding-top: 40px;}
     .repeater-main{padding: 40px 0 8px;}
     .repeater-row{display: block; padding-bottom: 38px;}
     .repeater-image{margin-bottom: 30px;}
@@ -81,6 +84,7 @@
     body.single-integration .repeater-row:nth-child(3) .repeater-image{padding-top: 0; padding-bottom: 30px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .repeater-wrap{padding-top: 40px;}
     .repeater-main{padding: 40px 0 8px;}
     body.page-template-solutions-industry-detail .repeater-main{padding-bottom: 40px;}
     .repeater-row{display: block; padding-bottom: 38px;}
@@ -95,8 +99,7 @@
     
 
     body.page-template-product .repeater-desc h2.h1{font-size: 2.5rem; line-height: 3.125rem;} 
-
-    body.page-template-product-details .repeater-row:first-child .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
+    .new-repeater-section .repeater-desc h2{font-size: 2rem; line-height: 2.5rem;}
 
 
     /*-- 02 - Product Landing page --*/

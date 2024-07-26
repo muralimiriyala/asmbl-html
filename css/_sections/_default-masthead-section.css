@@ -32,7 +32,6 @@
     .default-masthead-2::before{right: 40px; top: -20px; width: 168px; height: 168px; opacity: 0.5;}
     .default-masthead-3::before{left: -44px; top: 17px; width: 55px; height: 55px;}
     .default-masthead-3::after{ top: 73px; left: -58px; width: 14px; height: 14px;}
-
 }
 @media screen and (min-width: 1024px){
     .default-masthead-main{padding: 80px 0 21px; flex-direction: row-reverse;} 
@@ -113,4 +112,6 @@
     .default-masthead-2::before{right: 30px; top: -20px; width: 76px; height: 76px; opacity: 0.5;}
     .default-masthead-3::before{left: -16px; top: 6px; width: 26px; height: 26px;}
     .default-masthead-3::after{ top: 32px; left: -24px; width: 8px; height: 8px;}
+
+    body.page-id-1572 .default-masthead-main, body.page-id-95 .default-masthead-main{padding-top: 120px;}/** - Privacy page --*/
 }

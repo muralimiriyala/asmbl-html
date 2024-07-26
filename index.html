@@ -283,12 +283,12 @@
             <div class="home-banner-images relative" data-images="">
                 <div class="home-banner-thumb home-thumb-1 absolute">
                     <figure class="object-fit">
-                        <img loading="eager" src="images/upload@2x.jpg" alt="upload">
+                        <img loading="eager" src="images/hero1.png" alt="upload">
                     </figure>
                 </div>
                 <div class="home-banner-thumb home-thumb-2 absolute">
                     <figure class="object-fit">
-                        <img loading="eager" src="images/search-attributes@2x.jpg" alt="search-attributes">
+                        <img loading="eager" src="images/hero2.png" alt="search-attributes">
                     </figure>
                 </div>
                 <div class="home-banner-thumb home-thumb-3 absolute">
@@ -313,19 +313,19 @@
                 </div>
                 <div class="home-banner-thumb home-thumb-7 absolute">
                     <figure class="object-fit">
-                        <img loading="eager" src="images/keywords@2x.jpg" alt="keywords">
+                        <img loading="eager" src="images/hero7.png" alt="keywords">
                     </figure>
                 </div>
                 <div class="home-banner-thumb home-thumb-8 absolute">
                     <figure class="object-fit">
-                        <img loading="eager" src="images/filters@2x.jpg" alt="filters">
+                        <img loading="eager" src="images/hero8.png" alt="filters">
                     </figure>
                 </div>
             </div>
             <div class="home-banner-text fs-20">
-                <h1>Powered by AI.<br> Designed for everyone.</h1>
+                <h1>Manage Assets Smarter with ASMBL AI</h1>
                 <hr data-animation="width-0-64">
-                <p>Opacity vector prototype link library slice distribute device scale list. Community auto group layer undo opacity rotate device share figma. Text stroke export arrow comment.</p>
+                <p>DAM software that’s innovative, not intimidating. Seamlessly organize digital assets at the centre of everyone’s workflow.</p>
                 <div class="home-banner-btns flex">
                     <a href="#" class="button">Book a Demo</a>
                     <a href="#" class="button gray">Take a Tour</a>
@@ -335,7 +335,7 @@
     </div>
 </div>
 </section>
-<section class="ai-feature-section relative"><!-- if no client logos section add class heer no_client_logos -->
+<section class="ai-feature-section relative" id="screen2"><!-- if no client logos section add class heer no_client_logos -->
 <div class="ai-gradient-bg background-bg"></div>
 <div class="ai-container relative">
     <div class="ai-feature-wrap">
@@ -344,9 +344,9 @@
                 <div class="ai-feature-desc">
                     <h2 class="h4">Headline about powerful AI features</h2>
                 </div>
-                <div class="ai-feature-arts flex"><!-- Mobile client given tabs so am hiding this -->
-                    <div class="ai-feature-art">
-                        <div class="ai-feature-list radius-8 transition">
+                <ul class="opt-btns" role="tablist" aria-labelledby="tablist-1">
+                    <li class="opt-btn1 opt-btn" id="tab-1" role="tab" aria-selected="true" aria-controls="tabpanel-1" tabindex="0" aria-label="Save time:">
+                        <div class="ai-feature-list radius-8">
                             <div class="ai-feature-head flex flex-vcenter" data-name="1">
                                 <div class="ai-feature-title"><strong>Save time:</strong><span>AI smart search</span></div>
                                 <div class="ai-feature-icon relative">
@@ -373,9 +373,9 @@
                                     </svg></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="ai-feature-art">
-                        <div class="ai-feature-list radius-8 transition">
+                    </li>
+                    <li class="opt-btn2 opt-btn" id="tab-2" role="tab" aria-selected="false" aria-controls="tabpanel-2" tabindex="-1" aria-label="AI Companion">
+                        <div class="ai-feature-list radius-8">
                             <div class="ai-feature-head flex flex-vcenter" data-name="2">
                                 <div class="ai-feature-title"><strong>Improve clarity:</strong><span>AI smart summaries</span></div>
                                 <div class="ai-feature-icon relative">
@@ -402,9 +402,9 @@
                                     </svg></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="ai-feature-art">
-                        <div class="ai-feature-list radius-8 transition">
+                    </li>
+                    <li class="opt-btn4 opt-btn" id="tab-4" role="tab" aria-selected="false" aria-controls="tabpanel-4" tabindex="-1" aria-label="Improve accessibility:">
+                        <div class="ai-feature-list radius-8">
                             <div class="ai-feature-head flex flex-vcenter" data-name="3">
                                 <div class="ai-feature-title"><strong>Improve accessibility:</strong><span>AI transcriptions</span></div>
                                 <div class="ai-feature-icon relative">
@@ -425,9 +425,9 @@
                                     </svg></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="ai-feature-art">
-                        <div class="ai-feature-list radius-8 transition">
+                    </li>
+                    <li class="opt-btn5 opt-btn" id="tab-5" role="tab" aria-selected="false" aria-controls="tabpanel-5" tabindex="-1" aria-label="Increase discoverability:">
+                        <div class="ai-feature-list radius-8">
                             <div class="ai-feature-head flex flex-vcenter" data-name="4">
                                 <div class="ai-feature-title"><strong>Increase discoverability:</strong><span>AI meta tagging</span></div>
                                 <div class="ai-feature-icon relative">
@@ -448,27 +448,27 @@
                                     </svg></a>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
             <div class="ai-feature-images">
                 <div class="ai-feature-pos">
-                    <div class="ai-feature-image" data-image="1">
+                    <div class="ai-feature-image" data-image="0" id="tabpanel-0">
                         <picture class="ai-feature-thumb object-fit">
                             <img src="images/ai-feature-thumb1@2x.png" alt="ai-feature-thumb1">
                         </picture>
                     </div>
-                    <div class="ai-feature-image" data-image="2">
+                    <div class="ai-feature-image" data-image="1" id="tabpanel-1">
                         <picture class="ai-feature-thumb object-fit">
                             <img src="images/ai-feature-thumb2@2x.png" alt="ai-feature-thumb2">
                         </picture>
                     </div>
-                    <div class="ai-feature-image" data-image="3">
+                    <div class="ai-feature-image" data-image="2" id="tabpanel-2">
                         <picture class="ai-feature-thumb object-fit">
                             <img src="images/ai-feature-thumb3@2x.png" alt="ai-feature-thumb3">
                         </picture>
                     </div>
-                    <div class="ai-feature-image" data-image="4">
+                    <div class="ai-feature-image" data-image="3" id="tabpanel-3">
                         <picture class="ai-feature-thumb object-fit">
                             <img src="images/prod-thumb-mobile1@2x.png" alt="prod-slide-image">
                         </picture>
@@ -966,7 +966,52 @@
                             </div>
                         </div>
                     </div>
-       
+                    <div class="industry-slide">
+                        <div class="industry-slide-icon flex flex-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="40" viewBox="0 0 46 40" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.59021 33.7064C0.59021 30.6589 3.06068 28.188 6.10842 28.188C9.15616 28.188 11.6266 30.6589 11.6266 33.7064C11.6266 36.7541 9.15598 39.2245 6.10842 39.2245C3.06087 39.2245 0.59021 36.7541 0.59021 33.7064ZM6.10842 31.608C4.94972 31.608 4.01021 32.5475 4.01021 33.7064C4.01021 34.8651 4.94954 35.8045 6.10842 35.8045C7.26731 35.8045 8.20664 34.8651 8.20664 33.7064C8.20664 32.5475 7.26713 31.608 6.10842 31.608Z" fill="#1335AF"/>
+                                <path d="M12.5098 26.0724C12.5098 26.0724 15.1309 30.5948 22.9989 30.5948C30.8669 30.5948 33.5062 26.0724 33.5062 26.0724L33.5043 15.8713H12.4894L12.5098 26.0724Z" fill="#F9662D" fill-opacity="0.4"/>
+                                <path d="M23.0625 7.87598L37.75 13.6885L23 20.4231L8.43753 13.751L23.0625 7.87598Z" fill="#F9662D" fill-opacity="0.4"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.3202 0.91829C22.7539 0.730362 23.2461 0.730362 23.6799 0.91829L44.3777 9.88613C45.0031 10.1571 45.4079 10.7736 45.4079 11.4552C45.4079 12.1368 45.0031 12.7533 44.3777 13.0242L23.6799 21.9921C23.2461 22.18 22.7539 22.18 22.3202 21.9921L1.62233 13.0242C0.996926 12.7533 0.592163 12.1368 0.592163 11.4552C0.592164 10.7736 0.996928 10.1571 1.62233 9.88613L22.3202 0.91829ZM6.60338 11.4552L23 18.5594L39.3967 11.4552L23 4.35095L6.60338 11.4552Z" fill="#1335AF"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.486 14.1614C13.4304 14.1595 14.1975 14.9236 14.1994 15.868L14.2187 25.5218C14.2528 25.5637 14.2908 25.6089 14.3326 25.657C14.6191 25.9865 15.0875 26.4519 15.7749 26.9261C17.1319 27.8623 19.4163 28.8848 22.9989 28.8848C26.5817 28.8848 28.8714 27.8622 30.2339 26.9249C30.9239 26.4501 31.3948 25.9841 31.6831 25.6541C31.7246 25.6066 31.7622 25.562 31.7961 25.5207L31.7943 15.8717C31.7942 14.9273 32.5596 14.1616 33.504 14.1614C34.4484 14.1612 35.2142 14.9266 35.2143 15.8711L35.2162 26.0722C35.2163 26.3752 35.1359 26.6727 34.9831 26.9344L33.5062 26.0725C34.9831 26.9344 34.9826 26.9354 34.982 26.9363L34.9808 26.9384L34.9782 26.9428L34.9723 26.9528L34.9572 26.9777C34.9457 26.9965 34.9313 27.0196 34.9139 27.0467C34.8792 27.1008 34.8325 27.171 34.7732 27.2548C34.6546 27.4224 34.485 27.6451 34.2587 27.9041C33.8063 28.422 33.1256 29.0866 32.1723 29.7424C30.2481 31.0663 27.2842 32.3048 22.9989 32.3048C18.7136 32.3048 15.7534 31.0662 13.8328 29.7412C12.8814 29.0848 12.2027 28.4197 11.7519 27.9012C11.5264 27.6419 11.3575 27.4189 11.2394 27.2511C11.1803 27.1671 11.1339 27.0968 11.0993 27.0426C11.082 27.0155 11.0676 26.9923 11.0562 26.9735L11.0411 26.9484L11.0352 26.9384L11.0326 26.934L11.0314 26.9319C11.0309 26.9309 11.0303 26.93 12.5098 26.0725L11.0303 26.93C10.8799 26.6704 10.8004 26.3759 10.7998 26.0759L10.7794 15.8748C10.7775 14.9304 11.5416 14.1633 12.486 14.1614Z" fill="#1335AF"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.10835 11.4124C7.05275 11.4124 7.81835 12.1779 7.81835 13.1224V29.898C7.81835 30.8424 7.05275 31.608 6.10835 31.608C5.16394 31.608 4.39835 30.8424 4.39835 29.898V13.1224C4.39835 12.1779 5.16394 11.4124 6.10835 11.4124Z" fill="#1335AF"/>
+                                </svg>
+                        </div>
+                        <div class="industry-slide-text fs-16">
+                            <h2 class="h5">Education</h2>
+                            <p>Rectangle image polygon polygon text horizontal variant list. Layout create.</p>
+                            <div class="industry-slide-btn">
+                                <a href="#" class="text-btn-link">Read the guide<svg width="17" height="16" viewBox="0 0 17 16" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.592285 8.001C0.592285 7.52879 0.975081 7.146 1.44728 7.146H9.77657C10.2488 7.146 10.6316 7.52879 10.6316 8.001C10.6316 8.4732 10.2488 8.856 9.77657 8.856H1.44728C0.975081 8.856 0.592285 8.4732 0.592285 8.001Z" fill="#1335AF"/>
+                                    <path d="M14.5771 9.3916L9.77637 14.3695L9.78027 5.0791L14.5771 9.3916Z" fill="#F9662D" fill-opacity="0.4"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.44919 0.842452C9.76868 0.710114 10.1364 0.783264 10.381 1.02779L16.7495 7.39636C16.9099 7.55671 17 7.77418 17 8.00094C17 8.2277 16.9099 8.44517 16.7495 8.60552L10.381 14.9741C10.1364 15.2186 9.76868 15.2918 9.44919 15.1594C9.1297 15.0271 8.92139 14.7153 8.92139 14.3695V1.63237C8.92139 1.28655 9.1297 0.97479 9.44919 0.842452ZM10.6314 3.69652V12.3054L14.9358 8.00094L10.6314 3.69652Z" fill="#1335AF"/>
+                                  </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="industry-slide">
+                        <div class="industry-slide-icon flex flex-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="40" viewBox="0 0 46 40" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.59021 33.7064C0.59021 30.6589 3.06068 28.188 6.10842 28.188C9.15616 28.188 11.6266 30.6589 11.6266 33.7064C11.6266 36.7541 9.15598 39.2245 6.10842 39.2245C3.06087 39.2245 0.59021 36.7541 0.59021 33.7064ZM6.10842 31.608C4.94972 31.608 4.01021 32.5475 4.01021 33.7064C4.01021 34.8651 4.94954 35.8045 6.10842 35.8045C7.26731 35.8045 8.20664 34.8651 8.20664 33.7064C8.20664 32.5475 7.26713 31.608 6.10842 31.608Z" fill="#1335AF"/>
+                                <path d="M12.5098 26.0724C12.5098 26.0724 15.1309 30.5948 22.9989 30.5948C30.8669 30.5948 33.5062 26.0724 33.5062 26.0724L33.5043 15.8713H12.4894L12.5098 26.0724Z" fill="#F9662D" fill-opacity="0.4"/>
+                                <path d="M23.0625 7.87598L37.75 13.6885L23 20.4231L8.43753 13.751L23.0625 7.87598Z" fill="#F9662D" fill-opacity="0.4"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.3202 0.91829C22.7539 0.730362 23.2461 0.730362 23.6799 0.91829L44.3777 9.88613C45.0031 10.1571 45.4079 10.7736 45.4079 11.4552C45.4079 12.1368 45.0031 12.7533 44.3777 13.0242L23.6799 21.9921C23.2461 22.18 22.7539 22.18 22.3202 21.9921L1.62233 13.0242C0.996926 12.7533 0.592163 12.1368 0.592163 11.4552C0.592164 10.7736 0.996928 10.1571 1.62233 9.88613L22.3202 0.91829ZM6.60338 11.4552L23 18.5594L39.3967 11.4552L23 4.35095L6.60338 11.4552Z" fill="#1335AF"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.486 14.1614C13.4304 14.1595 14.1975 14.9236 14.1994 15.868L14.2187 25.5218C14.2528 25.5637 14.2908 25.6089 14.3326 25.657C14.6191 25.9865 15.0875 26.4519 15.7749 26.9261C17.1319 27.8623 19.4163 28.8848 22.9989 28.8848C26.5817 28.8848 28.8714 27.8622 30.2339 26.9249C30.9239 26.4501 31.3948 25.9841 31.6831 25.6541C31.7246 25.6066 31.7622 25.562 31.7961 25.5207L31.7943 15.8717C31.7942 14.9273 32.5596 14.1616 33.504 14.1614C34.4484 14.1612 35.2142 14.9266 35.2143 15.8711L35.2162 26.0722C35.2163 26.3752 35.1359 26.6727 34.9831 26.9344L33.5062 26.0725C34.9831 26.9344 34.9826 26.9354 34.982 26.9363L34.9808 26.9384L34.9782 26.9428L34.9723 26.9528L34.9572 26.9777C34.9457 26.9965 34.9313 27.0196 34.9139 27.0467C34.8792 27.1008 34.8325 27.171 34.7732 27.2548C34.6546 27.4224 34.485 27.6451 34.2587 27.9041C33.8063 28.422 33.1256 29.0866 32.1723 29.7424C30.2481 31.0663 27.2842 32.3048 22.9989 32.3048C18.7136 32.3048 15.7534 31.0662 13.8328 29.7412C12.8814 29.0848 12.2027 28.4197 11.7519 27.9012C11.5264 27.6419 11.3575 27.4189 11.2394 27.2511C11.1803 27.1671 11.1339 27.0968 11.0993 27.0426C11.082 27.0155 11.0676 26.9923 11.0562 26.9735L11.0411 26.9484L11.0352 26.9384L11.0326 26.934L11.0314 26.9319C11.0309 26.9309 11.0303 26.93 12.5098 26.0725L11.0303 26.93C10.8799 26.6704 10.8004 26.3759 10.7998 26.0759L10.7794 15.8748C10.7775 14.9304 11.5416 14.1633 12.486 14.1614Z" fill="#1335AF"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.10835 11.4124C7.05275 11.4124 7.81835 12.1779 7.81835 13.1224V29.898C7.81835 30.8424 7.05275 31.608 6.10835 31.608C5.16394 31.608 4.39835 30.8424 4.39835 29.898V13.1224C4.39835 12.1779 5.16394 11.4124 6.10835 11.4124Z" fill="#1335AF"/>
+                                </svg>
+                        </div>
+                        <div class="industry-slide-text fs-16">
+                            <h2 class="h5">Education</h2>
+                            <p>Rectangle image polygon polygon text horizontal variant list. Layout create.</p>
+                            <div class="industry-slide-btn">
+                                <a href="#" class="text-btn-link">Read the guide<svg width="17" height="16" viewBox="0 0 17 16" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.592285 8.001C0.592285 7.52879 0.975081 7.146 1.44728 7.146H9.77657C10.2488 7.146 10.6316 7.52879 10.6316 8.001C10.6316 8.4732 10.2488 8.856 9.77657 8.856H1.44728C0.975081 8.856 0.592285 8.4732 0.592285 8.001Z" fill="#1335AF"/>
+                                    <path d="M14.5771 9.3916L9.77637 14.3695L9.78027 5.0791L14.5771 9.3916Z" fill="#F9662D" fill-opacity="0.4"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.44919 0.842452C9.76868 0.710114 10.1364 0.783264 10.381 1.02779L16.7495 7.39636C16.9099 7.55671 17 7.77418 17 8.00094C17 8.2277 16.9099 8.44517 16.7495 8.60552L10.381 14.9741C10.1364 15.2186 9.76868 15.2918 9.44919 15.1594C9.1297 15.0271 8.92139 14.7153 8.92139 14.3695V1.63237C8.92139 1.28655 9.1297 0.97479 9.44919 0.842452ZM10.6314 3.69652V12.3054L14.9358 8.00094L10.6314 3.69652Z" fill="#1335AF"/>
+                                  </svg></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="industry-count"></div>
             </div>
@@ -1658,6 +1703,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>
 <script src='https://platform-api.sharethis.com/js/sharethis.js#property=65016ac7f9bf1300121f9569&product=sop' async='async'></script>
 <script src="dist/data-images.js"></script>
+<script src="dist/isInViewport.js"></script>
+<script src="dist/animation.js"></script>
 <script src="./dist/core.bundle.js?v=66"></script>
 </body>
 </html>
