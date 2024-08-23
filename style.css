@@ -9,6 +9,9 @@ Version: 2024-06-24
 Text Domain: ASMBL
 */
 
+
+@import url("https://use.typekit.net/fjz1xha.css");
+
 @import url("./core-css/_cookies.css?v=6");
 @import url("./core-css/_home-banner-section.css?v=65");
 @import url("./core-css/_client-logos-section.css?v5");
