@@ -1,24 +1,24 @@
 jQuery(function () {
   //
   function initSelectBox() {
-    jQuery("select").selectBox({
+    jQuery('select').selectBox({
       keepInViewport: false,
-      menuSpeed: "normal",
+      menuSpeed: 'normal',
       mobile: true,
       hideOnWindowScroll: true,
-      menuTransition: "slide",
-    });
-    jQuery(".selectBox, .selectBox-dropdown .selectBox-label").removeAttr(
-      "style"
-    );
+      menuTransition: 'slide',
+    })
+    jQuery('.selectBox, .selectBox-dropdown .selectBox-label').removeAttr(
+      'style',
+    )
   }
-  initSelectBox();
+  initSelectBox()
   const observer = new MutationObserver(function (mutationsList) {
     for (let mutation of mutationsList) {
-      if (mutation.type === "childList") {
-        initSelectBox();
+      if (mutation.type === 'childList') {
+        initSelectBox()
       }
     }
-  });
-  observer.observe(document.body, { childList: true, subtree: true });
-});
+  })
+  observer.observe(document.body, { childList: true, subtree: true })
+})
