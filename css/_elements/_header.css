@@ -90,7 +90,6 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .header_btns{width: fit-content; gap: 16px;}
     .menu-icon{width: 40px; height: 40px;}
     ul.main_menu > li.nav-product > ul > li > ul > li.hide-menu-item {display: none;}
-
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     ul.main_menu{padding-right: 22px; gap: 22px;}
@@ -99,10 +98,10 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu > li.nav-solutions > ul{left: -399px; max-width: 940px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 936px){
-    ul.main_menu{gap: 0 30px; padding-right: 20px;}
+    ul.main_menu{gap: 0 26px; padding-right: 20px;}
     ul.main_menu > li.nav-product > ul{left: -220px; max-width: 934px;}
     ul.main_menu > li.nav-solutions > ul{left: -447px; max-width: 940px;}
-    .header_btns .button span{display: none;}
+    .header_btns a.button span{display: none;}
 }
 @media screen and (max-width: 935px) and (min-width: 200px){
     .header{margin: 16px 0; gap: 16px; position: relative; z-index: 2;}
@@ -168,8 +167,13 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .header_btns{gap: 16px; margin: 20px 0 16px;}
     .header_btns.off{display: none;}
     .header_btns .button{flex: 1;}
-    .mobile_header_btns{flex: 0 0 150px; gap: 12px; top: 2px; position: relative; justify-content: flex-end; margin-left: auto; margin-right: 74px;}
-    .mobile_header_btns .button span{display: none;}
+    .mobile_header_btns{flex: 1; gap: 12px; top: 2px; position: relative; justify-content: flex-end; margin-left: auto; margin-right: 74px;}
+    .mobile_header_btns a.button span{display: none;}
+}
+@media screen and (max-width: 499px) and (min-width: 440px){
+  .header{gap: 14px;}
+  .mobile_header_btns{gap: 8px}
+  .mobile_header_btns .button{font-size: 14px; padding: 8px;}
 }
 @media screen and (max-width: 439px) and (min-width: 200px){
     .mobile_header_btns{display: none;}
